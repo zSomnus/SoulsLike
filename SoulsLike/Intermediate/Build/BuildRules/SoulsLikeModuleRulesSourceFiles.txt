@@ -1,0 +1,3 @@
+D:\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
+D:\SoulsLike\Source\SoulsLike.Target.cs
+D:\SoulsLike\Source\SoulsLikeEditor.Target.cs

@@ -1,0 +1,1291 @@
+﻿Log file open, 09/05/19 11:22:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SoulsLike
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.393900
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.05-15.22.04:784][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.05-15.22.04:785][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:785][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.05-15.22.04:787][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.05-15.22.04:788][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.05-15.22.04:788][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.05-15.22.04:788][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.05-15.22.04:814][  0]LogHAL: Display: Platform has ~ 16 GB [16983646208 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.05-15.22.04:814][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.05-15.22.04:814][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.05-15.22.04:814][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.05-15.22.04:815][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.05-15.22.04:815][  0]LogInit: Computer: DESKTOP-DSDUG43
+[2019.09.05-15.22.04:815][  0]LogInit: User: Ella
+[2019.09.05-15.22.04:815][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.09.05-15.22.04:815][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.05-15.22.04:815][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.09.05-15.22.04:816][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.05-15.22.04:816][  0]LogMemory: Process Physical Memory: 97.82 MB used, 97.83 MB peak
+[2019.09.05-15.22.04:816][  0]LogMemory: Process Virtual Memory: 89.84 MB used, 89.84 MB peak
+[2019.09.05-15.22.04:816][  0]LogMemory: Physical Memory: 5432.10 MB used,  10764.77 MB free, 16196.87 MB total
+[2019.09.05-15.22.04:816][  0]LogMemory: Virtual Memory: 4660.39 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.09.05-15.22.04:882][  0]LogInit: Using OS detected language (en-US).
+[2019.09.05-15.22.04:882][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.05-15.22.04:882][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.05-15.22.05:010][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.05-15.22.05:038][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.05-15.22.05:038][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.05-15.22.05:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.05-15.22.05:191][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.05-15.22.05:262][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2019.09.05-15.22.05:262][  0]LogD3D11RHI:       8031/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.05-15.22.05:276][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.09.05-15.22.05:276][  0]LogD3D11RHI:       128/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.05-15.22.05:278][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.05-15.22.05:278][  0]LogD3D11RHI:       0/0/8098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.05-15.22.05:278][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.05-15.22.05:305][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.05-15.22.05:305][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.05-15.22.05:305][  0]LogWindows: EnumDisplayDevices:
+[2019.09.05-15.22.05:305][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.09.05-15.22.05:306][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.05-15.22.05:306][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.09.05-15.22.05:306][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.09.05-15.22.05:306][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.09.05-15.22.05:306][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.09.05-15.22.05:307][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.09.05-15.22.05:307][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.09.05-15.22.05:307][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2019.09.05-15.22.05:307][  0]LogD3D11RHI:   Driver Version: 431.53 (internal:26.21.14.3153, unified:431.53)
+[2019.09.05-15.22.05:307][  0]LogD3D11RHI:      Driver Date: 7-12-2019
+[2019.09.05-15.22.05:307][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.09.05-15.22.05:345][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.05-15.22.05:348][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.05-15.22.05:348][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.05-15.22.05:348][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.05-15.22.05:361][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.09.05-15.22.05:603][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.05-15.22.05:613][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.05-15.22.05:624][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.05-15.22.05:635][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.05-15.22.05:646][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.05-15.22.05:656][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.05-15.22.05:667][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.05-15.22.05:678][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.05-15.22.05:683][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.05-15.22.05:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.05-15.22.05:747][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.05-15.22.05:748][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.05-15.22.05:749][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.05-15.22.05:792][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.05-15.22.05:792][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.05-15.22.05:811][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.05-15.22.05:811][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.05-15.22.05:821][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.05-15.22.05:831][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.05-15.22.05:841][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.05-15.22.05:852][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.05-15.22.05:887][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.05-15.22.05:887][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.05-15.22.05:887][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.05-15.22.05:893][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.05-15.22.05:927][  0]LogShaderCompilers: Guid format shader working directory is 32 characters bigger than the processId version (D:/SoulsLike/Intermediate/Shaders/WorkingDirectory/18036/).
+[2019.09.05-15.22.05:927][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ella/AppData/Local/Temp/UnrealShaderWorkingDir/12E590A6451F9885845DEB9875C335AC/'.
+[2019.09.05-15.22.05:928][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.05-15.22.05:928][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.05-15.22.05:928][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.05-15.22.06:400][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.05-15.22.06:443][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Ella/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.05-15.22.06:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ella/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.05-15.22.06:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.05-15.22.06:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.05-15.22.06:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.05-15.22.06:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.05-15.22.06:455][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.05-15.22.06:455][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.05-15.22.06:455][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.05-15.22.06:467][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ella/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.05-15.22.06:467][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.05-15.22.06:467][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.05-15.22.06:485][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.05-15.22.06:486][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.05-15.22.06:486][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.05-15.22.06:558][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2019.09.05-15.22.06:808][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.05-15.22.06:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.05-15.22.06:850][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.05-15.22.06:850][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.05-15.22.06:850][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.05-15.22.06:850][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.05-15.22.06:926][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.09.05-15.22.07:381][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.146261 seconds
+[2019.09.05-15.22.07:386][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.05-15.22.07:386][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.05-15.22.07:386][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.05-15.22.08:030][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.05-15.22.08:043][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.05-15.22.08:339][  0]SourceControl: Source control is disabled
+[2019.09.05-15.22.08:339][  0]SourceControl: Source control is disabled
+[2019.09.05-15.22.08:340][  0]SourceControl: Source control is disabled
+[2019.09.05-15.22.08:341][  0]SourceControl: Source control is disabled
+[2019.09.05-15.22.08:397][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.05-15.22.08:771][  0]LogOcInput: OculusInput pre-init called
+[2019.09.05-15.22.09:346][  0]LogEngine: Initializing Engine...
+[2019.09.05-15.22.09:347][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.05-15.22.09:348][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.05-15.22.09:522][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.05-15.22.09:532][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.05-15.22.09:546][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.05-15.22.09:605][  0]LogInit: FAudioDevice initialized.
+[2019.09.05-15.22.09:605][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.05-15.22.09:677][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Ella/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.05-15.22.09:681][  0]LogInit: Texture streaming: Enabled
+[2019.09.05-15.22.09:693][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.05-15.22.09:712][  0]LogInit: Transaction tracking system initialized
+[2019.09.05-15.22.09:740][  0]BlueprintLog: New page: Editor Load
+[2019.09.05-15.22.09:801][  0]LocalizationService: Localization service is disabled
+[2019.09.05-15.22.10:153][  0]LogFileCache: Scanning file cache for directory 'D:/SoulsLike/Content/' took 0.03s
+[2019.09.05-15.22.10:153][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.05-15.22.10:153][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.05-15.22.10:329][  0]SourceControl: Source control is disabled
+[2019.09.05-15.22.10:329][  0]Cmd: MAP LOAD FILE="D:/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.05-15.22.10:329][  0]LightingResults: New page: Lighting Build
+[2019.09.05-15.22.10:332][  0]MapCheck: New page: Map Check
+[2019.09.05-15.22.10:332][  0]LightingResults: New page: Lighting Build
+[2019.09.05-15.22.10:362][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.09.05-15.22.11:676][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.05-15.22.11:688][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.05-15.22.11:717][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.09.05-15.22.11:717][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.05-15.22.11:717][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2019.09.05-15.22.11:717][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.388
+[2019.09.05-15.22.11:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.22.11:896][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.22.11:903][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.22.11:910][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.22.11:920][  0]LogCollectionManager: Loaded 0 collections in 0.000779 seconds
+[2019.09.05-15.22.11:970][  0]LogFileCache: Scanning file cache for directory 'D:/SoulsLike/Saved/Collections/' took 0.01s
+[2019.09.05-15.22.11:970][  0]LogFileCache: Scanning file cache for directory 'D:/SoulsLike/Content/Developers/Ella/Collections/' took 0.01s
+[2019.09.05-15.22.11:970][  0]LogFileCache: Scanning file cache for directory 'D:/SoulsLike/Content/Collections/' took 0.01s
+[2019.09.05-15.22.11:970][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.05-15.22.11:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2736 classes and 663 folders.
+[2019.09.05-15.22.11:990][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.05-15.22.12:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:021][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:029][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:041][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:076][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:082][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:129][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:146][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:166][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:172][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:176][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.05-15.22.12:315][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.05-15.22.13:367][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.09.05-15.22.13:389][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.05-15.22.13:392][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.05-15.22.13:406][  0]LogSlate: Took 0.006094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.05-15.22.13:527][  0]LogRenderer: Reallocating scene render targets to support 920x448 Format 10 NumSamples 1 (Frame:1).
+[2019.09.05-15.22.13:682][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.05-15.22.13:682][  0]LogLoad: (Engine Initialization) Total time: 11.29 seconds
+[2019.09.05-15.22.13:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.05-15.22.13:771][  0]LogAssetRegistry: Asset discovery search completed in 7.2354 seconds
+[2019.09.05-15.22.13:773][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.05-15.22.13:773][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2019.09.05-15.22.13:777][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.05-15.22.13:806][  0]LogSlate: Took 0.004556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.05-15.22.14:713][ 52]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.05-15.22.28:281][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.23.13:840][521]LogHttp: Warning: 0000020B289F4CC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 0 (  Trying 34.206.62.221...)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.62.221) port 443 (#0))
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 6 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.23.13:841][521]LogHttp: Warning: 0000020B289F4CC0: libcurl info message cache 7 (Closing connection 0)
+[2019.09.05-15.23.13:856][522]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.24.52:896][453]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.05-15.24.52:906][453]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.24.52:906][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.05-15.24.52:906][453]PIE: New page: PIE session: Minimal_Default (Sep 5, 2019, 7:24:52 AM)
+[2019.09.05-15.24.52:919][453]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.05-15.24.52:926][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006419s)
+[2019.09.05-15.24.52:927][453]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.05-15.24.52:927][453]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2019.09.05-15.24.52:927][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007686s)
+[2019.09.05-15.24.52:952][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.09.05-15.24.52:960][453]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.05-15.24.53:014][453]LogInit: FAudioDevice initialized.
+[2019.09.05-15.24.53:055][453]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.05-15.24.53:056][453]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.09.05-11.24.53
+[2019.09.05-15.24.53:057][453]LogWorld: Bringing up level for play took: 0.000661
+[2019.09.05-15.24.53:074][453]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.09.05-15.24.53:077][453]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.552
+[2019.09.05-15.24.53:077][453]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.05:069][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.05:069][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.25.05:101][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.05-15.25.05:102][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.05:129][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.25.05:132][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.09.05-15.25.05:183][174]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.09.05-15.25.05:900][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 1 (  Trying 34.198.245.209...)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.198.245.209) port 443 (#1))
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.25.13:992][699]LogHttp: Warning: 0000020B08148540: libcurl info message cache 8 (Closing connection 1)
+[2019.09.05-15.25.14:008][700]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.25.32:391][799]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.05-15.25.32:406][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.32:406][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.05-15.25.32:406][799]PIE: New page: PIE session: Minimal_Default (Sep 5, 2019, 7:25:32 AM)
+[2019.09.05-15.25.32:407][799]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.05-15.25.32:412][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005482s)
+[2019.09.05-15.25.32:413][799]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.05-15.25.32:413][799]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.09.05-15.25.32:413][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006591s)
+[2019.09.05-15.25.32:439][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.09.05-15.25.32:444][799]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.05-15.25.32:495][799]LogInit: FAudioDevice initialized.
+[2019.09.05-15.25.32:528][799]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.05-15.25.32:532][799]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.09.05-11.25.32
+[2019.09.05-15.25.32:532][799]LogWorld: Bringing up level for play took: 0.002394
+[2019.09.05-15.25.32:551][799]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.025
+[2019.09.05-15.25.32:552][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.44:628][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.44:628][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.25.44:665][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.05-15.25.44:665][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.25.44:709][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.25.44:711][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.09.05-15.25.44:743][524]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.09.05-15.25.46:112][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.25.53:221][ 32]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2019.09.05-15.25.53:582][ 32]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.09.05-15.25.56:190][137]LogSlate: Window 'BP_MainCharacter' being destroyed
+[2019.09.05-15.25.56:288][137]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2019.09.05-15.25.56:621][137]LogSlate: Took 0.004862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.05-15.25.58:296][233]LogRenderer: Reallocating scene render targets to support 920x540 Format 10 NumSamples 1 (Frame:1).
+[2019.09.05-15.26.03:918][565]LogSlate: Took 0.009673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.05-15.26.04:576][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.26.18:019][407]BlueprintLog: New page: Compile BP_MainCharacter
+[2019.09.05-15.26.18:189][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.09.05-15.26.18:535][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainCharacter" FILE="D:/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2019.09.05-15.26.18:748][425]LogSavePackage: Moving 'D:/SoulsLike/Saved/BP_MainCharacter6E1821E1449B51D225C52EB96168AA3B.tmp' to 'D:/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset'
+[2019.09.05-15.26.20:173][505]LogSlate: Window 'BP_MainCharacter' being destroyed
+[2019.09.05-15.26.21:540][587]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.05-15.26.21:557][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.26.21:557][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.05-15.26.21:557][587]PIE: New page: PIE session: Minimal_Default (Sep 5, 2019, 7:26:21 AM)
+[2019.09.05-15.26.21:557][587]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.05-15.26.21:561][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003808s)
+[2019.09.05-15.26.21:561][587]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.05-15.26.21:561][587]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2019.09.05-15.26.21:561][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004451s)
+[2019.09.05-15.26.21:586][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.09.05-15.26.21:591][587]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.05-15.26.21:645][587]LogInit: FAudioDevice initialized.
+[2019.09.05-15.26.21:672][587]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.05-15.26.21:673][587]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.09.05-11.26.21
+[2019.09.05-15.26.21:674][587]LogWorld: Bringing up level for play took: 0.000601
+[2019.09.05-15.26.21:686][587]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.84
+[2019.09.05-15.26.21:686][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.26.28:011][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.26.28:012][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.26.28:043][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.05-15.26.28:044][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.26.28:078][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.26.28:081][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.09.05-15.26.28:112][968]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.09.05-15.26.28:796][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.26.31:229][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.26.41:520][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.26.41:586][775]BlueprintLog: New page: Compile BP_MainCharacter
+[2019.09.05-15.26.41:741][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.09.05-15.26.45:759][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.26.46:759][ 76]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.05-15.26.46:771][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.26.46:771][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.05-15.26.46:771][ 76]PIE: New page: PIE session: Minimal_Default (Sep 5, 2019, 7:26:46 AM)
+[2019.09.05-15.26.46:771][ 76]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.05-15.26.46:775][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003409s)
+[2019.09.05-15.26.46:775][ 76]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.05-15.26.46:775][ 76]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2019.09.05-15.26.46:775][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003992s)
+[2019.09.05-15.26.46:799][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.09.05-15.26.46:804][ 76]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.09.05-15.26.46:855][ 76]LogInit: FAudioDevice initialized.
+[2019.09.05-15.26.46:891][ 76]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.05-15.26.46:895][ 76]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.09.05-11.26.46
+[2019.09.05-15.26.46:896][ 76]LogWorld: Bringing up level for play took: 0.002102
+[2019.09.05-15.26.46:913][ 76]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.387
+[2019.09.05-15.26.46:914][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.27.07:430][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.27.07:431][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.27.07:470][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.05-15.27.07:470][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.05-15.27.07:514][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.05-15.27.07:517][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.09.05-15.27.07:530][307]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.09.05-15.27.09:521][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-15.27.09:615][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.09.05-15.27.10:881][430]LogSlate: Window 'Save Content' being destroyed
+[2019.09.05-15.27.10:914][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainCharacter" FILE="D:/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2019.09.05-15.27.10:935][430]LogSavePackage: Moving 'D:/SoulsLike/Saved/BP_MainCharacterBABC587946CB645CAC48608EAEE4624D.tmp' to 'D:/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset'
+[2019.09.05-15.27.14:334][500]LogHttp: Warning: 0000020B17A29BC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.27.14:334][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.27.14:334][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 1 (  Trying 52.54.243.91...)
+[2019.09.05-15.27.14:334][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.54.243.91) port 443 (#2))
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 8 (Closing connection 2)
+[2019.09.05-15.27.14:335][500]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.29.14:926][859]LogHttp: Warning: 0000020B17A29BC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 1 (  Trying 50.17.106.84...)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (50.17.106.84) port 443 (#3))
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.29.14:927][859]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 8 (Closing connection 3)
+[2019.09.05-15.29.15:262][860]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.31.15:747][218]LogHttp: Warning: 0000020B17A29BC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.31.15:747][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.31.15:747][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 1 (  Trying 52.22.81.26...)
+[2019.09.05-15.31.15:747][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.31.15:747][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.22.81.26) port 443 (#4))
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 8 (Closing connection 4)
+[2019.09.05-15.31.15:748][218]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 1 (  Trying 107.21.3.123...)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (107.21.3.123) port 443 (#5))
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.33.16:209][577]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 8 (Closing connection 5)
+[2019.09.05-15.33.16:542][578]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.35.18:246][940]LogHttp: Warning: 0000020B17A29BC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 1 (  Trying 34.232.136.228...)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.232.136.228) port 443 (#6))
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: 0000020B17A29BC0: libcurl info message cache 8 (Closing connection 6)
+[2019.09.05-15.35.18:247][940]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 1 (  Trying 35.169.76.60...)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.169.76.60) port 443 (#7))
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: 0000020B17A7E700: libcurl info message cache 8 (Closing connection 7)
+[2019.09.05-15.37.18:681][298]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 1 (  Trying 54.224.96.69...)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.224.96.69) port 443 (#8))
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.39.19:377][657]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 8 (Closing connection 8)
+[2019.09.05-15.39.19:715][658]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.41.20:620][ 19]LogHttp: Warning: 0000020B17A7C400: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.41.20:620][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 1 (  Trying 18.214.237.224...)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (18.214.237.224) port 443 (#9))
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.41.20:621][ 19]LogHttp: Warning: 0000020B17A7C400: libcurl info message cache 8 (Closing connection 9)
+[2019.09.05-15.41.20:958][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 1 (  Trying 52.54.45.143...)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.54.45.143) port 443 (#10))
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: 0000020B17ABCF40: libcurl info message cache 8 (Closing connection 10)
+[2019.09.05-15.43.21:536][380]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 1 (  Trying 34.199.205.253...)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.199.205.253) port 443 (#11))
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.45.22:047][845]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 8 (Closing connection 11)
+[2019.09.05-15.45.22:384][846]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 1 (  Trying 52.6.79.2...)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.6.79.2) port 443 (#12))
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.47.22:930][277]LogHttp: Warning: 0000020B17A21F80: libcurl info message cache 8 (Closing connection 12)
+[2019.09.05-15.47.23:273][278]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 1 (  Trying 3.227.136.220...)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (3.227.136.220) port 443 (#13))
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.49.23:834][637]LogHttp: Warning: 0000020B17A22FC0: libcurl info message cache 8 (Closing connection 13)
+[2019.09.05-15.49.24:173][638]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.50.53:819][117]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Unreal2020\GameAssets\Animations\Men\Stand_To_Roll.fbx)
+[2019.09.05-15.50.53:845][117]LogFbx: Loading FBX Scene from D:\Unreal2020\GameAssets\Animations\Men\Stand_To_Roll.fbx
+[2019.09.05-15.50.53:869][117]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.05-15.51.01:019][117]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(0) Hips
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(1) Spine
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(2) Spine1
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(3) Spine2
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(4) Neck
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(5) Head
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(8) LeftArm
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(10) LeftHand
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.09.05-15.51.01:047][117]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(31) RightShoulder
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(32) RightArm
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(33) RightForeArm
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(34) RightHand
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(39) RightHandPinky1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(40) RightHandPinky2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(41) RightHandPinky3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(42) RightHandPinky4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(43) RightHandRing1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(44) RightHandRing2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(45) RightHandRing3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(46) RightHandRing4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(47) RightHandMiddle1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(48) RightHandMiddle2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(49) RightHandMiddle3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(50) RightHandMiddle4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(51) RightHandIndex1
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(52) RightHandIndex2
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(53) RightHandIndex3
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(54) RightHandIndex4
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(56) LeftLeg
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(57) LeftFoot
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(61) RightLeg
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(62) RightFoot
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(63) RightToeBase
+[2019.09.05-15.51.01:048][117]LogFbx: SortedLinks :(64) RightToe_End
+[2019.09.05-15.51.01:049][117]LogFbx: Parsing AnimStack mixamo.com
+[2019.09.05-15.51.01:050][117]LogLinker: Can't find file '/Game/Animations/Stand_To_Roll'
+[2019.09.05-15.51.01:050][117]LogLinker: Can't find file '/Game/Animations/Stand_To_Roll'
+[2019.09.05-15.51.10:318][117]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/Stand_To_Roll.Stand_To_Roll
+[2019.09.05-15.51.10:327][117]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Stand_To_Roll) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.09.05-15.51.11:925][203]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animations/Stand_To_Roll.Stand_To_Roll
+[2019.09.05-15.51.11:935][203]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.09.05-15.51.11:946][203]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.09.05-15.51.11:946][203]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.09.05-15.51.12:170][203]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.09.05-15.51.12:174][203]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.09.05-15.51.12:174][203]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.09.05-15.51.12:210][203]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.09.05-15.51.12:717][203]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.09.05-15.51.13:535][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.09.05-15.51.13:535][248]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.049
+[2019.09.05-15.51.13:552][248]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/Stand_To_Roll] ([1] browsable assets)...
+[2019.09.05-15.51.13:567][248]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/Stand_To_Roll.Stand_To_Roll]
+[2019.09.05-15.51.13:567][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/Stand_To_Roll]
+[2019.09.05-15.51.13:567][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Stand_To_Roll" FILE="D:/SoulsLike/Saved/Autosaves/Game/Animations/Stand_To_Roll_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.09.05-15.51.13:595][248]LogSavePackage: Moving 'D:/SoulsLike/Saved/Stand_To_Roll_Auto12964388A4B568836207B00A90D61DD1A.tmp' to 'D:/SoulsLike/Saved/Autosaves/Game/Animations/Stand_To_Roll_Auto1.uasset'
+[2019.09.05-15.51.13:595][248]LogFileHelpers: Auto-saving content packages took 0.061
+[2019.09.05-15.51.22:546][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Stand_To_Roll" FILE="D:/SoulsLike/Content/Animations/Stand_To_Roll.uasset" SILENT=true
+[2019.09.05-15.51.22:567][784]LogSavePackage: Moving 'D:/SoulsLike/Saved/Stand_To_Roll6E2ECBCE46FDD91E87FB59B27FB4396E.tmp' to 'D:/SoulsLike/Content/Animations/Stand_To_Roll.uasset'
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 1 (  Trying 34.206.165.152...)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.206.165.152) port 443 (#14))
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: 0000020BD11E8540: libcurl info message cache 8 (Closing connection 14)
+[2019.09.05-15.51.24:322][890]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.52.01:629][113]LogAssetEditorManager: Opening Asset editor for Class /Script/SoulsLike.MainCharacter
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 1 (  Trying 34.206.165.152...)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.206.165.152) port 443 (#15))
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.53.24:762][345]LogHttp: Warning: 0000020BCFA64E00: libcurl info message cache 8 (Closing connection 15)
+[2019.09.05-15.53.25:098][346]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 1 (  Trying 50.19.78.72...)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (50.19.78.72) port 443 (#16))
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.55.25:728][705]LogHttp: Warning: 0000020B8C51CA40: libcurl info message cache 8 (Closing connection 16)
+[2019.09.05-15.55.26:067][706]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 1 (  Trying 34.193.236.205...)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.193.236.205) port 443 (#17))
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.57.26:619][ 65]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 8 (Closing connection 17)
+[2019.09.05-15.57.26:955][ 66]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 1 (  Trying 54.175.157.122...)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.175.157.122) port 443 (#18))
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-15.59.27:299][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-15.59.27:300][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-15.59.27:300][424]LogHttp: Warning: 0000020B8C51C400: libcurl info message cache 8 (Closing connection 18)
+[2019.09.05-15.59.27:300][424]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.01.21:737][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.05-16.01.24:096][202]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim
+[2019.09.05-16.01.24:124][202]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.09.05-16.01.24:388][202]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.09.05-16.01.24:660][202]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 1 (  Trying 54.209.204.64...)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.209.204.64) port 443 (#19))
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.01.27:457][371]LogHttp: Warning: 0000020B986E4CC0: libcurl info message cache 8 (Closing connection 19)
+[2019.09.05-16.01.27:473][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.02.55:369][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.09.05-16.02.55:369][221]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.047
+[2019.09.05-16.02.55:370][221]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/BP_MainNoWeaponAnim] ([1] browsable assets)...
+[2019.09.05-16.02.55:390][221]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim]
+[2019.09.05-16.02.55:390][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/BP_MainNoWeaponAnim]
+[2019.09.05-16.02.55:390][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/BP_MainNoWeaponAnim" FILE="D:/SoulsLike/Saved/Autosaves/Game/Animations/BP_MainNoWeaponAnim_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.09.05-16.02.55:425][221]LogSavePackage: Moving 'D:/SoulsLike/Saved/BP_MainNoWeaponAnim_Auto2EB583E454024608E3720ECB8A8744BC7.tmp' to 'D:/SoulsLike/Saved/Autosaves/Game/Animations/BP_MainNoWeaponAnim_Auto2.uasset'
+[2019.09.05-16.02.55:425][221]LogFileHelpers: Auto-saving content packages took 0.055
+[2019.09.05-16.03.27:821][319]LogHttp: Warning: 0000020BE1810400: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 1 (  Trying 52.5.92.97...)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.5.92.97) port 443 (#20))
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.03.27:822][319]LogHttp: Warning: 0000020BE1810400: libcurl info message cache 8 (Closing connection 20)
+[2019.09.05-16.03.28:162][320]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 1 (  Trying 35.169.59.58...)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (35.169.59.58) port 443 (#21))
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.05.28:642][747]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 8 (Closing connection 21)
+[2019.09.05-16.05.28:974][748]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 1 (  Trying 18.235.42.24...)
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (18.235.42.24) port 443 (#22))
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.07.29:418][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.07.29:419][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.07.29:419][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.07.29:419][107]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 8 (Closing connection 22)
+[2019.09.05-16.07.29:759][108]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 1 (  Trying 3.214.16.87...)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (3.214.16.87) port 443 (#23))
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.09.30:255][467]LogHttp: Warning: 0000020BE1813D80: libcurl info message cache 8 (Closing connection 23)
+[2019.09.05-16.09.30:589][468]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 1 (  Trying 18.214.237.224...)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (18.214.237.224) port 443 (#24))
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: 0000020BE1811A80: libcurl info message cache 8 (Closing connection 24)
+[2019.09.05-16.11.31:231][896]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 1 (  Trying 34.194.131.148...)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.194.131.148) port 443 (#25))
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.13.31:712][255]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 8 (Closing connection 25)
+[2019.09.05-16.13.32:044][256]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 1 (  Trying 52.22.91.178...)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.22.91.178) port 443 (#26))
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.15.32:478][615]LogHttp: Warning: 0000020B8510DD00: libcurl info message cache 8 (Closing connection 26)
+[2019.09.05-16.15.32:812][616]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.15.48:566][662]LogHotReload: New module detected: UE4Editor-SoulsLike-0023.dll
+[2019.09.05-16.15.50:269][668]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.05-16.15.50:344][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.09.05-16.15.50:344][668]LogBlueprintActionDatabase: Requesting refresh due to module change: SoulsLike (unloaded)
+[2019.09.05-16.15.50:368][668]LogClass: Could not find existing class MainCharacter in package /Script/SoulsLike for HotReload, assuming new class
+[2019.09.05-16.15.50:386][668]LogHotReload: Re-instancing MainCharacter after hot-reload.
+[2019.09.05-16.15.50:752][668]LogBlueprintActionDatabase: Requesting refresh due to module change: SoulsLike (loaded)
+[2019.09.05-16.15.50:753][668]LogContentBrowser: Native class hierarchy updated for 'SoulsLike' in 0.0005 seconds. Added 3 classes and 2 folders.
+[2019.09.05-16.15.50:761][668]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.09.05-16.15.50:960][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.09.05-16.15.50:960][668]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.09.05-16.15.50:976][668]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2737 classes and 665 folders.
+[2019.09.05-16.15.50:982][668]Display: HotReload took  0.7s.
+[2019.09.05-16.17.33:325][940]LogHttp: Warning: 0000020BC159B4C0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.17.33:325][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.17.33:325][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 1 (  Trying 34.204.212.142...)
+[2019.09.05-16.17.33:325][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.17.33:325][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.204.212.142) port 443 (#27))
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 8 (Closing connection 27)
+[2019.09.05-16.17.33:326][940]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 1 (  Trying 52.86.141.120...)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.86.141.120) port 443 (#28))
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.19.33:876][299]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 8 (Closing connection 28)
+[2019.09.05-16.19.34:210][300]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 1 (  Trying 3.214.16.87...)
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (3.214.16.87) port 443 (#29))
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.21.34:606][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.21.34:607][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.21.34:607][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.21.34:607][659]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 8 (Closing connection 29)
+[2019.09.05-16.21.34:941][660]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 1 (  Trying 52.2.113.85...)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.2.113.85) port 443 (#30))
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 8 (Closing connection 30)
+[2019.09.05-16.23.35:474][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.25.36:109][380]LogHttp: Warning: 0000020BC159B4C0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.25.36:109][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 1 (  Trying 18.233.90.22...)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (18.233.90.22) port 443 (#31))
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: 0000020BC159B4C0: libcurl info message cache 8 (Closing connection 31)
+[2019.09.05-16.25.36:110][380]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 54.88.106.25...)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.88.106.25) port 443 (#32))
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.27.36:556][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.27.36:557][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.27.36:557][739]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 32)
+[2019.09.05-16.27.36:898][740]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 3.212.249.236...)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (3.212.249.236) port 443 (#33))
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.29.37:242][197]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 33)
+[2019.09.05-16.29.37:569][198]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.31.37:973][557]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.09.05-16.31.37:973][557]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.31.37:973][557]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.09.05-16.31.37:973][557]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (Closing connection 34)
+[2019.09.05-16.31.38:314][558]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (  Trying 54.83.181.125...)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.83.181.125) port 443 (#35))
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (Closing connection 35)
+[2019.09.05-16.33.38:900][918]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.35.39:390][277]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 34.239.90.191...)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.239.90.191) port 443 (#36))
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.35.39:391][277]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 36)
+[2019.09.05-16.35.39:723][278]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 54.83.181.125...)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.83.181.125) port 443 (#37))
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.37.40:351][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.37.40:352][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.37.40:352][638]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 37)
+[2019.09.05-16.37.40:352][638]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.39.40:799][997]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.39.40:799][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.39.40:799][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 52.6.79.2...)
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.6.79.2) port 443 (#38))
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.39.40:800][997]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 38)
+[2019.09.05-16.39.41:124][998]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 1 (  Trying 52.203.187.25...)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.203.187.25) port 443 (#39))
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.41.41:458][357]LogHttp: Warning: 0000020BC1563D80: libcurl info message cache 8 (Closing connection 39)
+[2019.09.05-16.41.41:794][358]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 1 (  Trying 34.194.131.148...)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.194.131.148) port 443 (#40))
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.43.42:246][717]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 8 (Closing connection 40)
+[2019.09.05-16.43.42:579][718]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.45.42:931][ 78]LogHttp: Warning: 0000020BC14FBEC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.45.42:931][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.45.42:931][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 1 (  Trying 52.200.123.101...)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.200.123.101) port 443 (#41))
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 8 (Closing connection 41)
+[2019.09.05-16.45.42:932][ 78]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 1 (  Trying 52.4.51.163...)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.4.51.163) port 443 (#42))
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 7 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.05-16.47.43:272][439]LogHttp: Warning: 0000020BC14FBEC0: libcurl info message cache 8 (Closing connection 42)
+[2019.09.05-16.47.43:606][440]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4A38B547-44A9-9C37-5545-BAA68BB01732%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=0cc0bd6a44e8ec8f8640b0b1b2b1f5a5%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C49788787-0847-41ad-baf0-1f65f72531a4&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.05-16.48.26:311][567]LogHotReload: New module detected: UE4Editor-SoulsLike-0024.dll
+[2019.09.05-16.48.27:662][572]LogHotReload: Starting Hot-Reload from IDE
+[2019.09.05-16.48.27:846][572]LogUObjectHash: Compacting FUObjectHashTables data took   8.44ms
+[2019.09.05-16.48.27:847][572]LogBlueprintActionDatabase: Requesting refresh due to module change: SoulsLike (unloaded)
+[2019.09.05-16.48.27:877][572]LogClass: Could not find existing class MainNoWeaponAnimInstance in package /Script/SoulsLike for HotReload, assuming new class
+[2019.09.05-16.48.27:878][572]LogClass: Function UpdateAnimationProperties is new.
+[2019.09.05-16.48.27:897][572]LogHotReload: Re-instancing MainNoWeaponAnimInstance after hot-reload.
+[2019.09.05-16.48.27:913][572]LogBlueprint: Warning: [Compiler BP_MainNoWeaponAnim] Roll to Idle_Walk_Run  will never be taken, please connect something to  Can Enter Transition
+[2019.09.05-16.48.27:913][572]LogBlueprint: Warning: [Compiler BP_MainNoWeaponAnim] Idle_Walk_Run to Roll  will never be taken, please connect something to  Can Enter Transition
+[2019.09.05-16.48.27:919][572]LogBlueprint: Warning: [Compiler BP_MainNoWeaponAnim] [5185.53] Compile of BP_MainNoWeaponAnim successful, but with 2 Warning(s) [in 20 ms] (/Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim)

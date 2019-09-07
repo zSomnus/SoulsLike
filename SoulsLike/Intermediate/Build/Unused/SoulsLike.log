@@ -1,0 +1,14 @@
+﻿  Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
+  Parsing headers for SoulsLikeEditor
+    Running UnrealHeaderTool "D:\SoulsLike\SoulsLike.uproject" "D:\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SoulsLikeEditor in 5.3095004 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] MainCharacter.cpp
+    [2/4] UE4Editor-SoulsLike-0003.lib
+       Creating library D:\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.lib and object D:\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.exp
+    [3/4] UE4Editor-SoulsLike-0003.dll
+       Creating library D:\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.suppressed.lib and object D:\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.suppressed.exp
+    [4/4] SoulsLikeEditor.target
+  Total time in Parallel executor: 2.01 seconds
+  Total execution time: 8.89 seconds
