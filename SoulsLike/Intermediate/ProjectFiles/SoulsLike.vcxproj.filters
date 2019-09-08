@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FD292F2F-0B27-4FAD-9695-8482A2E1B046}</UniqueIdentifier>
+      <UniqueIdentifier>{FDE8BB0B-1FFB-414E-AF68-E423B2816880}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{757DE71B-FA3B-4561-9263-5EE46BA18BA0}</UniqueIdentifier>
+      <UniqueIdentifier>{FF60FAAC-324B-4961-8C73-85B01B1C6F09}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,28 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{0EC7321D-B28A-4E3B-A5DA-55FC27553174}</UniqueIdentifier>
+      <UniqueIdentifier>{B14B5880-62D3-4CDD-ADF3-D4F7397EB586}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SoulsLike\MainCharacter.cpp">
       <Filter>Source\SoulsLike</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SoulsLike\MainCharacter.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoulsLike\MainNoWeaponAnimInstance.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\MainNoWeaponAnimInstance.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoulsLike\MainPlayerController.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\MainPlayerController.h">
       <Filter>Source\SoulsLike</Filter>
     </ClInclude>
     <None Include="..\..\Source\SoulsLike\SoulsLike.Build.cs">
@@ -47,15 +62,5 @@
     <ClInclude Include="..\..\Source\SoulsLike\SoulsLikeGameModeBase.h">
       <Filter>Source\SoulsLike</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SoulsLike\MainNoWeaponAnimInstance.h">
-      <Filter>Source\SoulsLike</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\SoulsLike\MainNoWeaponAnimInstance.cpp">
-      <Filter>Source\SoulsLike</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
