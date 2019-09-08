@@ -43,6 +43,7 @@ AMainCharacter::AMainCharacter()
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;	// Main character moves in the direction of input
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 450.f, 0.f);
+	GetCharacterMovement()->AirControl = 0.2f;
 }
 
 // Called when the game starts or when spawned
@@ -97,6 +98,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Roll);
+	PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::Roll);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
