@@ -44,6 +44,13 @@ AMainCharacter::AMainCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true;	// Main character moves in the direction of input
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 450.f, 0.f);
 	GetCharacterMovement()->AirControl = 0.2f;
+
+	
+	MaxHealth = 100.f;
+	Health = 70.f;
+	MaxStamina = 350.f;
+	Stamina = 120.f;
+	Souls = 100;
 }
 
 // Called when the game starts or when spawned

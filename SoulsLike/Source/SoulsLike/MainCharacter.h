@@ -34,7 +34,26 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "SpringArmRotation")
 	bool bIsSpringArmRotate;
 
+	/** 
+	/*
+	/* Player stats
+	/*
+	*/
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Player Stats")
+	float MaxHealth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float Health;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Player Stats")
+	float MaxStamina;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	float Stamina;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
+	int32 Souls;
 
 protected:
 	// Called when the game starts or when spawned

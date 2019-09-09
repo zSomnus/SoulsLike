@@ -1,0 +1,5 @@
+F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+F:\SoulsLike\SoulsLike\Source\SoulsLike\Explosive.h
+F:\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
+F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Item.generated.h
+F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Explosive.generated.h

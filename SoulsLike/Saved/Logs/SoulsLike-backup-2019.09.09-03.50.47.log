@@ -1,0 +1,1461 @@
+﻿Log file open, 09/08/19 23:18:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SoulsLike
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.826478
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 7 1700X Eight-Core Processor         , GPU: AMD Radeon (TM) RX 570
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:257][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.09-03.18.48:257][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.09-03.18.48:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:258][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:287][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.09-03.18.48:287][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.09-03.18.48:288][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.09-03.18.48:289][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.09-03.18.48:289][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.09-03.18.48:289][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.09-03.18.48:289][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:289][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.09-03.18.48:289][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.09-03.18.48:289][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.09-03.18.48:289][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.09-03.18.48:332][  0]LogHAL: Display: Platform has ~ 8 GB [8477827072 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.09-03.18.48:333][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.09-03.18.48:333][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.09-03.18.48:333][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.09-03.18.48:334][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.09-03.18.48:335][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.09-03.18.48:335][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.09-03.18.48:335][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.09.09-03.18.48:336][  0]LogInit: Computer: DESKTOP-35PJEHP
+[2019.09.09-03.18.48:336][  0]LogInit: User: EllaZhang
+[2019.09.09-03.18.48:336][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.09.09-03.18.48:336][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.09-03.18.48:336][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.09.09-03.18.48:336][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.09-03.18.48:336][  0]LogMemory: Process Physical Memory: 99.22 MB used, 99.23 MB peak
+[2019.09.09-03.18.48:336][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
+[2019.09.09-03.18.48:336][  0]LogMemory: Physical Memory: 6798.91 MB used,  1286.17 MB free, 8085.09 MB total
+[2019.09.09-03.18.48:336][  0]LogMemory: Virtual Memory: 4676.89 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.09.09-03.18.48:597][  0]LogInit: Using OS detected language (en-US).
+[2019.09.09-03.18.48:597][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.09-03.18.48:602][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.09-03.18.48:964][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.09-03.18.49:053][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.09-03.18.49:053][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.09-03.18.51:830][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.09-03.18.51:830][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.09-03.18.51:878][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) RX 570' (Feature Level 11_0)
+[2019.09.09-03.18.51:878][  0]LogD3D11RHI:       4041/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2019.09.09-03.18.51:881][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.09-03.18.51:881][  0]LogD3D11RHI:       0/0/4042 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.09-03.18.51:881][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.09-03.18.51:902][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.09-03.18.51:902][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2019.09.09-03.18.51:902][  0]LogWindows: EnumDisplayDevices:
+[2019.09.09-03.18.51:902][  0]LogWindows:    0. 'AMD Radeon (TM) RX 570' (P:0 D:1)
+[2019.09.09-03.18.51:903][  0]LogWindows:    1. 'AMD Radeon (TM) RX 570' (P:1 D:1)
+[2019.09.09-03.18.51:903][  0]LogWindows:    2. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:903][  0]LogWindows:    3. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:904][  0]LogWindows:    4. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:904][  0]LogWindows:    5. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:905][  0]LogWindows:    6. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:905][  0]LogWindows:    7. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:905][  0]LogWindows:    8. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:906][  0]LogWindows:    9. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:906][  0]LogWindows:    10. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:906][  0]LogWindows:    11. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:907][  0]LogWindows:    12. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:907][  0]LogWindows:    13. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:907][  0]LogWindows:    14. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:908][  0]LogWindows:    15. 'AMD Radeon (TM) RX 570' (P:0 D:0)
+[2019.09.09-03.18.51:908][  0]LogWindows: DebugString: FoundDriverCount:16 
+[2019.09.09-03.18.51:908][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) RX 570
+[2019.09.09-03.18.51:908][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.768.12, unified:23.20.768.12)
+[2019.09.09-03.18.51:908][  0]LogD3D11RHI:      Driver Date: 10-26-2017
+[2019.09.09-03.18.51:908][  0]LogRHI: Texture pool is 2828 MB (70% of 4041 MB)
+[2019.09.09-03.18.52:050][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.09-03.18.52:056][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.09-03.18.52:057][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.09-03.18.52:057][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.09-03.18.52:064][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.09.09-03.18.52:398][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.09-03.18.52:415][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.09-03.18.52:433][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.09-03.18.52:451][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.09-03.18.52:476][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.09-03.18.52:493][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.09-03.18.52:511][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.09-03.18.52:529][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.09-03.18.52:538][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.09-03.18.52:655][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.09-03.18.52:662][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.09-03.18.52:734][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.09-03.18.52:734][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.09-03.18.52:766][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.09-03.18.52:766][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.09-03.18.52:785][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.09-03.18.52:804][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.09-03.18.52:826][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.09-03.18.52:865][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.09-03.18.52:942][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.09-03.18.52:942][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.09-03.18.52:942][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.09-03.18.52:997][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.09-03.18.53:129][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (F:/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/11220/).
+[2019.09.09-03.18.53:129][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ella Zhang/AppData/Local/Temp/UnrealShaderWorkingDir/ADA198AC484EC71B03B5DD9E68B89AA0/'.
+[2019.09.09-03.18.53:132][  0]LogXGEController: Cleaning working directory: C:/Users/Ella Zhang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.09.09-03.18.53:133][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.09-03.18.53:133][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.09-03.18.53:133][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.09-03.18.55:934][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.09-03.18.56:266][  0]LogDerivedDataCache: Loaded boot cache 0.33s 71MB C:/Users/Ella Zhang/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.09-03.18.56:267][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ella Zhang/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.09-03.18.56:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.09-03.18.56:267][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.09-03.18.56:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.09-03.18.56:267][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.09-03.18.56:298][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.09-03.18.56:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.09-03.18.56:298][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.09-03.18.56:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ella Zhang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.09-03.18.56:312][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.09-03.18.56:312][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.09-03.18.56:339][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.09-03.18.56:343][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.09-03.18.56:366][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.09-03.18.56:734][  0]LogAssetRegistry: FAssetRegistry took 0.0364 seconds to start up
+[2019.09.09-03.18.57:297][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.09-03.18.57:634][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.09-03.18.57:634][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.09-03.18.57:634][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.09-03.18.57:634][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.09-03.18.57:634][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.09-03.18.57:689][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.09.09-03.18.59:110][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.153121 seconds
+[2019.09.09-03.18.59:120][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.09-03.18.59:120][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.09-03.18.59:120][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.09-03.19.03:343][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.09-03.19.03:364][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.09-03.19.03:624][  0]SourceControl: Source control is disabled
+[2019.09.09-03.19.03:625][  0]SourceControl: Source control is disabled
+[2019.09.09-03.19.03:639][  0]SourceControl: Source control is disabled
+[2019.09.09-03.19.03:646][  0]SourceControl: Source control is disabled
+[2019.09.09-03.19.03:925][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.09-03.19.04:083][  0]LogOcInput: OculusInput pre-init called
+[2019.09.09-03.19.05:167][  0]LogEngine: Initializing Engine...
+[2019.09.09-03.19.05:173][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.09-03.19.05:177][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.09.09-03.19.05:665][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.09-03.19.05:730][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.09-03.19.05:772][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.09-03.19.05:866][  0]LogInit: FAudioDevice initialized.
+[2019.09.09-03.19.05:867][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.09-03.19.05:956][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Ella Zhang/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.09-03.19.05:963][  0]LogInit: Texture streaming: Enabled
+[2019.09.09-03.19.05:998][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.09-03.19.06:046][  0]LogInit: Transaction tracking system initialized
+[2019.09.09-03.19.06:105][  0]BlueprintLog: New page: Editor Load
+[2019.09.09-03.19.06:332][  0]LocalizationService: Localization service is disabled
+[2019.09.09-03.19.06:564][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/SideScrollerOverview'
+[2019.09.09-03.19.06:564][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerCPP/SideScrollerOverview'
+[2019.09.09-03.19.06:564][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerCPP/SideScrollerOverview.SideScrollerOverview_C'
+[2019.09.09-03.19.07:138][  0]LogFileCache: Scanning file cache for directory 'F:/SoulsLike/SoulsLike/Content/' took 0.02s
+[2019.09.09-03.19.07:138][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.09-03.19.07:138][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.09-03.19.07:757][  0]SourceControl: Source control is disabled
+[2019.09.09-03.19.07:757][  0]Cmd: MAP LOAD FILE="F:/SoulsLike/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.09-03.19.07:759][  0]LightingResults: New page: Lighting Build
+[2019.09.09-03.19.07:773][  0]MapCheck: New page: Map Check
+[2019.09.09-03.19.07:773][  0]LightingResults: New page: Lighting Build
+[2019.09.09-03.19.07:825][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.09.09-03.19.09:050][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.09-03.19.09:109][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.09-03.19.09:173][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.09.09-03.19.09:175][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.09-03.19.09:176][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.515ms to complete.
+[2019.09.09-03.19.09:176][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.419
+[2019.09.09-03.19.09:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.19.09:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.19.09:550][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.19.09:560][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.19.09:587][  0]LogCollectionManager: Loaded 0 collections in 0.001456 seconds
+[2019.09.09-03.19.09:646][  0]LogFileCache: Scanning file cache for directory 'F:/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.09.09-03.19.09:646][  0]LogFileCache: Scanning file cache for directory 'F:/SoulsLike/SoulsLike/Content/Developers/EllaZhang/Collections/' took 0.01s
+[2019.09.09-03.19.09:646][  0]LogFileCache: Scanning file cache for directory 'F:/SoulsLike/SoulsLike/Content/Collections/' took 0.01s
+[2019.09.09-03.19.09:646][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.09-03.19.09:664][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2739 classes and 661 folders.
+[2019.09.09-03.19.09:680][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.09-03.19.09:696][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:708][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:729][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:751][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:758][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:802][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:809][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:816][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:856][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:863][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:879][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:895][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.09:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.09-03.19.10:180][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.09-03.19.10:199][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.09.09-03.19.10:488][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.09-03.19.10:488][  0]LogLoad: (Engine Initialization) Total time: 26.17 seconds
+[2019.09.09-03.19.10:488][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.09-03.19.10:552][  0]LogAssetRegistry: Asset discovery search completed in 13.8402 seconds
+[2019.09.09-03.19.10:555][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.09-03.19.10:555][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2019.09.09-03.19.10:563][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.09-03.19.10:591][  0]LogSlate: Took 0.009232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.09-03.19.10:607][  0]LogSlate: Took 0.011867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.09-03.19.10:637][  0]LogSlate: Took 0.018315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.09-03.19.10:849][  0]LogRenderer: Reallocating scene render targets to support 836x500 Format 10 NumSamples 1 (Frame:1).
+[2019.09.09-03.19.10:849][  0]LogSlate: Took 0.009573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.09-03.19.11:934][  4]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.09-03.19.37:675][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.19.37:676][ 81]LogSlate: Window 'Message Log' being destroyed
+[2019.09.09-03.19.37:679][ 81]LogSlate: Window 'Message Log' being destroyed
+[2019.09.09-03.19.40:805][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.19.40:945][436]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Pickup.BP_Pickup
+[2019.09.09-03.19.41:454][436]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2019.09.09-03.19.44:257][614]LogSlate: Window 'BP_Pickup' being destroyed
+[2019.09.09-03.19.44:356][614]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Pickup.BP_Pickup
+[2019.09.09-03.19.44:730][614]LogSlate: Took 0.007236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.09-03.19.46:248][733]LogSlate: Took 0.006427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.09-03.19.51:246][197]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Explosive.BP_Explosive
+[2019.09.09-03.20.00:417][204]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Explosive.BP_Explosive
+[2019.09.09-03.27.58:701][199]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.09.09-03.28.23:201][354]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.28.23:549][354]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2019.09.09-03.28.24:029][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.28.24:076][393]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Explosive6D2AF805499C6297C5611EAC5B6A57E8.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.28.29:193][849]LogSlate: Window 'BP_Explosive' being destroyed
+[2019.09.09-03.28.36:023][638]LogEditorViewport: Clicking on Actor (LMB): BP_Explosive_C (BP_Explosive)
+[2019.09.09-03.28.38:639][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.28.59:255][357]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.28.59:622][357]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.09.09-03.29.01:153][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.29.01:184][535]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Explosive7E3102F7437D26DBD24BD3AB750A0AC1.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.29.24:806][304]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.29.25:135][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.09.09-03.29.25:299][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.29.25:328][319]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Explosive2FF0F6BE4142B80B9F4416BD6B99B3E3.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.29.39:690][846]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.29.40:020][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.09.09-03.29.40:342][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.29.40:368][880]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_ExplosiveE10CEA8344A899C357499E81DDEAA248.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.29.43:133][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.29.43:225][188]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.09-03.29.43:248][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.29.43:250][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.09-03.29.43:258][188]PIE: New page: PIE session: Minimal_Default (Sep 8, 2019, 7:29:43 PM)
+[2019.09.09-03.29.43:278][188]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.09-03.29.43:296][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017988s)
+[2019.09.09-03.29.43:297][188]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.09-03.29.43:298][188]LogPlayLevel: PIE: World Init took: (0.001837s)
+[2019.09.09-03.29.43:298][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020156s)
+[2019.09.09-03.29.43:347][188]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.09.09-03.29.43:360][188]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.09-03.29.43:446][188]LogInit: FAudioDevice initialized.
+[2019.09.09-03.29.43:458][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.29.43:506][188]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.09-03.29.43:517][188]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.09.08-23.29.43
+[2019.09.09-03.29.43:520][188]LogWorld: Bringing up level for play took: 0.004678
+[2019.09.09-03.29.43:546][188]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.09.09-03.29.43:551][188]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.09.09-03.29.43:552][188]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.09.09-03.29.43:584][188]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.247
+[2019.09.09-03.29.43:586][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.29.43:630][189]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2019.09.09-03.29.46:744][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.09-03.29.48:584][673]LogSlate: Took 0.009910 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.09.09-03.29.54:542][225]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:542][225]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:542][225]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:542][225]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:559][227]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:559][227]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:559][227]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:559][227]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:586][230]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:586][230]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:586][230]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:586][230]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:594][231]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:595][231]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:595][231]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:595][231]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:622][234]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:622][234]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:622][234]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:622][234]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:631][235]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:632][235]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:632][235]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:632][235]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:650][237]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:650][237]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:650][237]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:650][237]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:679][240]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:679][240]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:679][240]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:679][240]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:697][242]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:697][242]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:698][242]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:698][242]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:716][244]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:716][244]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:716][244]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:716][244]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:725][245]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:725][245]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:725][245]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:725][245]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.54:766][249]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.54:766][249]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.54:766][249]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.54:766][249]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.56:907][464]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.56:907][464]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.56:907][464]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.56:907][464]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.56:936][467]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.56:937][467]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.56:937][467]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.56:937][467]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.56:946][468]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.56:946][468]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.56:946][468]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.56:946][468]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:531][526]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:531][526]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:531][526]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:531][526]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:560][529]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:561][529]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:561][529]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:561][529]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:590][532]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:590][532]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:590][532]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:590][532]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:599][533]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:599][533]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:599][533]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:599][533]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:647][538]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:647][538]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:647][538]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:647][538]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:696][543]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:696][543]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:696][543]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:696][543]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.57:716][545]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.57:716][545]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.57:717][545]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.57:717][545]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:195][698]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:196][698]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:196][698]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:196][698]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:204][699]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:204][699]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:205][699]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:205][699]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:223][701]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:223][701]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:223][701]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:223][701]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:242][703]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:243][703]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:243][703]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:243][703]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:255][704]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:256][704]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:256][704]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:256][704]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:273][706]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:273][706]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:274][706]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:274][706]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:282][707]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:282][707]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:282][707]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:282][707]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:291][708]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:291][708]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:292][708]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:292][708]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:300][709]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:300][709]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:300][709]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:301][709]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:309][710]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:309][710]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:309][710]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:310][710]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.29.59:560][736]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.29.59:560][736]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.29.59:561][736]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.29.59:561][736]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:272][809]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:272][809]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:273][809]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:273][809]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:281][810]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:282][810]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:282][810]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:282][810]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:291][811]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:292][811]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:292][811]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:292][811]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:312][813]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:312][813]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:312][813]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:312][813]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:321][814]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:321][814]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:321][814]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:321][814]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:330][815]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:330][815]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:330][815]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:330][815]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:340][816]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:340][816]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:340][816]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:340][816]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:349][817]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:349][817]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:349][817]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:349][817]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:358][818]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:358][818]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:358][818]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:359][818]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:369][819]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:369][819]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:370][819]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:370][819]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:378][820]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:379][820]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:379][820]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:379][820]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:388][821]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:388][821]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:388][821]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:388][821]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:397][822]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:397][822]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:397][822]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:397][822]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:406][823]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:406][823]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:406][823]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:406][823]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:417][824]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:417][824]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:417][824]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:417][824]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:429][825]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:430][825]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:430][825]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:430][825]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:466][829]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:466][829]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:466][829]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:466][829]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.00:475][830]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.00:475][830]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.00:475][830]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.00:476][830]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:483][932]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:483][932]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:483][932]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:483][932]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:505][934]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:505][934]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:505][934]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:505][934]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:515][935]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:515][935]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:515][935]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:515][935]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:526][936]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:527][936]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:527][936]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:527][936]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:536][937]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:536][937]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:536][937]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:536][937]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:545][938]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:545][938]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:546][938]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:546][938]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:555][939]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:555][939]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:556][939]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:556][939]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:564][940]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:564][940]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:564][940]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:564][940]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:582][942]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:582][942]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:583][942]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:583][942]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:591][943]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:591][943]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:592][943]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:592][943]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:612][945]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:613][945]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:613][945]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:613][945]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:622][946]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:622][946]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:622][946]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:622][946]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:630][947]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:631][947]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:631][947]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:631][947]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:640][948]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:640][948]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:640][948]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:640][948]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:649][949]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:649][949]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:649][949]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:649][949]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:658][950]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:659][950]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:659][950]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:659][950]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:668][951]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:668][951]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:668][951]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:668][951]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:677][952]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:677][952]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:677][952]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:677][952]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:687][953]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:687][953]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:687][953]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:688][953]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:696][954]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:696][954]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:697][954]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:697][954]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:706][955]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:706][955]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:706][955]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:706][955]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:715][956]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:715][956]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:715][956]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:715][956]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:724][957]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:724][957]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:724][957]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:724][957]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:733][958]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:733][958]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:733][958]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:733][958]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:742][959]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:742][959]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:742][959]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:743][959]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:763][961]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:763][961]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:763][961]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:763][961]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:772][962]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:772][962]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:772][962]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:772][962]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:780][963]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:780][963]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:781][963]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:781][963]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:789][964]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:789][964]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:790][964]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:790][964]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:801][965]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:801][965]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:801][965]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:801][965]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:810][966]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:810][966]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:810][966]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:810][966]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:828][968]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:828][968]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:828][968]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:828][968]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:838][969]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:838][969]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:839][969]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:839][969]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:848][970]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:848][970]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:848][970]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:849][970]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:858][971]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:858][971]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:858][971]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:858][971]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.01:866][972]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.01:866][972]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.01:866][972]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.01:867][972]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:421][ 31]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:421][ 31]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:421][ 31]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:422][ 31]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:430][ 32]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:430][ 32]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:430][ 32]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:430][ 32]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:439][ 33]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:439][ 33]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:439][ 33]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:439][ 33]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:448][ 34]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:449][ 34]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:449][ 34]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:449][ 34]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:458][ 35]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:458][ 35]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:458][ 35]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:458][ 35]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:467][ 36]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:467][ 36]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:467][ 36]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:468][ 36]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:476][ 37]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:476][ 37]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:477][ 37]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:477][ 37]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:485][ 38]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:485][ 38]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:485][ 38]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:485][ 38]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:494][ 39]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:494][ 39]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:494][ 39]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:494][ 39]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:502][ 40]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:502][ 40]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:502][ 40]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:502][ 40]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:521][ 42]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:521][ 42]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:521][ 42]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:521][ 42]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:541][ 44]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:542][ 44]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:542][ 44]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:542][ 44]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:550][ 45]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:550][ 45]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:550][ 45]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:550][ 45]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:559][ 46]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:559][ 46]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:559][ 46]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:559][ 46]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:567][ 47]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:567][ 47]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:567][ 47]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:567][ 47]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.02:618][ 52]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.30.02:618][ 52]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.30.02:618][ 52]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.30.02:618][ 52]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.30.03:564][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.30.03:567][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.30.03:588][149]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.09-03.30.03:633][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.09-03.30.03:633][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.30.03:744][149]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2019.09.09-03.30.03:765][150]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.09.09-03.30.36:002][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.09-03.30.36:108][591]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.09.09-03.30.36:451][591]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/Minimal_Default_Auto12DB048B74C9D56FA22CADDA1A160B534.tmp' to 'F:/SoulsLike/SoulsLike/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2019.09.09-03.30.36:460][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.426
+[2019.09.09-03.30.36:460][591]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.426
+[2019.09.09-03.31.17:359][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.37.06:751][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.44.09:110][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: request failed, libcurl error: 35 (SSL connect error)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 0 (Connection 10 seems to be dead!)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 1 (Closing connection 10)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 3 (  Trying 52.23.98.45...)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.09.09-03.44.29:649][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (52.23.98.45) port 443 (#11))
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 8 (SSL re-using session ID)
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 10 (OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to datarouter.ol.epicgames.com:443 )
+[2019.09.09-03.44.29:650][895]LogHttp: Warning: 000001DD8F8D5800: libcurl info message cache 11 (Closing connection 11)
+[2019.09.09-03.44.29:657][896]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1366B04B-485F-FBD7-98C4-F7B9C9775D39%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=9c9da62945f1bfa8ae9fa3810b078d97%7Cab59eb98fbb44824812a0a58cb1b2d0f%7C206a5f86-03a4-4d85-b477-5b747ce06bf9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.09-03.44.58:041][273]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.44.58:310][273]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.09.09-03.44.58:672][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.44.58:712][312]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Explosive495D277E4C7B4E78848C70AB5DADCB06.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.45.00:888][566]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.09-03.45.00:914][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.45.00:914][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.09-03.45.00:915][566]PIE: New page: PIE session: Minimal_Default (Sep 8, 2019, 7:45:00 PM)
+[2019.09.09-03.45.00:915][566]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.09-03.45.01:031][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116200s)
+[2019.09.09-03.45.01:032][566]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.09-03.45.01:032][566]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2019.09.09-03.45.01:032][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.117649s)
+[2019.09.09-03.45.01:078][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.09.09-03.45.01:089][566]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.09-03.45.01:172][566]LogInit: FAudioDevice initialized.
+[2019.09.09-03.45.01:182][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.45.01:215][566]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.09-03.45.01:217][566]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.09.08-23.45.01
+[2019.09.09-03.45.01:218][566]LogWorld: Bringing up level for play took: 0.001822
+[2019.09.09-03.45.01:235][566]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.898
+[2019.09.09-03.45.01:236][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.45.03:793][825]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.03:794][825]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.04:123][858]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.04:124][858]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.04:629][909]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.04:629][909]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.05:565][  3]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.05:565][  3]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.07:205][171]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.07:205][171]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.08:708][326]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.08:709][326]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.09:954][450]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.09:954][450]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.12:009][659]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.12:009][659]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.12:896][749]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.12:896][749]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.14:002][861]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.14:002][861]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.15:947][ 59]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.15:947][ 59]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.16:293][ 95]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.16:293][ 95]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.18:402][311]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.18:402][311]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.18:736][347]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.18:736][347]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.27:844][293]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.27:845][293]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.28:167][325]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.28:167][325]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.30:926][602]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.45.30:926][602]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.45.31:262][637]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.45.31:262][637]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.45.32:313][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.45.32:314][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.45.32:332][745]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.09-03.45.32:368][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.09-03.45.32:368][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.45.32:426][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.09.09-03.45.32:442][746]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.09.09-03.45.47:589][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.45.50:431][871]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.09.09-03.45.53:414][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.46.20:386][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.09.09-03.46.20:820][417]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/Minimal_Default_Auto2AD1951EC4668C1616DAF7B8A8A3E2AE3.tmp' to 'F:/SoulsLike/SoulsLike/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2019.09.09-03.46.20:825][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.486
+[2019.09.09-03.46.20:825][417]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.486
+[2019.09.09-03.46.58:761][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.49.39:654][618]BlueprintLog: New page: Compile BP_Pickup
+[2019.09.09-03.49.39:908][618]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.09.09-03.49.40:777][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pickup" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Pickup.uasset" SILENT=true
+[2019.09.09-03.49.40:810][717]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_PickupAF0BCE514A461677AFBC28B278E6E9A0.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Pickup.uasset'
+[2019.09.09-03.49.44:058][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.09.09-03.49.45:121][ 29]LogSlate: Window 'Save Content' being destroyed
+[2019.09.09-03.49.45:136][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="F:/SoulsLike/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.09-03.49.45:185][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.09.09-03.49.45:484][ 29]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/Minimal_Default2B015E1A4F1710FE58F6628A98B5228F.tmp' to 'F:/SoulsLike/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.09.09-03.49.45:529][ 29]LogFileHelpers: Saving map 'Minimal_Default' took 0.394
+[2019.09.09-03.49.48:774][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.49.48:865][364]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.09-03.49.48:887][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.49.48:888][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.09-03.49.48:888][364]PIE: New page: PIE session: Minimal_Default (Sep 8, 2019, 7:49:48 PM)
+[2019.09.09-03.49.48:888][364]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.09-03.49.48:905][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017037s)
+[2019.09.09-03.49.48:906][364]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.09-03.49.48:907][364]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2019.09.09-03.49.48:907][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018542s)
+[2019.09.09-03.49.48:951][364]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.09.09-03.49.48:961][364]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.09-03.49.49:043][364]LogInit: FAudioDevice initialized.
+[2019.09.09-03.49.49:058][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.49.49:092][364]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.09-03.49.49:094][364]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.09.08-23.49.49
+[2019.09.09-03.49.49:095][364]LogWorld: Bringing up level for play took: 0.001756
+[2019.09.09-03.49.49:112][364]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.775
+[2019.09.09-03.49.49:112][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.49.51:280][584]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:280][584]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:280][584]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:280][584]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:288][585]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:288][585]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:288][585]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:288][585]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:305][587]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:305][587]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:305][587]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:305][587]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:430][602]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:430][602]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:430][602]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:430][602]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:438][603]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:438][603]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:438][603]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:438][603]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:446][604]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:447][604]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:447][604]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:447][604]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:455][605]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:455][605]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:455][605]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:455][605]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:463][606]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:463][606]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:463][606]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:464][606]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:471][607]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:472][607]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:472][607]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:472][607]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:480][608]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:480][608]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:480][608]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:480][608]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:488][609]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:488][609]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:489][609]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:489][609]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:496][610]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:497][610]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:497][610]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:497][610]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:505][611]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:505][611]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:505][611]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:505][611]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:513][612]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:513][612]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:513][612]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:513][612]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:522][613]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:522][613]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:522][613]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:522][613]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:530][614]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:530][614]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:530][614]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:530][614]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:538][615]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:538][615]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:538][615]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:538][615]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:546][616]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:547][616]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:547][616]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:547][616]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:555][617]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:555][617]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:555][617]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:555][617]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:563][618]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:563][618]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:563][618]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:563][618]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:571][619]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:572][619]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:572][619]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:572][619]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:580][620]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:580][620]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:580][620]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:580][620]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:588][621]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:588][621]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:588][621]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:588][621]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:596][622]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:597][622]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:597][622]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:597][622]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:605][623]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:605][623]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:605][623]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:605][623]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:613][624]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:613][624]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:613][624]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:614][624]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:622][625]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:622][625]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:622][625]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:622][625]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:630][626]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:630][626]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:630][626]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:630][626]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:638][627]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:638][627]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:638][627]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:638][627]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:646][628]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:647][628]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:647][628]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:647][628]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:655][629]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:655][629]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:655][629]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:655][629]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:663][630]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:663][630]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:663][630]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:663][630]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:671][631]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:672][631]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:672][631]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:672][631]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:680][632]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:680][632]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:680][632]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:680][632]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:688][633]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:688][633]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:688][633]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:688][633]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:697][634]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:697][634]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:697][634]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:697][634]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:705][635]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:705][635]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:705][635]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:705][635]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:713][636]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:713][636]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:713][636]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:713][636]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:722][637]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:722][637]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:722][637]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:722][637]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:730][638]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:730][638]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:730][638]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:730][638]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:738][639]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:738][639]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:738][639]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:738][639]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:746][640]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:747][640]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:747][640]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:747][640]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:755][641]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:755][641]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:755][641]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:755][641]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:763][642]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:764][642]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:764][642]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:764][642]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:772][643]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:772][643]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:772][643]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:772][643]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:780][644]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:780][644]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:781][644]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:781][644]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:789][645]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:789][645]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:789][645]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:789][645]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:806][647]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:806][647]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:806][647]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:806][647]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:833][650]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:833][650]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:833][650]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:833][650]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:841][651]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:841][651]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:841][651]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:841][651]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:849][652]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:849][652]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:849][652]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:850][652]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:858][653]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:858][653]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:858][653]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:858][653]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:866][654]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:866][654]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:866][654]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:866][654]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:874][655]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:874][655]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:874][655]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:874][655]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:882][656]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:883][656]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:883][656]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:883][656]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:891][657]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:891][657]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:891][657]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:891][657]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.51:899][658]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.49.51:899][658]LogTemp: Warning: Pickup::OnOverlapBegin()
+[2019.09.09-03.49.51:899][658]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.49.51:899][658]LogTemp: Warning: Pickup::OnOverlapEnd()
+[2019.09.09-03.49.52:365][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.49.52:366][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.49.52:386][713]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.09.09-03.49.52:425][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.09.09-03.49.52:426][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.49.52:481][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.09.09-03.49.52:500][714]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.09.09-03.49.53:754][862]LogEditorViewport: Clicking on Actor (LMB): BP_Pickup_C (BP_Pickup)
+[2019.09.09-03.49.56:806][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.09-03.50.15:997][362]BlueprintLog: New page: Compile BP_Pickup
+[2019.09.09-03.50.16:325][362]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.09.09-03.50.16:675][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pickup" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Pickup.uasset" SILENT=true
+[2019.09.09-03.50.16:702][399]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Pickup59B6170D46C45EF23CFE80976782E3DA.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Pickup.uasset'
+[2019.09.09-03.50.26:103][510]BlueprintLog: New page: Compile BP_Explosive
+[2019.09.09-03.50.26:365][510]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.09.09-03.50.27:007][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Explosive" FILE="F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset" SILENT=true
+[2019.09.09-03.50.27:050][583]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/BP_Explosive525D59F8471A762BD68CE0A351F488FB.tmp' to 'F:/SoulsLike/SoulsLike/Content/Blueprints/BP_Explosive.uasset'
+[2019.09.09-03.50.32:998][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.09.09-03.50.33:941][211]LogSlate: Window 'Save Content' being destroyed
+[2019.09.09-03.50.33:956][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="F:/SoulsLike/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.09-03.50.33:998][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.09.09-03.50.34:303][211]LogSavePackage: Moving 'F:/SoulsLike/SoulsLike/Saved/Minimal_Default592814414A1E8D8AC09EC68CA43E0D8C.tmp' to 'F:/SoulsLike/SoulsLike/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.09.09-03.50.34:338][211]LogFileHelpers: Saving map 'Minimal_Default' took 0.382
+[2019.09.09-03.50.34:961][270]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.09-03.50.34:985][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.50.34:985][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.09-03.50.34:985][270]PIE: New page: PIE session: Minimal_Default (Sep 8, 2019, 7:50:34 PM)
+[2019.09.09-03.50.34:986][270]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.09.09-03.50.35:003][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016992s)
+[2019.09.09-03.50.35:003][270]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.09.09-03.50.35:004][270]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2019.09.09-03.50.35:004][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018445s)
+[2019.09.09-03.50.35:050][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.09.09-03.50.35:061][270]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.09-03.50.35:146][270]LogInit: FAudioDevice initialized.
+[2019.09.09-03.50.35:154][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.09-03.50.35:187][270]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.09.09-03.50.35:189][270]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2019.09.08-23.50.35
+[2019.09.09-03.50.35:190][270]LogWorld: Bringing up level for play took: 0.001928
+[2019.09.09-03.50.35:209][270]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.872
+[2019.09.09-03.50.35:210][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.09.09-03.50.37:575][510]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.50.37:576][510]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.50.39:791][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.09-03.50.45:330][177]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.50.45:330][177]LogTemp: Warning: Explosive::OnOverlapEnd()
+[2019.09.09-03.50.45:985][235]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.09.09-03.50.45:985][235]LogTemp: Warning: Explosive::OnOverlapBegin()
+[2019.09.09-03.50.46:860][320]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.09.09-03.50.46:860][320]LogTemp: Warning: Explosive::OnOverlapEnd()
