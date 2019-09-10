@@ -1,14 +1,40 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\SoulsLike).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal2020\SoulsLike).
+  Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
   Parsing headers for SoulsLikeEditor
-    Running UnrealHeaderTool "F:\SoulsLike\SoulsLike\SoulsLike.uproject" "F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SoulsLikeEditor in 7.1817339 seconds
+    Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SoulsLikeEditor in 5.1092662 seconds
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0001.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0002.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0003.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0004.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0005.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0006.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0007.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0008.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0009.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0010.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0011.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0013.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0014.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0004.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0005.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0006.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0007.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0008.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0009.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0010.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0011.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0013.lib
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0014.lib
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] Item.cpp
-    [2/4] UE4Editor-SoulsLike-0002.lib
-       Creating library F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.lib and object F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.exp
-    [3/4] UE4Editor-SoulsLike-0002.dll
-       Creating library F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.suppressed.lib and object F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.suppressed.exp
-    [4/4] SoulsLikeEditor.target
-  Total time in Parallel executor: 15.20 seconds
-  Total execution time: 23.32 seconds
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-SoulsLike.lib
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
+    [2/3] UE4Editor-SoulsLike.dll
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
+    [3/3] SoulsLikeEditor.target
+  Total time in Parallel executor: 0.85 seconds
+  Total execution time: 7.50 seconds

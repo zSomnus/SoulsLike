@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5A2DE91E-9549-46FF-9D3F-5705EFC908D4}</UniqueIdentifier>
+      <UniqueIdentifier>{01BEE73A-B882-4A16-BBA3-36B4BE1F5730}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CCB07041-79C1-47AC-8F0B-ADC2656664BE}</UniqueIdentifier>
+      <UniqueIdentifier>{DDA80AA1-3AC3-41A4-A699-33A4E3A994EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{AB57974D-EDEB-48C5-8827-3AC5703C4B92}</UniqueIdentifier>
+      <UniqueIdentifier>{28DB0CA7-AAE7-4138-82DE-2B08E487353C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SoulsLike\Explosive.cpp">
       <Filter>Source\SoulsLike</Filter>
@@ -78,6 +78,12 @@
       <Filter>Source\SoulsLike</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SoulsLike\SoulsLikeGameModeBase.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoulsLike\Weapon.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\Weapon.h">
       <Filter>Source\SoulsLike</Filter>
     </ClInclude>
   </ItemGroup>

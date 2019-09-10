@@ -10,6 +10,10 @@ void UMainNoWeaponAnimInstance::NativeInitializeAnimation()
 	if (Pawn == nullptr)
 	{
 		Pawn = TryGetPawnOwner();
+		if (Pawn)
+		{
+			MainCharacter = Cast<AMainCharacter>(Pawn);
+		}
 	}
 }
 
@@ -26,5 +30,10 @@ void UMainNoWeaponAnimInstance::UpdateAnimationProperties()
 		MovementSpeed = LateralSpeed.Size();
 
 		bIsInAir = Pawn->GetMovementComponent()->IsFalling();
+
+		if (MainCharacter == nullptr)
+		{
+			MainCharacter = Cast<AMainCharacter>(Pawn);
+		}
 	}
 }

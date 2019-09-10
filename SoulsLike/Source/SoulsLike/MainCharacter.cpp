@@ -51,6 +51,15 @@ AMainCharacter::AMainCharacter()
 	MaxStamina = 350.f;
 	Stamina = 120.f;
 	Souls = 100;
+
+	RunningSpeed = 500.f;
+	DashingSpeed = 700.f;
+
+	bIsDashing = false;
+
+	MovementStatus = EMovementStatus::EMS_Normal;
+	StaminaDrainRate = 25.f;
+
 }
 
 // Called when the game starts or when spawned
@@ -65,6 +74,44 @@ void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	float DeltaStamina = StaminaDrainRate * DeltaTime;
+	FVector CurrentVelocity = GetVelocity();
+
+	if (bIsDashing)
+	{
+		if (Stamina > 0.f)
+		{
+			if (CurrentVelocity != FVector(0.f))
+			{
+				Stamina -= DeltaStamina;
+				SetMovementStatus(EMovementStatus::EMS_Dashing);
+			}
+			else
+			{
+				Stamina += DeltaStamina;
+				SetMovementStatus(EMovementStatus::EMS_Normal);
+			}
+		}
+		else
+		{
+			Stamina = 0.f;
+			SetMovementStatus(EMovementStatus::EMS_Normal);
+		}
+	}
+	else
+	{
+		if (Stamina + DeltaStamina >= MaxStamina)
+		{
+			Stamina = MaxStamina;
+		}
+		else
+		{
+			Stamina += DeltaStamina;
+		}
+		SetMovementStatus(EMovementStatus::EMS_Normal);
+
+	}
+
 	/* 
 	1. Clamp the value of the length of the input vector between 0 to 1 and then multiply it with world delta time
 	2. Calculate the defference between "Control Rotation" and "The vector of movement in world coordinates" then take the value of Yaw
@@ -76,7 +123,7 @@ void AMainCharacter::Tick(float DeltaTime)
 
 	//AddControllerYawInput((UKismetMathLibrary::Clamp(GetWorld()->GetDeltaSeconds() * InputLength, 0.f, 1.f)) * AlignSpringArmRotation());
 
-	FVector MovementVector;
+	/*FVector MovementVector;
 	FVector ForwardVector;
 	FVector RightVector;
 
@@ -94,8 +141,9 @@ void AMainCharacter::Tick(float DeltaTime)
 	ControlRotation = GetControlRotation();
 
 	float Temp = (MovementRotator - ControlRotation).Roll;
+	bIsRolling = false;
 
-	AddControllerYawInput(GetWorld()->GetDeltaSeconds() * Temp);
+	AddControllerYawInput(GetWorld()->GetDeltaSeconds() * Temp);*/
 
 }
 
@@ -105,7 +153,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Roll);
-	PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::Roll);
+
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
+	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AMainCharacter::DashEnd);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
@@ -117,12 +167,18 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 // Set Player Actions
 void AMainCharacter::Roll()
 {
-	bIsRolling = true;
+	bIsRolling = false;
+	UE_LOG(LogTemp, Warning, TEXT("Roll"));
 }
 
-bool AMainCharacter::IsRolling()
+void AMainCharacter::DashBegin()
 {
-	return bIsRolling;
+	bIsDashing = true;
+}
+
+void AMainCharacter::DashEnd()
+{
+	bIsDashing = false;
 }
 
 void AMainCharacter::MoveForward(float Value)
@@ -186,4 +242,40 @@ void AMainCharacter::TurnAtRate(float Rate)
 void AMainCharacter::LookUpAtRate(float Rate)
 {
 
+}
+
+void AMainCharacter::IncrementSouls(int32 Amount)
+{
+	Souls += Amount;
+}
+
+void AMainCharacter::DecrementHealth(float Amount)
+{
+	if (Health - Amount == 0.f)
+	{
+		Health -= Amount;
+		Die();
+	}
+	else
+	{
+		Health -= Amount;
+	}
+}
+
+void AMainCharacter::Die()
+{
+
+}
+
+void AMainCharacter::SetMovementStatus(EMovementStatus Status)
+{
+	MovementStatus = Status;
+	if (MovementStatus == EMovementStatus::EMS_Dashing)
+	{
+		GetCharacterMovement()->MaxWalkSpeed = DashingSpeed;
+	}
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed = RunningSpeed;
+	}
 }

@@ -6,6 +6,14 @@
 #include "GameFramework/Character.h"
 #include "MainCharacter.generated.h"
 
+UENUM(BlueprintType)
+enum class EMovementStatus : uint8
+{
+	EMS_Normal UMETA(DisplayName = "Normal"),
+	EMS_Dashing UMETA(DisplayName = "Dashing"),
+	EMS_MAX UMETA(DisplayName = "DefaultMax")
+};
+
 UCLASS()
 class SOULSLIKE_API AMainCharacter : public ACharacter
 {
@@ -14,6 +22,25 @@ class SOULSLIKE_API AMainCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Item)
+	class AWeapon* EquippedWeapon;
+
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Enums")
+	EMovementStatus MovementStatus;
+
+	/** Set movement status and running speed */
+	void SetMovementStatus(EMovementStatus Status);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enums")
+	float StaminaDrainRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float RunningSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float DashingSpeed;
 
 	/** Create camera spring are */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -30,6 +57,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsRolling;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
+	bool bIsDashing;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "SpringArmRotation")
 	bool bIsSpringArmRotate;
@@ -69,7 +99,8 @@ public:
 	/** Set player actions */
 	void Roll();
 
-	bool IsRolling();
+	void DashBegin();
+	void DashEnd();
 
 	/** Set the player base movements */
 	void MoveForward(float Value);
@@ -84,4 +115,11 @@ public:
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	void IncrementSouls(int32 Amount);
+
+	void DecrementHealth(float Amount);
+	void Die();
+
+	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
 };
