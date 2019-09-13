@@ -10,6 +10,8 @@
 #include "Engine/World.h"
 #include "Components/ArrowComponent.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Animation/AnimInstance.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -56,6 +58,7 @@ AMainCharacter::AMainCharacter()
 	DashingSpeed = 700.f;
 
 	bIsDashing = false;
+	bIsRolling = false;
 
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaDrainRate = 25.f;
@@ -76,6 +79,8 @@ void AMainCharacter::Tick(float DeltaTime)
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
+
+	bRolling = bIsRolling;
 
 	if (bIsDashing)
 	{
@@ -152,7 +157,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Roll);
+	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::RollBegin);
+	//PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::RollEnd);
 
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
 	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AMainCharacter::DashEnd);
@@ -165,10 +171,40 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 }
 
 // Set Player Actions
-void AMainCharacter::Roll()
+void AMainCharacter::RollBegin()
+{
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	FVector CurrentVector = GetVelocity();
+
+
+	if (CurrentVector != FVector(0.f))
+	{
+		bIsRolling = true;
+
+		if (AnimInstance && RollMontage)
+		{
+			AnimInstance->Montage_Play(RollMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("Stand_To_Roll"), RollMontage);
+			
+		}
+
+		UE_LOG(LogTemp, Warning, TEXT("Roll"));
+	}
+	else
+	{
+		bIsRolling = false;
+		if (AnimInstance && DodgeMontage)
+		{
+			AnimInstance->Montage_Play(DodgeMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("Dodging_Back_Montage"), DodgeMontage);
+			UE_LOG(LogTemp, Warning, TEXT("Dodge"));
+		}
+	}
+}
+
+void AMainCharacter::RollEnd()
 {
 	bIsRolling = false;
-	UE_LOG(LogTemp, Warning, TEXT("Roll"));
 }
 
 void AMainCharacter::DashBegin()
@@ -183,7 +219,7 @@ void AMainCharacter::DashEnd()
 
 void AMainCharacter::MoveForward(float Value)
 {
-	if (Controller != nullptr && Value != 0.f)
+	if (Controller != nullptr && Value != 0.f && (!bIsRolling))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -197,7 +233,7 @@ void AMainCharacter::MoveForward(float Value)
 
 void AMainCharacter::MoveRight(float Value)
 {
-	if (Controller != nullptr && Value != 0.f)
+	if (Controller != nullptr && Value != 0.f && (!bIsRolling))
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);

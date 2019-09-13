@@ -59,6 +59,9 @@ public:
 	bool bIsRolling;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
+	bool bRolling;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsDashing;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "SpringArmRotation")
@@ -97,7 +100,10 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	/** Set player actions */
-	void Roll();
+	void RollBegin();
+
+	UFUNCTION(BlueprintCallable)
+	void RollEnd();
 
 	void DashBegin();
 	void DashEnd();
@@ -122,4 +128,9 @@ public:
 	void Die();
 
 	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Roll")
+	class UAnimMontage* RollMontage;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Roll")
+	class UAnimMontage* DodgeMontage;
 };

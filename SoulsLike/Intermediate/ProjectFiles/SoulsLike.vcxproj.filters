@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{01BEE73A-B882-4A16-BBA3-36B4BE1F5730}</UniqueIdentifier>
+      <UniqueIdentifier>{8F33311D-49EB-4E6E-8DA0-9959FD464AF7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\SoulsLikeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{DDA80AA1-3AC3-41A4-A699-33A4E3A994EA}</UniqueIdentifier>
+      <UniqueIdentifier>{6B525E9E-16EB-4B9A-9F31-592913D638D5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{28DB0CA7-AAE7-4138-82DE-2B08E487353C}</UniqueIdentifier>
+      <UniqueIdentifier>{A2A9C354-D61E-4D8A-9420-62BAECEED80F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SoulsLike\Explosive.cpp">
       <Filter>Source\SoulsLike</Filter>

@@ -367,6 +367,7 @@
     <None Include="..\..\SoulsLike.uproject"/>
     <None Include="..\..\Source\SoulsLike.Target.cs"/>
     <None Include="..\..\Source\SoulsLikeEditor.Target.cs"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>

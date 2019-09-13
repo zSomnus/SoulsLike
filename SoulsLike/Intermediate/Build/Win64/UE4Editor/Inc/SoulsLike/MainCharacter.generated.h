@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SOULSLIKE_MainCharacter_generated_h
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRollEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RollEnd(); \
+		P_NATIVE_END; \
+	}
+
+
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRollEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->RollEnd(); \
+		P_NATIVE_END; \
+	}
+
+
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \
