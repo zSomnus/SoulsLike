@@ -1,15 +1,25 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal2020\SoulsLike).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (F:\SoulsLike).
   Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
   Parsing headers for SoulsLikeEditor
-    Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SoulsLikeEditor in 14.6561774 seconds
+    Running UnrealHeaderTool "F:\SoulsLike\SoulsLike\SoulsLike.uproject" "F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SoulsLikeEditor in 24.7085012 seconds
+  Failed to delete file 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb'
+      Exception: Access to the path 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb' is denied.
+  Attempting to retry...
+  Failed to delete file 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb'
+      Exception: Access to the path 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb' is denied.
+  Attempting to retry...
+  Failed to delete file 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb'
+      Exception: Access to the path 'F:\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike.pdb' is denied.
+EXEC : error : Exhausted all retries!
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
+  Building 4 actions with 16 processes...
     [1/4] MainCharacter.cpp
-    [2/4] UE4Editor-SoulsLike-0005.lib
-       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0005.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0005.exp
-    [3/4] UE4Editor-SoulsLike-0005.dll
-       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0005.suppressed.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0005.suppressed.exp
+    [2/4] UE4Editor-SoulsLike-0001.lib
+       Creating library F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.lib and object F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.exp
+    [3/4] UE4Editor-SoulsLike-0001.dll
+       Creating library F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.suppressed.lib and object F:\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.suppressed.exp
     [4/4] SoulsLikeEditor.target
-  Total time in Parallel executor: 120.55 seconds
-  Total execution time: 138.23 seconds
+  Total time in Parallel executor: 152.96 seconds
+  Total execution time: 186.44 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" SoulsLikeEditor Win64 Development -Project="F:\SoulsLike\SoulsLike\SoulsLike.uproject" -WaitMutex -FromMsBuild" exited with code -1.

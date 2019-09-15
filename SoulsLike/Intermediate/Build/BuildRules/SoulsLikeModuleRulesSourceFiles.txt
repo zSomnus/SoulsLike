@@ -1,3 +1,3 @@
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike.Target.cs
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLikeEditor.Target.cs
+F:\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
+F:\SoulsLike\SoulsLike\Source\SoulsLike.Target.cs
+F:\SoulsLike\SoulsLike\Source\SoulsLikeEditor.Target.cs
