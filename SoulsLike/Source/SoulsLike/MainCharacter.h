@@ -55,11 +55,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float BaseLookUpRate;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
 	bool bIsRolling;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
-	bool bRolling;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	bool bIsDashing;
@@ -130,7 +127,5 @@ public:
 	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Roll")
-	class UAnimMontage* RollMontage;
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Roll")
-	class UAnimMontage* DodgeMontage;
+	class UAnimMontage* RollDodgeMontage;
 };
