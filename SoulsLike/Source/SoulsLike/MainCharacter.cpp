@@ -63,6 +63,12 @@ AMainCharacter::AMainCharacter()
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaDrainRate = 25.f;
 
+	// Set default value of movement, make them available
+	bCanRoll = true;
+	bCanDodge = true;
+	bCanAttack = true;
+	bCanDash = true;
+
 }
 
 // Called when the game starts or when spawned
