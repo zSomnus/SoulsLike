@@ -1,7 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal2020\SoulsLike).
-  Creating makefile for SoulsLikeEditor (no existing makefile)
   Parsing headers for SoulsLikeEditor
     Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SoulsLikeEditor in 6.2359998 seconds
+  Reflection code generated for SoulsLikeEditor in 4.9515311 seconds
   Target is up to date
-  Total execution time: 8.00 seconds
+  Total execution time: 5.51 seconds
