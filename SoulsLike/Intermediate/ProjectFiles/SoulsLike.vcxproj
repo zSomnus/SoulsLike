@@ -373,6 +373,8 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\SoulsLike\EnemyPawn.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\EnemyPawn.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\Explosive.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\Explosive.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\Item.cpp"/>

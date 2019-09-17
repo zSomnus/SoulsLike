@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{443930CE-395A-420F-9C23-674264857EE8}</UniqueIdentifier>
+      <UniqueIdentifier>{5E9FB19F-A080-41AF-89E2-66DCFED543A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{803A9798-A0AE-4379-8BD7-947367E9E5B4}</UniqueIdentifier>
+      <UniqueIdentifier>{9BFCA3EE-5C8F-40E1-BEA6-62E999CD2652}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,8 +31,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{B176649C-B409-4297-9453-3BD8A59CD313}</UniqueIdentifier>
+      <UniqueIdentifier>{9EF08B18-8C45-4DB0-A438-518272929D9C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SoulsLike\EnemyPawn.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\EnemyPawn.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SoulsLike\Explosive.cpp">
       <Filter>Source\SoulsLike</Filter>
     </ClCompile>
