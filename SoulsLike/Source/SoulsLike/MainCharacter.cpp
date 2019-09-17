@@ -80,8 +80,6 @@ void AMainCharacter::Tick(float DeltaTime)
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
 
-	bRolling = bIsRolling;
-
 	if (bIsDashing)
 	{
 		if (Stamina > 0.f)
@@ -181,10 +179,10 @@ void AMainCharacter::RollBegin()
 	{
 		bIsRolling = true;
 
-		if (AnimInstance && RollMontage)
+		if (AnimInstance && RollDodgeMontage)
 		{
-			AnimInstance->Montage_Play(RollMontage, 1.f);
-			AnimInstance->Montage_JumpToSection(FName("Stand_To_Roll"), RollMontage);
+			AnimInstance->Montage_Play(RollDodgeMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("Stand_To_Roll"), RollDodgeMontage);
 			
 		}
 
@@ -193,10 +191,10 @@ void AMainCharacter::RollBegin()
 	else
 	{
 		bIsRolling = false;
-		if (AnimInstance && DodgeMontage)
+		if (AnimInstance && RollDodgeMontage)
 		{
-			AnimInstance->Montage_Play(DodgeMontage, 1.f);
-			AnimInstance->Montage_JumpToSection(FName("Dodging_Back_Montage"), DodgeMontage);
+			AnimInstance->Montage_Play(RollDodgeMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("Dodging_Back_Montage"), RollDodgeMontage);
 			UE_LOG(LogTemp, Warning, TEXT("Dodge"));
 		}
 	}
