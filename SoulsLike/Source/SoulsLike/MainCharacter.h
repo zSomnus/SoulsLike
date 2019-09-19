@@ -119,11 +119,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	/** Set player actions */
-	void RollBegin();
 
 	UFUNCTION(BlueprintCallable)
-	void RollEnd();
+	void Roll();
+
+	UFUNCTION(BlueprintCallable)
+	void Dodge();
+
+	UFUNCTION(BlueprintCallable)
+	void Attack();
 
 	void DashBegin();
 	void DashEnd();
@@ -149,6 +153,12 @@ public:
 
 	FORCEINLINE void SetEquippedWeapon(AWeapon* WeaponToSet) { EquippedWeapon = WeaponToSet; }
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Roll")
-	class UAnimMontage* RollDodgeMontage;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* RollMontage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* DodgeMontage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* AttackMontage;
 };

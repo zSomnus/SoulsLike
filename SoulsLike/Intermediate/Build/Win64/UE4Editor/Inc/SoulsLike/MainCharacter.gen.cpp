@@ -18,7 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	SOULSLIKE_API UClass* Z_Construct_UClass_AMainCharacter_NoRegister();
 	SOULSLIKE_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_RollEnd();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Attack();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Dodge();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Roll();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -83,11 +85,13 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	{
 		UClass* Class = AMainCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "RollEnd", &AMainCharacter::execRollEnd },
+			{ "Attack", &AMainCharacter::execAttack },
+			{ "Dodge", &AMainCharacter::execDodge },
+			{ "Roll", &AMainCharacter::execRoll },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_AMainCharacter_RollEnd_Statics
+	struct Z_Construct_UFunction_AMainCharacter_Attack_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -95,17 +99,61 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_RollEnd_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_Attack_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_RollEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "RollEnd", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_RollEnd_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_RollEnd_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainCharacter_RollEnd()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_Attack_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "Attack", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_Attack_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_Attack_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_Attack()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_RollEnd_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_Dodge_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_Dodge_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_Dodge_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "Dodge", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_Dodge_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_Dodge_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_Dodge()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Dodge_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_Roll_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_Roll_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_Roll_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "Roll", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_Roll_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_Roll_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_Roll()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Roll_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -121,9 +169,17 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RollDodgeMontage_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackMontage_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RollDodgeMontage;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AttackMontage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DodgeMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DodgeMontage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RollMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RollMontage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Souls_MetaData[];
 #endif
@@ -235,7 +291,9 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_SoulsLike,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMainCharacter_RollEnd, "RollEnd" }, // 1466497776
+		{ &Z_Construct_UFunction_AMainCharacter_Attack, "Attack" }, // 505225962
+		{ &Z_Construct_UFunction_AMainCharacter_Dodge, "Dodge" }, // 2823983674
+		{ &Z_Construct_UFunction_AMainCharacter_Roll, "Roll" }, // 4078257
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::Class_MetaDataParams[] = {
@@ -245,12 +303,26 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollDodgeMontage_MetaData[] = {
-		{ "Category", "Roll" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackMontage_MetaData[] = {
+		{ "Category", "Combat" },
 		{ "ModuleRelativePath", "MainCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollDodgeMontage = { "RollDodgeMontage", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, RollDodgeMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollDodgeMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollDodgeMontage_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackMontage = { "AttackMontage", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, AttackMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackMontage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeMontage_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeMontage = { "DodgeMontage", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, DodgeMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeMontage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollMontage_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollMontage = { "RollMontage", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, RollMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollMontage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_Souls_MetaData[] = {
 		{ "Category", "Player Stats" },
@@ -459,7 +531,9 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon = { "EquippedWeapon", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, EquippedWeapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollDodgeMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_RollMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Souls,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Stamina,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MaxStamina,
@@ -512,7 +586,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 3049335414);
+	IMPLEMENT_CLASS(AMainCharacter, 1629643278);
 	template<> SOULSLIKE_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

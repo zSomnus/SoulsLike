@@ -15,22 +15,54 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execRollEnd) \
+	DECLARE_FUNCTION(execAttack) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RollEnd(); \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDodge) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Dodge(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRoll) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Roll(); \
 		P_NATIVE_END; \
 	}
 
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execRollEnd) \
+	DECLARE_FUNCTION(execAttack) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->RollEnd(); \
+		P_THIS->Attack(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDodge) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Dodge(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRoll) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Roll(); \
 		P_NATIVE_END; \
 	}
 
