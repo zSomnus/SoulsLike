@@ -387,6 +387,8 @@
     <ClInclude Include="..\..\Source\SoulsLike\MainPlayerController.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\Pickup.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\Pickup.h"/>
+    <ClCompile Include="..\..\Source\SoulsLike\Shield.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\Shield.h"/>
     <None Include="..\..\Source\SoulsLike\SoulsLike.Build.cs"/>
     <ClCompile Include="..\..\Source\SoulsLike\SoulsLike.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\SoulsLike.h"/>

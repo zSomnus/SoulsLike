@@ -12,6 +12,8 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Animation/AnimInstance.h"
+#include "Components/PrimitiveComponent.h"
+#include "GameFramework/Actor.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -159,12 +161,20 @@ void AMainCharacter::Roll()
 	{
 		if (AnimInstance && RollMontage && !bIsRolling)
 		{
-			if (!bIsDodging || !bIsAttacking)
+			if (!bIsDodging && !bIsAttacking)
 			{
 				bIsRolling = true;
 				AnimInstance->Montage_Play(RollMontage, 1.f);
-				AnimInstance->Montage_JumpToSection(FName("Default"), RollMontage);
+				AnimInstance->Montage_JumpToSection(FName("Roll"), RollMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Roll"));
+
+				UCharacterMovementComponent* CharacterMovement = GetCharacterMovement();
+
+				if (CharacterMovement)
+				{
+					CharacterMovement->AddImpulse(GetActorForwardVector() * 100.f, true);
+
+				}
 			}
 			else
 			{
@@ -186,13 +196,13 @@ void AMainCharacter::Dodge()
 
 	if(CurrentVector == FVector(0.f) && InputLength == 0.f)
 	{
-		if (AnimInstance && RollMontage && !bIsDodging)
+		if (AnimInstance && DodgeMontage && !bIsDodging)
 		{
-			if (!bIsRolling || !bIsAttacking)
+			if (!bIsRolling && !bIsAttacking)
 			{
 				bIsDodging = true;
 				AnimInstance->Montage_Play(DodgeMontage, 1.f);
-				AnimInstance->Montage_JumpToSection(FName("Default"), DodgeMontage);
+				AnimInstance->Montage_JumpToSection(FName("Dodge"), DodgeMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Dodge"));
 			}
 			else
@@ -225,7 +235,7 @@ void AMainCharacter::MoveForward(float Value)
 		//AddMovementInput(UKismetMathLibrary::GetRightVector(Rotation), Value);
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		if (!bIsRolling || !bIsDodging || !bIsAttacking)
+		if (!bIsRolling && !bIsDodging && !bIsAttacking)
 		{
 			AddMovementInput(Direction, Value);
 		}
@@ -243,7 +253,7 @@ void AMainCharacter::MoveRight(float Value)
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		if (!bIsRolling || !bIsDodging || !bIsAttacking)
+		if (!bIsRolling && !bIsDodging && !bIsAttacking)
 		{
 			AddMovementInput(Direction, Value);
 		}
@@ -323,7 +333,7 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 
 void AMainCharacter::Attack()
 {
-	if (!bIsAttacking)
+	if (!bIsAttacking && !bIsRolling && !bIsDodging)
 	{
 		bIsAttacking = true;
 		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
