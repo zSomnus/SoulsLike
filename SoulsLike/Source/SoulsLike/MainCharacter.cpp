@@ -76,13 +76,15 @@ AMainCharacter::AMainCharacter()
 	bCanDash = true;
 
 	//Rolling Timeline
-	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/C_RollCurve"));
-	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/C_DodgeCurve"));
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/Curves/C_RollCurve"));
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/Curves/C_DodgeCurve"));
 
 	check(RollCurve.Succeeded());
 	check(DodgeCurve.Succeeded());
 
 	FVector ActorVelocity = GetActorForwardVector();
+
+	AttackCount = 0;
 }
 
 // Called when the game starts or when spawned
@@ -242,7 +244,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Roll);
+	PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::Roll);
 	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Dodge);
 	//PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::RollEnd);
 
@@ -438,6 +440,8 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 	}
 }
 
+
+
 void AMainCharacter::Attack()
 {
 	if (!bIsAttacking && !bIsRolling && !bIsDodging)
@@ -445,7 +449,27 @@ void AMainCharacter::Attack()
 		bIsAttacking = true;
 		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-		AnimInstance->Montage_Play(AttackMontage, 1.f);
-		AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+		if (AnimInstance && AttackMontage)
+		{
+			switch (AttackCount)
+			{
+			case 0:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				AttackCount = 1;
+				break;
+
+			case 1:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack2"), AttackMontage);
+				AttackCount = 0;
+				break;
+
+			default:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				break;
+			}
+		}
 	}
 }

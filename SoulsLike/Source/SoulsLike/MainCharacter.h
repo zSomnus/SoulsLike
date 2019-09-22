@@ -143,6 +143,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
 	int32 Souls;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	int32 AttackCount;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
