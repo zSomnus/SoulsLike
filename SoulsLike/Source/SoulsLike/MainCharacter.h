@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Components/TimelineComponent.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MainCharacter.generated.h"
@@ -19,9 +20,43 @@ class SOULSLIKE_API AMainCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+protected:
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UTimelineComponent* RollTimeline;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UTimelineComponent* DodgeTimeline;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UCurveFloat* RollFloatCurve;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UCurveFloat* DodgeFloatCurve;
+	
+	//RollTimelineCall
+	UFUNCTION()
+	void RollTimelineCallback(float value);
+
+	UFUNCTION()
+	void RollTimelineFinishedCallback();
+	
+	void PlayRollTimeline();
+
+	//DodgeTimelineCall
+	UFUNCTION()
+	void DodgeTimelineCallback(float value);
+
+	UFUNCTION()
+	void DodgeTimelineFinishedCallback();
+
+	void PlayDodgeTimeline();
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	TEnumAsByte<ETimelineDirection::Type> TimelineDirection;
+
 public:
 	// Sets default values for this character's properties
 	AMainCharacter();
+
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Item)
 	class AWeapon* EquippedWeapon;

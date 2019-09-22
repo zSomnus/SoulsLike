@@ -14,6 +14,8 @@
 #include "Animation/AnimInstance.h"
 #include "Components/PrimitiveComponent.h"
 #include "GameFramework/Actor.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Math/UnrealMathVectorCommon.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -73,19 +75,79 @@ AMainCharacter::AMainCharacter()
 	bCanAttack = true;
 	bCanDash = true;
 
+	//Rolling Timeline
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/C_RollCurve"));
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/C_DodgeCurve"));
+
+	check(RollCurve.Succeeded());
+	check(DodgeCurve.Succeeded());
+
+	FVector ActorVelocity = GetActorForwardVector();
 }
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
+	FOnTimelineFloat onRollTimelineCallback;
+	FOnTimelineEventStatic onRollTimelineFinishedCallback;
+
+	FOnTimelineFloat onDodgeTimelineCallback;
+	FOnTimelineEventStatic onDodgeTimelineFinishedCallback;
+
 	Super::BeginPlay();
 	
+	//Roll timeline
+	if (RollFloatCurve)
+	{
+		//RollTimeLine
+		RollTimeline = NewObject<UTimelineComponent>(this, FName("RollTimelineAnimation"));
+		RollTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript; // Indicate it comes from a blueprint so it gets cleared when we rerun construction scripts
+		this->BlueprintCreatedComponents.Add(RollTimeline);
+		RollTimeline->SetNetAddressable();
+
+		RollTimeline->SetPropertySetObject(this);
+		RollTimeline->SetTimelineLength(.5f);
+		RollTimeline->SetTimelineLengthMode(ETimelineLengthMode::TL_LastKeyFrame);
+
+		onRollTimelineCallback.BindUFunction(this, FName{ TEXT("RollTimelineCallback") });
+		onRollTimelineFinishedCallback.BindUFunction(this, FName{ TEXT("RollTimelineFinishedCallback") });
+		RollTimeline->AddInterpFloat(RollFloatCurve, onRollTimelineCallback);
+		RollTimeline->SetTimelineFinishedFunc(onRollTimelineFinishedCallback);
+
+		RollTimeline->RegisterComponent();
+	}
+
+	if(DodgeFloatCurve)
+	{
+		// DodgeTimeline
+		DodgeTimeline = NewObject<UTimelineComponent>(this, FName("DodgeTimelineAnimation"));
+		DodgeTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript; // Indicate it comes from a blueprint so it gets cleared when we rerun construction scripts
+		this->BlueprintCreatedComponents.Add(DodgeTimeline);
+		DodgeTimeline->SetNetAddressable();
+
+		DodgeTimeline->SetPropertySetObject(this);
+		DodgeTimeline->SetTimelineLength(.5f);
+		DodgeTimeline->SetTimelineLengthMode(ETimelineLengthMode::TL_LastKeyFrame);
+
+		onDodgeTimelineCallback.BindUFunction(this, FName{ TEXT("DodgeTimelineCallback") });
+		onDodgeTimelineFinishedCallback.BindUFunction(this, FName{ TEXT("DodgeTimelineFinishedCallback") });
+		DodgeTimeline->AddInterpFloat(DodgeFloatCurve, onDodgeTimelineCallback);
+		DodgeTimeline->SetTimelineFinishedFunc(onDodgeTimelineFinishedCallback);
+
+		DodgeTimeline->RegisterComponent();
+	}
 }
 
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//Roll timeline
+	if (RollTimeline)
+	{
+		RollTimeline->TickComponent(DeltaTime, ELevelTick::LEVELTICK_TimeOnly, NULL);
+	}
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
@@ -123,6 +185,55 @@ void AMainCharacter::Tick(float DeltaTime)
 		}
 		SetMovementStatus(EMovementStatus::EMS_Normal);
 
+	}
+}
+
+
+// Roll Timeline
+void AMainCharacter::RollTimelineCallback(float interpolatedVal)
+{
+	// This function is called for every tick in the timeline.
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * interpolatedVal;
+
+	//AMainCharacter* Character = Cast<AMainCharacter>();
+	LaunchCharacter(ForwardDir, false, true);
+	
+}
+
+void AMainCharacter::RollTimelineFinishedCallback()
+{
+	// This function is called when the timeline finishes playing.
+}
+
+// Dodge Timeline
+void AMainCharacter::DodgeTimelineCallback(float interpolatedVal)
+{
+	// This function is called for every tick in the timeline.
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * -interpolatedVal;
+
+	//AMainCharacter* Character = Cast<AMainCharacter>();
+	LaunchCharacter(ForwardDir, false, true);
+
+}
+
+void AMainCharacter::DodgeTimelineFinishedCallback()
+{
+	// This function is called when the timeline finishes playing.
+}
+
+
+void AMainCharacter::PlayRollTimeline()
+{
+	if (RollTimeline)
+	{
+		RollTimeline->PlayFromStart();
+	}
+}
+void AMainCharacter::PlayDodgeTimeline()
+{
+	if (DodgeTimeline)
+	{
+		DodgeTimeline->PlayFromStart();
 	}
 }
 
@@ -168,13 +279,7 @@ void AMainCharacter::Roll()
 				AnimInstance->Montage_JumpToSection(FName("Roll"), RollMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Roll"));
 
-				UCharacterMovementComponent* CharacterMovement = GetCharacterMovement();
-
-				if (CharacterMovement)
-				{
-					CharacterMovement->AddImpulse(GetActorForwardVector() * 100.f, true);
-
-				}
+				PlayRollTimeline();
 			}
 			else
 			{
@@ -204,6 +309,8 @@ void AMainCharacter::Dodge()
 				AnimInstance->Montage_Play(DodgeMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Dodge"), DodgeMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Dodge"));
+
+				PlayDodgeTimeline();
 			}
 			else
 			{
