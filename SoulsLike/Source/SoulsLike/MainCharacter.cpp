@@ -367,7 +367,7 @@ void AMainCharacter::MoveForward(float Value)
 		//AddMovementInput(UKismetMathLibrary::GetRightVector(Rotation), Value);
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		if (!bIsRolling && !bIsDodging && !bIsAttacking)
+		if (!bIsRolling && !bIsDodging && !bIsAttacking && !bIsParrying)
 		{
 			AddMovementInput(Direction, Value);
 		}
@@ -385,7 +385,7 @@ void AMainCharacter::MoveRight(float Value)
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		if (!bIsRolling && !bIsDodging && !bIsAttacking)
+		if (!bIsRolling && !bIsDodging && !bIsAttacking && !bIsParrying)
 		{
 			AddMovementInput(Direction, Value);
 		}
