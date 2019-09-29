@@ -91,17 +91,20 @@ public:
 	float BaseLookUpRate;
 
 	/** Checking the movement state */
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bIsRolling;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bIsAttacking;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bIsDodging;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bIsDashing;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+	bool bIsParrying;
 
 	/** Checking if the movement is available */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
@@ -115,6 +118,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
 	bool bCanDash;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
+	bool bCanParry;
 
 
 
@@ -167,6 +173,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Attack();
 
+	UFUNCTION(BlueprintCallable)
+	void Parry();
+
 	void DashBegin();
 	void DashEnd();
 
@@ -199,4 +208,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
 	class UAnimMontage* AttackMontage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* ParryMontage;
 };

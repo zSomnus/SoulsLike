@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execParry) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Parry(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
 		P_FINISH; \
@@ -75,6 +83,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execParry) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Parry(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \

@@ -74,6 +74,7 @@ AMainCharacter::AMainCharacter()
 	bCanDodge = true;
 	bCanAttack = true;
 	bCanDash = true;
+	bCanParry = false;
 
 	//Rolling Timeline
 	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/Curves/C_RollCurve"));
@@ -248,6 +249,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Dodge);
 	//PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::RollEnd);
 
+	PlayerInputComponent->BindAction("Parry", IE_Pressed, this, &AMainCharacter::Parry);
+
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMainCharacter::Attack);
 
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
@@ -274,7 +277,7 @@ void AMainCharacter::Roll()
 	{
 		if (AnimInstance && RollMontage && !bIsRolling)
 		{
-			if (!bIsDodging && !bIsAttacking)
+			if (!bIsDodging && !bIsAttacking && !bIsParrying)
 			{
 				bIsRolling = true;
 				AnimInstance->Montage_Play(RollMontage, 1.f);
@@ -305,7 +308,7 @@ void AMainCharacter::Dodge()
 	{
 		if (AnimInstance && DodgeMontage && !bIsDodging)
 		{
-			if (!bIsRolling && !bIsAttacking)
+			if (!bIsRolling && !bIsAttacking && !bIsParrying)
 			{
 				bIsDodging = true;
 				AnimInstance->Montage_Play(DodgeMontage, 1.f);
@@ -318,6 +321,26 @@ void AMainCharacter::Dodge()
 			{
 				bIsDodging = false;
 			}
+		}
+	}
+}
+
+void AMainCharacter::Parry()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Parry"));
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+
+	if (AnimInstance && ParryMontage && !bIsParrying)
+	{
+		if (!bIsRolling && !bIsAttacking && !bIsDodging)
+		{
+			bIsParrying = true;
+			AnimInstance->Montage_Play(ParryMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("ShieldParry"), ParryMontage);
+		}
+		else
+		{
+			bIsParrying = false;
 		}
 	}
 }
@@ -473,3 +496,4 @@ void AMainCharacter::Attack()
 		}
 	}
 }
+
