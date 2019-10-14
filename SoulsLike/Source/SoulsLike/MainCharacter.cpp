@@ -16,6 +16,9 @@
 #include "GameFramework/Actor.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Math/UnrealMathVectorCommon.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundCue.h"
+#include "UObject/ConstructorHelpers.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -86,6 +89,13 @@ AMainCharacter::AMainCharacter()
 	FVector ActorVelocity = GetActorForwardVector();
 
 	AttackCount = 0;
+
+	// lodad the sound cue object
+	static ConstructorHelpers::FObjectFinder<USoundCue> WhooshSOundCueObject(TEXT("SoundWave'/Engine/VREditor/Sounds/UI/Teleport_Committed.Teleport_Committed'"));
+	if (WhooshSOundCueObject.Succeeded())
+	{
+		WhooshSoundCue = WhooshSOundCueObject.Object;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -337,6 +347,7 @@ void AMainCharacter::Parry()
 			bIsParrying = true;
 			AnimInstance->Montage_Play(ParryMontage, 1.f);
 			AnimInstance->Montage_JumpToSection(FName("ShieldParry"), ParryMontage);
+
 		}
 		else
 		{

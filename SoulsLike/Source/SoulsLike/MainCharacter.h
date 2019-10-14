@@ -123,7 +123,6 @@ public:
 	bool bCanParry;
 
 
-
 	/** Spring Arm */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "SpringArmRotation")
 	bool bIsSpringArmRotate;
@@ -151,6 +150,8 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 AttackCount;
+
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -211,4 +212,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
 	class UAnimMontage* ParryMontage;
+
+	UPROPERTY(EiditDefaultsOnly, BlueprintReadOnly, Category = Audio)
+		class USoundCue* WhooshSoundCue;
 };
