@@ -212,7 +212,4 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
 	class UAnimMontage* ParryMontage;
-
-	UPROPERTY(EiditDefaultsOnly, BlueprintReadOnly, Category = Audio)
-		class USoundCue* WhooshSoundCue;
 };

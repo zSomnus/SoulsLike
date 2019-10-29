@@ -2,5 +2,15 @@
   Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
   Parsing headers for SoulsLikeEditor
     Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  D:/Unreal2020/SoulsLike/SoulsLike/Source/SoulsLike/MainCharacter.h(216) : LogCompile: Error: Unknown variable specifier 'EiditDefaultsOnly'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" SoulsLikeEditor Win64 Development -Project="D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Reflection code generated for SoulsLikeEditor in 5.1712313 seconds
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0001.dll
+  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.lib
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-SoulsLike.lib
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
+    [2/3] UE4Editor-SoulsLike.dll
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
+    [3/3] SoulsLikeEditor.target
+  Total time in Parallel executor: 0.84 seconds
+  Total execution time: 8.10 seconds

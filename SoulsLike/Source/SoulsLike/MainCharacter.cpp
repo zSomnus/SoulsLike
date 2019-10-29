@@ -91,11 +91,11 @@ AMainCharacter::AMainCharacter()
 	AttackCount = 0;
 
 	// lodad the sound cue object
-	static ConstructorHelpers::FObjectFinder<USoundCue> WhooshSOundCueObject(TEXT("SoundWave'/Engine/VREditor/Sounds/UI/Teleport_Committed.Teleport_Committed'"));
+	/*static ConstructorHelpers::FObjectFinder<USoundCue> WhooshSOundCueObject(TEXT("SoundWave'/Engine/VREditor/Sounds/UI/Teleport_Committed.Teleport_Committed'"));
 	if (WhooshSOundCueObject.Succeeded())
 	{
 		WhooshSoundCue = WhooshSOundCueObject.Object;
-	}
+	}*/
 }
 
 // Called when the game starts or when spawned
