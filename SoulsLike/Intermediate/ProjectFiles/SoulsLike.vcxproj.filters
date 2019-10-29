@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5E9FB19F-A080-41AF-89E2-66DCFED543A6}</UniqueIdentifier>
+      <UniqueIdentifier>{4C150E0C-20A8-4C73-AA62-CCB98649BE45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9BFCA3EE-5C8F-40E1-BEA6-62E999CD2652}</UniqueIdentifier>
+      <UniqueIdentifier>{ACC30AC7-237B-41E5-88C6-7108F4BF28C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,8 +31,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{9EF08B18-8C45-4DB0-A438-518272929D9C}</UniqueIdentifier>
+      <UniqueIdentifier>{56AE02CE-E5C0-4EE0-83F9-BD6769944C28}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SoulsLike\BasicEnemy.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\BasicEnemy.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoulsLike\BasicEnemyAnimInstance.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\BasicEnemyAnimInstance.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SoulsLike\EnemyPawn.cpp">
       <Filter>Source\SoulsLike</Filter>
     </ClCompile>
@@ -73,6 +85,12 @@
       <Filter>Source\SoulsLike</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SoulsLike\Pickup.h">
+      <Filter>Source\SoulsLike</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoulsLike\Shield.cpp">
+      <Filter>Source\SoulsLike</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoulsLike\Shield.h">
       <Filter>Source\SoulsLike</Filter>
     </ClInclude>
     <None Include="..\..\Source\SoulsLike\SoulsLike.Build.cs">

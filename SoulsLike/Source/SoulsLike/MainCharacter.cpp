@@ -12,6 +12,13 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Animation/AnimInstance.h"
+#include "Components/PrimitiveComponent.h"
+#include "GameFramework/Actor.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Math/UnrealMathVectorCommon.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundCue.h"
+#include "UObject/ConstructorHelpers.h"
 
 // Sets default values
 AMainCharacter::AMainCharacter()
@@ -59,6 +66,8 @@ AMainCharacter::AMainCharacter()
 
 	bIsDashing = false;
 	bIsRolling = false;
+	bIsDodging = false;
+	bIsAttacking = false;
 
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaDrainRate = 25.f;
@@ -68,20 +77,90 @@ AMainCharacter::AMainCharacter()
 	bCanDodge = true;
 	bCanAttack = true;
 	bCanDash = true;
+	bCanParry = false;
 
+	//Rolling Timeline
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/Curves/C_RollCurve"));
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/Curves/C_DodgeCurve"));
+
+	check(RollCurve.Succeeded());
+	check(DodgeCurve.Succeeded());
+
+	FVector ActorVelocity = GetActorForwardVector();
+
+	AttackCount = 0;
+
+	// lodad the sound cue object
+	/*static ConstructorHelpers::FObjectFinder<USoundCue> WhooshSOundCueObject(TEXT("SoundWave'/Engine/VREditor/Sounds/UI/Teleport_Committed.Teleport_Committed'"));
+	if (WhooshSOundCueObject.Succeeded())
+	{
+		WhooshSoundCue = WhooshSOundCueObject.Object;
+	}*/
 }
 
 // Called when the game starts or when spawned
 void AMainCharacter::BeginPlay()
 {
+	FOnTimelineFloat onRollTimelineCallback;
+	FOnTimelineEventStatic onRollTimelineFinishedCallback;
+
+	FOnTimelineFloat onDodgeTimelineCallback;
+	FOnTimelineEventStatic onDodgeTimelineFinishedCallback;
+
 	Super::BeginPlay();
 	
+	//Roll timeline
+	if (RollFloatCurve)
+	{
+		//RollTimeLine
+		RollTimeline = NewObject<UTimelineComponent>(this, FName("RollTimelineAnimation"));
+		RollTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript; // Indicate it comes from a blueprint so it gets cleared when we rerun construction scripts
+		this->BlueprintCreatedComponents.Add(RollTimeline);
+		RollTimeline->SetNetAddressable();
+
+		RollTimeline->SetPropertySetObject(this);
+		RollTimeline->SetTimelineLength(.5f);
+		RollTimeline->SetTimelineLengthMode(ETimelineLengthMode::TL_LastKeyFrame);
+
+		onRollTimelineCallback.BindUFunction(this, FName{ TEXT("RollTimelineCallback") });
+		onRollTimelineFinishedCallback.BindUFunction(this, FName{ TEXT("RollTimelineFinishedCallback") });
+		RollTimeline->AddInterpFloat(RollFloatCurve, onRollTimelineCallback);
+		RollTimeline->SetTimelineFinishedFunc(onRollTimelineFinishedCallback);
+
+		RollTimeline->RegisterComponent();
+	}
+
+	if(DodgeFloatCurve)
+	{
+		// DodgeTimeline
+		DodgeTimeline = NewObject<UTimelineComponent>(this, FName("DodgeTimelineAnimation"));
+		DodgeTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript; // Indicate it comes from a blueprint so it gets cleared when we rerun construction scripts
+		this->BlueprintCreatedComponents.Add(DodgeTimeline);
+		DodgeTimeline->SetNetAddressable();
+
+		DodgeTimeline->SetPropertySetObject(this);
+		DodgeTimeline->SetTimelineLength(.5f);
+		DodgeTimeline->SetTimelineLengthMode(ETimelineLengthMode::TL_LastKeyFrame);
+
+		onDodgeTimelineCallback.BindUFunction(this, FName{ TEXT("DodgeTimelineCallback") });
+		onDodgeTimelineFinishedCallback.BindUFunction(this, FName{ TEXT("DodgeTimelineFinishedCallback") });
+		DodgeTimeline->AddInterpFloat(DodgeFloatCurve, onDodgeTimelineCallback);
+		DodgeTimeline->SetTimelineFinishedFunc(onDodgeTimelineFinishedCallback);
+
+		DodgeTimeline->RegisterComponent();
+	}
 }
 
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//Roll timeline
+	if (RollTimeline)
+	{
+		RollTimeline->TickComponent(DeltaTime, ELevelTick::LEVELTICK_TimeOnly, NULL);
+	}
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
@@ -120,40 +199,55 @@ void AMainCharacter::Tick(float DeltaTime)
 		SetMovementStatus(EMovementStatus::EMS_Normal);
 
 	}
+}
 
-	/* 
-	1. Clamp the value of the length of the input vector between 0 to 1 and then multiply it with world delta time
-	2. Calculate the defference between "Control Rotation" and "The vector of movement in world coordinates" then take the value of Yaw
-	Do multiplication of result of #1 and result of #2 and gives the result to AddControllerYawInput()
-	*/
-	// Still working on the parts below and function float AMainCharacter::AlignSpringArmRotation(), doesn't make any changes right now....
 
-	//float InputLength = UKismetMathLibrary::Clamp(UKismetMathLibrary::Abs((GetInputAxisValue(TEXT("MoveForward")))) + UKismetMathLibrary::Abs((GetInputAxisValue(TEXT("MoveRight")))), 0.f, 1.f);
+// Roll Timeline
+void AMainCharacter::RollTimelineCallback(float interpolatedVal)
+{
+	// This function is called for every tick in the timeline.
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * interpolatedVal;
 
-	//AddControllerYawInput((UKismetMathLibrary::Clamp(GetWorld()->GetDeltaSeconds() * InputLength, 0.f, 1.f)) * AlignSpringArmRotation());
+	//AMainCharacter* Character = Cast<AMainCharacter>();
+	LaunchCharacter(ForwardDir, false, true);
+	
+}
 
-	/*FVector MovementVector;
-	FVector ForwardVector;
-	FVector RightVector;
+void AMainCharacter::RollTimelineFinishedCallback()
+{
+	// This function is called when the timeline finishes playing.
+}
 
-	FRotator Rotation = FRotator(0.f, 0.f, GetControlRotation().Roll);
+// Dodge Timeline
+void AMainCharacter::DodgeTimelineCallback(float interpolatedVal)
+{
+	// This function is called for every tick in the timeline.
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * -interpolatedVal;
 
-	FRotator MovementRotator;
-	FRotator ControlRotation;
+	//AMainCharacter* Character = Cast<AMainCharacter>();
+	LaunchCharacter(ForwardDir, false, true);
 
-	ForwardVector = UKismetMathLibrary::GetForwardVector(Rotation) * GetInputAxisValue(TEXT("MoveForward"));
-	RightVector = UKismetMathLibrary::GetRightVector(Rotation) * GetInputAxisValue(TEXT("MoveRight"));
+}
 
-	MovementVector = ForwardVector + RightVector;
+void AMainCharacter::DodgeTimelineFinishedCallback()
+{
+	// This function is called when the timeline finishes playing.
+}
 
-	MovementRotator = UKismetMathLibrary::MakeRotFromX(ForwardVector);
-	ControlRotation = GetControlRotation();
 
-	float Temp = (MovementRotator - ControlRotation).Roll;
-	bIsRolling = false;
-
-	AddControllerYawInput(GetWorld()->GetDeltaSeconds() * Temp);*/
-
+void AMainCharacter::PlayRollTimeline()
+{
+	if (RollTimeline)
+	{
+		RollTimeline->PlayFromStart();
+	}
+}
+void AMainCharacter::PlayDodgeTimeline()
+{
+	if (DodgeTimeline)
+	{
+		DodgeTimeline->PlayFromStart();
+	}
 }
 
 // Called to bind functionality to input
@@ -161,56 +255,108 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::RollBegin);
+	PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::Roll);
+	PlayerInputComponent->BindAction("Roll", IE_Pressed, this, &AMainCharacter::Dodge);
 	//PlayerInputComponent->BindAction("Roll", IE_Released, this, &AMainCharacter::RollEnd);
+
+	PlayerInputComponent->BindAction("Parry", IE_Pressed, this, &AMainCharacter::Parry);
+
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMainCharacter::Attack);
 
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
 	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AMainCharacter::DashEnd);
 
-	//PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
-	//PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
 
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 }
 
-// Set Player Actions
-void AMainCharacter::RollBegin()
+// Roll and Dodge
+void AMainCharacter::Roll()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	FVector CurrentVector = GetVelocity();
+	float MoveForwardValue = FMath::Abs(GetInputAxisValue(FName("MoveForward")));
+	float MoveRightValue = FMath::Abs(GetInputAxisValue(FName("MoveRight")));
 
+	float InputLength = MoveForwardValue + MoveRightValue;
 
-	if (CurrentVector != FVector(0.f))
+	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f))
 	{
-		bIsRolling = true;
-
-		if (AnimInstance && RollDodgeMontage)
+		if (AnimInstance && RollMontage && !bIsRolling)
 		{
-			AnimInstance->Montage_Play(RollDodgeMontage, 1.f);
-			AnimInstance->Montage_JumpToSection(FName("Stand_To_Roll"), RollDodgeMontage);
+			if (!bIsDodging && !bIsAttacking && !bIsParrying)
+			{
+				bIsRolling = true;
+				AnimInstance->Montage_Play(RollMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Roll"), RollMontage);
+				UE_LOG(LogTemp, Warning, TEXT("Roll"));
+
+				PlayRollTimeline();
+			}
+			else
+			{
+				bIsRolling = false;
+			}
 			
 		}
-
-		UE_LOG(LogTemp, Warning, TEXT("Roll"));
 	}
-	else
+}
+
+void AMainCharacter::Dodge()
+{
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	FVector CurrentVector = GetVelocity();
+	float MoveForwardValue = FMath::Abs(GetInputAxisValue(FName("MoveForward")));
+	float MoveRightValue = FMath::Abs(GetInputAxisValue(FName("MoveRight")));
+
+	float InputLength = MoveForwardValue + MoveRightValue;
+
+	if(CurrentVector == FVector(0.f) && InputLength == 0.f)
 	{
-		bIsRolling = false;
-		if (AnimInstance && RollDodgeMontage)
+		if (AnimInstance && DodgeMontage && !bIsDodging)
 		{
-			AnimInstance->Montage_Play(RollDodgeMontage, 1.f);
-			AnimInstance->Montage_JumpToSection(FName("Dodging_Back_Montage"), RollDodgeMontage);
-			UE_LOG(LogTemp, Warning, TEXT("Dodge"));
+			if (!bIsRolling && !bIsAttacking && !bIsParrying)
+			{
+				bIsDodging = true;
+				AnimInstance->Montage_Play(DodgeMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Dodge"), DodgeMontage);
+				UE_LOG(LogTemp, Warning, TEXT("Dodge"));
+
+				PlayDodgeTimeline();
+			}
+			else
+			{
+				bIsDodging = false;
+			}
 		}
 	}
 }
 
-void AMainCharacter::RollEnd()
+void AMainCharacter::Parry()
 {
-	bIsRolling = false;
+	UE_LOG(LogTemp, Warning, TEXT("Parry"));
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+
+	if (AnimInstance && ParryMontage && !bIsParrying)
+	{
+		if (!bIsRolling && !bIsAttacking && !bIsDodging)
+		{
+			bIsParrying = true;
+			AnimInstance->Montage_Play(ParryMontage, 1.f);
+			AnimInstance->Montage_JumpToSection(FName("ShieldParry"), ParryMontage);
+
+		}
+		else
+		{
+			bIsParrying = false;
+		}
+	}
 }
 
+// Dash
 void AMainCharacter::DashBegin()
 {
 	bIsDashing = true;
@@ -221,9 +367,10 @@ void AMainCharacter::DashEnd()
 	bIsDashing = false;
 }
 
+// Movement
 void AMainCharacter::MoveForward(float Value)
 {
-	if (Controller != nullptr && Value != 0.f && (!bIsRolling))
+	if (Controller != nullptr && Value != 0.f)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -231,13 +378,16 @@ void AMainCharacter::MoveForward(float Value)
 		//AddMovementInput(UKismetMathLibrary::GetRightVector(Rotation), Value);
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
+		if (!bIsRolling && !bIsDodging && !bIsAttacking && !bIsParrying)
+		{
+			AddMovementInput(Direction, Value);
+		}
 	}
 }
 
 void AMainCharacter::MoveRight(float Value)
 {
-	if (Controller != nullptr && Value != 0.f && (!bIsRolling))
+	if (Controller != nullptr && Value != 0.f)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -245,7 +395,11 @@ void AMainCharacter::MoveRight(float Value)
 		//AddMovementInput(UKismetMathLibrary::GetForwardVector(Rotation), Value);
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		AddMovementInput(Direction, Value);
+
+		if (!bIsRolling && !bIsDodging && !bIsAttacking && !bIsParrying)
+		{
+			AddMovementInput(Direction, Value);
+		}
 
 	}
 }
@@ -319,3 +473,38 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 		GetCharacterMovement()->MaxWalkSpeed = RunningSpeed;
 	}
 }
+
+
+
+void AMainCharacter::Attack()
+{
+	if (!bIsAttacking && !bIsRolling && !bIsDodging)
+	{
+		bIsAttacking = true;
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+
+		if (AnimInstance && AttackMontage)
+		{
+			switch (AttackCount)
+			{
+			case 0:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				AttackCount = 1;
+				break;
+
+			case 1:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack2"), AttackMontage);
+				AttackCount = 0;
+				break;
+
+			default:
+				AnimInstance->Montage_Play(AttackMontage, 1.f);
+				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				break;
+			}
+		}
+	}
+}
+
