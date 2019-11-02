@@ -1281,3 +1281,97 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.02-15.57.50:215][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
 [2019.11.02-15.57.50:751][610]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap2159E5FF42A0DCADEC3E88B13308C2C6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2019.11.02-15.57.51:395][610]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltData6511950B455C67E69392A494BED20635.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.02-15.59.52:682][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/ContinueMenu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/ContinueMenu.uasset" SILENT=true
+[2019.11.02-15.59.52:692][823]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ContinueMenu153980DC4CD969F3C37CE793619A181A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/ContinueMenu.uasset'
+[2019.11.02-15.59.52:806][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.11.02-15.59.52:838][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.11.02-15.59.52:862][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.11.02-16.00.04:796][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Exit_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Exit_Button.uasset" SILENT=true
+[2019.11.02-16.00.04:806][521]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Exit_Button7D4F39224EA9E24CC6E521B45044A2E0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Exit_Button.uasset'
+[2019.11.02-16.00.04:926][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.11.02-16.00.04:956][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.02-16.00.04:982][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.11.02-16.00.13:505][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Continue_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Continue_Button.uasset" SILENT=true
+[2019.11.02-16.00.13:515][ 19]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Continue_Button2B0D6EFF45D7BD9CB8650890D794F5F8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Continue_Button.uasset'
+[2019.11.02-16.00.13:625][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.11.02-16.00.13:654][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.11.02-16.00.13:677][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.11.02-16.00.19:106][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Version" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Version.uasset" SILENT=true
+[2019.11.02-16.00.19:116][310]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Version62284CE54DBEC8E86D7059AAE5DFDBE0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Version.uasset'
+[2019.11.02-16.00.19:230][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.02-16.00.19:261][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.02-16.00.19:284][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.11.02-16.00.27:825][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Start_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Start_Button.uasset" SILENT=true
+[2019.11.02-16.00.27:835][811]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Start_Button369FF9B740E6A2E6252C6897FA1C8510.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Start_Button.uasset'
+[2019.11.02-16.00.27:962][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.11.02-16.00.27:994][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.02-16.00.28:021][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.11.02-16.00.36:412][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Option_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Option_Button.uasset" SILENT=true
+[2019.11.02-16.00.36:421][298]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Option_ButtonDD7D401E420DB54BB8873E8ED4F9699E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/Option_Button.uasset'
+[2019.11.02-16.00.36:542][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.11.02-16.00.36:573][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.02-16.00.36:598][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.11.02-16.00.44:310][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/BG_Image" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/BG_Image.uasset" SILENT=true
+[2019.11.02-16.00.44:352][747]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/BG_Image5EC5B660457D632DBD7D6FA20585CBC2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/Menu/BG_Image.uasset'
+[2019.11.02-16.00.44:471][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.02-16.00.44:502][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.11.02-16.00.44:527][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2019.11.02-16.00.51:453][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.11.02-16.00.52:502][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.11.02-16.00.52:855][208]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap7BD754AE42AAB60C57A3CBB64DF99B78.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.02-16.00.53:289][208]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataB2FFD42848E33B4B31EBA8800B3A5897.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.02-16.01.08:726][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Version" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Version.uasset" SILENT=true
+[2019.11.02-16.01.08:803][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Version0431BC5548632E8A3AF498B699294FE2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Version.uasset'
+[2019.11.02-16.01.08:816][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Exit_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Exit_Button.uasset" SILENT=true
+[2019.11.02-16.01.08:827][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Exit_Button1A24F8614711295DC731B7B6EED7C47C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Exit_Button.uasset'
+[2019.11.02-16.01.08:839][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Continue_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Continue_Button.uasset" SILENT=true
+[2019.11.02-16.01.08:849][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Continue_Button3CB3E64A462C8927276DEDA07BD92328.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Continue_Button.uasset'
+[2019.11.02-16.01.08:859][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Start_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Start_Button.uasset" SILENT=true
+[2019.11.02-16.01.08:869][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Start_ButtonD4D2C5034608EF123344788B85BA880A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Start_Button.uasset'
+[2019.11.02-16.01.08:882][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Option_Button" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Option_Button.uasset" SILENT=true
+[2019.11.02-16.01.08:891][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Option_ButtonF04BE0DD4DE6661B2A4B728A4361BE49.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Option_Button.uasset'
+[2019.11.02-16.01.08:903][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BG_Image" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/BG_Image.uasset" SILENT=true
+[2019.11.02-16.01.08:921][103]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/BG_Image9ECA864848F759E7327334B02EF11683.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/BG_Image.uasset'
+[2019.11.02-16.01.09:342][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.11.02-16.01.09:366][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.11.02-16.01.09:390][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.11.02-16.01.09:414][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.11.02-16.01.09:439][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.11.02-16.01.09:463][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2019.11.02-16.01.09:492][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.11.02-16.01.09:515][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.11.02-16.01.34:230][563]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu
+[2019.11.02-16.01.35:009][563]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.11.02-16.01.35:794][563]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.02-16.01.36:228][563]LogSlate: Took 0.059861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.02-16.02.17:691][913]LogSlate: Took 0.088025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.02-16.04.09:368][903]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.02-16.04.43:690][180]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\abbyr\Downloads\9440.wav)
+[2019.11.02-16.04.51:788][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Press_Sound" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Press_Sound.uasset" SILENT=true
+[2019.11.02-16.04.51:799][543]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Press_Sound239A26F34B4730395F9133B43515F169.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/UI/Press_Sound.uasset'
+[2019.11.02-16.04.52:029][543]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2019.11.02-16.04.52:074][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.11.02-16.04.52:114][543]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.02-16.05.25:746][376]BlueprintLog: New page: Compile MainMenu
+[2019.11.02-16.05.25:787][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.11.02-16.05.26:749][420]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/MainMenu3E21D7EE49BCF18B377D52B1B9CC88CB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_9.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_7.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_2.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_3.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_10.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_4.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_5.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_6.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_11:WidgetTree.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_11.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_12.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.05.31:398][681]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Start_Button).  Import failed...
+[2019.11.02-16.05.31:398][681]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_5"''
+[2019.11.02-16.06.29:818][709]BlueprintLog: New page: Compile MainMenu
+[2019.11.02-16.06.29:863][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2019.11.02-16.06.30:404][731]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/MainMenuB4C1D2534B26B6A1E0CC10ACB4237824.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2019.11.02-16.06.41:928][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.11.02-16.06.42:431][128]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMapAB32258640BC92BB6F6B96B05790D02F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.02-16.06.42:967][128]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataE1EC28084489F683AF37CA8CEC908A10.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
