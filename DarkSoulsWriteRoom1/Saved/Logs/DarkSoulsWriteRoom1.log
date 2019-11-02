@@ -14250,3 +14250,1101 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.02-22.36.15:783][997]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
 [2019.11.02-22.36.18:707][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
 [2019.11.02-22.36.18:902][167]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_MenuA74053454C159F5A8BFA9E9BBD0E38C9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
+[2019.11.02-22.37.04:453][442]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.37.04:478][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.04:478][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-22.37.04:478][442]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:37:04 PM)
+[2019.11.02-22.37.04:488][442]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.37.04:489][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001316s)
+[2019.11.02-22.37.04:489][442]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.37.04:490][442]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2019.11.02-22.37.04:490][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002681s)
+[2019.11.02-22.37.04:524][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.02-22.37.04:543][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.37.04:623][442]LogInit: FAudioDevice initialized.
+[2019.11.02-22.37.04:636][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.37.04:670][442]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.37.04:672][442]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.37.04
+[2019.11.02-22.37.04:672][442]LogWorld: Bringing up level for play took: 0.000848
+[2019.11.02-22.37.04:688][442]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.37.04:696][442]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.329
+[2019.11.02-22.37.04:697][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.08:177][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.37.08:293][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.37.08:293][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.08:312][653]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.37.08:349][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.37.08:349][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.08:394][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.02-22.37.08:457][654]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.11.02-22.37.10:084][751]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.37.10:112][751]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.10:112][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-22.37.10:112][751]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:37:10 PM)
+[2019.11.02-22.37.10:158][751]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.37.10:159][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001101s)
+[2019.11.02-22.37.10:160][751]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.37.10:160][751]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2019.11.02-22.37.10:160][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001879s)
+[2019.11.02-22.37.10:196][751]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.02-22.37.10:201][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.37.10:271][751]LogInit: FAudioDevice initialized.
+[2019.11.02-22.37.10:279][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.37.10:315][751]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.37.10:317][751]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.37.10
+[2019.11.02-22.37.10:317][751]LogWorld: Bringing up level for play took: 0.000488
+[2019.11.02-22.37.10:331][751]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.37.10:333][751]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.693
+[2019.11.02-22.37.10:334][751]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.37.11:299][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.37.18:704][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.40.14:548][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.40.18:328][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.40.19:548][731]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.40.19:555][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.19:584][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.40.19:584][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.19:630][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.02-22.40.19:702][732]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2019.11.02-22.40.50:680][556]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.40.50:704][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.50:704][556]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.40.50:707][556]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.40.50:985][556]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.11.02-22.40.50:985][556]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (1 blueprints)
+[2019.11.02-22.40.50:985][556]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:40:50 PM)
+[2019.11.02-22.40.50:985][556]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.40.50:986][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001183s)
+[2019.11.02-22.40.50:987][556]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.40.50:987][556]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2019.11.02-22.40.50:987][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001897s)
+[2019.11.02-22.40.51:023][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.11.02-22.40.51:027][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.40.51:103][556]LogInit: FAudioDevice initialized.
+[2019.11.02-22.40.51:113][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.40.51:146][556]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.40.51:148][556]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.40.51
+[2019.11.02-22.40.51:148][556]LogWorld: Bringing up level for play took: 0.000539
+[2019.11.02-22.40.51:163][556]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.40.51:166][556]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.14
+[2019.11.02-22.40.51:167][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.52:444][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.40.59:563][ 15]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.40.59:569][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.59:600][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.40.59:600][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.40.59:646][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.11.02-22.40.59:664][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.11.02-22.41.08:458][530]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.41.08:480][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.08:480][530]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.41.08:483][530]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.41.08:762][530]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.11.02-22.41.08:763][530]LogPlayLevel: PlayLevel: Blueprint regeneration took 282 ms (1 blueprints)
+[2019.11.02-22.41.08:763][530]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:41:08 PM)
+[2019.11.02-22.41.08:789][530]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.41.08:790][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001077s)
+[2019.11.02-22.41.08:791][530]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.41.08:791][530]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2019.11.02-22.41.08:791][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002241s)
+[2019.11.02-22.41.08:827][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.11.02-22.41.08:831][530]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.41.08:903][530]LogInit: FAudioDevice initialized.
+[2019.11.02-22.41.08:925][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.41.08:958][530]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.41.08:960][530]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.41.08
+[2019.11.02-22.41.08:960][530]LogWorld: Bringing up level for play took: 0.000616
+[2019.11.02-22.41.08:974][530]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.41.08:977][530]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.049
+[2019.11.02-22.41.08:977][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.10:011][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.41.14:452][826]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.41.14:459][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.14:489][826]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.41.14:489][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.14:537][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.02-22.41.14:557][827]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2019.11.02-22.41.23:607][362]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.41.23:630][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.23:630][362]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.41.23:633][362]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.41.23:904][362]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2019.11.02-22.41.23:904][362]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (1 blueprints)
+[2019.11.02-22.41.23:904][362]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:41:23 PM)
+[2019.11.02-22.41.23:905][362]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.41.23:906][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001133s)
+[2019.11.02-22.41.23:907][362]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.41.23:907][362]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.11.02-22.41.23:907][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001810s)
+[2019.11.02-22.41.23:943][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.11.02-22.41.23:947][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.41.24:017][362]LogInit: FAudioDevice initialized.
+[2019.11.02-22.41.24:025][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.41.24:058][362]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.41.24:059][362]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.41.24
+[2019.11.02-22.41.24:060][362]LogWorld: Bringing up level for play took: 0.000601
+[2019.11.02-22.41.24:075][362]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.41.24:077][362]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.052
+[2019.11.02-22.41.24:078][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.24:981][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.41.32:270][795]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.41.32:275][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.32:303][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.41.32:303][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.32:353][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.11.02-22.41.32:375][796]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2019.11.02-22.41.40:756][291]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.41.40:778][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.40:778][291]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.41.40:782][291]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.41.41:074][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2019.11.02-22.41.41:074][291]LogPlayLevel: PlayLevel: Blueprint regeneration took 296 ms (1 blueprints)
+[2019.11.02-22.41.41:074][291]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:41:41 PM)
+[2019.11.02-22.41.41:074][291]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.41.41:076][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001907s)
+[2019.11.02-22.41.41:077][291]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.41.41:077][291]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2019.11.02-22.41.41:077][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002671s)
+[2019.11.02-22.41.41:118][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2019.11.02-22.41.41:122][291]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.41.41:194][291]LogInit: FAudioDevice initialized.
+[2019.11.02-22.41.41:201][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.41.41:236][291]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.41.41:238][291]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.41.41
+[2019.11.02-22.41.41:238][291]LogWorld: Bringing up level for play took: 0.000878
+[2019.11.02-22.41.41:253][291]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.41.41:256][291]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.23
+[2019.11.02-22.41.41:256][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.42:097][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.41.46:236][558]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.41.46:244][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.46:275][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.41.46:275][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.46:322][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.11.02-22.41.46:344][559]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2019.11.02-22.41.53:997][ 10]BlueprintLog: New page: Compile Options
+[2019.11.02-22.41.54:050][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2019.11.02-22.41.54:632][ 33]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options40D769A840570457932D9086D7A4E1D7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-22.41.55:614][ 89]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.41.55:635][ 89]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.55:636][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-22.41.55:636][ 89]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:41:55 PM)
+[2019.11.02-22.41.55:636][ 89]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.41.55:638][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001132s)
+[2019.11.02-22.41.55:638][ 89]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.41.55:638][ 89]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2019.11.02-22.41.55:638][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001851s)
+[2019.11.02-22.41.55:675][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.02-22.41.55:680][ 89]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.41.55:748][ 89]LogInit: FAudioDevice initialized.
+[2019.11.02-22.41.55:756][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.41.55:791][ 89]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.41.55:792][ 89]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.41.55
+[2019.11.02-22.41.55:792][ 89]LogWorld: Bringing up level for play took: 0.000455
+[2019.11.02-22.41.55:806][ 89]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.41.55:811][ 89]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.785
+[2019.11.02-22.41.55:811][ 89]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.56:998][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.41.59:497][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.41.59:601][302]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.41.59:612][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.59:640][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.41.59:640][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.41.59:687][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.11.02-22.41.59:704][303]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2019.11.02-22.42.47:795][158]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.42.47:822][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.42.47:822][158]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.42.47:827][158]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.42.48:141][158]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2019.11.02-22.42.48:141][158]LogPlayLevel: PlayLevel: Blueprint regeneration took 318 ms (1 blueprints)
+[2019.11.02-22.42.48:141][158]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:42:48 PM)
+[2019.11.02-22.42.48:141][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.42.48:142][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001163s)
+[2019.11.02-22.42.48:143][158]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.42.48:143][158]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2019.11.02-22.42.48:143][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002004s)
+[2019.11.02-22.42.48:177][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.02-22.42.48:181][158]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.42.48:249][158]LogInit: FAudioDevice initialized.
+[2019.11.02-22.42.48:257][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.42.48:294][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.42.48:295][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.42.48
+[2019.11.02-22.42.48:295][158]LogWorld: Bringing up level for play took: 0.000353
+[2019.11.02-22.42.48:312][158]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.42.48:315][158]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.289
+[2019.11.02-22.42.48:315][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.42.51:462][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.45.56:580][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.45.56:671][ 26]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.45.56:679][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.45.56:710][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.45.56:710][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.45.56:762][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.02-22.45.56:794][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_209.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:503][186]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_210.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.46.33:504][186]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_304).  Import failed...
+[2019.11.02-22.46.33:504][186]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_0"''
+[2019.11.02-22.48.19:742][528]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-22.48.19:770][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.48.19:770][528]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-22.48.19:774][528]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-22.48.20:044][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.02-22.48.20:044][528]LogPlayLevel: PlayLevel: Blueprint regeneration took 274 ms (1 blueprints)
+[2019.11.02-22.48.20:044][528]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 2:48:20 PM)
+[2019.11.02-22.48.20:044][528]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-22.48.20:045][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2019.11.02-22.48.20:046][528]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-22.48.20:046][528]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2019.11.02-22.48.20:046][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001822s)
+[2019.11.02-22.48.20:085][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.11.02-22.48.20:089][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-22.48.20:161][528]LogInit: FAudioDevice initialized.
+[2019.11.02-22.48.20:170][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.48.20:201][528]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.48.20:203][528]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-18.48.20
+[2019.11.02-22.48.20:203][528]LogWorld: Bringing up level for play took: 0.000538
+[2019.11.02-22.48.20:218][528]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-22.48.20:221][528]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.195
+[2019.11.02-22.48.20:221][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.48.26:224][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-22.48.28:017][967]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-22.48.28:018][967]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-22.48.28:057][967]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.02-22.48.28:338][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:338][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:339][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:340][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:341][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.02-22.48.28:342][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.02-22.48.28:342][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:342][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:343][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:344][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:345][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:345][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:345][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:345][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.02-22.48.28:345][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:346][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:347][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:348][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:348][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:348][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:348][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:349][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:350][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:351][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:351][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:351][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:351][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:352][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:353][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.02-22.48.28:354][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.02-22.48.28:354][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:354][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:354][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.02-22.48.28:355][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.02-22.48.28:356][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.02-22.48.28:356][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.02-22.48.28:356][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.02-22.48.28:356][967]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.02-22.48.28:356][967]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.02-22.48.28:472][967]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-22.48.28:472][967]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-22.48.28:498][967]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-18.48.28
+[2019.11.02-22.48.28:499][967]LogWorld: Bringing up level for play took: 0.026048
+[2019.11.02-22.48.28:502][967]LogLoad: Took 0.483393 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-22.49.47:512][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.49.47:512][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-22.49.47:543][433]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-22.49.47:580][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-22.49.47:580][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-22.49.47:635][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.11.02-22.49.47:654][434]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2019.11.02-22.50.56:417][349]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.02-22.54.41:789][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.11.02-22.54.41:789][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.038
+[2019.11.02-22.54.41:791][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Options] ([1] browsable assets)...
+[2019.11.02-22.54.41:791][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Options]
+[2019.11.02-22.54.41:952][305]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options_Auto9E7B83DC948679CB5F2E9E3A1DD0A2D5E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Options_Auto9.uasset'
+[2019.11.02-22.54.41:953][305]LogFileHelpers: Auto-saving content packages took 0.164
+[2019.11.02-22.55.52:165][463]LogEditorTransaction: Undo Move Widget
+[2019.11.02-22.56.31:444][770]LogEditorTransaction: Undo Move Widget
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:769][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_216.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_217.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_218.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_219.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.56.44:770][529]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_5) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_310).  Import failed...
+[2019.11.02-22.56.44:770][529]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_5"''
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:812][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_216.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_217.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_218.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_219.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_225.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_226.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.57.56:813][655]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_15) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_396).  Import failed...
+[2019.11.02-22.57.56:813][655]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_15"''
+[2019.11.02-22.58.00:178][850]LogEditorTransaction: Undo Paste clipboard contents
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_216.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_217.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_218.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_219.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_225.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_226.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_227.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_228.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_229.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.09:983][427]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_15) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_396).  Import failed...
+[2019.11.02-22.58.09:983][427]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_15"''
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:363][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_216.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_217.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_218.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_219.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_225.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_226.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_227.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_228.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_229.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_230.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_231.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.58.14:364][666]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_15) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_396).  Import failed...
+[2019.11.02-22.58.14:364][666]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_15"''
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:220][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_216.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_217.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_218.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_219.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_225.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_226.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_227.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_228.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_229.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_230.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_231.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_232.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_233.WidgetTree_0.ScrollBox_268
+[2019.11.02-22.59.23:221][ 93]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_12) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_535).  Import failed...
+[2019.11.02-22.59.23:221][ 93]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_12"''
+[2019.11.02-22.59.31:177][513]LogEditorTransaction: Undo Move Widget
+[2019.11.02-22.59.31:943][548]LogEditorTransaction: Undo Move Widget
+[2019.11.02-22.59.53:179][728]LogEditorTransaction: Undo Move Widget
+[2019.11.02-22.59.55:167][838]LogEditorTransaction: Undo Move Widget
+[2019.11.02-23.03.21:036][733]BlueprintLog: New page: Compile Options
+[2019.11.02-23.03.21:375][733]LogUObjectHash: Compacting FUObjectHashTables data took  20.95ms
+[2019.11.02-23.03.21:667][739]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsD3F2E6AD48B5F03EC31A83AA0473759A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_250.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_0.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_274:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_1.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_277:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_2.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_280:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_3.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_283:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_204.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_286:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_4.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_289:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_245.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_294:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_211.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:REINST_Options_C_5.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_215.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_212.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.REINST_Options_C_327:WidgetTree.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_246.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_220.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_221.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_222.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_223.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_224.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_225.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_226.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_249.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_248.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_247.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_230.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_231.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_232.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_233.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_234.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_235.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_244.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_251.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogUObjectHash: Warning: Ambiguous search, could be ScrollBox /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268 or ScrollBox /Engine/Transient.World_27:Options_C_252.WidgetTree_0.ScrollBox_268
+[2019.11.02-23.06.15:015][292]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.ScrollBox_268.ScrollBoxSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_304).  Import failed...
+[2019.11.02-23.06.15:015][292]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'"ScrollBox_268.ScrollBoxSlot_0"''
+[2019.11.02-23.06.51:971][467]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.06.51:997][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.06.51:998][467]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.02-23.06.52:001][467]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2019.11.02-23.06.52:338][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.11.02-23.06.52:338][467]LogPlayLevel: PlayLevel: Blueprint regeneration took 340 ms (1 blueprints)
+[2019.11.02-23.06.52:338][467]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:06:52 PM)
+[2019.11.02-23.06.52:339][467]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.06.52:341][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001999s)
+[2019.11.02-23.06.52:342][467]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.06.52:342][467]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2019.11.02-23.06.52:342][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002924s)
+[2019.11.02-23.06.52:401][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.11.02-23.06.52:406][467]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.06.52:478][467]LogInit: FAudioDevice initialized.
+[2019.11.02-23.06.52:486][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.06.52:521][467]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.06.52:523][467]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.06.52
+[2019.11.02-23.06.52:524][467]LogWorld: Bringing up level for play took: 0.000964
+[2019.11.02-23.06.52:562][467]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.06.52:565][467]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.539
+[2019.11.02-23.06.52:566][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.06.53:915][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.06.56:707][684]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.06.56:712][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.06.56:745][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.06.56:745][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.06.56:789][684]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.02-23.06.56:808][685]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2019.11.02-23.07.14:164][705]BlueprintLog: New page: Compile Options
+[2019.11.02-23.07.14:402][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.11.02-23.07.15:173][742]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.07.15:195][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.07.15:195][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.07.15:195][742]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:07:15 PM)
+[2019.11.02-23.07.15:195][742]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.07.15:196][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000899s)
+[2019.11.02-23.07.15:197][742]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.07.15:197][742]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2019.11.02-23.07.15:197][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001682s)
+[2019.11.02-23.07.15:237][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.11.02-23.07.15:241][742]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.07.15:310][742]LogInit: FAudioDevice initialized.
+[2019.11.02-23.07.15:318][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.07.15:353][742]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.07.15:355][742]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.07.15
+[2019.11.02-23.07.15:355][742]LogWorld: Bringing up level for play took: 0.000525
+[2019.11.02-23.07.15:369][742]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.07.15:373][742]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.347
+[2019.11.02-23.07.15:373][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.07.16:537][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.07.16:643][807]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.07.16:649][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.07.16:682][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.07.16:683][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.07.16:732][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2019.11.02-23.07.16:752][808]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.11.02-23.07.41:834][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.11.02-23.07.41:834][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.036
+[2019.11.02-23.07.41:836][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Options] ([1] browsable assets)...
+[2019.11.02-23.07.41:836][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Options]
+[2019.11.02-23.07.41:946][304]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options_Auto07D8DA0AA4E159D3CE1A2F28C03EEAEC9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Options_Auto0.uasset'
+[2019.11.02-23.07.41:947][304]LogFileHelpers: Auto-saving content packages took 0.112
+[2019.11.02-23.14.10:855][ 87]LogEditorTransaction: Undo Move Widget
+[2019.11.02-23.14.24:898][915]BlueprintLog: New page: Compile Options
+[2019.11.02-23.14.25:178][915]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.11.02-23.14.25:685][931]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsEAE08F4444CDD7B123F5808DF0C68F23.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.14.45:272][575]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.02-23.14.46:967][675]BlueprintLog: New page: Compile Options
+[2019.11.02-23.14.47:210][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.11.02-23.14.47:696][690]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsEA40BA324ED9655EF220E388B6A3BB27.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.15.45:968][372]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.02-23.16.37:543][234]BlueprintLog: New page: Compile Options
+[2019.11.02-23.16.37:820][234]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.11.02-23.16.38:266][250]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options4AE73EE74456F0019F254D86853F4CBD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.16.41:954][470]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.16.41:978][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.16.41:978][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.16.41:978][470]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:16:41 PM)
+[2019.11.02-23.16.42:015][470]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.16.42:016][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001037s)
+[2019.11.02-23.16.42:017][470]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.16.42:017][470]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.11.02-23.16.42:017][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001884s)
+[2019.11.02-23.16.42:065][470]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2019.11.02-23.16.42:070][470]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.16.42:150][470]LogInit: FAudioDevice initialized.
+[2019.11.02-23.16.42:160][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.16.42:193][470]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.16.42:195][470]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.16.42
+[2019.11.02-23.16.42:195][470]LogWorld: Bringing up level for play took: 0.000549
+[2019.11.02-23.16.42:211][470]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.16.42:215][470]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.189
+[2019.11.02-23.16.42:215][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.16.43:732][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.16.53:421][134]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.16.53:428][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.16.53:459][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.16.53:459][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.16.53:517][134]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.11.02-23.16.53:541][135]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2019.11.02-23.17.28:277][589]BlueprintLog: New page: Compile Options
+[2019.11.02-23.17.28:538][589]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2019.11.02-23.17.28:920][602]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsCD85F1DA4B1E46CE314E8B9734210F8C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.17.33:684][856]LogSlate: Window 'Start_UI_Player' being destroyed
+[2019.11.02-23.17.33:689][856]LogSlate: Window 'Start_UI_Player' being destroyed
+[2019.11.02-23.21.29:377][776]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.21.29:396][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.21.29:396][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.21.29:397][776]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:21:29 PM)
+[2019.11.02-23.21.29:397][776]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.21.29:398][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001170s)
+[2019.11.02-23.21.29:399][776]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.21.29:399][776]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2019.11.02-23.21.29:399][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002125s)
+[2019.11.02-23.21.29:500][776]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2019.11.02-23.21.29:505][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.21.29:585][776]LogInit: FAudioDevice initialized.
+[2019.11.02-23.21.29:595][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.21.29:663][776]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.21.29:665][776]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.21.29
+[2019.11.02-23.21.29:665][776]LogWorld: Bringing up level for play took: 0.000300
+[2019.11.02-23.21.29:680][776]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.21.29:682][776]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.657
+[2019.11.02-23.21.29:682][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.21.30:480][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.21.44:075][634]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.21.44:084][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.21.44:119][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.21.44:119][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.21.44:170][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.02-23.21.44:187][635]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2019.11.02-23.21.58:966][512]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/Options.Options
+[2019.11.02-23.22.17:765][541]BlueprintLog: New page: Compile Options
+[2019.11.02-23.22.18:040][541]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.11.02-23.22.18:410][549]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options6DE943B74287FBEBA580939D2812BABC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.22.18:900][577]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.22.18:925][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.22.18:925][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.22.18:925][577]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:22:18 PM)
+[2019.11.02-23.22.18:925][577]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.22.18:926][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000914s)
+[2019.11.02-23.22.18:927][577]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.22.18:927][577]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2019.11.02-23.22.18:927][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001678s)
+[2019.11.02-23.22.18:966][577]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2019.11.02-23.22.18:970][577]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.22.19:041][577]LogInit: FAudioDevice initialized.
+[2019.11.02-23.22.19:050][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.22.19:081][577]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.22.19:082][577]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.22.19
+[2019.11.02-23.22.19:083][577]LogWorld: Bringing up level for play took: 0.000445
+[2019.11.02-23.22.19:097][577]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.22.19:100][577]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.074
+[2019.11.02-23.22.19:100][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.22.19:820][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.22.21:873][728]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.22.21:884][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.22.21:919][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.22.21:919][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.22.21:974][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.02-23.22.21:998][729]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2019.11.02-23.28.18:228][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.11.02-23.28.18:228][ 93]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.049
+[2019.11.02-23.28.18:230][ 93]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Options] ([1] browsable assets)...
+[2019.11.02-23.28.18:230][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Options]
+[2019.11.02-23.28.18:436][ 93]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options_Auto1A45704654AF5E05CCEDBF5A7ACFE3F89.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Options_Auto1.uasset'
+[2019.11.02-23.28.18:439][ 93]LogFileHelpers: Auto-saving content packages took 0.210
+[2019.11.02-23.29.12:800][104]BlueprintLog: New page: Compile Options
+[2019.11.02-23.29.13:068][104]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2019.11.02-23.29.13:620][122]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsDD99A8C1482827644BD521A06D6AA2F9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.30.29:025][594]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.30.29:055][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.30.29:055][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.30.29:055][594]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:30:29 PM)
+[2019.11.02-23.30.29:056][594]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.30.29:057][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2019.11.02-23.30.29:058][594]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.30.29:058][594]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2019.11.02-23.30.29:058][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002180s)
+[2019.11.02-23.30.29:103][594]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.11.02-23.30.29:108][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.30.29:184][594]LogInit: FAudioDevice initialized.
+[2019.11.02-23.30.29:193][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.30.29:259][594]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.30.29:261][594]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.30.29
+[2019.11.02-23.30.29:261][594]LogWorld: Bringing up level for play took: 0.000539
+[2019.11.02-23.30.29:276][594]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.30.29:279][594]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.254
+[2019.11.02-23.30.29:280][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.30.30:468][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.30.38:310][128]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.30.38:323][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.30.38:354][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.30.38:354][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.30.38:415][128]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.11.02-23.30.38:444][129]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2019.11.02-23.31.37:283][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Game/ThirdPersonBP/Blueprints/Options.SKEL_Options_C:Button_340
+[2019.11.02-23.31.37:283][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_266.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_271.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_267.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Engine/Transient.REINST_Options_C_354:Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_268.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Game/ThirdPersonBP/Blueprints/Options.Options_C:Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_269.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_273.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_270.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.REINST_Options_C_358:WidgetTree.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_275.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.REINST_Options_C_354:WidgetTree.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Engine/Transient.REINST_Options_C_364:Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Engine/Transient.REINST_Options_C_358:Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_27:Options_C_278.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.REINST_Options_C_378:WidgetTree.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_1.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.REINST_Options_C_364:WidgetTree.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_15.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_4.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_10.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_5.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_14.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_6.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_13.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_7.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_12.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_8.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_11.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_9.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or ObjectProperty /Engine/Transient.REINST_Options_C_378:Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_19.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogUObjectHash: Warning: Ambiguous search, could be Button /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340 or Button /Engine/Transient.World_29:Options_C_20.WidgetTree_0.Button_340
+[2019.11.02-23.31.37:284][525]LogProperty: Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.Button_340.ButtonSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_676).  Import failed...
+[2019.11.02-23.31.37:284][525]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'"Button_340.ButtonSlot_0"''
+[2019.11.02-23.31.44:606][925]LogEditorTransaction: Undo Move Widget
+[2019.11.02-23.31.45:579][978]LogEditorTransaction: Undo Change String Pin Value
+[2019.11.02-23.32.33:478][836]BlueprintLog: New page: Compile Options
+[2019.11.02-23.32.33:769][836]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.02-23.32.34:327][857]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options358BD4F04CF88762F310FD8FB66E4BB9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.32.51:899][766]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.32.52:016][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.32.52:016][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.32.52:016][766]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:32:52 PM)
+[2019.11.02-23.32.52:016][766]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.32.52:017][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001105s)
+[2019.11.02-23.32.52:018][766]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.32.52:018][766]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2019.11.02-23.32.52:018][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001801s)
+[2019.11.02-23.32.52:061][766]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2019.11.02-23.32.52:066][766]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.32.52:142][766]LogInit: FAudioDevice initialized.
+[2019.11.02-23.32.52:152][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.32.52:188][766]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.32.52:189][766]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.32.52
+[2019.11.02-23.32.52:190][766]LogWorld: Bringing up level for play took: 0.000550
+[2019.11.02-23.32.52:205][766]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.32.52:208][766]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 1.182
+[2019.11.02-23.32.52:208][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.32.54:100][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.32.59:293][160]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.32.59:299][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.32.59:327][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.32.59:327][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.32.59:384][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.11.02-23.32.59:409][161]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2019.11.02-23.34.23:094][118]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.02-23.36.22:289][844]BlueprintLog: New page: Compile Options
+[2019.11.02-23.36.22:580][844]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2019.11.02-23.36.23:106][863]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsAF96299144CB8711B246D5BCBD7E11B2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.40.25:770][131]BlueprintLog: New page: Compile Options
+[2019.11.02-23.40.26:076][131]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2019.11.02-23.40.26:612][149]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsA78D8E4745DC4D39D2AEFAB3194C4AF3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.40.30:273][368]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.40.30:297][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.40.30:297][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.40.30:298][368]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:40:30 PM)
+[2019.11.02-23.40.30:298][368]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.40.30:300][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2019.11.02-23.40.30:300][368]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.40.30:301][368]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2019.11.02-23.40.30:301][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002662s)
+[2019.11.02-23.40.30:344][368]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.11.02-23.40.30:349][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.40.30:424][368]LogInit: FAudioDevice initialized.
+[2019.11.02-23.40.30:433][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.40.30:466][368]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.40.30:467][368]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.40.30
+[2019.11.02-23.40.30:468][368]LogWorld: Bringing up level for play took: 0.000532
+[2019.11.02-23.40.30:484][368]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.40.30:487][368]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.539
+[2019.11.02-23.40.30:487][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.40.31:630][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.40.35:157][642]Cmd: r.ScreenPercentage 50
+[2019.11.02-23.40.35:487][642]r.ScreenPercentage = "50"
+[2019.11.02-23.40.36:395][689]Cmd: r.ScreenPercentage 50
+[2019.11.02-23.40.36:395][689]r.ScreenPercentage = "50"
+[2019.11.02-23.40.36:896][719]Cmd: r.ScreenPercentage 50
+[2019.11.02-23.40.36:896][719]r.ScreenPercentage = "50"
+[2019.11.02-23.40.39:081][850]Cmd: r.ScreenPercentage 50
+[2019.11.02-23.40.39:081][850]r.ScreenPercentage = "50"
+[2019.11.02-23.40.39:314][864]Cmd: r.ScreenPercentage 50
+[2019.11.02-23.40.39:314][864]r.ScreenPercentage = "50"
+[2019.11.02-23.40.40:899][959]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.40.40:899][959]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.40.40:944][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.02-23.40.41:064][959]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-23.40.41:065][959]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.40.41:096][959]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-19.40.41
+[2019.11.02-23.40.41:098][959]LogWorld: Bringing up level for play took: 0.032444
+[2019.11.02-23.40.41:100][959]LogLoad: Took 0.200631 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-23.40.47:039][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.40.47:040][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.40.47:060][247]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.40.47:092][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.40.47:092][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.40.47:156][247]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.11.02-23.40.47:200][248]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2019.11.02-23.41.09:113][547]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options0141FB7F4A77530340ECD5859F2F797E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.41.11:780][705]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.41.11:805][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.41.11:805][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.41.11:805][705]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:41:11 PM)
+[2019.11.02-23.41.11:805][705]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.41.11:806][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001170s)
+[2019.11.02-23.41.11:807][705]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.41.11:807][705]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.11.02-23.41.11:807][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001851s)
+[2019.11.02-23.41.11:849][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.11.02-23.41.11:853][705]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.41.11:923][705]LogInit: FAudioDevice initialized.
+[2019.11.02-23.41.11:932][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.41.11:966][705]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.41.11:967][705]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.41.11
+[2019.11.02-23.41.11:967][705]LogWorld: Bringing up level for play took: 0.000566
+[2019.11.02-23.41.11:982][705]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.41.11:985][705]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.959
+[2019.11.02-23.41.11:985][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.41.13:271][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.41.15:732][923]Cmd: r.ScreenPercentage 100
+[2019.11.02-23.41.15:732][923]r.ScreenPercentage = "100"
+[2019.11.02-23.41.16:716][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.41.17:897][ 52]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.41.17:897][ 52]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.41.17:938][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.11.02-23.41.18:045][ 52]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-23.41.18:045][ 52]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.41.18:059][ 52]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-19.41.18
+[2019.11.02-23.41.18:061][ 52]LogWorld: Bringing up level for play took: 0.014484
+[2019.11.02-23.41.18:064][ 52]LogLoad: Took 0.165945 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-23.41.42:144][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.41.42:144][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.41.42:166][198]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.41.42:202][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.41.42:203][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.41.42:263][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.02-23.41.42:292][199]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2019.11.02-23.47.58:746][308]BlueprintLog: New page: Compile Options
+[2019.11.02-23.47.59:124][308]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.11.02-23.47.59:626][328]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options0D7FD8EE46F9CF62CC02AD8FEA1A5A0A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.48.40:247][420]BlueprintLog: New page: Compile Options
+[2019.11.02-23.48.40:558][420]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.11.02-23.48.40:942][433]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsC919D25146ADD07D8C0ED287518E973E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.50.30:823][912]BlueprintLog: New page: Compile Options
+[2019.11.02-23.50.31:160][912]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.11.02-23.50.31:555][921]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options80FAD0A248E74D6E23C5408F5AFF2546.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.51.17:912][632]BlueprintLog: New page: Compile Options
+[2019.11.02-23.51.18:221][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.02-23.51.18:627][642]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options307C1BF9403078D5ED694E9131258AC7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.55.51:927][346]BlueprintLog: New page: Compile Options
+[2019.11.02-23.55.52:303][346]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.11.02-23.55.52:744][361]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsE66AF3F640E7640C2A0070A35093F2BD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.55.54:497][465]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.55.54:536][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.55.54:537][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.55.54:537][465]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:55:54 PM)
+[2019.11.02-23.55.54:537][465]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.55.54:538][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000952s)
+[2019.11.02-23.55.54:538][465]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.55.54:538][465]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2019.11.02-23.55.54:538][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001586s)
+[2019.11.02-23.55.54:582][465]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2019.11.02-23.55.54:586][465]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.55.54:656][465]LogInit: FAudioDevice initialized.
+[2019.11.02-23.55.54:664][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.55.54:693][465]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.55.54:694][465]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.55.54
+[2019.11.02-23.55.54:695][465]LogWorld: Bringing up level for play took: 0.000626
+[2019.11.02-23.55.54:709][465]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.55.54:712][465]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.313
+[2019.11.02-23.55.54:712][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.55.55:870][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.56.03:236][966]Cmd: r.ViewDistanceScale 0.2
+[2019.11.02-23.56.03:236][966]r.ViewDistanceScale = "0.2"
+[2019.11.02-23.56.03:237][966]Cmd: r.PostProcessAAQuality 0
+[2019.11.02-23.56.03:237][966]r.PostProcessAAQuality = "0"
+[2019.11.02-23.56.05:541][ 98]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.56.05:542][ 98]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.56.05:585][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.02-23.56.05:708][ 98]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-23.56.05:709][ 98]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.56.05:721][ 98]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-19.56.05
+[2019.11.02-23.56.05:723][ 98]LogWorld: Bringing up level for play took: 0.012300
+[2019.11.02-23.56.05:725][ 98]LogLoad: Took 0.183246 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-23.56.12:790][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.12:790][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.56.12:810][402]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.56.12:853][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.56.12:853][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.12:909][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.11.02-23.56.12:932][403]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2019.11.02-23.56.16:466][606]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.02-23.56.16:491][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.16:491][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-23.56.16:491][606]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 3:56:16 PM)
+[2019.11.02-23.56.16:491][606]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-23.56.16:493][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001008s)
+[2019.11.02-23.56.16:493][606]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-23.56.16:493][606]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2019.11.02-23.56.16:493][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001768s)
+[2019.11.02-23.56.16:535][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.02-23.56.16:539][606]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-23.56.16:609][606]LogInit: FAudioDevice initialized.
+[2019.11.02-23.56.16:617][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.56.16:650][606]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.56.16:651][606]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-19.56.16
+[2019.11.02-23.56.16:651][606]LogWorld: Bringing up level for play took: 0.000598
+[2019.11.02-23.56.16:667][606]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-23.56.16:670][606]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.355
+[2019.11.02-23.56.16:671][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.17:717][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-23.56.23:537][  8]Cmd: r.ViewDistanceScale 0.7
+[2019.11.02-23.56.23:538][  8]r.ViewDistanceScale = "0.7"
+[2019.11.02-23.56.23:539][  8]Cmd: r.PostProcessAAQuality 4
+[2019.11.02-23.56.23:539][  8]r.PostProcessAAQuality = "4"
+[2019.11.02-23.56.25:416][117]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.56.25:417][117]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-23.56.25:462][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.11.02-23.56.25:551][117]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-23.56.25:551][117]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-23.56.25:564][117]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-19.56.25
+[2019.11.02-23.56.25:566][117]LogWorld: Bringing up level for play took: 0.013819
+[2019.11.02-23.56.25:568][117]LogLoad: Took 0.150970 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-23.56.34:713][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.34:713][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-23.56.34:734][532]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.02-23.56.34:776][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-23.56.34:776][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-23.56.34:836][532]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.02-23.56.34:863][533]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2019.11.02-23.56.41:025][895]BlueprintLog: New page: Compile Options
+[2019.11.02-23.56.41:353][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.11.02-23.56.41:680][903]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options90F6572A456C16A8D383B1A7B193CB01.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.57.41:661][236]LogBlueprint: Warning: [Compiler ] Leak Detected!  Button_250 ( Button ) still has living Slate widgets, it or the parent HorizontalBox_308 ( Horizontal Box ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2019.11.02-23.57.59:407][277]BlueprintLog: New page: Compile Options
+[2019.11.02-23.57.59:748][277]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2019.11.02-23.58.00:242][292]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options7760267549B9B316F3788380BECAA59A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.02-23.58.39:307][629]BlueprintLog: New page: Compile Options
+[2019.11.02-23.58.39:613][629]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2019.11.02-23.58.39:917][632]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsD0F763C54D5378FC80D97484E9E506D9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
