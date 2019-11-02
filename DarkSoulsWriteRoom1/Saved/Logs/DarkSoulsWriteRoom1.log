@@ -1439,3 +1439,211 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.02-16.16.33:219][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
 [2019.11.02-16.16.33:395][354]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_MenuE91E91D9497E05D56957759950DCBD40.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
 [2019.11.02-16.16.35:417][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.02-16.17.38:658][807]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-16.17.38:709][807]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.11.02-16.17.38:760][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.11.02-16.17.38:761][807]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-16.17.38:761][807]LightingResults: New page: Lighting Build
+[2019.11.02-16.17.38:762][807]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.11.02-16.17.38:811][807]MapCheck: New page: Map Check
+[2019.11.02-16.17.38:811][807]LightingResults: New page: Lighting Build
+[2019.11.02-16.17.38:857][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.02-16.17.39:273][807]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-16.17.39:313][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.11.02-16.17.39:352][807]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-16.17.39:353][807]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
+[2019.11.02-16.17.39:353][807]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.591
+[2019.11.02-16.17.43:084][998]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
+[2019.11.02-16.20.24:297][938]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2019.11.02-16.20.24:506][938]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2019.11.02-16.20.25:620][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.02-16.20.26:073][988]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap554968D7448BDDD42EEB0D834106325F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.02-16.20.26:115][988]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.544
+[2019.11.02-16.20.40:855][262]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-16.20.40:859][262]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu
+[2019.11.02-16.20.40:903][262]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.02-16.20.40:904][262]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-16.20.40:904][262]LightingResults: New page: Lighting Build
+[2019.11.02-16.20.40:905][262]LoadErrors: New page: Loading map: Main_Menu.umap
+[2019.11.02-16.20.40:952][262]MapCheck: New page: Map Check
+[2019.11.02-16.20.40:952][262]LightingResults: New page: Lighting Build
+[2019.11.02-16.20.40:999][262]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2019.11.02-16.20.41:075][262]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-16.20.41:121][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.11.02-16.20.41:158][262]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-16.20.41:158][262]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2019.11.02-16.20.41:159][262]LogFileHelpers: Loading map 'Main_Menu' took 0.255
+[2019.11.02-16.21.28:001][985]BlueprintLog: New page: Compile MainMenu
+[2019.11.02-16.21.28:050][985]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2019.11.02-16.21.28:566][ 12]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/MainMenu5362BD99420C06E84FBA46B163FB7894.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2019.11.02-16.21.30:732][138]LogTemp: Repeating last play command: Simulate
+[2019.11.02-16.21.30:760][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.30:760][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-16.21.30:761][138]PIE: New page: SIE session: Main_Menu (Nov 2, 2019, 8:21:30 AM)
+[2019.11.02-16.21.30:773][138]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-16.21.30:774][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000908s)
+[2019.11.02-16.21.30:774][138]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-16.21.30:775][138]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2019.11.02-16.21.30:775][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001741s)
+[2019.11.02-16.21.30:815][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.02-16.21.30:821][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-16.21.30:894][138]LogInit: FAudioDevice initialized.
+[2019.11.02-16.21.30:935][138]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-16.21.30:936][138]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-12.21.30
+[2019.11.02-16.21.30:936][138]LogWorld: Bringing up level for play took: 0.000334
+[2019.11.02-16.21.30:975][138]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.02-16.21.30:980][138]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.02-16.21.30:985][138]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.02-16.21.30:985][138]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.02-16.21.31:020][138]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-16.21.31:020][138]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.006
+[2019.11.02-16.21.31:185][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.32:165][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.21.32:166][170]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Press_Sound...
+[2019.11.02-16.21.32:208][170]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 400000 while cooking SoundWave /Game/UI/Press_Sound.Press_Sound.
+[2019.11.02-16.21.32:257][173]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-16.21.32:257][173]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-16.21.32:341][173]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.11.02-16.21.32:440][173]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-16.21.32:440][173]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-16.21.32:452][173]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-12.21.32
+[2019.11.02-16.21.32:483][173]LogWorld: Bringing up level for play took: 0.041867
+[2019.11.02-16.21.32:485][173]LogLoad: Took 0.227281 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-16.21.40:360][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.21.40:534][580]LogUObjectGlobals: Warning: Guid referenced by Landscape /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0 is already used by Landscape /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:534][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_0 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_1 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_10 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_11 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_12 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_13 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_14 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_15 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_2 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_3 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_4 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_5 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:535][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_6 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:536][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_7 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:536][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_8 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:536][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_9 is already used by LandscapeComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:545][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:546][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31 is already used by LandscapeHeightfieldCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:547][580]LogUObjectGlobals: Warning: Guid referenced by LandscapeMeshCollisionComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeMeshCollisionComponent_0 is already used by LandscapeMeshCollisionComponent /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Landscape_0.LandscapeMeshCollisionComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2019.11.02-16.21.40:597][580]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-16.21.40:603][580]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.11.02-16.21.40:672][580]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.11.02-16.21.45:353][580]LogSlate: Window 'Message' being destroyed
+[2019.11.02-16.21.45:361][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.45:361][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.21.45:393][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-16.21.45:393][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.45:435][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.21.45:441][580]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.11.02-16.21.45:446][580]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-16.21.45:468][580]LightingResults: New page: Lighting Build
+[2019.11.02-16.21.45:468][580]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.11.02-16.21.45:469][580]MapCheck: New page: Map Check
+[2019.11.02-16.21.45:469][580]LightingResults: New page: Lighting Build
+[2019.11.02-16.21.45:504][580]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.11.02-16.21.45:642][580]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-16.21.45:677][580]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.02-16.21.45:726][580]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-16.21.45:726][580]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2019.11.02-16.21.45:726][580]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.053
+[2019.11.02-16.21.45:972][581]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.02-16.21.51:322][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.21.51:406][849]LogTemp: Repeating last play command: Simulate
+[2019.11.02-16.21.51:429][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.02-16.21.51:429][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-16.21.51:429][849]PIE: New page: SIE session: ThirdPersonExampleMap (Nov 2, 2019, 8:21:51 AM)
+[2019.11.02-16.21.51:429][849]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.02-16.21.51:487][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057592s)
+[2019.11.02-16.21.51:488][849]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-16.21.51:488][849]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2019.11.02-16.21.51:488][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.058710s)
+[2019.11.02-16.21.51:529][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.02-16.21.51:534][849]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-16.21.51:608][849]LogInit: FAudioDevice initialized.
+[2019.11.02-16.21.51:636][849]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-16.21.51:639][849]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-12.21.51
+[2019.11.02-16.21.51:640][849]LogWorld: Bringing up level for play took: 0.003172
+[2019.11.02-16.21.51:653][849]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.626
+[2019.11.02-16.21.51:654][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.02-16.21.54:117][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Curtain_Wall_A)
+[2019.11.02-16.21.55:765][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.21.55:853][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.02-16.21.55:854][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.21.55:884][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-16.21.55:885][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.02-16.21.55:930][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.21.55:935][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.11.02-16.21.55:964][974]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.02-16.21.57:585][ 57]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-16.21.57:589][ 57]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu
+[2019.11.02-16.21.57:628][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.02-16.21.57:630][ 57]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-16.21.57:630][ 57]LightingResults: New page: Lighting Build
+[2019.11.02-16.21.57:631][ 57]LoadErrors: New page: Loading map: Main_Menu.umap
+[2019.11.02-16.21.57:632][ 57]MapCheck: New page: Map Check
+[2019.11.02-16.21.57:632][ 57]LightingResults: New page: Lighting Build
+[2019.11.02-16.21.57:677][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.02-16.21.57:756][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-16.21.57:798][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2019.11.02-16.21.57:836][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-16.21.57:836][ 57]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2019.11.02-16.21.57:836][ 57]LogFileHelpers: Loading map 'Main_Menu' took 0.206
+[2019.11.02-16.21.58:746][106]LogTemp: Repeating last play command: Simulate
+[2019.11.02-16.21.58:768][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.58:768][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.02-16.21.58:768][106]PIE: New page: SIE session: Main_Menu (Nov 2, 2019, 8:21:58 AM)
+[2019.11.02-16.21.58:768][106]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.02-16.21.58:769][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000978s)
+[2019.11.02-16.21.58:769][106]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-16.21.58:770][106]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2019.11.02-16.21.58:770][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001609s)
+[2019.11.02-16.21.58:810][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.11.02-16.21.58:816][106]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.02-16.21.58:891][106]LogInit: FAudioDevice initialized.
+[2019.11.02-16.21.58:917][106]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-16.21.58:918][106]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-12.21.58
+[2019.11.02-16.21.58:918][106]LogWorld: Bringing up level for play took: 0.000310
+[2019.11.02-16.21.58:930][106]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.02-16.21.58:931][106]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.02-16.21.58:931][106]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.094
+[2019.11.02-16.21.58:933][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.21.59:976][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.22.00:077][171]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-16.22.00:078][171]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.02-16.22.00:119][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.11.02-16.22.00:210][171]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.02-16.22.00:210][171]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.02-16.22.00:224][171]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-12.22.00
+[2019.11.02-16.22.00:225][171]LogWorld: Bringing up level for play took: 0.014026
+[2019.11.02-16.22.00:227][171]LogLoad: Took 0.149530 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.02-16.22.07:301][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.22.27:592][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.02-16.22.27:680][672]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.22.27:681][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.22.27:714][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.02-16.22.27:714][672]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.02-16.22.27:760][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.02-16.22.27:773][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.11.02-16.22.27:784][673]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.02-16.22.29:565][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.02-16.22.32:219][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.02-16.22.32:404][932]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_Menu926D719B4700FC6D43447DB2D0948514.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
+[2019.11.02-16.22.33:558][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
