@@ -1375,3 +1375,67 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.02-16.06.41:928][128]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
 [2019.11.02-16.06.42:431][128]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMapAB32258640BC92BB6F6B96B05790D02F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2019.11.02-16.06.42:967][128]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataE1EC28084489F683AF37CA8CEC908A10.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.02-16.10.56:250][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_17:WidgetTree.CanvasPanel_0
+[2019.11.02-16.10.56:250][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_9.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:250][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_7.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:250][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_2.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_3.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_10.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_4.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_5.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_6.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_11:WidgetTree.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_17.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_13.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_14.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_16.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_15.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_19.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.10.56:251][383]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.Start_Button).  Import failed...
+[2019.11.02-16.10.56:251][383]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_5"''
+[2019.11.02-16.11.33:183][225]BlueprintLog: New page: Compile MainMenu
+[2019.11.02-16.11.33:225][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.11.02-16.11.33:759][241]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/MainMenuCC99AFC0480C2474E8C59D8FA6A32254.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_20.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_22.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_21:WidgetTree.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_21.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_23.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_24.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:MainMenu_C_25.WidgetTree_0.CanvasPanel_0
+[2019.11.02-16.11.43:335][654]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_9) from referencer (Button /Engine/UMG/Editor/Transient.Button_164).  Import failed...
+[2019.11.02-16.11.43:335][654]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_9"''
+[2019.11.02-16.13.22:985][662]BlueprintLog: New page: Compile MainMenu
+[2019.11.02-16.13.23:033][662]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.11.02-16.13.23:568][675]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/MainMenuE4FC533040C971CB416EEF84CA715D31.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/MainMenu.uasset'
+[2019.11.02-16.13.31:554][130]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.02-16.13.33:269][130]LogSlate: Window 'Save Content' being destroyed
+[2019.11.02-16.13.33:332][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.02-16.13.33:345][130]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_Menu4A4ACDCD4929616F0C86DD9583C1126A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
+[2019.11.02-16.13.33:349][130]LogFileHelpers: Saving map 'Main_Menu' took 0.055
+[2019.11.02-16.13.38:162][399]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu
+[2019.11.02-16.13.38:195][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.11.02-16.13.38:196][399]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.02-16.13.38:196][399]LightingResults: New page: Lighting Build
+[2019.11.02-16.13.38:197][399]LoadErrors: New page: Loading map: Main_Menu.umap
+[2019.11.02-16.13.38:207][399]MapCheck: New page: Map Check
+[2019.11.02-16.13.38:207][399]LightingResults: New page: Lighting Build
+[2019.11.02-16.13.38:252][399]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.02-16.13.38:317][399]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.02-16.13.38:317][399]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.02-16.13.38:354][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.11.02-16.13.38:402][399]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.02-16.13.38:403][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2019.11.02-16.13.38:404][399]LogFileHelpers: Loading map 'Main_Menu' took 0.209
+[2019.11.02-16.13.44:775][729]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu
+[2019.11.02-16.14.29:980][411]LogSlate: Took 0.034007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.02-16.16.29:478][172]BlueprintLog: New page: Compile Main_Menu
+[2019.11.02-16.16.29:686][172]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.11.02-16.16.30:249][200]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.11.02-16.16.30:525][200]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_MenuC002B08F496183BC7F32B3BCA21C0DDE.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
+[2019.11.02-16.16.30:564][200]LogFileHelpers: Saving map 'Main_Menu' took 0.360
+[2019.11.02-16.16.33:219][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.02-16.16.33:395][354]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Main_MenuE91E91D9497E05D56957759950DCBD40.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/Main_Menu.umap'
+[2019.11.02-16.16.35:417][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
