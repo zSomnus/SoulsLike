@@ -485,7 +485,16 @@ void AMainCharacter::Attack()
 
 		if (AnimInstance && AttackMontage)
 		{
-			switch (AttackCount)
+			if (!bIsAttacking && !bIsDodging & !bIsRolling)
+			{
+				bIsAttacking = true;
+				if (AttackCount < 1)
+				{
+					AttackCount = 1;
+					AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				}
+			}
+			/*switch (AttackCount)
 			{
 			case 0:
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
@@ -503,7 +512,7 @@ void AMainCharacter::Attack()
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
 				break;
-			}
+			}*/
 		}
 	}
 }
