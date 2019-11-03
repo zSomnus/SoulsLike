@@ -1567,3 +1567,121 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.03-00.43.20:595][856]BlueprintLog: New page: Compile Options
 [2019.11.03-00.43.20:885][856]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
 [2019.11.03-00.43.21:405][866]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsF3DDDA2B499184CDB7FDD7B396868642.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-00.44.04:858][284]BlueprintLog: New page: Compile Options
+[2019.11.03-00.44.05:129][284]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.03-00.44.05:544][291]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options42B6FED1401B7B3ED1E8FB8AE288D9FB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-00.45.07:061][602]BlueprintLog: New page: Compile Options
+[2019.11.03-00.45.07:342][602]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2019.11.03-00.45.07:745][608]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options2996A3D74A442A91CAFB438A2AB50039.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-00.47.20:904][259]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.11.03-00.47.24:150][429]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.03-00.47.24:155][429]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.03-00.50.19:894][117]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.11.03-00.50.49:539][876]BlueprintLog: New page: Compile Options
+[2019.11.03-00.50.49:836][876]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.11.03-00.50.50:345][889]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options34ACB24049D7428512E06DBABDB1C6B1.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-00.53.55:093][132]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2019.11.03-00.53.55:093][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.050
+[2019.11.03-00.53.55:094][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Options] ([1] browsable assets)...
+[2019.11.03-00.53.55:095][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Options]
+[2019.11.03-00.53.55:232][132]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options_Auto11ACB48754ED71AAF5C3A0B8313C11F51.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Options_Auto1.uasset'
+[2019.11.03-00.53.55:235][132]LogFileHelpers: Auto-saving content packages took 0.141
+[2019.11.03-00.55.43:622][616]BlueprintLog: New page: Compile Options
+[2019.11.03-00.55.43:907][616]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.11.03-00.55.44:437][626]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options0153D33744EA1F3E196E90899FE4F521.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-00.58.34:589][985]BlueprintLog: New page: Compile Options
+[2019.11.03-00.58.34:892][985]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2019.11.03-00.58.35:639][ 18]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.03-00.58.35:688][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-00.58.35:689][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.03-00.58.35:689][ 18]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 4:58:35 PM)
+[2019.11.03-00.58.35:689][ 18]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.03-00.58.35:690][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001010s)
+[2019.11.03-00.58.35:690][ 18]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.03-00.58.35:691][ 18]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2019.11.03-00.58.35:691][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001761s)
+[2019.11.03-00.58.35:738][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2019.11.03-00.58.35:745][ 18]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.03-00.58.35:817][ 18]LogInit: FAudioDevice initialized.
+[2019.11.03-00.58.35:826][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-00.58.35:857][ 18]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.03-00.58.35:857][ 18]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-20.58.35
+[2019.11.03-00.58.35:858][ 18]LogWorld: Bringing up level for play took: 0.000393
+[2019.11.03-00.58.35:873][ 18]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.03-00.58.35:877][ 18]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu 0.851
+[2019.11.03-00.58.35:878][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-00.58.37:050][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.03-00.58.44:064][500]Cmd: r.setRes 1600x900
+[2019.11.03-00.58.44:064][500]r.SetRes = "1600x900"
+[2019.11.03-00.58.44:108][500]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:483).
+[2019.11.03-00.58.44:212][500]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:484).
+[2019.11.03-00.58.46:636][638]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.03-00.58.46:647][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-00.58.46:676][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.03-00.58.46:676][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-00.58.46:732][638]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.11.03-00.58.46:785][639]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.03-00.59.11:713][131]BlueprintLog: New page: Compile Options
+[2019.11.03-00.59.12:014][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.11.03-00.59.12:343][132]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options3F2A7115444A3D99390224A440230C52.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-01.04.32:900][679]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.11.03-01.04.32:900][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.059
+[2019.11.03-01.04.32:902][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Options] ([1] browsable assets)...
+[2019.11.03-01.04.32:903][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Options]
+[2019.11.03-01.04.33:064][679]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options_Auto2827E3C734698620BBA8B4D851EE33430.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Options_Auto2.uasset'
+[2019.11.03-01.04.33:065][679]LogFileHelpers: Auto-saving content packages took 0.163
+[2019.11.03-01.05.25:758][580]BlueprintLog: New page: Compile Options
+[2019.11.03-01.05.26:046][580]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.11.03-01.05.26:651][598]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsB931CA1E4FC86703C5C3B7A3A8DBEB91.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-01.05.42:513][417]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.03-01.05.42:543][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-01.05.42:543][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.03-01.05.42:543][417]PIE: New page: PIE session: Main_Menu (Nov 2, 2019, 5:05:42 PM)
+[2019.11.03-01.05.42:543][417]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu
+[2019.11.03-01.05.42:545][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001150s)
+[2019.11.03-01.05.42:545][417]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.03-01.05.42:545][417]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2019.11.03-01.05.42:545][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001861s)
+[2019.11.03-01.05.42:592][417]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2019.11.03-01.05.42:597][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.03-01.05.42:667][417]LogInit: FAudioDevice initialized.
+[2019.11.03-01.05.42:678][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-01.05.42:713][417]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.03-01.05.42:715][417]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.02-21.05.42
+[2019.11.03-01.05.42:715][417]LogWorld: Bringing up level for play took: 0.000588
+[2019.11.03-01.05.42:730][417]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.03-01.05.42:736][417]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Menu -0.29
+[2019.11.03-01.05.42:737][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-01.05.43:608][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.03-01.05.48:075][733]Cmd: r.MotionBlurQuality 0
+[2019.11.03-01.05.48:075][733]r.MotionBlurQuality = "0"
+[2019.11.03-01.05.50:424][872]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.03-01.05.50:424][872]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.03-01.05.50:472][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.11.03-01.05.50:574][872]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.03-01.05.50:575][872]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.03-01.05.50:590][872]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.02-21.05.50
+[2019.11.03-01.05.50:591][872]LogWorld: Bringing up level for play took: 0.015223
+[2019.11.03-01.05.50:594][872]LogLoad: Took 0.170195 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2019.11.03-01.05.58:112][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-01.05.58:113][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.03-01.05.58:134][219]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.03-01.05.58:174][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.03-01.05.58:175][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.03-01.05.58:237][219]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.11.03-01.05.58:262][220]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.11.03-01.07.37:768][321]LogEditorTransaction: Undo Change String Pin Value
+[2019.11.03-01.07.38:508][358]LogEditorTransaction: Undo Change String Pin Value
+[2019.11.03-01.07.39:574][417]LogEditorTransaction: Undo Change String Pin Value
+[2019.11.03-01.07.41:091][502]LogEditorTransaction: Undo Resize Node
+[2019.11.03-01.08.01:539][710]BlueprintLog: New page: Compile Options
+[2019.11.03-01.08.01:834][710]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.11.03-01.08.02:284][719]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsF65BC2414577DB505B6C93B684840F12.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-01.08.44:249][787]LogBlueprint: Warning: [Compiler ] Leak Detected!  Button_273 ( Button ) still has living Slate widgets, it or the parent HorizontalBox_398 ( Horizontal Box ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2019.11.03-01.09.06:876][114]BlueprintLog: New page: Compile Options
+[2019.11.03-01.09.07:216][114]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.11.03-01.09.07:879][130]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Options87B9F23E451C024E5ACD0AB233C9A3B3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
+[2019.11.03-01.11.48:637][778]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetSystemLibrary::ExecuteConsoleCommand' [Element not found.]
+[2019.11.03-01.11.51:477][948]BlueprintLog: New page: Compile Options
+[2019.11.03-01.11.51:799][948]LogUObjectHash: Compacting FUObjectHashTables data took   6.09ms
+[2019.11.03-01.11.52:678][977]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/OptionsC02493AF4F10119E0396D98D3FA540C0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Options.uasset'
