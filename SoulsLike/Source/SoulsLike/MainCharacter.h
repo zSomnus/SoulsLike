@@ -26,11 +26,15 @@ protected:
 	UTimelineComponent* RollTimeline;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
 	UTimelineComponent* DodgeTimeline;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UTimelineComponent* AttackStepTimeline;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
 	UCurveFloat* RollFloatCurve;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
 	UCurveFloat* DodgeFloatCurve;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
+	UCurveFloat* AttackStepFloatCurve;
 	
 	//RollTimelineCall
 	UFUNCTION()
@@ -151,7 +155,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 AttackCount;
 
-
+	UPROPERTY(VisibleAnywhere)
+	float Timer;
 
 protected:
 	// Called when the game starts or when spawned

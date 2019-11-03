@@ -196,8 +196,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RollTimeline() { return STRUCT_OFFSET(AMainCharacter, RollTimeline); } \
 	FORCEINLINE static uint32 __PPO__DodgeTimeline() { return STRUCT_OFFSET(AMainCharacter, DodgeTimeline); } \
+	FORCEINLINE static uint32 __PPO__AttackStepTimeline() { return STRUCT_OFFSET(AMainCharacter, AttackStepTimeline); } \
 	FORCEINLINE static uint32 __PPO__RollFloatCurve() { return STRUCT_OFFSET(AMainCharacter, RollFloatCurve); } \
 	FORCEINLINE static uint32 __PPO__DodgeFloatCurve() { return STRUCT_OFFSET(AMainCharacter, DodgeFloatCurve); } \
+	FORCEINLINE static uint32 __PPO__AttackStepFloatCurve() { return STRUCT_OFFSET(AMainCharacter, AttackStepFloatCurve); } \
 	FORCEINLINE static uint32 __PPO__TimelineDirection() { return STRUCT_OFFSET(AMainCharacter, TimelineDirection); }
 
 

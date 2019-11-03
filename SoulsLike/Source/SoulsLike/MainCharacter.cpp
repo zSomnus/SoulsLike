@@ -8,6 +8,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/Controller.h"
 #include "Engine/World.h"
+#include "Engine.h"
 #include "Components/ArrowComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Components/SkeletalMeshComponent.h"
@@ -79,12 +80,14 @@ AMainCharacter::AMainCharacter()
 	bCanDash = true;
 	bCanParry = false;
 
-	//Rolling Timeline
+	//Timeline curves
 	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/Curves/C_RollCurve"));
 	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/Curves/C_DodgeCurve"));
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> AttackStepCurve(TEXT("/Game/Curves/C_AttackStepCurve"));
 
 	check(RollCurve.Succeeded());
 	check(DodgeCurve.Succeeded());
+	check(AttackStepCurve.Succeeded());
 
 	FVector ActorVelocity = GetActorForwardVector();
 
@@ -96,6 +99,7 @@ AMainCharacter::AMainCharacter()
 	{
 		WhooshSoundCue = WhooshSOundCueObject.Object;
 	}*/
+	
 }
 
 // Called when the game starts or when spawned
@@ -106,6 +110,9 @@ void AMainCharacter::BeginPlay()
 
 	FOnTimelineFloat onDodgeTimelineCallback;
 	FOnTimelineEventStatic onDodgeTimelineFinishedCallback;
+
+	FOnTimelineFloat onAttackStepTimelineCallback;
+	FOnTimelineEventStatic onAttackStepTimelineFinishedCallback;
 
 	Super::BeginPlay();
 	
@@ -149,12 +156,40 @@ void AMainCharacter::BeginPlay()
 
 		DodgeTimeline->RegisterComponent();
 	}
+	if (AttackStepTimeline)
+	{
+		// AttackStepTimeline
+		AttackStepTimeline = NewObject<UTimelineComponent>(this, FName("AttackStepTimelineAnimation"));
+		AttackStepTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript;
+		this->BlueprintCreatedComponents.Add(AttackStepTimeline);
+		AttackStepTimeline->SetNetAddressable();
+
+		AttackStepTimeline->SetPropertySetObject(this);
+		AttackStepTimeline->SetTimelineLength(.2f);
+		AttackStepTimeline->SetTimelineLengthMode(ETimelineLengthMode::TL_LastKeyFrame);
+
+		onAttackStepTimelineCallback.BindUFunction(this, FName{ TEXT("AttackStepTimelineCallback") });
+		onAttackStepTimelineFinishedCallback.BindUFunction(this, FName{ TEXT("AttackStepTimelineFinishedCallback") });
+		AttackStepTimeline->AddInterpFloat(AttackStepFloatCurve, onAttackStepTimelineCallback);
+		AttackStepTimeline->SetTimelineFinishedFunc(onAttackStepTimelineFinishedCallback);
+
+		AttackStepTimeline->RegisterComponent();
+
+	}
 }
 
 // Called every frame
 void AMainCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	Timer = DeltaTime;
+
+	if (Timer == 0.4)
+	{
+		AttackCount = 0;
+		Timer = 0.0f;
+	}
 
 	//Roll timeline
 	if (RollTimeline)
@@ -478,41 +513,25 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 
 void AMainCharacter::Attack()
 {
-	if (!bIsAttacking && !bIsRolling && !bIsDodging)
-	{
-		bIsAttacking = true;
-		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-		if (AnimInstance && AttackMontage)
+	if (AnimInstance && AttackMontage && !bIsAttacking)
+	{
+		if (!bIsAttacking && !bIsDodging && !bIsRolling)
 		{
-			if (!bIsAttacking && !bIsDodging & !bIsRolling)
+			bIsAttacking = true;
+			if (AttackCount < 1)
 			{
-				bIsAttacking = true;
-				if (AttackCount < 1)
-				{
-					AttackCount = 1;
-					AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
-				}
-			}
-			/*switch (AttackCount)
-			{
-			case 0:
+				AttackCount = 1;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
-				AttackCount = 1;
-				break;
-
-			case 1:
+			}
+			else
+			{
+				AttackCount = 0;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack2"), AttackMontage);
-				AttackCount = 0;
-				break;
-
-			default:
-				AnimInstance->Montage_Play(AttackMontage, 1.f);
-				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
-				break;
-			}*/
+			}
 		}
 	}
 }
