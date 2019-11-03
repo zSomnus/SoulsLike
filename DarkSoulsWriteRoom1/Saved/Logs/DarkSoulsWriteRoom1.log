@@ -5055,3 +5055,18 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.03-14.52.53:311][740]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.011 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.11.03-14.52.53:311][740]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.011 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.11.03-14.53.10:252][787]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (16.953 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.03-15.29.16:656][713]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\Option_Click_S.mp3)
+[2019.11.03-15.29.22:160][ 40]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/UI/Main_Menu/Option_Click_S.Option_Click_S
+[2019.11.03-15.29.24:505][172]LogSlate: Window 'Option_Click_S' being destroyed
+[2019.11.03-15.29.24:510][172]LogSlate: Window 'Option_Click_S' being destroyed
+[2019.11.03-15.29.31:524][543]LogUObjectHash: Compacting FUObjectHashTables data took  15.73ms
+[2019.11.03-15.29.33:279][543]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.03-15.29.33:505][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.03-15.30.23:814][824]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\Option_Click_S.wav)
+[2019.11.03-15.39.59:379][837]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2019.11.03-15.39.59:379][837]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Main_Menu' took 0.038
+[2019.11.03-15.39.59:382][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/Main_Menu/Option_Click_S] ([1] browsable assets)...
+[2019.11.03-15.39.59:391][837]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/UI/Main_Menu/Option_Click_S.Option_Click_S]
+[2019.11.03-15.39.59:392][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Main_Menu/Option_Click_S]
+[2019.11.03-15.39.59:421][837]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Option_Click_S_Auto151EACBD345DE4295895208B5334E31A3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/UI/Main_Menu/Option_Click_S_Auto1.uasset'
+[2019.11.03-15.39.59:423][837]LogFileHelpers: Auto-saving content packages took 0.043
