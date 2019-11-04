@@ -1,0 +1,1603 @@
+﻿Log file open, 11/04/19 10:39:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: WhiteRoomCastle
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.328048
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:428][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.04-15.39.55:428][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.04-15.39.55:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:429][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:432][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.04-15.39.55:432][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.04-15.39.55:433][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.04-15.39.55:433][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.04-15.39.55:433][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.04-15.39.55:450][  0]LogHAL: Display: Platform has ~ 16 GB [17059098624 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.04-15.39.55:450][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.04-15.39.55:450][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.04-15.39.55:450][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Scalability.ini]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.04-15.39.55:451][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.04-15.39.55:452][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.04-15.39.55:452][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.04-15.39.55:452][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Config/Windows/Engine.ini]
+[2019.11.04-15.39.55:452][  0]LogInit: Computer: DESKTOP-VMGI91V
+[2019.11.04-15.39.55:452][  0]LogInit: User: Admin
+[2019.11.04-15.39.55:452][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.04-15.39.55:452][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.04-15.39.55:452][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.04-15.39.55:452][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.04-15.39.55:452][  0]LogMemory: Process Physical Memory: 97.52 MB used, 97.52 MB peak
+[2019.11.04-15.39.55:452][  0]LogMemory: Process Virtual Memory: 89.01 MB used, 89.01 MB peak
+[2019.11.04-15.39.55:452][  0]LogMemory: Physical Memory: 7477.18 MB used,  8791.64 MB free, 16268.82 MB total
+[2019.11.04-15.39.55:452][  0]LogMemory: Virtual Memory: 4657.41 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.11.04-15.39.55:507][  0]LogInit: Using OS detected language (en-GB).
+[2019.11.04-15.39.55:507][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.04-15.39.55:510][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.11.04-15.39.55:723][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.04-15.39.55:873][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.04-15.39.55:873][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.04-15.39.56:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.04-15.39.56:477][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.04-15.39.56:598][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.11.04-15.39.56:598][  0]LogD3D11RHI:       4021/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.04-15.39.56:611][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.04-15.39.56:611][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.04-15.39.56:615][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.04-15.39.56:615][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.04-15.39.56:615][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.04-15.39.56:654][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.04-15.39.56:654][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.11.04-15.39.56:654][  0]LogWindows: EnumDisplayDevices:
+[2019.11.04-15.39.56:654][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.04-15.39.56:654][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.04-15.39.56:655][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.04-15.39.56:655][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.04-15.39.56:655][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.11.04-15.39.56:655][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.04-15.39.56:655][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.04-15.39.56:655][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.04-15.39.56:725][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.04-15.39.56:811][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.04-15.39.56:811][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.04-15.39.56:811][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.04-15.39.56:825][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.04-15.39.57:494][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.04-15.39.57:516][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.04-15.39.57:534][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.04-15.39.57:557][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.04-15.39.57:580][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.04-15.39.57:598][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.04-15.39.57:615][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.04-15.39.57:633][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.04-15.39.57:641][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.04-15.39.57:746][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.04-15.39.57:752][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.04-15.39.57:814][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.04-15.39.57:814][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.04-15.39.57:848][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.04-15.39.57:848][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.04-15.39.57:864][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.04-15.39.57:879][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.04-15.39.57:901][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.04-15.39.57:917][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.04-15.39.57:981][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.04-15.39.57:981][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.04-15.39.57:981][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.04-15.39.57:996][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.04-15.39.58:069][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Intermediate/Shaders/WorkingDirectory/17036/).
+[2019.11.04-15.39.58:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/9B1DF9C3478B75FBBEA4249CD3DA9EE2/'.
+[2019.11.04-15.39.58:073][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.04-15.39.58:073][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.04-15.39.58:073][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.04-15.39.58:835][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.04-15.39.58:895][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.04-15.39.58:896][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.04-15.39.58:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.04-15.39.58:896][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.04-15.39.58:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.04-15.39.58:896][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.04-15.39.58:910][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.04-15.39.58:910][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.04-15.39.58:910][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.04-15.39.58:928][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.04-15.39.58:928][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.04-15.39.58:928][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.04-15.39.58:954][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.04-15.39.58:955][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.04-15.39.58:956][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.04-15.39.59:126][  0]LogAssetRegistry: FAssetRegistry took 0.0469 seconds to start up
+[2019.11.04-15.39.59:574][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.04-15.39.59:760][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.04-15.39.59:760][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.04-15.39.59:760][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.04-15.39.59:760][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.04-15.39.59:760][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.04-15.39.59:775][  0]LogNetVersion: WhiteRoomCastle 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2362307608)
+[2019.11.04-15.40.00:423][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.103628 seconds
+[2019.11.04-15.40.00:431][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.04-15.40.00:431][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.04-15.40.00:431][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.04-15.40.02:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.04-15.40.02:213][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.04-15.40.02:356][  0]SourceControl: Source control is disabled
+[2019.11.04-15.40.02:357][  0]SourceControl: Source control is disabled
+[2019.11.04-15.40.02:360][  0]SourceControl: Source control is disabled
+[2019.11.04-15.40.02:362][  0]SourceControl: Source control is disabled
+[2019.11.04-15.40.02:510][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.04-15.40.02:743][  0]LogOcInput: OculusInput pre-init called
+[2019.11.04-15.40.04:255][  0]LogEngine: Initializing Engine...
+[2019.11.04-15.40.04:259][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.04-15.40.04:262][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.11.04-15.40.04:539][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.04-15.40.04:559][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.04-15.40.04:672][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.40.05:246][  0]LogInit: FAudioDevice initialized.
+[2019.11.04-15.40.05:246][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.04-15.40.05:347][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.04-15.40.05:356][  0]LogInit: Texture streaming: Enabled
+[2019.11.04-15.40.05:399][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.04-15.40.05:430][  0]LogInit: Transaction tracking system initialized
+[2019.11.04-15.40.05:468][  0]BlueprintLog: New page: Editor Load
+[2019.11.04-15.40.05:592][  0]LocalizationService: Localization service is disabled
+[2019.11.04-15.40.05:784][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.11.04-15.40.05:784][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.11.04-15.40.05:784][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.11.04-15.40.06:062][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/' took 0.02s
+[2019.11.04-15.40.06:064][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.04-15.40.06:064][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.04-15.40.06:349][  0]SourceControl: Source control is disabled
+[2019.11.04-15.40.06:349][  0]Cmd: MAP LOAD FILE="../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.04-15.40.06:351][  0]LightingResults: New page: Lighting Build
+[2019.11.04-15.40.06:356][  0]MapCheck: New page: Map Check
+[2019.11.04-15.40.06:356][  0]LightingResults: New page: Lighting Build
+[2019.11.04-15.40.06:385][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.11.04-15.40.06:674][  0]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Statue'
+[2019.11.04-15.40.06:674][  0]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Statue' while loading NULL.
+[2019.11.04-15.40.06:675][  0]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Statue'
+[2019.11.04-15.40.06:675][  0]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Statue' while loading NULL.
+[2019.11.04-15.40.06:763][  0]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Statue'
+[2019.11.04-15.40.06:763][  0]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Statue.M_Statue Referenced by SM_Statue_Hooded
+[2019.11.04-15.40.06:763][  0]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Statue' while loading NULL.
+[2019.11.04-15.40.07:766][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.40.07:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.04-15.40.07:960][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.11.04-15.40.07:960][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.04-15.40.07:960][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.113ms to complete.
+[2019.11.04-15.40.07:960][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.611
+[2019.11.04-15.40.08:135][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.40.08:143][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.40.08:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.40.08:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.40.08:172][  0]LogCollectionManager: Loaded 0 collections in 0.002794 seconds
+[2019.11.04-15.40.08:217][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Collections/' took 0.01s
+[2019.11.04-15.40.08:217][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Developers/Admin/Collections/' took 0.01s
+[2019.11.04-15.40.08:217][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Collections/' took 0.01s
+[2019.11.04-15.40.08:217][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.04-15.40.08:229][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2732 classes and 659 folders.
+[2019.11.04-15.40.08:236][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.04-15.40.08:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:267][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:277][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:310][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:317][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:322][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:328][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:353][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.04-15.40.08:652][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.04-15.40.08:701][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.11.04-15.40.08:841][  0]LogSlate: Took 0.000575 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.04-15.40.08:844][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.04-15.40.08:854][  0]LogSlate: Took 0.003407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.04-15.40.08:978][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.04-15.40.09:374][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.04-15.40.09:375][  0]LogLoad: (Engine Initialization) Total time: 19.50 seconds
+[2019.11.04-15.40.09:375][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.04-15.40.09:430][  0]LogAssetRegistry: Asset discovery search completed in 10.3295 seconds
+[2019.11.04-15.40.09:434][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.04-15.40.09:434][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2019.11.04-15.40.09:437][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.04-15.40.09:449][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.40.09:490][  0]LogSlate: Took 0.001029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.04-15.40.10:425][ 34]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.04-15.40.10:991][ 63]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-15.40.10:997][ 63]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-15.40.25:873][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.40.37:013][125]Cmd: TRANSACTION UNDO
+[2019.11.04-15.40.37:013][125]LogEditorTransaction: Undo Set Scale
+[2019.11.04-15.41.50:993][181]Cmd: DELETE
+[2019.11.04-15.41.50:993][181]Cmd: ACTOR DELETE
+[2019.11.04-15.41.51:273][181]LogEditorActor: Deleted Actor: Brush
+[2019.11.04-15.41.51:312][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.11.04-15.41.51:723][181]LogEditorActor: Deleted 1 Actors (0.526 secs)
+[2019.11.04-15.42.18:081][457]Cmd: DELETE
+[2019.11.04-15.42.18:081][457]Cmd: ACTOR DELETE
+[2019.11.04-15.42.18:128][457]LogEditorActor: Deleted Actor: Brush
+[2019.11.04-15.42.18:158][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.11.04-15.42.18:579][457]LogEditorActor: Deleted 1 Actors (0.498 secs)
+[2019.11.04-15.42.43:325][510]Cmd: DELETE
+[2019.11.04-15.42.43:325][510]Cmd: ACTOR DELETE
+[2019.11.04-15.42.43:374][510]LogEditorActor: Deleted Actor: Brush
+[2019.11.04-15.42.43:407][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.11.04-15.42.43:779][510]LogEditorActor: Deleted 1 Actors (0.453 secs)
+[2019.11.04-15.42.57:163][956]Cmd: DELETE
+[2019.11.04-15.42.57:163][956]Cmd: ACTOR DELETE
+[2019.11.04-15.42.57:208][956]LogEditorActor: Deleted Actor: Brush
+[2019.11.04-15.42.57:238][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.04-15.42.57:629][956]LogEditorActor: Deleted 1 Actors (0.466 secs)
+[2019.11.04-15.44.35:855][387]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.44.35:932][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.11.04-15.44.37:681][387]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMapEF69D5F044D48DEB9FA8B0BA92AB163F.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.04-15.44.39:315][387]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMap_BuiltDataC2EB670F433BBD6499792984F64484B0.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-15.45.06:155][635]LogSlate: Took 0.004934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.04-15.45.07:037][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.45.19:045][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.45.36:990][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.45.48:660][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.45.49:613][194]Cmd: TRANSACTION UNDO
+[2019.11.04-15.45.49:614][194]LogEditorTransaction: Undo Set Scale
+[2019.11.04-15.45.49:839][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3712' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:839][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3712.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:840][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3713' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:840][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3713.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:840][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3714' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:840][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3714.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:841][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3715' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:841][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3715.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:842][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3716' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:842][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3716.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:842][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3717' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:842][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3717.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:843][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3718' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:843][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3718.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:843][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3719' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:843][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3719.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:844][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3720' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:844][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3720.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:844][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3721' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:844][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3721.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3722' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3722.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3723' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3723.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3724' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3724.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3725' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:846][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3725.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3726' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3726.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3727' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3727.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3728' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:847][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3728.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:848][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3729' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:848][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3729.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:848][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3730' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:848][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3730.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:849][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3731' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:849][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3731.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:850][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3732' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:850][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3732.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:850][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3733' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:850][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3733.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:857][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3734' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:857][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3734.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:857][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3735' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:857][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3735.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:858][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3736' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:858][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3736.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:858][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3737' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:858][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3737.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:859][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3738' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:859][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3738.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:859][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3739' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:859][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3739.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:860][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3740' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:860][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3740.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:860][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3741' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:860][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3741.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:861][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3742' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:861][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3742.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:862][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3743' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:862][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3743.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:862][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3744' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:862][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3744.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:863][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3745' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:863][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3745.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:864][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3746' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:864][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3746.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:864][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3747' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:864][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3747.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:865][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3748' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:865][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3748.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:865][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3749' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:865][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3749.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3750' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3750.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3751' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3751.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3752' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:866][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3752.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:867][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3753' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:867][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3753.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:867][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3754' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:867][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3754.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:868][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3755' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:868][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3755.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:868][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3756' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:868][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3756.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3757' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3757.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3758' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3758.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3759' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:869][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3759.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:870][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3760' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:870][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3760.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:871][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3761' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:871][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3761.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:871][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3762' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:871][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3762.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:872][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3763' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:872][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3763.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:873][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3764' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:873][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3764.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:873][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3765' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:873][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3765.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:874][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3766' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:874][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3766.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:874][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3767' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:875][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3767.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:875][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3768' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:875][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3768.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:876][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3769' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:876][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3769.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:877][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3770' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:877][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3770.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:877][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3771' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:877][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3771.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:878][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3772' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:878][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3772.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:879][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3773' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:879][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3773.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:880][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3774' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:880][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3774.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:880][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3775' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:880][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3775.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:881][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3776' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:881][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3776.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:882][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3777' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:882][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3777.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:882][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3778' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:882][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3778.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:883][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3779' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:883][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3779.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:883][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3780' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:883][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3780.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:884][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3781' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:884][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3781.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:884][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3782' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:884][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3782.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:885][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3783' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:885][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3783.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:886][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3784' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:886][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3784.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:886][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3785' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:886][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3785.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:887][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3786' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:887][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3786.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:887][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3787' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:887][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3787.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:888][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3788' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:888][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3788.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:888][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3789' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:888][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3789.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:889][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3790' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:889][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3790.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:890][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3791' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:890][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3791.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:890][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3792' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:890][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3792.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:891][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3793' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:891][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3793.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3794' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3794.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3795' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3795.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3796' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:892][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3796.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:893][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3797' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:893][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3797.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:893][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3798' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:893][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3798.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:894][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3799' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:894][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3799.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:894][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3800' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:894][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3800.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:895][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3801' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:895][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3801.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:895][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3802' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:896][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3802.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:896][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3803' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:896][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3803.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:897][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3804' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:897][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3804.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:898][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3805' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:898][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3805.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:899][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3806' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:899][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3806.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:900][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3807' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:900][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3807.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:901][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3808' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:901][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3808.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:901][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3809' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:901][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3809.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:902][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3810' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:902][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3810.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:902][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3811' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:902][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3811.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:903][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3812' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:903][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3812.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:903][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3813' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:903][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3813.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:904][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3814' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:905][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3814.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:905][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3815' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:905][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3815.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:906][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3816' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:906][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3816.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:906][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3817' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:906][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3817.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:907][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3818' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:907][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3818.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:907][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3819' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:907][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3819.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:908][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3820' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:908][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3820.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:908][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3821' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:908][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3821.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:909][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3822' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:909][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3822.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:909][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3823' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:909][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3823.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:910][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3824' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:910][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3824.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:910][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3825' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:910][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3825.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:911][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3826' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:911][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3826.BodySetup_0 when we are unable to.
+[2019.11.04-15.45.49:912][194]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3827' invalid (30038 verts, 0 indices).
+[2019.11.04-15.45.49:912][194]LogPhysics: Warning: Attempt to build physics data for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_3827.BodySetup_0 when we are unable to.
+[2019.11.04-15.46.12:757][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.46.55:207][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.47.24:979][584]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.47.33:025][ 47]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.47.40:978][508]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.47.58:934][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.48.40:678][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.48.46:923][950]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.49.06:430][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.49.23:970][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.49.49:128][ 78]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.49.55:360][147]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial
+[2019.11.04-15.49.55:366][147]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.49.55:765][147]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.49.55:784][147]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.49.55:820][147]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.49.55:844][147]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-15.49.55:855][147]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-15.49.55:930][147]LogSlate: Took 0.001924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.04-15.49.56:316][151]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.49.57:619][160]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.49.59:619][187]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.50.04:051][223]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.04:077][223]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.04:108][224]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.05:018][232]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.50.06:631][245]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.06:741][247]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.07:650][254]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.50.09:441][269]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.09:468][269]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.09:861][274]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.10:719][280]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.10:795][281]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.11:515][288]LogMaterialEditor: Saving and Compiling material Walllonglong_Metrial
+[2019.11.04-15.50.12:525][288]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.50.12:557][288]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.12:690][288]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.12:717][288]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.12:732][288]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.50.12:908][288]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.11.04-15.50.12:927][288]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.50.15:316][288]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-15.50.15:316][288]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-15.50.15:321][288]TextureStreamingBuild: Display: Compiling optional shaders took 2.407 seconds.
+[2019.11.04-15.50.15:359][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.11.04-15.50.18:752][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Walllonglong_Metrial" FILE="../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllonglong_Metrial.uasset" SILENT=true
+[2019.11.04-15.50.18:795][288]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllonglong_MetrialE2D614C547FB6226845AC198D10D318D.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllonglong_Metrial.uasset'
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.50.18:823][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.50.23:744][325]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-15.50.23:855][325]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-15.50.26:642][349]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.50.35:464][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.50.49:409][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.50.49:679][906]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial
+[2019.11.04-15.50.49:684][906]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.49:915][906]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.49:930][906]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.49:936][906]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.49:991][906]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-15.50.49:999][906]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-15.50.51:184][915]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.52:472][925]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.50.54:392][955]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.50.57:919][982]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.57:937][982]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.57:988][983]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.50.58:773][990]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.50.59:459][994]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.59:490][994]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.50.59:760][998]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.00:744][  5]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.51.01:139][  6]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.01:345][ 10]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.02:260][ 15]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.51.03:688][ 25]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.03:715][ 25]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.03:914][ 29]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.04:786][ 35]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.51.05:091][ 36]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.05:119][ 36]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.05:508][ 41]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.06:349][ 45]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.51.06:745][ 50]LogMaterialEditor: Saving and Compiling material Walllonglong_Metrial
+[2019.11.04-15.51.07:738][ 50]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.07:841][ 50]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.04-15.51.07:900][ 50]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.51.07:944][ 50]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.51.07:966][ 50]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.08:074][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.11.04-15.51.08:088][ 50]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.51.10:475][ 50]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-15.51.10:475][ 50]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-15.51.10:494][ 50]TextureStreamingBuild: Display: Compiling optional shaders took 2.420 seconds.
+[2019.11.04-15.51.10:530][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.11.04-15.51.10:549][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.51.13:949][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Walllonglong_Metrial" FILE="../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllonglong_Metrial.uasset" SILENT=true
+[2019.11.04-15.51.13:982][ 50]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllonglong_MetrialDF712E2C4A6E5FC3A960C58CE6C66008.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllonglong_Metrial.uasset'
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.51.14:013][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.51.15:105][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.51.15:203][ 60]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-15.51.27:833][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.51.28:089][193]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Walllong_Metrial.Walllong_Metrial
+[2019.11.04-15.51.28:094][193]LogMaterial: Display: Missing cached shader map for material Walllong_Metrial, compiling. 
+[2019.11.04-15.51.28:228][193]LogMaterial: Display: Missing cached shader map for material Walllong_Metrial, compiling. 
+[2019.11.04-15.51.28:247][193]LogMaterial: Display: Missing cached shader map for material Walllong_Metrial, compiling. 
+[2019.11.04-15.51.28:266][193]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.28:296][193]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-15.51.28:304][193]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-15.51.28:739][197]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.51.29:909][202]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.51.31:450][214]LogMaterialEditor: Saving and Compiling material Walllong_Metrial
+[2019.11.04-15.51.31:626][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Walllong_Metrial" FILE="../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllong_Metrial.uasset" SILENT=true
+[2019.11.04-15.51.31:665][214]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllong_MetrialA5CEE0214A69C956099B97A716F77D80.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/Walllong_Metrial.uasset'
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.51.31:700][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.51.33:434][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.51.33:545][229]LogSlate: Window 'Walllong_Metrial' being destroyed
+[2019.11.04-15.52.11:125][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.52.21:791][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.52.35:680][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.52.35:715][412]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial
+[2019.11.04-15.52.35:720][412]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.35:929][412]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.35:947][412]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.35:978][412]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.35:994][412]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-15.52.36:002][412]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-15.52.36:855][417]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.38:158][427]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.40:834][474]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.52.40:835][474]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.52.40:835][474]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.52.40:835][474]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.52.40:835][474]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.52.40:835][474]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.52.43:311][492]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.43:432][493]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.44:168][500]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.46:311][539]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.46:330][539]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.47:187][546]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.47:312][546]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.47:663][550]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.48:636][557]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.52.50:854][572]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.52.52:893][585]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.52:909][585]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.52:941][586]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.53:811][594]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.54:979][600]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.55:136][602]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.56:108][635]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.52.56:209][638]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.52.57:084][643]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-15.52.59:501][658]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-15.52.59:681][661]LogMaterialEditor: Applying material Walllonglong_Metrial
+[2019.11.04-15.53.00:334][661]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.11.04-15.53.00:399][661]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.53.00:411][661]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.53.00:439][661]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.53.00:570][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.11.04-15.53.00:585][661]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.02:882][661]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-15.53.02:882][661]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-15.53.02:908][661]TextureStreamingBuild: Display: Compiling optional shaders took 2.337 seconds.
+[2019.11.04-15.53.02:941][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.11.04-15.53.06:352][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.53.06:497][685]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-15.53.22:613][827]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.53.22:661][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.11.04-15.53.23:995][827]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMap3C55850545BE53562A2D1F9B2E0805F7.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.04-15.53.25:305][827]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMap_BuiltData511F3E3A4EA1F77F68A3D1B2708B565D.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-15.53.27:965][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.53.28:115][842]MapCheck: New page: Map Check
+[2019.11.04-15.53.28:305][842]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.04-15.53.28:305][842]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.04-15.53.36:316][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.11.04-15.53.36:402][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:440][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2019.11.04-15.53.36:474][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:483][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:491][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:499][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:506][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:513][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:524][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:537][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:546][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:554][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:562][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:573][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:583][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:598][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:611][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.36:625][842]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-15.53.42:144][842]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-15.53.42:144][842]TextureStreamingBuild: Display: Compiling optional shaders took 5.746 seconds.
+[2019.11.04-15.53.42:172][842]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
+[2019.11.04-15.53.42:267][842]TextureStreamingBuild: Display: Build Texture Streaming took 0.095 seconds.
+[2019.11.04-15.53.42:292][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.11.04-15.53.42:293][842]LightingResults: New page: Lighting Build - Nov 4, 2019, 5:53:42 AM
+[2019.11.04-15.53.42:430][842]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.04-15.53.42:702][842]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.04-15.53.42:732][842]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.04-15.53.43:782][842]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.04-15.53.43:782][842]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17036
+[2019.11.04-15.53.49:164][842]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.11.04-15.53.49:168][842]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.04-15.53.49:168][842]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.04-15.53.49:168][842]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.04-15.53.49:168][842]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.04-15.53.49:168][842]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.04-15.53.49:910][842]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.04-15.53.49:910][842]MapCheck: New page: ThirdPersonExampleMap - Nov 4, 2019, 5:53:49 AM
+[2019.11.04-15.53.49:911][842]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2019.11.04-15.53.49:911][842]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.112ms to complete.
+[2019.11.04-15.53.49:937][842]LogEditorBuildUtils: Build time 0:21
+[2019.11.04-15.53.49:997][842]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-15.53.50:126][843]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Walllong_Metrial, compiling. 
+[2019.11.04-15.53.50:166][843]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Walllong_Metrial, compiling. 
+[2019.11.04-15.53.50:384][844]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Walllonglong_Metrial, compiling. 
+[2019.11.04-15.53.50:395][844]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Walllonglong_Metrial, compiling. 
+[2019.11.04-15.53.52:319][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.11.04-15.53.54:267][857]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-15.54.22:131][ 20]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-15.54.22:310][ 20]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-15.54.59:066][208]Job is a success!
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.589s
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:      BrickData 1280x20x5 = 5.0Mb (trimmed 5.2Mb due to 0.010000 MinBrickError)
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:          1: 9.1% covering 18.2% of volume
+[2019.11.04-15.55.00:268][209]LogVolumetricLightmapImport:          2: 90.1% covering 2.8% of volume
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: PointLight9 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: RectLight2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: RectLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: SpotLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: RectLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: RectLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:685][209]LightingResults: Warning: SpotLight3_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:686][209]LightingResults: Warning: SpotLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:686][209]LightingResults: Warning: RectLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:686][209]LightingResults: Warning: SpotLight5_3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.02:686][209]LightingResults: Warning: SpotLight2_3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:953][209]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 2048X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 2048X2048)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 2048X2048)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 1024X512)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 64X32)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 64X64)
+[2019.11.04-15.55.05:954][209]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 64X64)
+[2019.11.04-15.55.06:154][209]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 64X32)
+[2019.11.04-15.55.06:154][209]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2019.11.04-15.55.06:364][209]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2019.11.04-15.55.06:367][209]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024)
+[2019.11.04-15.55.06:367][209]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2019.11.04-15.55.06:407][209]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
+[2019.11.04-15.55.06:540][209]Lightmass on DESKTOP-VMGI91V: 1:12 min total, 1.47 sec importing, 611 ms setup, 17.5 sec photons, 52.4 sec processing, 0 ms extra exporting [1448/1448 mappings]. Threads: 6:07 min total, 3:14 min processing.
+[2019.11.04-15.55.06:581][209]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 531 meshes in 12 LightmapResourceClusters (44.3 Meshes per cluster).
+[2019.11.04-15.55.06:642][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.11.04-15.55.06:671][209]LogMaterial: Warning: Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial needed to have new flag set bUsedWithStaticLighting !
+[2019.11.04-15.55.06:688][209]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-15.55.06:745][209]LogMaterial: Warning: Material /Game/Material/Walllong_Metrial.Walllong_Metrial needed to have new flag set bUsedWithStaticLighting !
+[2019.11.04-15.55.06:749][209]LogMaterial: Display: Missing cached shader map for material Walllong_Metrial, compiling. 
+[2019.11.04-15.55.07:457][209]LogStaticLightingSystem: Illumination: 1:24 min (3.26 sec encoding lightmaps, 447 ms encoding shadowmaps)
+[2019.11.04-15.55.07:457][209]LogStaticLightingSystem: Lightmap texture memory:  26.7 MB (2.7 MB streaming, 24.0 MB non-streaming), 16 textures
+[2019.11.04-15.55.07:457][209]LogStaticLightingSystem: Shadowmap texture memory: 17.3 MB (0.0 MB streaming, 17.3 MB non-streaming), 6 textures
+[2019.11.04-15.55.12:275][209]DumpUnbuiltLightIteractions
+[2019.11.04-15.55.12:275][209]Lights with unbuilt interactions: 0
+[2019.11.04-15.55.12:275][209]
+[2019.11.04-15.55.12:275][209]Primitives with unbuilt interactions: 0
+[2019.11.04-15.55.14:570][210]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.04-15.55.14:570][210]MapCheck: New page: ThirdPersonExampleMap - Nov 4, 2019, 5:55:14 AM
+[2019.11.04-15.55.14:572][210]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.07ms to complete.
+[2019.11.04-16.03.38:250][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.11.04-16.03.40:012][713]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMap_Auto1A5F83F1D4E473D8B23E86A986157BCD6.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.11.04-16.03.40:022][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.801
+[2019.11.04-16.03.40:022][713]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.801
+[2019.11.04-16.03.40:029][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Material/Walllong_Metrial] ([1] browsable assets)...
+[2019.11.04-16.03.40:029][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Walllong_Metrial]
+[2019.11.04-16.03.40:047][713]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllong_Metrial_Auto1C4B5AEBB4FB48739A4EDB28A941523EB.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/Material/Walllong_Metrial_Auto1.uasset'
+[2019.11.04-16.03.40:052][713]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/Walllonglong_Metrial] ([1] browsable assets)...
+[2019.11.04-16.03.40:094][713]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial]
+[2019.11.04-16.03.40:095][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Walllonglong_Metrial]
+[2019.11.04-16.03.40:136][713]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllonglong_Metrial_Auto1C3067B16435CA56D6505BBA60CF9ACDE.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/Material/Walllonglong_Metrial_Auto1.uasset'
+[2019.11.04-16.03.40:141][713]LogFileHelpers: Auto-saving content packages took 0.113
+[2019.11.04-16.06.15:244][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.06.15:244][183]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-16.06.15:421][183]LogSlate: Window 'Message Log' being destroyed
+[2019.11.04-16.06.38:862][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.06.56:291][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.06.56:651][561]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial
+[2019.11.04-16.06.56:656][561]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.06.56:793][561]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.06.56:821][561]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.06.56:847][561]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.06.56:876][561]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.06.56:885][561]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.06.57:564][565]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.06.57:641][565]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.06.58:691][572]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.07.00:563][612]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Base pass shader with Surface Lightmap: 136 instructions
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.07.02:136][622]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.07.20:102][132]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.07.20:114][132]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-16.07.29:937][200]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.07.31:766][204]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.07.33:821][217]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.33:847][217]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.33:883][218]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.35:078][227]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.07.36:540][235]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Base pass shader with Surface Lightmap: 136 instructions
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.07.38:687][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.07.39:193][248]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.39:243][249]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.40:008][255]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.07.41:564][267]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.07.42:355][270]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.42:382][270]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.42:388][270]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.42:553][273]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.43:540][276]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.07.43:885][279]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.43:913][279]LogMaterialEditor: Applying material Walllonglong_Metrial
+[2019.11.04-16.07.44:803][279]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.44:834][279]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.44:952][279]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.07.44:991][279]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.45:032][279]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.07.45:106][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.11.04-16.07.45:119][279]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.07.48:366][279]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-16.07.48:366][279]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.07.48:375][279]TextureStreamingBuild: Display: Compiling optional shaders took 3.268 seconds.
+[2019.11.04-16.07.48:412][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.04-16.07.49:126][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Base pass shader with Surface Lightmap: 136 instructions
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.07.53:033][307]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.08.02:616][352]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.08.04:232][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.08.06:126][373]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.06:155][373]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.06:190][374]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.06:897][379]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.08:380][388]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.08.09:208][390]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.09:280][391]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.10:340][399]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.11:504][405]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.11:540][405]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.11:633][407]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.12:529][410]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.13:253][415]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.13:280][415]LogMaterialEditor: Applying material Walllonglong_Metrial
+[2019.11.04-16.08.14:136][415]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.14:165][415]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.14:280][415]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.14:319][415]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.14:362][415]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.14:426][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.11.04-16.08.14:447][415]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.08.17:986][415]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.04-16.08.17:986][415]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-16.08.17:986][415]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.08.17:993][415]TextureStreamingBuild: Display: Compiling optional shaders took 3.560 seconds.
+[2019.11.04-16.08.18:027][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.11.04-16.08.18:749][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Base pass shader: 113 instructions
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.08.22:457][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.08.27:305][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.08.31:439][494]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.31:470][494]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.31:506][495]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.32:295][501]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.33:188][505]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.33:253][506]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.34:245][511]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.35:813][523]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.08.36:573][526]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.36:609][526]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.36:666][527]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.37:676][534]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.39:162][543]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Base pass shader with Surface Lightmap: 136 instructions
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.08.41:351][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.08.43:082][565]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.43:123][566]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.43:871][571]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.08.45:381][580]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.08.46:381][585]LogMaterialEditor: Applying material Walllonglong_Metrial
+[2019.11.04-16.08.47:282][585]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.47:369][585]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.08.47:397][585]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.47:455][585]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.08.47:519][585]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.04-16.08.47:547][585]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.08.51:021][585]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-16.08.51:021][585]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.08.51:030][585]TextureStreamingBuild: Display: Compiling optional shaders took 3.497 seconds.
+[2019.11.04-16.08.51:071][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.11.04-16.08.51:788][589]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Base pass shader with Surface Lightmap: 136 instructions
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 182 instructions
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.08.55:989][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.09.01:503][641]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.09.02:304][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.09.03:892][656]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.09.03:951][657]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.09.04:709][663]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.09.06:450][673]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.09.07:048][675]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.09.07:147][676]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.09.08:380][685]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.09.08:957][688]LogMaterialEditor: Applying material Walllonglong_Metrial
+[2019.11.04-16.09.09:962][688]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.09.10:083][688]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.09.10:116][688]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.09.10:167][688]LogMaterial: Display: Missing cached shader map for material Walllonglong_Metrial, compiling. 
+[2019.11.04-16.09.10:244][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.11.04-16.09.10:258][688]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.09.13:919][688]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.04-16.09.13:919][688]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-16.09.13:919][688]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.09.13:925][688]TextureStreamingBuild: Display: Compiling optional shaders took 3.681 seconds.
+[2019.11.04-16.09.13:960][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.04-16.09.14:704][691]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.09.17:185][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.09.17:525][708]LogSlate: Window 'Walllonglong_Metrial' being destroyed
+[2019.11.04-16.09.18:294][712]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.11.30:936][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.11.32:278][515]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Material/T_Brick_Clay_New_D.T_Brick_Clay_New_D
+[2019.11.04-16.11.32:357][515]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.11.04-16.11.35:179][532]LogSlate: Window 'T_Brick_Clay_New_D' being destroyed
+[2019.11.04-16.11.35:376][532]LogSlate: Window 'T_Brick_Clay_New_D' being destroyed
+[2019.11.04-16.11.36:489][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.11.36:879][542]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Material/T_Brick_Clay_Old_D.T_Brick_Clay_Old_D
+[2019.11.04-16.11.41:091][566]LogSlate: Window 'T_Brick_Clay_Old_D' being destroyed
+[2019.11.04-16.11.41:296][566]LogSlate: Window 'T_Brick_Clay_Old_D' being destroyed
+[2019.11.04-16.11.49:458][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.11.49:876][615]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Material/T_BrickWall_A.T_BrickWall_A
+[2019.11.04-16.11.50:843][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.11.58:444][662]LogSlate: Window 'T_BrickWall_A' being destroyed
+[2019.11.04-16.11.58:647][662]LogSlate: Window 'T_BrickWall_A' being destroyed
+[2019.11.04-16.12.09:225][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.12.09:643][725]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Material/T_BrickWall_A.T_BrickWall_A
+[2019.11.04-16.12.10:531][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.12.13:552][748]LogSlate: Window 'T_BrickWall_A' being destroyed
+[2019.11.04-16.12.13:735][748]LogSlate: Window 'T_BrickWall_A' being destroyed
+[2019.11.04-16.13.52:007][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.11.04-16.13.52:007][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
+[2019.11.04-16.13.52:009][ 59]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/Walllonglong_Metrial] ([1] browsable assets)...
+[2019.11.04-16.13.52:043][ 59]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/Walllonglong_Metrial.Walllonglong_Metrial]
+[2019.11.04-16.13.52:043][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Walllonglong_Metrial]
+[2019.11.04-16.13.52:077][ 59]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Walllonglong_Metrial_Auto24B2C7CE1424D1448A782C9889EA4F669.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/Material/Walllonglong_Metrial_Auto2.uasset'
+[2019.11.04-16.13.52:082][ 59]LogFileHelpers: Auto-saving content packages took 0.075
+[2019.11.04-16.18.57:451][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.21.07:468][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.21.35:138][643]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\虚幻4素材\castle\Black-Brick-Texture-Wallpaper-42269.jpg)
+[2019.11.04-16.21.35:338][643]LogTexture: Display: Building textures: Black-Brick-Texture-Wallpaper-42269 (AutoDXT, 3840X2160)
+[2019.11.04-16.23.04:658][188]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Brick_normal.Brick_normal
+[2019.11.04-16.23.04:662][188]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.04:888][188]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.04:905][188]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.04:942][188]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.06:176][197]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.08:688][231]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.04-16.23.08:688][231]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.04-16.23.08:688][231]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.04-16.23.08:688][231]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.04-16.23.12:756][338]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.12:775][338]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.12:775][338]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.23.12:814][338]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.23.13:892][345]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.16:207][372]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.04-16.23.16:207][372]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.04-16.23.16:207][372]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.04-16.23.16:207][372]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.04-16.23.18:118][411]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.18:137][411]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.18:141][411]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.23.19:333][421]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.04-16.23.21:096][432]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.23.28:048][501]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.28:099][502]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.28:837][509]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.31:744][555]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.31:781][556]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.32:533][561]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.33:002][563]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.33:258][567]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.34:183][573]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.36:382][588]MaterialEditorStats: Base pass shader: 110 instructions
+[2019.11.04-16.23.36:383][588]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.11.04-16.23.36:383][588]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.23.36:383][588]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.04-16.23.36:383][588]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.04-16.23.36:383][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.23.37:453][594]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.37:481][594]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.37:515][595]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.38:314][601]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.39:252][606]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.39:622][615]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.40:810][658]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.40:918][661]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.41:697][664]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.23.42:305][668]LogMaterialEditor: Applying material Brick_normal
+[2019.11.04-16.23.43:207][668]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.43:317][668]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.43:338][668]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.23.43:350][668]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.23.43:431][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2019.11.04-16.23.43:445][668]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.23.45:748][668]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.23.45:748][668]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.23.45:752][668]TextureStreamingBuild: Display: Compiling optional shaders took 2.320 seconds.
+[2019.11.04-16.23.45:784][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.04-16.23.49:672][694]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.23.53:851][721]LogSlate: Window 'Brick_normal' being destroyed
+[2019.11.04-16.23.54:676][725]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.04-16.24.11:829][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.24.19:093][248]LogMaterial: Warning: Material /Game/Material/Brick_normal.Brick_normal needed to have new flag set bUsedWithStaticLighting !
+[2019.11.04-16.24.19:111][248]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.25.07:420][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.25.07:599][793]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Brick_normal.Brick_normal
+[2019.11.04-16.25.07:604][793]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.07:706][793]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.07:731][793]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.07:759][793]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.25.07:792][793]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.25.09:431][806]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.25.11:053][811]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Base pass shader with Surface Lightmap: 129 instructions
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Texture samplers: 4/16
+[2019.11.04-16.25.12:959][833]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.04-16.25.12:960][833]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.25.14:091][860]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.14:116][860]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.25.14:124][860]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.25.14:156][860]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.25.14:165][860]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.25.14:534][864]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.25.15:737][867]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.25.17:446][886]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.25.18:360][914]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.18:406][914]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.25.18:953][918]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.25.19:702][926]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.25.21:608][949]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.25.23:437][970]MaterialEditorStats: Base pass shader: 113 instructions
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.25.23:438][970]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.25.24:191][979]LogMaterialEditor: Applying material Brick_normal
+[2019.11.04-16.25.24:813][979]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.11.04-16.25.24:912][979]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.25.24:930][979]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.25.24:968][979]LogMaterial: Display: Missing cached shader map for material Brick_normal, compiling. 
+[2019.11.04-16.25.25:057][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.04-16.25.25:071][979]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.25.28:483][979]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.04-16.25.28:483][979]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.25.28:496][979]TextureStreamingBuild: Display: Compiling optional shaders took 3.439 seconds.
+[2019.11.04-16.25.28:531][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.11.04-16.25.33:377][ 23]MaterialEditorStats: Base pass shader: 113 instructions
+[2019.11.04-16.25.33:377][ 23]MaterialEditorStats: Base pass shader with Surface Lightmap: 135 instructions
+[2019.11.04-16.25.33:378][ 23]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.04-16.25.33:378][ 23]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.25.33:378][ 23]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.25.33:378][ 23]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.25.33:378][ 23]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.25.36:814][ 64]LogSlate: Window 'Brick_normal' being destroyed
+[2019.11.04-16.26.52:123][572]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.27.06:721][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.27.19:408][791]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.20:755][849]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.26:803][145]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.29:368][262]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.30:161][292]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.30:913][330]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.37:465][568]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush11)
+[2019.11.04-16.27.41:920][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.28.05:589][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.28.13:537][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.28.46:190][886]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.29.43:078][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-16.30.12:201][ 99]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/ground_material.ground_material
+[2019.11.04-16.30.12:209][ 99]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.12:309][ 99]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.12:328][ 99]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.12:364][ 99]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.30.14:719][159]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.30.14:727][159]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.14:756][159]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.30.14:800][159]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.30.15:932][188]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.30.17:292][202]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.30.18:682][238]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.18:710][238]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.30.18:761][238]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.30.18:773][238]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.30.19:428][252]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.30.21:163][283]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.30.23:833][358]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.23:859][358]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.30.23:859][358]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.04-16.30.25:514][406]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.25:554][406]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.04-16.30.26:568][430]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.04-16.30.27:166][447]LogMaterialEditor: Saving and Compiling material ground_material
+[2019.11.04-16.30.28:107][447]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.04-16.30.28:143][447]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.28:260][447]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.28:299][447]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.30.28:386][447]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.11.04-16.30.28:400][447]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.04-16.30.30:979][447]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.04-16.30.30:979][447]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.04-16.30.30:983][447]TextureStreamingBuild: Display: Compiling optional shaders took 2.596 seconds.
+[2019.11.04-16.30.31:016][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.11.04-16.30.34:405][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/ground_material" FILE="../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/ground_material.uasset" SILENT=true
+[2019.11.04-16.30.34:427][447]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ground_materialDA46A2354D90EBDD4DD757AC68F0CC66.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Content/Material/ground_material.uasset'
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: Base pass shader: 116 instructions
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 190 instructions
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: Texture samplers: 5/16
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.11.04-16.30.34:466][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.04-16.30.51:646][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2019.11.04-16.30.53:300][201]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/ThirdPersonExampleMap_Auto356D64AED4E3E9B8ABED20D8E30EA7B29.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2019.11.04-16.30.53:311][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.689
+[2019.11.04-16.30.53:311][201]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.689
+[2019.11.04-16.30.53:317][201]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/Black-Brick-Texture-Wallpaper-42269] ([1] browsable assets)...
+[2019.11.04-16.30.53:326][201]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Material/Black-Brick-Texture-Wallpaper-42269.Black-Brick-Texture-Wallpaper-42269]
+[2019.11.04-16.30.53:326][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Black-Brick-Texture-Wallpaper-42269]
+[2019.11.04-16.30.53:554][201]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Black-Brick-Texture-Wallpaper-42CFC879DB4731F416A84DB487042D2E2E.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/Material/Black-Brick-Texture-Wallpaper-42269_Auto3.uasset'
+[2019.11.04-16.30.53:559][201]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/Brick_normal] ([1] browsable assets)...
+[2019.11.04-16.30.53:591][201]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/Brick_normal.Brick_normal]
+[2019.11.04-16.30.53:591][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Brick_normal]
+[2019.11.04-16.30.53:617][201]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Brick_normal_Auto34BBE6A204311822D8BAC76917C0DF185.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/WhiteRoomCastle/Saved/Autosaves/Game/Material/Brick_normal_Auto3.uasset'
+[2019.11.04-16.30.53:621][201]LogFileHelpers: Auto-saving content packages took 0.306
+[2019.11.04-16.30.55:373][271]LogSlate: Window 'ground_material' being destroyed
+[2019.11.04-16.30.59:510][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-16.31.02:977][667]LogMaterial: Warning: Material /Game/Material/ground_material.ground_material needed to have new flag set bUsedWithStaticLighting !
+[2019.11.04-16.31.02:985][667]LogMaterial: Display: Missing cached shader map for material ground_material, compiling. 
+[2019.11.04-16.31.03:105][669]LogWindows: Windows GetLastError: The operation completed successfully. (0)
