@@ -1809,3 +1809,479 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.04-15.15.30:788][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
 [2019.11.04-15.15.37:076][705]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap2814033742986B1852239398BE1000EF.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2019.11.04-15.15.40:914][705]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataC41A68534F83D75DB61318ACABAAEB9F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-15.17.27:700][894]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.17.27:731][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.17.27:731][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.17.27:731][894]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:17:27 AM)
+[2019.11.04-15.17.27:731][894]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.17.27:792][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061389s)
+[2019.11.04-15.17.27:793][894]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.17.27:793][894]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2019.11.04-15.17.27:793][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062365s)
+[2019.11.04-15.17.27:836][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.04-15.17.27:844][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.17.27:950][894]LogInit: FAudioDevice initialized.
+[2019.11.04-15.17.27:960][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.17.27:990][894]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.17.27:994][894]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.17.27
+[2019.11.04-15.17.27:997][894]LogWorld: Bringing up level for play took: 0.005473
+[2019.11.04-15.17.28:015][894]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.595
+[2019.11.04-15.17.28:016][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.17.35:191][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.17.35:191][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.17.35:213][297]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.17.35:250][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.17.35:251][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.17.35:301][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.11.04-15.17.35:314][298]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.11.04-15.19.28:721][208]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.04-15.19.28:772][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.11.04-15.19.30:310][279]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.19.30:337][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.19.30:337][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.19.30:337][279]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:19:30 AM)
+[2019.11.04-15.19.30:337][279]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.19.30:398][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060213s)
+[2019.11.04-15.19.30:398][279]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.19.30:399][279]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2019.11.04-15.19.30:399][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061440s)
+[2019.11.04-15.19.30:442][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.04-15.19.30:447][279]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.19.30:515][279]LogInit: FAudioDevice initialized.
+[2019.11.04-15.19.30:523][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.19.30:558][279]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.19.30:563][279]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.19.30
+[2019.11.04-15.19.30:565][279]LogWorld: Bringing up level for play took: 0.005444
+[2019.11.04-15.19.30:582][279]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.163
+[2019.11.04-15.19.30:582][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.19.38:016][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.19.53:372][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.20.09:461][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.20.09:462][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.20.09:482][450]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.20.09:523][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.20.09:523][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.20.09:573][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.11.04-15.20.09:599][451]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.04-15.22.27:500][980]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Options.Options:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Options.Options_C:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/PauseMenu.PauseMenu_C:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD_C:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_69.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Ingame_HUD_C_48:WidgetTree.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_71.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_72.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_73.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_74.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_75.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:Ingame_HUD_C_76.WidgetTree_0.CanvasPanel_0
+[2019.11.04-15.22.37:037][397]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_16) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_137).  Import failed...
+[2019.11.04-15.22.37:037][397]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_16"''
+[2019.11.04-15.22.55:777][270]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.04-15.22.56:845][328]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.22.56:872][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.22.56:872][328]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.04-15.22.56:875][328]LogPlayLevel: [PlayLevel] Compiling Ingame_HUD before play...
+[2019.11.04-15.22.57:122][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.11.04-15.22.57:122][328]LogPlayLevel: PlayLevel: Blueprint regeneration took 249 ms (1 blueprints)
+[2019.11.04-15.22.57:122][328]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:22:57 AM)
+[2019.11.04-15.22.57:122][328]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.22.57:182][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059912s)
+[2019.11.04-15.22.57:183][328]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.22.57:183][328]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.11.04-15.22.57:183][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061010s)
+[2019.11.04-15.22.57:234][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.04-15.22.57:239][328]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.22.57:311][328]LogInit: FAudioDevice initialized.
+[2019.11.04-15.22.57:320][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.22.57:350][328]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.22.57:355][328]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.22.57
+[2019.11.04-15.22.57:357][328]LogWorld: Bringing up level for play took: 0.005701
+[2019.11.04-15.22.57:376][328]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.044
+[2019.11.04-15.22.57:376][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.23.02:393][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.23.02:394][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.23.02:414][552]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.23.02:452][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.23.02:452][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.23.02:502][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.04-15.23.02:521][553]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.11.04-15.23.07:310][822]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.04-15.23.07:357][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.04-15.23.07:800][845]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Ingame_HUDD63A974444BC2EB061FAF3AFB2628E44.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Ingame_HUD.uasset'
+[2019.11.04-15.35.04:212][178]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.35.04:283][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.35.04:284][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.35.04:284][178]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:35:04 AM)
+[2019.11.04-15.35.04:284][178]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.35.04:471][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186589s)
+[2019.11.04-15.35.04:472][178]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.35.04:472][178]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.11.04-15.35.04:472][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.187557s)
+[2019.11.04-15.35.04:521][178]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.11.04-15.35.04:526][178]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.35.04:605][178]LogInit: FAudioDevice initialized.
+[2019.11.04-15.35.04:614][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.35.04:648][178]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.35.04:655][178]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.35.04
+[2019.11.04-15.35.04:657][178]LogWorld: Bringing up level for play took: 0.007190
+[2019.11.04-15.35.04:676][178]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.256
+[2019.11.04-15.35.04:676][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.35.08:553][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.35.08:554][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.35.08:576][350]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.35.08:616][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.35.08:616][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.35.08:672][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.04-15.35.08:689][351]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.11.04-15.38.04:884][148]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.04-15.38.04:939][148]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.11.04-15.38.05:521][166]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Ingame_HUD6AC2A7FA4B4A84F9B607B6B424CA5ACB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Ingame_HUD.uasset'
+[2019.11.04-15.38.07:467][274]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.11.04-15.38.09:107][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.38.09:206][362]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.38.09:234][362]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.38.09:234][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.38.09:234][362]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:38:09 AM)
+[2019.11.04-15.38.09:235][362]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.38.09:297][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062080s)
+[2019.11.04-15.38.09:298][362]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.38.09:298][362]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2019.11.04-15.38.09:298][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062988s)
+[2019.11.04-15.38.09:349][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.11.04-15.38.09:354][362]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.38.09:432][362]LogInit: FAudioDevice initialized.
+[2019.11.04-15.38.09:439][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.38.09:471][362]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.38.09:478][362]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.38.09
+[2019.11.04-15.38.09:480][362]LogWorld: Bringing up level for play took: 0.008318
+[2019.11.04-15.38.09:498][362]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.079
+[2019.11.04-15.38.09:498][362]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.38.27:050][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.38.27:051][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.38.27:071][353]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.38.27:106][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.38.27:106][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.38.27:167][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.04-15.38.27:256][354]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.04-15.45.08:121][ 51]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.45.08:152][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.08:152][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.45.08:152][ 51]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:45:08 AM)
+[2019.11.04-15.45.08:153][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.45.08:213][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060154s)
+[2019.11.04-15.45.08:214][ 51]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.45.08:214][ 51]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.11.04-15.45.08:214][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061227s)
+[2019.11.04-15.45.08:263][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.11.04-15.45.08:267][ 51]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.45.08:349][ 51]LogInit: FAudioDevice initialized.
+[2019.11.04-15.45.08:357][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.45.08:393][ 51]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.45.08:398][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.45.08
+[2019.11.04-15.45.08:400][ 51]LogWorld: Bringing up level for play took: 0.006302
+[2019.11.04-15.45.08:417][ 51]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.997
+[2019.11.04-15.45.08:417][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.16:754][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.45.28:886][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.45.28:886][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.28:906][232]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.45.28:942][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.45.28:942][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.28:991][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.04-15.45.29:106][233]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.11.04-15.45.30:423][310]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-15.45.30:448][310]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.30:448][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-15.45.30:449][310]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 5:45:30 AM)
+[2019.11.04-15.45.30:449][310]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-15.45.30:508][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058567s)
+[2019.11.04-15.45.30:508][310]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-15.45.30:508][310]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2019.11.04-15.45.30:508][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059413s)
+[2019.11.04-15.45.30:559][310]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.11.04-15.45.30:563][310]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-15.45.30:634][310]LogInit: FAudioDevice initialized.
+[2019.11.04-15.45.30:641][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-15.45.30:677][310]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-15.45.30:681][310]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.11.04-10.45.30
+[2019.11.04-15.45.30:683][310]LogWorld: Bringing up level for play took: 0.004920
+[2019.11.04-15.45.30:699][310]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.72
+[2019.11.04-15.45.30:700][310]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.34:489][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-15.45.46:470][206]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-15.45.46:474][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.46:506][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-15.45.46:506][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-15.45.46:557][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.11.04-15.45.46:578][207]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.11.04-16.17.04:326][501]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.04-16.17.39:436][312]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Inventory_Component.Inventory_Component
+[2019.11.04-16.17.55:191][ 89]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.792 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-16.19.23:343][894]LogSlate: Took 0.064685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.04-16.19.40:676][911]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.11.04-16.19.41:800][912]LogSlate: Took 0.019602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.04-16.19.56:616][687]LogSlate: Window 'Inventory_Component' being destroyed
+[2019.11.04-16.19.56:621][687]LogSlate: Window 'Inventory_Component' being destroyed
+[2019.11.04-16.27.04:696][876]LogUObjectHash: Compacting FUObjectHashTables data took  10.17ms
+[2019.11.04-16.27.04:697][876]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.120
+[2019.11.04-16.27.04:698][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Inventory_Component] ([1] browsable assets)...
+[2019.11.04-16.27.04:698][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Inventory_Component]
+[2019.11.04-16.27.04:712][876]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Inventory_Component_Auto1F296A1D3481473E45B9D689427496ADF.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Inventory_Component_Auto1.uasset'
+[2019.11.04-16.27.04:713][876]LogFileHelpers: Auto-saving content packages took 0.015
+[2019.11.04-16.40.50:671][400]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.04-16.40.51:267][400]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMapA9B390134673810634717581543DB8D4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.04-16.40.51:855][400]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataDDA34D3E423A6BFCE9804A96C4D49B05.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-18.54.03:908][498]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:170][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:171][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.04:172][498]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x251baecbf70 [can pipeline])
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 1 (Re-using existing connection! (#50) with host datarouter.ol.epicgames.com)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.97.25) port 443 (#50))
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: 000002526F182D40: libcurl info message cache 7 (Closing connection 50)
+[2019.11.04-18.54.09:015][512]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2A7B80E7-43F2-E804-66B5-38BA87786A58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=2b8bd4f84bdbe97e84db6d89ed8a2698%7C2579e7dd642b45c6a90e6da9a925536b%7C7d9043bd-76db-4874-b3f2-d30de2733ba0&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.04-18.54.54:954][649]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.784 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.04-18.56.20:056][983]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-18.56.20:080][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.20:080][983]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.04-18.56.20:081][983]LogPlayLevel: [PlayLevel] Compiling Inventory_Component before play...
+[2019.11.04-18.56.20:194][983]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2019.11.04-18.56.20:194][983]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2019.11.04-18.56.20:194][983]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 8:56:20 AM)
+[2019.11.04-18.56.20:194][983]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-18.56.20:405][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.210348s)
+[2019.11.04-18.56.20:405][983]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-18.56.20:405][983]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.11.04-18.56.20:406][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.211317s)
+[2019.11.04-18.56.20:455][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2019.11.04-18.56.20:486][983]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-18.56.20:566][983]LogInit: FAudioDevice initialized.
+[2019.11.04-18.56.20:598][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.56.20:630][983]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-18.56.20:644][983]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.11.04-13.56.20
+[2019.11.04-18.56.20:646][983]LogWorld: Bringing up level for play took: 0.015327
+[2019.11.04-18.56.20:671][983]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.262
+[2019.11.04-18.56.20:682][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.26:888][401]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.26:889][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.56.26:909][401]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-18.56.26:949][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-18.56.26:949][401]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.26:992][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.04-18.56.27:070][402]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.11.04-18.56.28:218][498]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-18.56.28:241][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.28:241][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.04-18.56.28:241][498]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 8:56:28 AM)
+[2019.11.04-18.56.28:241][498]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-18.56.28:306][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065046s)
+[2019.11.04-18.56.28:307][498]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-18.56.28:307][498]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2019.11.04-18.56.28:307][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.066111s)
+[2019.11.04-18.56.28:349][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.11.04-18.56.28:355][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-18.56.28:424][498]LogInit: FAudioDevice initialized.
+[2019.11.04-18.56.28:431][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.56.28:463][498]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-18.56.28:467][498]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.11.04-13.56.28
+[2019.11.04-18.56.28:469][498]LogWorld: Bringing up level for play took: 0.004524
+[2019.11.04-18.56.28:485][498]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.076
+[2019.11.04-18.56.28:485][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.30:806][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-18.56.39:502][303]Cmd: r.setRes 1920x1080w
+[2019.11.04-18.56.39:520][303]r.SetRes = "1920x1080w"
+[2019.11.04-18.56.41:743][447]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.04-18.56.41:747][447]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2019.11.04-18.56.41:788][447]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.11.04-18.56.41:788][447]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-18.56.41:844][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055870s)
+[2019.11.04-18.56.41:845][447]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-18.56.41:845][447]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2019.11.04-18.56.41:845][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.056905s)
+[2019.11.04-18.56.41:845][447]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-18.56.41:850][447]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.11.04-13.56.41
+[2019.11.04-18.56.41:851][447]LogWorld: Bringing up level for play took: 0.005172
+[2019.11.04-18.56.41:854][447]LogLoad: Took 0.107388 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap)
+[2019.11.04-18.56.51:240][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.51:241][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.56.51:263][ 90]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-18.56.51:299][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-18.56.51:300][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.56.51:344][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.11.04-18.56.51:471][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.11.04-18.57.01:350][847]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD
+[2019.11.04-18.57.11:037][210]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.04-18.57.11:064][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.57.11:064][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.04-18.57.11:067][210]LogPlayLevel: [PlayLevel] Compiling Ingame_HUD before play...
+[2019.11.04-18.57.11:272][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.11.04-18.57.11:272][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 207 ms (1 blueprints)
+[2019.11.04-18.57.11:272][210]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 4, 2019, 8:57:11 AM)
+[2019.11.04-18.57.11:272][210]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.11.04-18.57.11:330][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057717s)
+[2019.11.04-18.57.11:331][210]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.11.04-18.57.11:331][210]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2019.11.04-18.57.11:331][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.058647s)
+[2019.11.04-18.57.11:382][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.11.04-18.57.11:387][210]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.04-18.57.11:457][210]LogInit: FAudioDevice initialized.
+[2019.11.04-18.57.11:463][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.57.11:494][210]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.11.04-18.57.11:498][210]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.11.04-13.57.11
+[2019.11.04-18.57.11:499][210]LogWorld: Bringing up level for play took: 0.004390
+[2019.11.04-18.57.11:518][210]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.11
+[2019.11.04-18.57.11:518][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.58.00:856][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.58.00:857][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.04-18.58.00:879][583]LogSlate: Window 'DarkSoulsWriteRoom1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.04-18.58.00:912][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.04-18.58.00:912][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.11.04-18.58.00:989][583]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.04-18.58.01:008][584]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.11.04-18.58.10:108][103]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.04-18.58.10:149][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.04-18.58.10:719][121]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Ingame_HUDC1B7C1744515A654EAF03EB7E7180EB2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Blueprints/Ingame_HUD.uasset'
+[2019.11.04-18.58.13:220][246]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.04-18.58.13:855][246]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap1978BC8B4C87B9948A598A9C1AC3C21F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.04-18.58.14:334][246]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataA788569541A4B9CDBBCB6A8366F6D494.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-18.58.14:335][246]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset', retrying in .5s...
+[2019.11.04-18.58.14:837][246]LogFileManager: Warning: DeleteFile recovered during retry!
