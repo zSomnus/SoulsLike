@@ -2424,3 +2424,15 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.04-02.33.57:699][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
 [2019.11.04-02.33.57:754][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
 [2019.11.04-02.33.57:767][420]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.11.04-02.40.09:262][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-02.40.10:245][550]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-02.40.12:024][550]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.11.04-02.40.31:227][644]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.04-02.40.31:232][644]LogSlate: Window 'Project Settings' being destroyed
+[2019.11.04-02.40.32:926][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-02.40.33:060][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.11.04-02.40.33:536][731]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap1445AEE94D62017D55C1C380D8796791.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.11.04-02.40.33:991][731]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/ThirdPersonExampleMap_BuiltDataBECC496D4685FC6DCE4BBDA954421215.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.11.04-02.40.34:529][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.04-02.43.17:142][239]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.04-02.43.19:261][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
