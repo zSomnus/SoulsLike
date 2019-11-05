@@ -19,10 +19,16 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	SOULSLIKE_API UClass* Z_Construct_UClass_AMainCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Attack();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStep();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Dodge();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Parry();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_PlayRollTimeline();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Roll();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_RollTimelineCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_RollTimelineFinishedCallback();
@@ -30,6 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	SOULSLIKE_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UEnum* Z_Construct_UEnum_Engine_ETimelineDirection();
 	ENGINE_API UClass* Z_Construct_UClass_UCurveFloat_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTimelineComponent_NoRegister();
@@ -94,10 +101,16 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		UClass* Class = AMainCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Attack", &AMainCharacter::execAttack },
+			{ "AttackStep", &AMainCharacter::execAttackStep },
+			{ "AttackStepTimelineCallback", &AMainCharacter::execAttackStepTimelineCallback },
+			{ "AttackStepTimelineFinishedCallback", &AMainCharacter::execAttackStepTimelineFinishedCallback },
 			{ "Dodge", &AMainCharacter::execDodge },
 			{ "DodgeTimelineCallback", &AMainCharacter::execDodgeTimelineCallback },
 			{ "DodgeTimelineFinishedCallback", &AMainCharacter::execDodgeTimelineFinishedCallback },
 			{ "Parry", &AMainCharacter::execParry },
+			{ "PlayAttackStepTimeline", &AMainCharacter::execPlayAttackStepTimeline },
+			{ "PlayDodgeTimeline", &AMainCharacter::execPlayDodgeTimeline },
+			{ "PlayRollTimeline", &AMainCharacter::execPlayRollTimeline },
 			{ "Roll", &AMainCharacter::execRoll },
 			{ "RollTimelineCallback", &AMainCharacter::execRollTimelineCallback },
 			{ "RollTimelineFinishedCallback", &AMainCharacter::execRollTimelineFinishedCallback },
@@ -123,6 +136,83 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Attack_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_AttackStep_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_AttackStep_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_AttackStep_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "AttackStep", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_AttackStep_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_AttackStep_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_AttackStep()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_AttackStep_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics
+	{
+		struct MainCharacter_eventAttackStepTimelineCallback_Parms
+		{
+			float value;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::NewProp_value = { "value", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainCharacter_eventAttackStepTimelineCallback_Parms, value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::NewProp_value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+		{ "ToolTip", "Attack step Timeline call" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "AttackStepTimelineCallback", sizeof(MainCharacter_eventAttackStepTimelineCallback_Parms), Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "AttackStepTimelineFinishedCallback", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -222,6 +312,72 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Parry_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "PlayAttackStepTimeline", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "PlayDodgeTimeline", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "PlayRollTimeline", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_PlayRollTimeline()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_PlayRollTimeline_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -450,6 +606,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EquippedWeapon;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Destination_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Destination;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimelineDirection_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_TimelineDirection;
@@ -487,10 +647,16 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMainCharacter_Attack, "Attack" }, // 505225962
+		{ &Z_Construct_UFunction_AMainCharacter_AttackStep, "AttackStep" }, // 208189779
+		{ &Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback, "AttackStepTimelineCallback" }, // 2469907279
+		{ &Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback, "AttackStepTimelineFinishedCallback" }, // 2841835471
 		{ &Z_Construct_UFunction_AMainCharacter_Dodge, "Dodge" }, // 2823983674
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback, "DodgeTimelineCallback" }, // 281309949
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback, "DodgeTimelineFinishedCallback" }, // 942976648
 		{ &Z_Construct_UFunction_AMainCharacter_Parry, "Parry" }, // 2491694749
+		{ &Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline, "PlayAttackStepTimeline" }, // 337555287
+		{ &Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline, "PlayDodgeTimeline" }, // 603565200
+		{ &Z_Construct_UFunction_AMainCharacter_PlayRollTimeline, "PlayRollTimeline" }, // 1222314043
 		{ &Z_Construct_UFunction_AMainCharacter_Roll, "Roll" }, // 4078257
 		{ &Z_Construct_UFunction_AMainCharacter_RollTimelineCallback, "RollTimelineCallback" }, // 2293188085
 		{ &Z_Construct_UFunction_AMainCharacter_RollTimelineFinishedCallback, "RollTimelineFinishedCallback" }, // 4048454464
@@ -774,6 +940,13 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon = { "EquippedWeapon", nullptr, (EPropertyFlags)0x0010000000010015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, EquippedWeapon), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_Destination_MetaData[] = {
+		{ "Category", "MainCharacter" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_Destination = { "Destination", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCharacter, Destination), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_Destination_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_Destination_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_TimelineDirection_MetaData[] = {
 		{ "Category", "Timeline" },
 		{ "ModuleRelativePath", "MainCharacter.h" },
@@ -858,6 +1031,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MovementStatus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_MovementStatus_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_EquippedWeapon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_Destination,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_TimelineDirection,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_AttackStepFloatCurve,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_DodgeFloatCurve,
@@ -893,7 +1067,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 448181845);
+	IMPLEMENT_CLASS(AMainCharacter, 1521757119);
 	template<> SOULSLIKE_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

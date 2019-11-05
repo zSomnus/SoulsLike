@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAttackStep) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStep(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execParry) \
 	{ \
 		P_FINISH; \
@@ -47,6 +55,39 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execPlayAttackStepTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayAttackStepTimeline(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackStepTimelineFinishedCallback) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStepTimelineFinishedCallback(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackStepTimelineCallback) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStepTimelineCallback(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPlayDodgeTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayDodgeTimeline(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDodgeTimelineFinishedCallback) \
 	{ \
 		P_FINISH; \
@@ -61,6 +102,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DodgeTimelineCallback(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPlayRollTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayRollTimeline(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -84,6 +133,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execAttackStep) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStep(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execParry) \
 	{ \
 		P_FINISH; \
@@ -116,6 +173,39 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execPlayAttackStepTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayAttackStepTimeline(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackStepTimelineFinishedCallback) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStepTimelineFinishedCallback(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execAttackStepTimelineCallback) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AttackStepTimelineCallback(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPlayDodgeTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayDodgeTimeline(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDodgeTimelineFinishedCallback) \
 	{ \
 		P_FINISH; \
@@ -130,6 +220,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DodgeTimelineCallback(Z_Param_value); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPlayRollTimeline) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PlayRollTimeline(); \
 		P_NATIVE_END; \
 	} \
  \

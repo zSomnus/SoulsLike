@@ -43,6 +43,7 @@ protected:
 	UFUNCTION()
 	void RollTimelineFinishedCallback();
 	
+	UFUNCTION()
 	void PlayRollTimeline();
 
 	//DodgeTimelineCall
@@ -52,7 +53,19 @@ protected:
 	UFUNCTION()
 	void DodgeTimelineFinishedCallback();
 
+	UFUNCTION()
 	void PlayDodgeTimeline();
+
+	// Attack step Timeline call
+	UFUNCTION()
+	void AttackStepTimelineCallback(float value);
+
+	UFUNCTION()
+	void AttackStepTimelineFinishedCallback();
+
+	UFUNCTION()
+	void PlayAttackStepTimeline();
+
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Timeline")
 	TEnumAsByte<ETimelineDirection::Type> TimelineDirection;
@@ -61,6 +74,8 @@ public:
 	// Sets default values for this character's properties
 	AMainCharacter();
 
+	UPROPERTY(VisibleAnywhere)
+		FVector Destination;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Item)
 	class AWeapon* EquippedWeapon;
@@ -181,6 +196,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void Parry();
+
+	UFUNCTION(BlueprintCallable)
+		void AttackStep();
 
 	void DashBegin();
 	void DashEnd();

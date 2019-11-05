@@ -99,7 +99,7 @@ AMainCharacter::AMainCharacter()
 	{
 		WhooshSoundCue = WhooshSOundCueObject.Object;
 	}*/
-	
+	//const FVector Destination = GetActorForwardVector() * 5 + GetActorLocation();
 }
 
 // Called when the game starts or when spawned
@@ -156,11 +156,11 @@ void AMainCharacter::BeginPlay()
 
 		DodgeTimeline->RegisterComponent();
 	}
-	if (AttackStepTimeline)
+	if (AttackStepFloatCurve)
 	{
-		// AttackStepTimeline
+		//RollTimeLine
 		AttackStepTimeline = NewObject<UTimelineComponent>(this, FName("AttackStepTimelineAnimation"));
-		AttackStepTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript;
+		AttackStepTimeline->CreationMethod = EComponentCreationMethod::UserConstructionScript; // Indicate it comes from a blueprint so it gets cleared when we rerun construction scripts
 		this->BlueprintCreatedComponents.Add(AttackStepTimeline);
 		AttackStepTimeline->SetNetAddressable();
 
@@ -174,7 +174,6 @@ void AMainCharacter::BeginPlay()
 		AttackStepTimeline->SetTimelineFinishedFunc(onAttackStepTimelineFinishedCallback);
 
 		AttackStepTimeline->RegisterComponent();
-
 	}
 }
 
@@ -191,10 +190,18 @@ void AMainCharacter::Tick(float DeltaTime)
 		Timer = 0.0f;
 	}
 
+	//SetActorLocation(FMath::Lerp(GetActorLocation(), Destination, 1));
+	//
+
 	//Roll timeline
 	if (RollTimeline)
 	{
 		RollTimeline->TickComponent(DeltaTime, ELevelTick::LEVELTICK_TimeOnly, NULL);
+	}
+	// AttackStepTimeline
+	if (AttackStepTimeline)
+	{
+		AttackStepTimeline->TickComponent(DeltaTime, ELevelTick::LEVELTICK_TimeOnly, NULL);
 	}
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
@@ -231,8 +238,8 @@ void AMainCharacter::Tick(float DeltaTime)
 		{
 			Stamina += DeltaStamina;
 		}
-		SetMovementStatus(EMovementStatus::EMS_Normal);
 
+		SetMovementStatus(EMovementStatus::EMS_Normal);
 	}
 }
 
@@ -245,7 +252,6 @@ void AMainCharacter::RollTimelineCallback(float interpolatedVal)
 
 	//AMainCharacter* Character = Cast<AMainCharacter>();
 	LaunchCharacter(ForwardDir, false, true);
-	
 }
 
 void AMainCharacter::RollTimelineFinishedCallback()
@@ -269,6 +275,38 @@ void AMainCharacter::DodgeTimelineFinishedCallback()
 	// This function is called when the timeline finishes playing.
 }
 
+// Attack step Timeline
+void AMainCharacter::AttackStepTimelineCallback(float interpolatedVal)
+{
+	// This function is called for every tick in the timeline.
+	//GEngine->AddOnScreenDebugMessage(0, 3, FColor::Red, TEXT("Attack timeline"));
+	//
+	//const FRotator Rotation = Controller->GetControlRotation();
+	//const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+
+	//const FVector Destination = (RootComponent->GetForwardVector() * 2.0f) + RootComponent->GetComponentLocation();
+	////const FRotator NewRotation = FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0);
+	//FVector ForwardVector = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+	//const FVector ForwardDir = Direction * interpolatedVal;
+
+	//FVector ForwardDir = FMath::Lerp(GetActorLocation(), Direction, 0.2f);
+	FRotator Rotation = Controller->GetControlRotation();
+	FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * 100;
+	SetActorRotation(YawRotation);
+	LaunchCharacter(ForwardDir, false, true);
+	//const FVector Destination = GetActorForwardVector() * 5 + GetActorLocation();
+	//SetActorLocation(NewLocation);
+	//SetActorLocationAndRotation(NewLocation, YawRotation, true, false);
+	//AMainCharacter* Character = Cast<AMainCharacter>();
+	//LaunchCharacter(ForwardDir, false, true);
+}
+
+void AMainCharacter::AttackStepTimelineFinishedCallback()
+{
+	// This function is called when the timeline finishes playing.
+}
+
 
 void AMainCharacter::PlayRollTimeline()
 {
@@ -282,6 +320,13 @@ void AMainCharacter::PlayDodgeTimeline()
 	if (DodgeTimeline)
 	{
 		DodgeTimeline->PlayFromStart();
+	}
+}
+void AMainCharacter::PlayAttackStepTimeline()
+{
+	if (AttackStepTimeline != NULL)
+	{
+		AttackStepTimeline->PlayFromStart();
 	}
 }
 
@@ -509,8 +554,6 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 	}
 }
 
-
-
 void AMainCharacter::Attack()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
@@ -525,14 +568,27 @@ void AMainCharacter::Attack()
 				AttackCount = 1;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
+				//PlayAttackStepTimeline();
+				AttackStep();
 			}
 			else
 			{
 				AttackCount = 0;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack2"), AttackMontage);
+				//PlayAttackStepTimeline();
+				AttackStep();
 			}
 		}
 	}
+}
+
+void AMainCharacter::AttackStep()
+{
+	FRotator Rotation = Controller->GetControlRotation();
+	FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+	const FVector ForwardDir = GetRootComponent()->GetForwardVector() * 400;
+	SetActorRotation(YawRotation);
+	LaunchCharacter(ForwardDir, false, true);
 }
 
