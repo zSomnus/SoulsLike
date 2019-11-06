@@ -373,6 +373,12 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\SoulsLike\BasicEnemy.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\BasicEnemy.h"/>
+    <ClCompile Include="..\..\Source\SoulsLike\BasicEnemyAnimInstance.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\BasicEnemyAnimInstance.h"/>
+    <ClCompile Include="..\..\Source\SoulsLike\Boss_01.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\Boss_01.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\EnemyPawn.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\EnemyPawn.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\Explosive.cpp"/>
@@ -387,6 +393,8 @@
     <ClInclude Include="..\..\Source\SoulsLike\MainPlayerController.h"/>
     <ClCompile Include="..\..\Source\SoulsLike\Pickup.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\Pickup.h"/>
+    <ClCompile Include="..\..\Source\SoulsLike\Shield.cpp"/>
+    <ClInclude Include="..\..\Source\SoulsLike\Shield.h"/>
     <None Include="..\..\Source\SoulsLike\SoulsLike.Build.cs"/>
     <ClCompile Include="..\..\Source\SoulsLike\SoulsLike.cpp"/>
     <ClInclude Include="..\..\Source\SoulsLike\SoulsLike.h"/>
