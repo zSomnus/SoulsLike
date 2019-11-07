@@ -341,6 +341,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAction("Parry", IE_Pressed, this, &AMainCharacter::Parry);
 
+	PlayerInputComponent->BindAction("Block", IE_Pressed, this, &AMainCharacter::BlockBegin);
+	PlayerInputComponent->BindAction("Block", IE_Released, this, &AMainCharacter::BlockEnd);
+
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AMainCharacter::Attack);
 
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
@@ -581,6 +584,15 @@ void AMainCharacter::Attack()
 			}
 		}
 	}
+}
+
+void AMainCharacter::BlockBegin()
+{
+	bIsBlocking = true;
+}
+void AMainCharacter::BlockEnd()
+{
+	bIsBlocking = false;
 }
 
 void AMainCharacter::AttackStep()
