@@ -120,5 +120,6 @@
     <ClInclude Include="..\..\Source\SoulsLike\Weapon.h">
       <Filter>Source\SoulsLike</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
