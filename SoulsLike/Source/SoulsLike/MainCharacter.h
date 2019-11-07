@@ -12,7 +12,8 @@ enum class EMovementStatus : uint8
 {
 	EMS_Normal UMETA(DisplayName = "Normal"),
 	EMS_Dashing UMETA(DisplayName = "Dashing"),
-	EMS_MAX UMETA(DisplayName = "DefaultMax")
+	EMS_MAX UMETA(DisplayName = "DefaultMax"),
+	EMS_Blocking UMETA(DisplayName = "Blocking")
 };
 
 UCLASS()
@@ -125,6 +126,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 	bool bIsParrying;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+		bool bIsBlocking;
+
 	/** Checking if the movement is available */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
 	bool bCanRoll;
@@ -196,6 +200,11 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void Parry();
+
+	UFUNCTION(BlueprintCallable)
+		void BlockBegin();
+	UFUNCTION(BlueprintCallable)
+		void BlockEnd();
 
 	UFUNCTION(BlueprintCallable)
 		void AttackStep();

@@ -22,6 +22,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStep();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_BlockBegin();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_BlockEnd();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Dodge();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback();
@@ -55,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		return EMovementStatus_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EMovementStatus(EMovementStatus_StaticEnum, TEXT("/Script/SoulsLike"), TEXT("EMovementStatus"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SoulsLike_EMovementStatus_Hash() { return 2587398247U; }
+	uint32 Get_Z_Construct_UEnum_SoulsLike_EMovementStatus_Hash() { return 3824512874U; }
 	UEnum* Z_Construct_UEnum_SoulsLike_EMovementStatus()
 	{
 #if WITH_HOT_RELOAD
@@ -70,10 +72,12 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 				{ "EMovementStatus::EMS_Normal", (int64)EMovementStatus::EMS_Normal },
 				{ "EMovementStatus::EMS_Dashing", (int64)EMovementStatus::EMS_Dashing },
 				{ "EMovementStatus::EMS_MAX", (int64)EMovementStatus::EMS_MAX },
+				{ "EMovementStatus::EMS_Blocking", (int64)EMovementStatus::EMS_Blocking },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "EMS_Blocking.DisplayName", "Blocking" },
 				{ "EMS_Dashing.DisplayName", "Dashing" },
 				{ "EMS_MAX.DisplayName", "DefaultMax" },
 				{ "EMS_Normal.DisplayName", "Normal" },
@@ -104,6 +108,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 			{ "AttackStep", &AMainCharacter::execAttackStep },
 			{ "AttackStepTimelineCallback", &AMainCharacter::execAttackStepTimelineCallback },
 			{ "AttackStepTimelineFinishedCallback", &AMainCharacter::execAttackStepTimelineFinishedCallback },
+			{ "BlockBegin", &AMainCharacter::execBlockBegin },
+			{ "BlockEnd", &AMainCharacter::execBlockEnd },
 			{ "Dodge", &AMainCharacter::execDodge },
 			{ "DodgeTimelineCallback", &AMainCharacter::execDodgeTimelineCallback },
 			{ "DodgeTimelineFinishedCallback", &AMainCharacter::execDodgeTimelineFinishedCallback },
@@ -213,6 +219,50 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "BlockBegin", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_BlockBegin()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_BlockBegin_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "BlockEnd", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_BlockEnd()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_BlockEnd_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -544,6 +594,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static void NewProp_bCanRoll_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanRoll;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsBlocking_MetaData[];
+#endif
+		static void NewProp_bIsBlocking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsBlocking;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsParrying_MetaData[];
 #endif
 		static void NewProp_bIsParrying_SetBit(void* Obj);
@@ -650,6 +705,8 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ &Z_Construct_UFunction_AMainCharacter_AttackStep, "AttackStep" }, // 208189779
 		{ &Z_Construct_UFunction_AMainCharacter_AttackStepTimelineCallback, "AttackStepTimelineCallback" }, // 2469907279
 		{ &Z_Construct_UFunction_AMainCharacter_AttackStepTimelineFinishedCallback, "AttackStepTimelineFinishedCallback" }, // 2841835471
+		{ &Z_Construct_UFunction_AMainCharacter_BlockBegin, "BlockBegin" }, // 1020501943
+		{ &Z_Construct_UFunction_AMainCharacter_BlockEnd, "BlockEnd" }, // 373235213
 		{ &Z_Construct_UFunction_AMainCharacter_Dodge, "Dodge" }, // 2823983674
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback, "DodgeTimelineCallback" }, // 281309949
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback, "DodgeTimelineFinishedCallback" }, // 942976648
@@ -814,6 +871,17 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		((AMainCharacter*)Obj)->bCanRoll = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll = { "bCanRoll", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_SetBit(void* Obj)
+	{
+		((AMainCharacter*)Obj)->bIsBlocking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking = { "bIsBlocking", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsParrying_MetaData[] = {
 		{ "Category", "Combat" },
@@ -1016,6 +1084,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanDodge,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanAttack,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsParrying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDashing,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDodging,
@@ -1067,7 +1136,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 1521757119);
+	IMPLEMENT_CLASS(AMainCharacter, 1789775070);
 	template<> SOULSLIKE_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

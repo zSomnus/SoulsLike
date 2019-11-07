@@ -13,13 +13,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SOULSLIKE_MainCharacter_generated_h
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAttackStep) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AttackStep(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlockEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlockEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlockBegin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlockBegin(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -131,13 +147,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAttackStep) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->AttackStep(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlockEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlockEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBlockBegin) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BlockBegin(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -249,7 +281,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_INCLASS_NO_PURE_DECLS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \
 	friend struct Z_Construct_UClass_AMainCharacter_Statics; \
@@ -258,7 +290,7 @@ public: \
 	DECLARE_SERIALIZER(AMainCharacter)
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_INCLASS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_INCLASS \
 private: \
 	static void StaticRegisterNativesAMainCharacter(); \
 	friend struct Z_Construct_UClass_AMainCharacter_Statics; \
@@ -267,7 +299,7 @@ public: \
 	DECLARE_SERIALIZER(AMainCharacter)
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_STANDARD_CONSTRUCTORS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMainCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMainCharacter) \
@@ -280,7 +312,7 @@ private: \
 public:
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_ENHANCED_CONSTRUCTORS \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMainCharacter(AMainCharacter&&); \
@@ -291,7 +323,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMainCharacter)
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RollTimeline() { return STRUCT_OFFSET(AMainCharacter, RollTimeline); } \
 	FORCEINLINE static uint32 __PPO__DodgeTimeline() { return STRUCT_OFFSET(AMainCharacter, DodgeTimeline); } \
 	FORCEINLINE static uint32 __PPO__AttackStepTimeline() { return STRUCT_OFFSET(AMainCharacter, AttackStepTimeline); } \
@@ -301,25 +333,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCharacter); \
 	FORCEINLINE static uint32 __PPO__TimelineDirection() { return STRUCT_OFFSET(AMainCharacter, TimelineDirection); }
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_18_PROLOG
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_GENERATED_BODY_LEGACY \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_19_PROLOG
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_INCLASS \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_STANDARD_CONSTRUCTORS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_RPC_WRAPPERS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_INCLASS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SoulsLike_Source_SoulsLike_MainCharacter_h_21_GENERATED_BODY \
+#define SoulsLike_Source_SoulsLike_MainCharacter_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_INCLASS_NO_PURE_DECLS \
-	SoulsLike_Source_SoulsLike_MainCharacter_h_21_ENHANCED_CONSTRUCTORS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_PRIVATE_PROPERTY_OFFSET \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_INCLASS_NO_PURE_DECLS \
+	SoulsLike_Source_SoulsLike_MainCharacter_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -332,7 +364,8 @@ template<> SOULSLIKE_API UClass* StaticClass<class AMainCharacter>();
 
 #define FOREACH_ENUM_EMOVEMENTSTATUS(op) \
 	op(EMovementStatus::EMS_Normal) \
-	op(EMovementStatus::EMS_Dashing) 
+	op(EMovementStatus::EMS_Dashing) \
+	op(EMovementStatus::EMS_MAX) 
 
 enum class EMovementStatus : uint8;
 template<> SOULSLIKE_API UEnum* StaticEnum<EMovementStatus>();
