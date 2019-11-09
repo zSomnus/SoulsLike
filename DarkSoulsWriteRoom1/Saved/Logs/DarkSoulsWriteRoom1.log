@@ -1191,3 +1191,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.09-14.01.01:368][276]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
 [2019.11.09-14.01.02:475][276]LogSlate: Took 0.004044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2019.11.09-14.01.02:694][277]LogSlate: Took 0.006646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.09-14.25.01:332][544]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/LevelChange.LevelChange
+[2019.11.09-14.25.02:125][548]LogPackageName: SearchForPackageOnDisk took   0.111s, but failed to resolve None.umap.
+[2019.11.09-14.42.37:487][808]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/HUD_Main.HUD_Main
+[2019.11.09-14.44.03:024][ 17]LogUObjectHash: Compacting FUObjectHashTables data took  12.64ms
+[2019.11.09-14.44.03:024][ 17]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.112
+[2019.11.09-14.44.03:026][ 17]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/HUD_Main] ([1] browsable assets)...
+[2019.11.09-14.44.03:026][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/HUD_Main]
+[2019.11.09-14.44.03:304][ 17]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/HUD_Main_Auto1548E3A9649D7CD3AB21B68B38C7C339C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/DarkSoulsWriteRoom1/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/HUD_Main_Auto1.uasset'
+[2019.11.09-14.44.03:306][ 17]LogFileHelpers: Auto-saving content packages took 0.281
+[2019.11.09-14.45.09:787][856]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/Ingame_HUD.Ingame_HUD
+[2019.11.09-14.45.10:158][856]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)

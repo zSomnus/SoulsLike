@@ -4073,3 +4073,534 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.09-14.16.09:779][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
 [2019.11.09-14.16.09:837][843]LogPlayLevel: Display: Destroying online subsystem :Context_19
 [2019.11.09-14.17.00:086][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.18.30:442][549]LogSlate: Window 'BP_MainCharacter' being destroyed
+[2019.11.09-14.18.30:449][549]LogSlate: Window 'BP_MainCharacter' being destroyed
+[2019.11.09-14.18.31:568][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.18.32:839][619]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.18.32:871][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.32:871][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.09-14.18.32:871][619]PIE: New page: PIE session: Main_Menu (Nov 9, 2019, 4:18:32 AM)
+[2019.11.09-14.18.32:871][619]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.09-14.18.32:872][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001188s)
+[2019.11.09-14.18.32:873][619]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.09-14.18.32:873][619]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2019.11.09-14.18.32:873][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002110s)
+[2019.11.09-14.18.32:969][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.11.09-14.18.32:974][619]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.18.33:046][619]LogInit: FAudioDevice initialized.
+[2019.11.09-14.18.33:094][619]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.18.33:095][619]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.09-09.18.33
+[2019.11.09-14.18.33:095][619]LogWorld: Bringing up level for play took: 0.000298
+[2019.11.09-14.18.33:111][619]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.09-14.18.33:111][619]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.088
+[2019.11.09-14.18.33:111][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.35:082][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.18.35:117][733]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.09-14.18.35:117][733]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.09-14.18.35:148][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.09-14.18.35:152][733]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.35:152][733]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.35:154][733]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.35:154][733]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.35:156][733]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.35:156][733]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.35:156][733]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.35:156][733]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.35:233][733]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.35:233][733]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.35:410][733]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.18.35:410][733]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.18.35:426][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.18.35
+[2019.11.09-14.18.35:426][733]LogWorld: Bringing up level for play took: 0.014686
+[2019.11.09-14.18.35:428][733]LogLoad: Took 0.311601 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.09-14.18.42:036][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.42:036][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.18.42:070][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.18.42:070][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.42:105][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.18.42:111][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.11.09-14.18.42:158][117]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.09-14.18.43:428][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.18.43:495][196]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.18.43:516][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.43:516][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.09-14.18.43:516][196]PIE: New page: PIE session: Main_Menu (Nov 9, 2019, 4:18:43 AM)
+[2019.11.09-14.18.43:516][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.09-14.18.43:517][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000889s)
+[2019.11.09-14.18.43:517][196]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.09-14.18.43:517][196]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2019.11.09-14.18.43:517][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001473s)
+[2019.11.09-14.18.43:549][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.11.09-14.18.43:553][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.18.43:629][196]LogInit: FAudioDevice initialized.
+[2019.11.09-14.18.43:659][196]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.18.43:660][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.09-09.18.43
+[2019.11.09-14.18.43:661][196]LogWorld: Bringing up level for play took: 0.000411
+[2019.11.09-14.18.43:675][196]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.09-14.18.43:675][196]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.476
+[2019.11.09-14.18.43:675][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.44:635][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.18.44:719][253]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.09-14.18.44:719][253]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.09-14.18.44:752][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.09-14.18.44:756][253]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.44:756][253]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.44:758][253]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.44:758][253]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.44:759][253]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.44:759][253]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.44:759][253]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.44:760][253]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.44:799][253]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.18.44:799][253]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.18.44:868][253]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.18.44:868][253]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.18.44:880][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.18.44
+[2019.11.09-14.18.44:880][253]LogWorld: Bringing up level for play took: 0.010768
+[2019.11.09-14.18.44:882][253]LogLoad: Took 0.162818 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.09-14.18.47:105][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.47:105][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.18.47:137][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.18.47:137][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.09-14.18.47:173][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.18.47:179][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.11.09-14.18.47:230][375]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.09-14.18.52:272][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.19.18:121][213]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.19.18:121][213]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.19.18:123][213]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.19.18:123][213]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.19.18:125][213]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.19.18:125][213]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.19.18:125][213]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.19.18:125][213]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.19.18:152][213]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.09-14.19.18:152][213]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.09-14.19.18:209][213]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.19.18:491][213]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
+[2019.11.09-14.19.18:531][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.11.09-14.19.27:522][213]LogSlate: Window 'Save Content' being destroyed
+[2019.11.09-14.19.27:531][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mateirials/wall1" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Mateirials/wall1.uasset" SILENT=true
+[2019.11.09-14.19.27:581][213]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/wall19268D4FC43F1935BC675A08C136771AB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Mateirials/wall1.uasset'
+[2019.11.09-14.19.27:590][213]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.09-14.19.27:590][213]LightingResults: New page: Lighting Build
+[2019.11.09-14.19.27:591][213]LoadErrors: New page: Loading map: OutsideLevel.umap
+[2019.11.09-14.19.27:592][213]MapCheck: New page: Map Check
+[2019.11.09-14.19.27:592][213]LightingResults: New page: Lighting Build
+[2019.11.09-14.19.27:630][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.09-14.19.27:660][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.09-14.19.27:689][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.09-14.19.28:489][213]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.09-14.19.28:528][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.11.09-14.19.28:577][213]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.09-14.19.28:578][213]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.221ms to complete.
+[2019.11.09-14.19.28:578][213]LogFileHelpers: Loading map 'OutsideLevel' took 0.989
+[2019.11.09-14.19.41:798][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.20.05:937][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.20.31:146][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.20.37:517][869]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.09-14.20.37:590][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Curtain_Wall_A3)
+[2019.11.09-14.20.38:319][870]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.20.47:846][428]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.20.53:377][754]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/LevelChange.LevelChange
+[2019.11.09-14.20.54:573][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.07:285][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.11:366][811]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.13:867][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.24:579][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.24:679][578]BlueprintLog: New page: Compile LevelChange
+[2019.11.09-14.23.24:976][578]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.11.09-14.23.25:444][591]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChangeD0765BD8499C688EB0C76282B876B3F6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LevelChange.uasset'
+[2019.11.09-14.23.29:953][855]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.33:951][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.35:576][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.23.40:388][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.48:092][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.48:178][928]BlueprintLog: New page: Compile LevelChange
+[2019.11.09-14.23.48:470][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.09-14.23.48:819][940]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChange49F90ECD4F51F17970582297DAD6A54C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LevelChange.uasset'
+[2019.11.09-14.23.49:735][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.50:954][ 66]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.09-14.23.51:027][ 66]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.11.09-14.23.52:744][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.58:501][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.23.59:354][558]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.09-14.23.59:374][558]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.11.09-14.24.01:600][691]LogEditorViewport: Clicking on Actor (LMB): LevelChange_C (LevelChange)
+[2019.11.09-14.24.09:600][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.24.14:459][453]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.09-14.24.16:937][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.24.17:083][605]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.11.09-14.24.17:713][605]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel84C9F50649EF036B60AE24BF44081848.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.09-14.24.20:273][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.24.50:568][517]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
+[2019.11.09-14.24.51:527][517]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.09-14.25.23:927][ 22]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/LevelChange'
+[2019.11.09-14.25.23:927][ 22]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/LevelChange'
+[2019.11.09-14.25.23:975][ 22]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/LoadingScreen'
+[2019.11.09-14.25.23:976][ 22]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/LoadingScreen'
+[2019.11.09-14.25.26:733][163]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.09-14.25.34:325][587]BlueprintLog: New page: Compile LevelChange
+[2019.11.09-14.25.35:147][587]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2019.11.09-14.25.35:488][587]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChangeC0776E5A477B5D294EA5A39076013696.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LevelChange.uasset'
+[2019.11.09-14.25.36:417][623]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChangeCBBF28C349428D117D8BAB9B0B7BC7F0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LevelChange.uasset'
+[2019.11.09-14.27.39:408][295]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/abbyr/Desktop/Main Menu/Black-Background-HD-Wallpaper-24.jpg)
+[2019.11.09-14.27.39:607][295]LogTexture: Display: Building textures: Black-Background-HD-Wallpaper-24 (AutoDXT, 1600X900)
+[2019.11.09-14.27.46:300][379]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/abbyr/Desktop/Main Menu/thief_logo.png)
+[2019.11.09-14.27.46:318][379]LogTexture: Display: Building textures: thief_logo (BGRA8, 577X640)
+[2019.11.09-14.27.54:628][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen/BBG" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/BBG.uasset" SILENT=true
+[2019.11.09-14.27.54:690][837]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BBG9717E06A4601DD4DB9373DB777825AEC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/BBG.uasset'
+[2019.11.09-14.27.55:010][837]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2019.11.09-14.27.55:057][837]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.09-14.27.55:097][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.09-14.27.55:252][841]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (15.222 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.09-14.28.02:410][269]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.28.02:449][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.28.02:449][269]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.09-14.28.02:449][269]LogPlayLevel: [PlayLevel] Compiling OutsideLevel before play...
+[2019.11.09-14.28.02:675][269]LogPlayLevel: [PlayLevel] Compiling LoadingScreen before play...
+[2019.11.09-14.28.02:940][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.09-14.28.02:940][269]LogPlayLevel: PlayLevel: Blueprint regeneration took 490 ms (2 blueprints)
+[2019.11.09-14.28.02:940][269]PIE: New page: PIE session: OutsideLevel (Nov 9, 2019, 4:28:02 AM)
+[2019.11.09-14.28.02:940][269]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.09-14.28.03:002][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062268s)
+[2019.11.09-14.28.03:002][269]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.28.03:003][269]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2019.11.09-14.28.03:003][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.063367s)
+[2019.11.09-14.28.03:056][269]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.11.09-14.28.03:063][269]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.28.03:140][269]LogInit: FAudioDevice initialized.
+[2019.11.09-14.28.03:169][269]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.28.03:172][269]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.28.03
+[2019.11.09-14.28.03:196][269]LogWorld: Bringing up level for play took: 0.025791
+[2019.11.09-14.28.03:210][269]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.011
+[2019.11.09-14.28.03:210][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.28.11:472][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.28.11:472][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.28.11:520][761]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.28.11:520][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.28.11:571][761]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.28.11:576][761]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.11.09-14.28.11:589][762]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.09-14.28.16:358][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.28.16:458][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.28.16:488][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.28.16:488][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.09-14.28.16:488][ 48]PIE: New page: PIE session: OutsideLevel (Nov 9, 2019, 4:28:16 AM)
+[2019.11.09-14.28.16:488][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.09-14.28.16:556][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067947s)
+[2019.11.09-14.28.16:557][ 48]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.28.16:557][ 48]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2019.11.09-14.28.16:557][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.069177s)
+[2019.11.09-14.28.16:610][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.11.09-14.28.16:616][ 48]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.28.16:689][ 48]LogInit: FAudioDevice initialized.
+[2019.11.09-14.28.16:722][ 48]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.28.16:726][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.28.16
+[2019.11.09-14.28.16:727][ 48]LogWorld: Bringing up level for play took: 0.003845
+[2019.11.09-14.28.16:741][ 48]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.458
+[2019.11.09-14.28.16:742][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.29.53:377][831]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.29.53:377][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.29.53:411][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.29.53:411][831]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.29.53:457][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.29.53:463][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.09-14.29.53:519][832]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.11.09-14.29.56:072][982]LogEditorViewport: Clicking on Actor (LMB): LevelChange_C (LevelChange)
+[2019.11.09-14.29.59:085][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.29.59:152][165]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.29.59:179][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.29.59:179][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.09-14.29.59:179][165]PIE: New page: PIE session: OutsideLevel (Nov 9, 2019, 4:29:59 AM)
+[2019.11.09-14.29.59:179][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.09-14.29.59:236][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056425s)
+[2019.11.09-14.29.59:237][165]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.29.59:237][165]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2019.11.09-14.29.59:237][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.057760s)
+[2019.11.09-14.29.59:287][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.09-14.29.59:293][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.29.59:368][165]LogInit: FAudioDevice initialized.
+[2019.11.09-14.29.59:399][165]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.29.59:404][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.29.59
+[2019.11.09-14.29.59:404][165]LogWorld: Bringing up level for play took: 0.004167
+[2019.11.09-14.29.59:418][165]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.219
+[2019.11.09-14.29.59:418][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.30.09:324][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.30.09:324][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.30.09:357][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.30.09:358][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.30.09:405][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.30.09:411][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.09-14.30.09:484][749]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.11.09-14.30.34:595][250]LogEditorViewport: Clicking on Actor (LMB): LevelChange_C (LevelChange)
+[2019.11.09-14.30.36:524][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.30.46:791][968]Cmd: DELETE
+[2019.11.09-14.30.46:791][968]Cmd: ACTOR DELETE
+[2019.11.09-14.30.47:027][968]LogEditorActor: Deleted Actor: LevelChange_C
+[2019.11.09-14.30.47:074][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.11.09-14.30.47:075][968]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2019.11.09-14.31.03:166][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.31.18:740][850]BlueprintLog: New page: Compile LevelChange
+[2019.11.09-14.31.18:985][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.11.09-14.31.19:506][872]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChangeCC077F7F4EF8DDE7BB683D92315476F8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LevelChange.uasset'
+[2019.11.09-14.31.44:151][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.36.13:693][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2019.11.09-14.36.14:575][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_Auto21C8DEFF147D16BF22A5228A8A4C8A0CD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/OutsideLevel_Auto2.umap'
+[2019.11.09-14.36.14:584][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/OutsideLevel' took 0.967
+[2019.11.09-14.36.14:584][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.967
+[2019.11.09-14.36.14:588][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/LevelChange] ([1] browsable assets)...
+[2019.11.09-14.36.14:588][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/LevelChange]
+[2019.11.09-14.36.14:670][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChange_Auto200DF25E3496DF1780435DE95D47124C1.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/LevelChange_Auto2.uasset'
+[2019.11.09-14.36.14:672][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/LoadingScreen] ([1] browsable assets)...
+[2019.11.09-14.36.14:672][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/LoadingScreen]
+[2019.11.09-14.36.14:695][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen_Auto2E104E2C449E8C93EC08715AA335FCFC0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/LoadingScreen_Auto2.uasset'
+[2019.11.09-14.36.14:700][ 50]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI/LoadingScreen/thief_logo] ([1] browsable assets)...
+[2019.11.09-14.36.14:709][ 50]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI/LoadingScreen/thief_logo.thief_logo]
+[2019.11.09-14.36.14:709][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/LoadingScreen/thief_logo]
+[2019.11.09-14.36.14:736][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/thief_logo_Auto2078C7C944B4B8ED1509E92BAA7F17C69.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/UI/LoadingScreen/thief_logo_Auto2.uasset'
+[2019.11.09-14.36.14:738][ 50]LogFileHelpers: Auto-saving content packages took 0.152
+[2019.11.09-14.37.25:768][457]LogSlate: Window 'LoadingScreen' being destroyed
+[2019.11.09-14.37.32:209][795]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2019.11.09-14.37.36:018][795]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.09-14.37.36:024][795]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPersonCPP/Blueprints/LevelChange.LevelChange
+[2019.11.09-14.37.49:316][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.11.09-14.37.49:945][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2019.11.09-14.37.49:980][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.11.09-14.37.50:012][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.09-14.42.25:930][305]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/HUD_Main.HUD_Main
+[2019.11.09-14.42.58:388][101]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Ingame_HUD'
+[2019.11.09-14.42.58:388][101]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Ingame_HUD'
+[2019.11.09-14.44.25:959][761]BlueprintLog: New page: Compile HUD_Main
+[2019.11.09-14.44.26:174][761]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.09-14.44.26:688][784]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/HUD_MainA0DF0E724245BF9D3ACD69B2C8DF0C83.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/HUD_Main.uasset'
+[2019.11.09-14.44.33:567][139]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.09-14.44.37:928][399]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:134][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:135][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:135][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:506][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:507][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:507][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:507][399]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2019.11.09-14.44.38:508][399]LogLinker: Warning: Can't find file '/Script/TP_ThirdPerson'
+[2019.11.09-14.44.38:508][399]LoadErrors: Failed to load /Script/TP_ThirdPerson.TP_ThirdPersonCharacter Referenced by Default__ThirdPersonGameMode_C
+[2019.11.09-14.44.38:508][399]LogLinker: Warning: Can't find file for asset '/Script/TP_ThirdPerson' while loading NULL.
+[2019.11.09-14.44.38:508][399]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2019.11.09-14.44.40:561][518]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.09-14.44.52:022][203]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD
+[2019.11.09-14.45.25:210][823]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.09-14.45.25:282][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.45.25:282][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.09-14.45.25:282][823]PIE: New page: PIE session: OutsideLevel (Nov 9, 2019, 4:45:25 AM)
+[2019.11.09-14.45.25:282][823]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.09-14.45.25:353][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071843s)
+[2019.11.09-14.45.25:354][823]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.09-14.45.25:354][823]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2019.11.09-14.45.25:354][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.072824s)
+[2019.11.09-14.45.25:426][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.11.09-14.45.25:431][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-14.45.25:524][823]LogInit: FAudioDevice initialized.
+[2019.11.09-14.45.25:558][823]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.09-14.45.25:562][823]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.09-09.45.25
+[2019.11.09-14.45.25:563][823]LogWorld: Bringing up level for play took: 0.003584
+[2019.11.09-14.45.25:577][823]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.378
+[2019.11.09-14.45.25:577][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.45.44:507][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.45.44:508][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.45.44:541][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.09-14.45.44:541][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.09-14.45.44:589][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-14.45.44:594][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.09-14.45.44:654][951]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.11.09-14.45.47:716][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.09-14.46.04:136][108]BlueprintLog: New page: Compile HUD_Main
+[2019.11.09-14.46.04:363][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.09-14.46.04:708][120]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/HUD_Main87EE39674A3C3FA8F9D9ACBCCD0267B6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/HUD_Main.uasset'
+[2019.11.09-14.46.18:745][939]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.11.09-14.46.18:755][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:756][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:757][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:759][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:796][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:797][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:798][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:798][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:798][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:798][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:799][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:800][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:801][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:802][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:803][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:809][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:809][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:809][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:814][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:814][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:814][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:814][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:815][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:815][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:815][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:815][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:815][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:816][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:835][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:835][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:837][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:841][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:843][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:844][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:844][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:844][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:861][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:870][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:870][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:870][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.18:873][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:294][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:294][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:298][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:719][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:745][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:747][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:747][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:748][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:758][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:767][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.46.19:774][939]LogVSAccessor: Warning: Couldn't access module table
+[2019.11.09-14.47.22:283][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.09-14.47.22:336][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.09-14.47.22:903][649]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_Auto3B854EC7B434B7588D3C1FE946A3E1CCC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/OutsideLevel_Auto3.umap'
+[2019.11.09-14.47.22:907][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/OutsideLevel' took 0.610
+[2019.11.09-14.47.22:907][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.610
+[2019.11.09-14.47.28:609][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.09-14.47.39:127][979]LogSlate: Window 'Save Content' being destroyed
+[2019.11.09-14.47.39:263][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.09-14.47.39:776][979]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel3B6A317245EDBE9A2EE80DA915F138DD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.09-14.47.39:829][979]LogFileHelpers: Saving map 'OutsideLevel' took 0.675
+[2019.11.09-14.47.39:846][979]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen45451401401754DAFB9B259AC58BC92E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
+[2019.11.09-14.47.39:855][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen/thief_logo" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/thief_logo.uasset" SILENT=true
+[2019.11.09-14.47.39:899][979]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/thief_logo93B5A88C4656F25ADDFA8490748D7E15.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/thief_logo.uasset'
+[2019.11.09-14.47.40:269][979]LogSlate: Window 'HUD_Main' being destroyed
+[2019.11.09-14.47.40:439][979]LogSlate: Window 'SoulsLike - Unreal Editor' being destroyed
+[2019.11.09-14.47.40:479][979]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2019.11.09-14.47.41:368][980]Cmd: QUIT_EDITOR
+[2019.11.09-14.47.43:159][980]LogExit: Preparing to exit.
+[2019.11.09-14.47.44:422][980]LogExit: Editor shut down
+[2019.11.09-14.47.44:427][980]LogExit: Transaction tracking system shut down
+[2019.11.09-14.47.47:309][980]LogExit: Object subsystem successfully closed.
+[2019.11.09-14.47.48:060][980]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.09-14.47.48:150][980]LogD3D11RHI: Shutdown
+[2019.11.09-14.47.48:150][980]LogD3D11RHI: CleanupD3DDevice
+[2019.11.09-14.47.48:300][980]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.09-14.47.48:300][980]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.09-14.47.48:311][980]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.09-14.47.48:311][980]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.09-14.47.48:311][980]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.09-14.47.48:311][980]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.09-14.47.48:350][980]LogD3D11RHI: ~FD3D11DynamicRHI
