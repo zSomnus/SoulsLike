@@ -1,5 +1,5 @@
-D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike/MainNoWeaponAnimInstance.h
-D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\MainNoWeaponAnimInstance.generated.h
+C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source\SoulsLike/MainNoWeaponAnimInstance.h
+C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\MainNoWeaponAnimInstance.generated.h
