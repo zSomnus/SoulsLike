@@ -1,2 +1,2 @@
-C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
-C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.h
+D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.h
