@@ -1,4 +1,4 @@
-﻿Log file open, 11/10/19 14:22:28
+﻿Log file open, 11/10/19 14:39:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.294675
+LogStats: Stats thread started at 0.276585
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,852 +156,428 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:902][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.10-19.22.28:902][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.10-19.22.28:903][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:903][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:905][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.10-19.22.28:905][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.10-19.22.28:905][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.10-19.22.28:905][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.10-19.22.28:906][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:906][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.10-19.22.28:907][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.10-19.22.28:907][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.10-19.22.28:907][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.10-19.22.28:925][  0]LogHAL: Display: Platform has ~ 12 GB [12764131328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.11.10-19.22.28:925][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.10-19.22.28:925][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.10-19.22.28:925][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.10-19.22.28:926][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
-[2019.11.10-19.22.28:926][  0]LogInit: Computer: DESKTOP-L9J2J1H
-[2019.11.10-19.22.28:926][  0]LogInit: User: abbyr
-[2019.11.10-19.22.28:926][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.11.10-19.22.28:926][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.10-19.22.28:927][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2019.11.10-19.22.28:927][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.10-19.22.28:927][  0]LogMemory: Process Physical Memory: 98.95 MB used, 98.95 MB peak
-[2019.11.10-19.22.28:927][  0]LogMemory: Process Virtual Memory: 92.94 MB used, 92.94 MB peak
-[2019.11.10-19.22.28:927][  0]LogMemory: Physical Memory: 8415.14 MB used,  3757.69 MB free, 12172.82 MB total
-[2019.11.10-19.22.28:927][  0]LogMemory: Virtual Memory: 4660.41 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.11.10-19.22.28:948][  0]LogInit: Using OS detected language (en-US).
-[2019.11.10-19.22.28:948][  0]LogInit: Using OS detected locale (en-CA).
-[2019.11.10-19.22.28:949][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.11.10-19.22.29:096][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.10-19.22.29:152][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.10-19.22.29:152][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.10-19.22.29:363][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.10-19.22.29:363][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.10-19.22.29:427][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.11.10-19.22.29:427][  0]LogD3D11RHI:       4021/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.11.10-19.22.29:434][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.11.10-19.22.29:434][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.11.10-19.22.29:436][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.10-19.22.29:437][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.10-19.22.29:437][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.10-19.22.29:474][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.10-19.22.29:474][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.11.10-19.22.29:474][  0]LogWindows: EnumDisplayDevices:
-[2019.11.10-19.22.29:474][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.11.10-19.22.29:474][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.11.10-19.22.29:475][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.11.10-19.22.29:475][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.11.10-19.22.29:475][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.11.10-19.22.29:475][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.11.10-19.22.29:475][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.11.10-19.22.29:475][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2019.11.10-19.22.29:519][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.10-19.22.29:524][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.10-19.22.29:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.10-19.22.29:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.11.10-19.22.29:539][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.11.10-19.22.29:853][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.10-19.22.29:867][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.10-19.22.29:882][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.10-19.22.29:897][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.10-19.22.29:916][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.10-19.22.29:931][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.10-19.22.29:945][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.10-19.22.29:961][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.10-19.22.29:968][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.10-19.22.30:062][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.10-19.22.30:063][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.10-19.22.30:116][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.10-19.22.30:116][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.10-19.22.30:144][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.10-19.22.30:144][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.10-19.22.30:157][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.10-19.22.30:173][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.10-19.22.30:185][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.10-19.22.30:198][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.10-19.22.30:246][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.10-19.22.30:246][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.10-19.22.30:246][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.10-19.22.30:258][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.10-19.22.30:312][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/26712/).
-[2019.11.10-19.22.30:312][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abbyr/AppData/Local/Temp/UnrealShaderWorkingDir/0D539C3E4FFE96F9927BB8B6A62508E1/'.
-[2019.11.10-19.22.30:315][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.10-19.22.30:315][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.10-19.22.30:315][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.10-19.22.30:927][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.10-19.22.30:974][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.10-19.22.30:987][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.10-19.22.30:987][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.10-19.22.30:987][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.10-19.22.30:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abbyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.10-19.22.30:999][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.10-19.22.30:999][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.10-19.22.31:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.10-19.22.31:024][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.10-19.22.31:025][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.10-19.22.31:106][  0]LogAssetRegistry: FAssetRegistry took 0.0335 seconds to start up
-[2019.11.10-19.22.31:467][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.10-19.22.31:617][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.10-19.22.31:617][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.10-19.22.31:617][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.10-19.22.31:617][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.10-19.22.31:617][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.10-19.22.31:627][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
-[2019.11.10-19.22.32:069][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049385 seconds
-[2019.11.10-19.22.32:076][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.11.10-19.22.32:076][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.11.10-19.22.32:076][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.10-19.22.32:952][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.10-19.22.32:966][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.10-19.22.33:076][  0]SourceControl: Source control is disabled
-[2019.11.10-19.22.33:076][  0]SourceControl: Source control is disabled
-[2019.11.10-19.22.33:077][  0]SourceControl: Source control is disabled
-[2019.11.10-19.22.33:078][  0]SourceControl: Source control is disabled
-[2019.11.10-19.22.33:157][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.10-19.22.33:236][  0]LogOcInput: OculusInput pre-init called
-[2019.11.10-19.22.33:947][  0]LogEngine: Initializing Engine...
-[2019.11.10-19.22.33:949][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.10-19.22.33:951][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.10-19.22.34:183][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.10-19.22.34:197][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.10-19.22.34:277][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.10-19.22.34:807][  0]LogInit: FAudioDevice initialized.
-[2019.11.10-19.22.34:807][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.10-19.22.35:039][  0]LogDerivedDataCache: Saved boot cache 0.23s 71MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.11.10-19.22.35:051][  0]LogInit: Texture streaming: Enabled
-[2019.11.10-19.22.35:071][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.10-19.22.35:105][  0]LogInit: Transaction tracking system initialized
-[2019.11.10-19.22.35:133][  0]BlueprintLog: New page: Editor Load
-[2019.11.10-19.22.35:217][  0]LocalizationService: Localization service is disabled
-[2019.11.10-19.22.35:514][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.10-19.22.35:514][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.10-19.22.36:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/' took 0.03s
-[2019.11.10-19.22.36:585][  0]SourceControl: Source control is disabled
-[2019.11.10-19.22.36:585][  0]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.10-19.22.36:585][  0]LightingResults: New page: Lighting Build
-[2019.11.10-19.22.36:588][  0]MapCheck: New page: Map Check
-[2019.11.10-19.22.36:588][  0]LightingResults: New page: Lighting Build
-[2019.11.10-19.22.36:618][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
-[2019.11.10-19.22.36:864][  0]LogAIModule: Creating AISystem for world BossLevel
-[2019.11.10-19.22.36:879][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.10-19.22.36:907][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
-[2019.11.10-19.22.36:907][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.10-19.22.36:908][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.292ms to complete.
-[2019.11.10-19.22.36:908][  0]LogFileHelpers: Loading map 'BossLevel' took 0.324
-[2019.11.10-19.22.37:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.22.37:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.22.37:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.22.37:089][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.22.37:098][  0]LogCollectionManager: Loaded 0 collections in 0.003032 seconds
-[2019.11.10-19.22.37:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
-[2019.11.10-19.22.37:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Developers/abbyr/Collections/' took 0.00s
-[2019.11.10-19.22.37:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Collections/' took 0.00s
-[2019.11.10-19.22.37:114][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.11.10-19.22.37:125][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2745 classes and 661 folders.
-[2019.11.10-19.22.37:132][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.11.10-19.22.37:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.11.10-19.22.37:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.10-19.22.37:188][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.11.10-19.22.37:279][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.10-19.22.37:282][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.10-19.22.37:291][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.10-19.22.37:374][  0]LogRenderer: Reallocating scene render targets to support 920x396 Format 10 NumSamples 1 (Frame:1).
-[2019.11.10-19.22.37:513][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.10-19.22.37:645][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.11.10-19.22.37:645][  0]LogLoad: (Engine Initialization) Total time: 10.55 seconds
-[2019.11.10-19.22.37:645][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.10-19.22.37:696][  0]LogAssetRegistry: Asset discovery search completed in 6.6130 seconds
-[2019.11.10-19.22.37:700][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.11.10-19.22.37:700][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
-[2019.11.10-19.22.37:702][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.10-19.22.38:695][ 49]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.10-19.22.55:958][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.23.02:597][481]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
-[2019.11.10-19.23.02:884][481]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
-[2019.11.10-19.23.03:594][481]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
-[2019.11.10-19.23.03:952][481]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.10-19.23.14:817][ 97]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.23.14:885][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
-[2019.11.10-19.23.15:648][136]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreenF0ED3E7547F2B11E7E36ECAFBA992A46.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.25.24:811][596]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.25.24:860][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
-[2019.11.10-19.25.25:443][617]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen54DC700A4D68D492A610B2A9D6E114A4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.25.29:014][826]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen8AAB74B94DF66459DEF170BA389C808B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.25.54:835][203]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\loading_logo.png)
-[2019.11.10-19.25.54:841][203]LogTexture: Display: Building textures: loading_logo (BGRA8, 297X94)
-[2019.11.10-19.26.02:501][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen/loading_logo" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset" SILENT=true
-[2019.11.10-19.26.02:518][476]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/loading_logoF074B4514FF0903682D4B4B3FC7F0E29.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset'
-[2019.11.10-19.26.03:877][554]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
-[2019.11.10-19.26.05:170][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
-[2019.11.10-19.26.06:581][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
-[2019.11.10-19.26.08:126][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.11.10-19.26.08:166][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
-[2019.11.10-19.26.08:468][805]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevelE1D201F04829D0011A37DD96F9F2456A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
-[2019.11.10-19.26.11:328][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen/loading_logo" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset" SILENT=true
-[2019.11.10-19.26.11:345][963]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/loading_logo88D8315E41FE535C68BEA2949F6BE324.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset'
-[2019.11.10-19.28.47:920][793]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.28.47:968][793]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
-[2019.11.10-19.28.49:177][862]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreenBE5D66554233182884650587130E0246.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.28.56:264][286]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.28.56:304][286]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
-[2019.11.10-19.28.56:738][309]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen7368AC6B4C5DE83D2445B293C4075274.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.29.08:706][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:707][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:707][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:707][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:707][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:708][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:708][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:708][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:708][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:708][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:709][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
-[2019.11.10-19.29.08:710][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
-[2019.11.10-19.29.08:711][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:712][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:713][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:714][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:714][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:714][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:714][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:714][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:715][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:715][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:715][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:716][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:717][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:718][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:718][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:718][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:719][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:719][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:719][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:719][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:720][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:721][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:722][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:723][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
-[2019.11.10-19.29.08:724][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:725][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:725][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:725][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:828][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:828][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A
-[2019.11.10-19.29.08:828][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:829][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:829][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A
-[2019.11.10-19.29.08:829][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:829][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:829][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A
-[2019.11.10-19.29.08:829][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:829][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:830][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A
-[2019.11.10-19.29.08:830][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:830][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:830][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A
-[2019.11.10-19.29.08:830][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:831][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:831][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:831][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:832][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:832][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:832][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:832][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:832][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:832][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:832][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:833][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:833][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:833][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
-[2019.11.10-19.29.08:833][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_WoodPlanks_Inst.M_WoodPlanks_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:833][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
-[2019.11.10-19.29.08:833][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:834][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_Battlement_Tower_Small
-[2019.11.10-19.29.08:834][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:834][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:834][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:834][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:835][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:835][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:835][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:835][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:835][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:836][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:836][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:836][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:836][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:836][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:837][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:837][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:837][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:838][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:838][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_DoubleDoor_Large
-[2019.11.10-19.29.08:839][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:839][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:839][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_DoubleDoor_Large
-[2019.11.10-19.29.08:839][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:839][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
-[2019.11.10-19.29.08:839][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_DoubleDoor_Large
-[2019.11.10-19.29.08:840][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
-[2019.11.10-19.29.08:840][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
-[2019.11.10-19.29.08:840][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_DoorHardware_Inst.M_DoorHardware_Inst Referenced by SM_DoubleDoor_Large
-[2019.11.10-19.29.08:840][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
-[2019.11.10-19.29.08:841][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:841][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_Curve_A
-[2019.11.10-19.29.08:841][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.08:841][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:841][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_Curve_A
-[2019.11.10-19.29.08:842][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:842][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:842][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_Curve_A
-[2019.11.10-19.29.08:842][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:842][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:842][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_Curve_A
-[2019.11.10-19.29.08:843][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:843][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:843][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_Curve_A
-[2019.11.10-19.29.08:843][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:844][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
-[2019.11.10-19.29.08:844][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A_NoRail
-[2019.11.10-19.29.08:844][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
-[2019.11.10-19.29.08:844][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
-[2019.11.10-19.29.08:844][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A_NoRail
-[2019.11.10-19.29.08:845][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
-[2019.11.10-19.29.08:845][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
-[2019.11.10-19.29.08:845][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A_NoRail
-[2019.11.10-19.29.08:845][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
-[2019.11.10-19.29.08:845][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
-[2019.11.10-19.29.08:845][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A_NoRail
-[2019.11.10-19.29.08:846][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
-[2019.11.10-19.29.08:846][ 19]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
-[2019.11.10-19.29.08:846][ 19]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A_NoRail
-[2019.11.10-19.29.08:846][ 19]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
-[2019.11.10-19.29.09:347][ 19]LogAIModule: Creating AISystem for world OutsideLevel
-[2019.11.10-19.29.09:614][ 19]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
-[2019.11.10-19.29.09:668][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
-[2019.11.10-19.29.09:669][ 19]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.10-19.29.09:669][ 19]LightingResults: New page: Lighting Build
-[2019.11.10-19.29.09:670][ 19]LoadErrors: New page: Loading map: OutsideLevel.umap
-[2019.11.10-19.29.09:671][ 19]MapCheck: New page: Map Check
-[2019.11.10-19.29.09:671][ 19]LightingResults: New page: Lighting Build
-[2019.11.10-19.29.09:715][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
-[2019.11.10-19.29.10:005][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.10-19.29.10:050][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
-[2019.11.10-19.29.10:110][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.10-19.29.10:110][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
-[2019.11.10-19.29.10:110][ 19]LogFileHelpers: Loading map 'OutsideLevel' took 0.441
-[2019.11.10-19.30.43:002][187]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.30.43:044][187]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
-[2019.11.10-19.30.43:596][210]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreenD2F56CC340C71756452AE6ABF45ED1F0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.31.00:761][237]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.31.00:807][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
-[2019.11.10-19.31.01:449][266]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen4E305945424030325555F5B601D7AD7A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.31.39:976][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.31.50:178][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/levelChange.levelChange
-[2019.11.10-19.31.54:788][408]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/levelChange.levelChange
-[2019.11.10-19.31.58:096][557]LogRenderer: Reallocating scene render targets to support 920x540 Format 10 NumSamples 1 (Frame:1).
-[2019.11.10-19.31.59:217][622]LogSlate: Took 0.008400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.10-19.32.18:446][755]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.10-19.32.21:486][936]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.10-19.32.27:340][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.32.27:407][288]BlueprintLog: New page: Compile levelChange
-[2019.11.10-19.32.27:673][288]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
-[2019.11.10-19.32.28:130][305]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChangeF59066F3448560C21285D18799CA35A9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.32.46:063][363]BlueprintLog: New page: Compile levelChange
-[2019.11.10-19.32.46:330][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
-[2019.11.10-19.32.46:867][385]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChange7F450DB8491D42701B7FBF8F5FA28833.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.33.37:080][313]BlueprintLog: New page: Compile levelChange
-[2019.11.10-19.33.37:337][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
-[2019.11.10-19.33.37:730][327]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChange556519464D626AEEE7BF03B5AB18EFD3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.33.53:858][270]BlueprintLog: New page: Compile levelChange
-[2019.11.10-19.33.54:079][270]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
-[2019.11.10-19.33.54:540][281]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChangeA6428F174DAE1029F6F156892E668784.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.34.11:191][264]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
-[2019.11.10-19.34.11:472][264]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.10-19.34.12:128][302]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.11.10-19.34.12:707][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.34.14:257][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
-[2019.11.10-19.34.22:470][892]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.34.22:554][897]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.10-19.34.22:626][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.34.22:627][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.10-19.34.22:640][897]PIE: New page: PIE session: OutsideLevel (Nov 10, 2019, 9:34:22 AM)
-[2019.11.10-19.34.22:693][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
-[2019.11.10-19.34.22:792][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098805s)
-[2019.11.10-19.34.22:792][897]LogAIModule: Creating AISystem for world OutsideLevel
-[2019.11.10-19.34.22:800][897]LogPlayLevel: PIE: World Init took: (0.008276s)
-[2019.11.10-19.34.22:800][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.107465s)
-[2019.11.10-19.34.22:847][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
-[2019.11.10-19.34.22:866][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.10-19.34.22:937][897]LogInit: FAudioDevice initialized.
-[2019.11.10-19.34.22:992][897]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.34.22:999][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.10-14.34.22
-[2019.11.10-19.34.23:062][897]LogWorld: Bringing up level for play took: 0.067766
-[2019.11.10-19.34.23:166][897]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
-[2019.11.10-19.34.23:194][897]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
-[2019.11.10-19.34.23:195][897]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
-[2019.11.10-19.34.23:230][897]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.753
-[2019.11.10-19.34.23:230][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.34.30:638][284]LogNet: Browse: /Game/Maps/CastleLevel
-[2019.11.10-19.34.30:639][284]LogLoad: LoadMap: /Game/Maps/CastleLevel
-[2019.11.10-19.34.30:725][284]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
-[2019.11.10-19.34.31:190][284]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.34.31:190][284]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.34.31:487][284]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.34.31:487][284]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.34.31:657][284]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.34.31:657][284]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.34.31:657][284]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.34.31:657][284]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.34.32:787][284]LogTexture: Display: Building textures: MRLN_ThroneBone (AutoDXT, 4096X4096)
-[2019.11.10-19.34.32:787][284]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.34.32:787][284]LoadErrors: Failed to load /Game/Maps/CastleLevel_BuiltData.CastleLevel_BuiltData Referenced by PersistentLevel
-[2019.11.10-19.34.32:787][284]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.34.41:418][284]LogMaterial: Display: Missing cached shader map for material ThroneMat, compiling. 
-[2019.11.10-19.34.51:026][284]LogStaticMesh: Building static mesh Infernal_Throne...
-[2019.11.10-19.34.51:047][284]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
-[2019.11.10-19.34.53:580][284]LogStaticMesh: Built static mesh [2.58s] /Game/assets/Throne/Infernal_Throne.Infernal_Throne
-[2019.11.10-19.34.55:277][284]LogAIModule: Creating AISystem for world CastleLevel
-[2019.11.10-19.34.55:278][284]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.34.55:406][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-14.34.55
-[2019.11.10-19.34.55:587][284]LogWorld: Bringing up level for play took: 0.257890
-[2019.11.10-19.34.55:631][284]LogLoad: Took 24.992500 seconds to LoadMap(/Game/Maps/CastleLevel)
-[2019.11.10-19.34.56:502][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.34.56:552][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.34.56:848][285]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.10-19.34.56:848][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.34.57:242][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.34.57:356][285]LogUObjectHash: Compacting FUObjectHashTables data took   6.97ms
-[2019.11.10-19.34.57:987][286]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.11.10-19.35.12:323][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.35.28:005][875]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.35.28:068][875]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
-[2019.11.10-19.35.28:584][895]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreenC186DEC34F2858F080973EA8ACCE7944.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.35.30:080][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.35.36:070][324]LogSlate: Window 'levelChange' being destroyed
-[2019.11.10-19.35.36:078][324]LogSlate: Window 'levelChange' being destroyed
-[2019.11.10-19.35.37:677][409]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (41.847 sec). This should never happen. Something is wrong with the timer delegate!
-[2019.11.10-19.35.41:395][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.35.41:578][642]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/levelChange.levelChange
-[2019.11.10-19.35.43:193][704]LogSlate: Window 'levelChange' being destroyed
-[2019.11.10-19.35.43:208][704]LogSlate: Window 'levelChange' being destroyed
-[2019.11.10-19.35.43:881][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.35.45:475][819]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChangeBC281B4048B472615C24C6910FE93666.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.35.47:502][936]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen3669D97A48E5C140834C739D1A7B7C6D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.35.48:175][976]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.10-19.35.48:205][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.35.48:205][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.10-19.35.48:205][976]PIE: New page: PIE session: OutsideLevel (Nov 10, 2019, 9:35:48 AM)
-[2019.11.10-19.35.48:205][976]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
-[2019.11.10-19.35.48:275][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068910s)
-[2019.11.10-19.35.48:275][976]LogAIModule: Creating AISystem for world OutsideLevel
-[2019.11.10-19.35.48:275][976]LogPlayLevel: PIE: World Init took: (0.000626s)
-[2019.11.10-19.35.48:275][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.069727s)
-[2019.11.10-19.35.48:425][976]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
-[2019.11.10-19.35.48:430][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.10-19.35.48:499][976]LogInit: FAudioDevice initialized.
-[2019.11.10-19.35.48:528][976]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.35.48:533][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.10-14.35.48
-[2019.11.10-19.35.48:534][976]LogWorld: Bringing up level for play took: 0.005097
-[2019.11.10-19.35.48:549][976]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.072
-[2019.11.10-19.35.48:549][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.35.54:813][343]LogNet: Browse: /Game/Maps/CastleLevel
-[2019.11.10-19.35.54:813][343]LogLoad: LoadMap: /Game/Maps/CastleLevel
-[2019.11.10-19.35.54:936][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
-[2019.11.10-19.35.54:942][343]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.35.54:942][343]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.35.54:946][343]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.35.54:946][343]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.35.54:949][343]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.35.54:949][343]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.35.54:949][343]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.35.54:950][343]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.35.55:034][343]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.35.55:034][343]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.35.55:129][343]LogAIModule: Creating AISystem for world CastleLevel
-[2019.11.10-19.35.55:129][343]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.35.55:203][343]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-14.35.55
-[2019.11.10-19.35.55:204][343]LogWorld: Bringing up level for play took: 0.073711
-[2019.11.10-19.35.55:207][343]LogLoad: Took 0.394044 seconds to LoadMap(/Game/Maps/CastleLevel)
-[2019.11.10-19.35.56:117][346]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.11.10-19.35.57:768][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.35.57:768][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.35.57:876][365]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.10-19.35.57:876][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.35.57:916][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.35.57:924][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
-[2019.11.10-19.35.57:974][366]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.11.10-19.36.00:381][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.36.00:571][521]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
-[2019.11.10-19.36.28:775][ 25]BlueprintLog: New page: Compile LoadingScreen
-[2019.11.10-19.36.28:820][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
-[2019.11.10-19.36.29:307][ 51]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen94860E1F41D3082AF08DD59F934CCFA3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.36.31:476][180]LogSlate: Window 'LoadingScreen' being destroyed
-[2019.11.10-19.36.31:485][180]LogSlate: Window 'LoadingScreen' being destroyed
-[2019.11.10-19.36.33:114][265]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.10-19.36.33:144][265]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.36.33:144][265]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.10-19.36.33:144][265]PIE: New page: PIE session: OutsideLevel (Nov 10, 2019, 9:36:33 AM)
-[2019.11.10-19.36.33:144][265]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
-[2019.11.10-19.36.33:224][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079783s)
-[2019.11.10-19.36.33:225][265]LogAIModule: Creating AISystem for world OutsideLevel
-[2019.11.10-19.36.33:225][265]LogPlayLevel: PIE: World Init took: (0.000662s)
-[2019.11.10-19.36.33:225][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.080611s)
-[2019.11.10-19.36.33:274][265]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
-[2019.11.10-19.36.33:280][265]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.10-19.36.33:355][265]LogInit: FAudioDevice initialized.
-[2019.11.10-19.36.33:386][265]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.36.33:391][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.10-14.36.33
-[2019.11.10-19.36.33:392][265]LogWorld: Bringing up level for play took: 0.005959
-[2019.11.10-19.36.33:408][265]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.931
-[2019.11.10-19.36.33:408][265]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.36.39:249][605]LogNet: Browse: /Game/Maps/CastleLevel
-[2019.11.10-19.36.39:249][605]LogLoad: LoadMap: /Game/Maps/CastleLevel
-[2019.11.10-19.36.39:287][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
-[2019.11.10-19.36.39:293][605]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.36.39:294][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.36.39:297][605]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.36.39:297][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.36.39:300][605]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.36.39:300][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.36.39:300][605]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.36.39:300][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.36.39:380][605]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
-[2019.11.10-19.36.39:380][605]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
-[2019.11.10-19.36.39:494][605]LogAIModule: Creating AISystem for world CastleLevel
-[2019.11.10-19.36.39:495][605]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
-[2019.11.10-19.36.39:572][605]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-14.36.39
-[2019.11.10-19.36.39:573][605]LogWorld: Bringing up level for play took: 0.078123
-[2019.11.10-19.36.39:576][605]LogLoad: Took 0.327369 seconds to LoadMap(/Game/Maps/CastleLevel)
-[2019.11.10-19.36.40:455][608]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.11.10-19.36.40:949][608]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.36.40:950][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.36.41:046][608]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.10-19.36.41:046][608]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
-[2019.11.10-19.36.41:088][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.10-19.36.41:095][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
-[2019.11.10-19.36.41:131][609]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.11.10-19.36.44:908][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.10-19.36.46:199][909]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreenB2B26FE9444B831FD2557E81E3F80DA7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
-[2019.11.10-19.36.48:145][ 21]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChange7AE45723424147602BB41AB75CACB39A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.36.48:917][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
-[2019.11.10-19.36.51:347][ 65]LogSlate: Window 'Save Content' being destroyed
-[2019.11.10-19.36.51:412][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2019.11.10-19.36.52:171][ 65]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel5BE0673E444AE970242E419A53A25E74.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
-[2019.11.10-19.36.52:230][ 65]LogFileHelpers: Saving map 'OutsideLevel' took 0.855
-[2019.11.10-19.36.55:951][279]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/levelChangeF114186241E6FC5792CBAFB3B70D110C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/levelChange.uasset'
-[2019.11.10-19.36.56:552][311]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
-[2019.11.10-19.36.57:240][311]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevelB536B6DF406D49F023EEC796139035E3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
-[2019.11.10-19.36.57:313][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
-[2019.11.10-19.37.02:695][311]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltDataD79E214F438DB517648D1D9459B0A18B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.10-19.39.59:599][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.10-19.39.59:599][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.10-19.39.59:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:599][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.10-19.39.59:599][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.10-19.39.59:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.10-19.39.59:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:600][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:602][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-19.39.59:602][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-19.39.59:603][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-19.39.59:603][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-19.39.59:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.10-19.39.59:617][  0]LogHAL: Display: Platform has ~ 12 GB [12764131328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.10-19.39.59:617][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.10-19.39.59:617][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-19.39.59:617][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.10-19.39.59:618][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-19.39.59:619][  0]LogInit: Computer: DESKTOP-L9J2J1H
+[2019.11.10-19.39.59:619][  0]LogInit: User: abbyr
+[2019.11.10-19.39.59:619][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.10-19.39.59:619][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.10-19.39.59:619][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.11.10-19.39.59:619][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.10-19.39.59:619][  0]LogMemory: Process Physical Memory: 99.23 MB used, 99.23 MB peak
+[2019.11.10-19.39.59:619][  0]LogMemory: Process Virtual Memory: 97.04 MB used, 97.04 MB peak
+[2019.11.10-19.39.59:619][  0]LogMemory: Physical Memory: 8332.85 MB used,  3839.98 MB free, 12172.82 MB total
+[2019.11.10-19.39.59:619][  0]LogMemory: Virtual Memory: 4664.41 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.10-19.39.59:642][  0]LogInit: Using OS detected language (en-US).
+[2019.11.10-19.39.59:642][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.10-19.39.59:642][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.10-19.39.59:792][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.10-19.39.59:838][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.10-19.39.59:838][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.10-19.40.00:134][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-19.40.00:134][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.10-19.40.00:203][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.10-19.40.00:203][  0]LogD3D11RHI:       4021/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.10-19.40.00:211][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.10-19.40.00:211][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.10-19.40.00:213][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.10-19.40.00:213][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.10-19.40.00:213][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.10-19.40.00:242][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.10-19.40.00:243][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.11.10-19.40.00:243][  0]LogWindows: EnumDisplayDevices:
+[2019.11.10-19.40.00:243][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.10-19.40.00:243][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.10-19.40.00:243][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.10-19.40.00:244][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.10-19.40.00:244][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.10-19.40.00:244][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.10-19.40.00:244][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.10-19.40.00:244][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.10-19.40.00:283][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.10-19.40.00:287][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.40.00:287][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.40.00:287][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-19.40.00:301][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.10-19.40.00:625][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.10-19.40.00:641][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.10-19.40.00:664][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.10-19.40.00:686][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.10-19.40.00:702][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.10-19.40.00:719][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.10-19.40.00:735][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.10-19.40.00:748][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.10-19.40.00:754][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.10-19.40.00:833][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.10-19.40.00:834][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.10-19.40.00:883][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.10-19.40.00:883][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.10-19.40.00:907][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.10-19.40.00:907][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.10-19.40.00:920][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.10-19.40.00:934][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.10-19.40.00:947][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.10-19.40.00:961][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.10-19.40.01:008][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.10-19.40.01:008][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.10-19.40.01:008][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.10-19.40.01:018][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.10-19.40.01:070][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/26852/).
+[2019.11.10-19.40.01:070][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abbyr/AppData/Local/Temp/UnrealShaderWorkingDir/F79CD82D4B3952A943249A8275891F69/'.
+[2019.11.10-19.40.01:073][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.10-19.40.01:073][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.10-19.40.01:073][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.10-19.40.01:715][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.10-19.40.01:767][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-19.40.01:768][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.10-19.40.01:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.10-19.40.01:768][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.10-19.40.01:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-19.40.01:768][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.10-19.40.01:780][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.10-19.40.01:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-19.40.01:780][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.10-19.40.01:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abbyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.10-19.40.01:792][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.10-19.40.01:792][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.10-19.40.01:816][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.10-19.40.01:817][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.10-19.40.01:817][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.10-19.40.01:899][  0]LogAssetRegistry: FAssetRegistry took 0.0337 seconds to start up
+[2019.11.10-19.40.02:216][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-19.40.02:342][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.10-19.40.02:342][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.10-19.40.02:342][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.10-19.40.02:342][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.10-19.40.02:342][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.10-19.40.02:357][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.10-19.40.02:769][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049675 seconds
+[2019.11.10-19.40.02:775][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.10-19.40.02:776][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.10-19.40.02:776][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.10-19.40.03:620][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.10-19.40.03:633][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.10-19.40.03:758][  0]SourceControl: Source control is disabled
+[2019.11.10-19.40.03:758][  0]SourceControl: Source control is disabled
+[2019.11.10-19.40.03:759][  0]SourceControl: Source control is disabled
+[2019.11.10-19.40.03:760][  0]SourceControl: Source control is disabled
+[2019.11.10-19.40.03:838][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.10-19.40.03:912][  0]LogOcInput: OculusInput pre-init called
+[2019.11.10-19.40.04:581][  0]LogEngine: Initializing Engine...
+[2019.11.10-19.40.04:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-19.40.04:582][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.10-19.40.04:832][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.10-19.40.04:846][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.10-19.40.04:857][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-19.40.05:324][  0]LogInit: FAudioDevice initialized.
+[2019.11.10-19.40.05:324][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.10-19.40.05:499][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-19.40.05:518][  0]LogInit: Texture streaming: Enabled
+[2019.11.10-19.40.05:540][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.10-19.40.05:575][  0]LogInit: Transaction tracking system initialized
+[2019.11.10-19.40.05:602][  0]BlueprintLog: New page: Editor Load
+[2019.11.10-19.40.05:691][  0]LocalizationService: Localization service is disabled
+[2019.11.10-19.40.06:009][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.10-19.40.06:009][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.10-19.40.06:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/' took 0.04s
+[2019.11.10-19.40.12:854][  0]SourceControl: Source control is disabled
+[2019.11.10-19.40.12:854][  0]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-19.40.12:855][  0]LightingResults: New page: Lighting Build
+[2019.11.10-19.40.12:858][  0]MapCheck: New page: Map Check
+[2019.11.10-19.40.12:858][  0]LightingResults: New page: Lighting Build
+[2019.11.10-19.40.12:890][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.10-19.40.14:939][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.10-19.40.14:959][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-19.40.14:990][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.10-19.40.14:990][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-19.40.14:991][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.143ms to complete.
+[2019.11.10-19.40.14:991][  0]LogFileHelpers: Loading map 'BossLevel' took 2.136
+[2019.11.10-19.40.15:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.40.15:343][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.40.15:350][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.40.15:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-19.40.15:368][  0]LogCollectionManager: Loaded 0 collections in 0.001778 seconds
+[2019.11.10-19.40.15:415][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.10-19.40.15:415][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Developers/abbyr/Collections/' took 0.00s
+[2019.11.10-19.40.15:415][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Collections/' took 0.00s
+[2019.11.10-19.40.15:415][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.10-19.40.15:424][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2745 classes and 661 folders.
+[2019.11.10-19.40.15:449][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.40.15:527][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:658][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:709][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:811][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:956][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.15:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:219][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:267][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.16:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-19.40.17:712][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.40.17:748][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.10-19.40.17:855][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.10-19.40.17:857][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.10-19.40.17:908][  0]LogSlate: Took 0.042626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.10-19.40.17:975][  0]LogRenderer: Reallocating scene render targets to support 920x396 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-19.40.18:126][  0]LogSlate: Took 0.023713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-19.40.18:277][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.10-19.40.18:277][  0]LogLoad: (Engine Initialization) Total time: 20.53 seconds
+[2019.11.10-19.40.18:277][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.10-19.40.18:333][  0]LogAssetRegistry: Asset discovery search completed in 16.4556 seconds
+[2019.11.10-19.40.18:335][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.10-19.40.18:335][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.11.10-19.40.18:336][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.10-19.40.20:963][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-19.40.31:597][772]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-19.40.31:605][772]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
+[2019.11.10-19.40.31:942][772]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.11.10-19.40.32:677][772]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.10-19.40.33:055][772]LogSlate: Took 0.019146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.10-19.41.12:574][106]BlueprintLog: New page: Compile LoadingScreen
+[2019.11.10-19.41.12:645][106]LogUObjectHash: Compacting FUObjectHashTables data took   6.48ms
+[2019.11.10-19.41.13:217][127]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen618F52D24724234B20A71085A60DE39F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
+[2019.11.10-19.41.14:074][176]LogSlate: Window 'LoadingScreen' being destroyed
+[2019.11.10-19.41.14:080][176]LogSlate: Window 'LoadingScreen' being destroyed
+[2019.11.10-19.41.18:651][440]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen9F1009434036B3E97C2212914043C042.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
+[2019.11.10-19.41.19:802][502]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.11.10-19.41.21:011][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-19.41.21:063][574]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.10-19.41.21:363][574]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevelC323D39142A6DF95907D0694613971F1.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
