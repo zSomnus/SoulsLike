@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 11/10/19 14:30:33
+=======
+﻿Log file open, 11/10/19 16:35:19
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.522956
+=======
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.344690
+>>>>>>> master
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,6 +165,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.11.10-19.30.34:413][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.10-19.30.34:414][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.11.10-19.30.34:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
@@ -1859,3 +1869,1392 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.10-22.28.25:030][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2019.11.10-22.28.25:204][ 68]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_LevelFD7E93214F04DBFC088642BBBF9F7284.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
 [2019.11.10-22.28.25:232][ 68]LogFileHelpers: Saving map 'Enemy_Level' took 0.238
+=======
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:953][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:960][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:960][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-21.35.19:960][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-21.35.19:961][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-21.35.19:962][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-21.35.19:962][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-21.35.19:962][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.10-21.35.19:985][  0]LogHAL: Display: Platform has ~ 16 GB [17059098624 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.10-21.35.19:985][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.10-21.35.19:985][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-21.35.19:985][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-21.35.19:986][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.11.10-21.35.19:987][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.10-21.35.19:988][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.10-21.35.19:988][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.10-21.35.19:988][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.35.19:988][  0]LogInit: Computer: DESKTOP-VMGI91V
+[2019.11.10-21.35.19:988][  0]LogInit: User: Admin
+[2019.11.10-21.35.19:988][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.10-21.35.19:988][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.10-21.35.19:988][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.10-21.35.19:988][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.10-21.35.19:988][  0]LogMemory: Process Physical Memory: 98.78 MB used, 98.79 MB peak
+[2019.11.10-21.35.19:988][  0]LogMemory: Process Virtual Memory: 97.13 MB used, 97.13 MB peak
+[2019.11.10-21.35.19:988][  0]LogMemory: Physical Memory: 8891.89 MB used,  7376.93 MB free, 16268.82 MB total
+[2019.11.10-21.35.19:988][  0]LogMemory: Virtual Memory: 4665.41 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.10-21.35.20:053][  0]LogInit: Using OS detected language (en-GB).
+[2019.11.10-21.35.20:053][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.10-21.35.20:057][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.11.10-21.35.20:250][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.10-21.35.20:616][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.10-21.35.20:616][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.10-21.35.21:315][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-21.35.21:315][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.10-21.35.21:477][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.11.10-21.35.21:477][  0]LogD3D11RHI:       4021/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.10-21.35.21:495][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.10-21.35.21:495][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.10-21.35.21:501][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.10-21.35.21:501][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.10-21.35.21:501][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.10-21.35.21:540][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.10-21.35.21:540][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.11.10-21.35.21:540][  0]LogWindows: EnumDisplayDevices:
+[2019.11.10-21.35.21:540][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.10-21.35.21:541][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.11.10-21.35.21:542][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.10-21.35.21:543][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.10-21.35.21:543][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.11.10-21.35.21:543][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.10-21.35.21:543][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.10-21.35.21:543][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.10-21.35.21:628][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.10-21.35.21:725][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.35.21:725][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.35.21:725][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.35.21:739][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.10-21.35.22:627][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.10-21.35.22:645][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.10-21.35.22:663][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.10-21.35.22:681][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.10-21.35.22:703][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.10-21.35.22:722][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.10-21.35.22:740][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.10-21.35.22:759][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.10-21.35.22:769][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.10-21.35.22:871][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.10-21.35.22:880][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.10-21.35.22:947][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.10-21.35.22:948][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.10-21.35.22:996][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.10-21.35.22:996][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.10-21.35.23:030][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.10-21.35.23:059][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.10-21.35.23:078][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.10-21.35.23:108][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.10-21.35.23:178][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.10-21.35.23:178][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.10-21.35.23:178][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.10-21.35.23:197][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.10-21.35.23:280][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/23744/).
+[2019.11.10-21.35.23:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/7E48428146F8E85E9965379F9C590352/'.
+[2019.11.10-21.35.23:288][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.10-21.35.23:289][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.10-21.35.23:289][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.10-21.35.24:099][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.10-21.35.24:175][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-21.35.24:176][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.10-21.35.24:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.10-21.35.24:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.10-21.35.24:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-21.35.24:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.10-21.35.24:189][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.10-21.35.24:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-21.35.24:189][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.10-21.35.24:207][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.10-21.35.24:207][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.10-21.35.24:207][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.10-21.35.24:236][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.10-21.35.24:238][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.10-21.35.24:240][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.10-21.35.24:445][  0]LogAssetRegistry: FAssetRegistry took 0.0406 seconds to start up
+[2019.11.10-21.35.24:979][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-21.35.25:236][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.10-21.35.25:236][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.10-21.35.25:236][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.10-21.35.25:236][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.10-21.35.25:236][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.10-21.35.25:269][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.10-21.35.26:279][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.220451 seconds
+[2019.11.10-21.35.26:300][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.10-21.35.26:301][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.10-21.35.26:301][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.10-21.35.28:577][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.10-21.35.28:594][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.10-21.35.28:791][  0]SourceControl: Source control is disabled
+[2019.11.10-21.35.28:791][  0]SourceControl: Source control is disabled
+[2019.11.10-21.35.28:794][  0]SourceControl: Source control is disabled
+[2019.11.10-21.35.28:797][  0]SourceControl: Source control is disabled
+[2019.11.10-21.35.29:029][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.10-21.35.29:412][  0]LogOcInput: OculusInput pre-init called
+[2019.11.10-21.35.31:622][  0]LogEngine: Initializing Engine...
+[2019.11.10-21.35.31:627][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-21.35.31:629][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.11.10-21.35.32:069][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.10-21.35.32:105][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.10-21.35.32:219][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.35.32:380][  0]LogInit: FAudioDevice initialized.
+[2019.11.10-21.35.32:381][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.10-21.35.32:502][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/Admin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-21.35.32:516][  0]LogInit: Texture streaming: Enabled
+[2019.11.10-21.35.32:573][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.10-21.35.32:609][  0]LogInit: Transaction tracking system initialized
+[2019.11.10-21.35.32:657][  0]BlueprintLog: New page: Editor Load
+[2019.11.10-21.35.32:804][  0]LocalizationService: Localization service is disabled
+[2019.11.10-21.35.33:010][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.11.10-21.35.33:010][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.11.10-21.35.33:010][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.11.10-21.35.33:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.10-21.35.33:358][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.10-21.35.33:690][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Content/' took 0.16s
+[2019.11.10-21.35.35:811][  0]SourceControl: Source control is disabled
+[2019.11.10-21.35.35:812][  0]Cmd: MAP LOAD FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-21.35.35:812][  0]LightingResults: New page: Lighting Build
+[2019.11.10-21.35.35:817][  0]MapCheck: New page: Map Check
+[2019.11.10-21.35.35:817][  0]LightingResults: New page: Lighting Build
+[2019.11.10-21.35.35:851][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.10-21.35.36:319][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.10-21.35.36:339][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-21.35.36:372][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.10-21.35.36:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-21.35.36:372][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.106ms to complete.
+[2019.11.10-21.35.36:372][  0]LogFileHelpers: Loading map 'BossLevel' took 0.561
+[2019.11.10-21.35.36:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.35.36:680][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.35.36:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.35.36:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.35.36:732][  0]LogCollectionManager: Loaded 0 collections in 0.003022 seconds
+[2019.11.10-21.35.36:792][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.10-21.35.36:792][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Developers/Admin/Collections/' took 0.01s
+[2019.11.10-21.35.36:792][  0]LogFileCache: Scanning file cache for directory 'D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Collections/' took 0.01s
+[2019.11.10-21.35.36:792][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.11.10-21.35.36:803][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2745 classes and 661 folders.
+[2019.11.10-21.35.36:839][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.35.36:850][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.36:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.36:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.36:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.36:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.36:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:018][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:031][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:044][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:113][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:126][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:179][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:291][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:317][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.37:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.35.38:419][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.35.38:448][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.11.10-21.35.38:556][  0]LogSlate: Took 0.000664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.10-21.35.38:558][  0]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.10-21.35.38:583][  0]LogSlate: Took 0.016965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.10-21.35.38:698][  0]LogRenderer: Reallocating scene render targets to support 1124x552 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-21.35.38:838][  0]LogSlate: Took 0.013090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-21.35.39:016][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.35.39:016][  0]LogLoad: (Engine Initialization) Total time: 25.53 seconds
+[2019.11.10-21.35.39:016][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.10-21.35.39:135][  0]LogAssetRegistry: Asset discovery search completed in 14.7147 seconds
+[2019.11.10-21.35.39:138][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.10-21.35.39:138][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.11.10-21.35.39:139][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.11.10-21.35.44:008][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.35.50:470][547]LogSlate: Took 0.000647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-21.35.52:552][547]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.35.52:745][547]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/CastleLevel.CastleLevel
+[2019.11.10-21.35.52:777][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2019.11.10-21.35.52:779][547]Cmd: MAP LOAD FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-21.35.52:779][547]LightingResults: New page: Lighting Build
+[2019.11.10-21.35.52:779][547]LoadErrors: New page: Loading map: CastleLevel.umap
+[2019.11.10-21.35.52:781][547]MapCheck: New page: Map Check
+[2019.11.10-21.35.52:781][547]LightingResults: New page: Lighting Build
+[2019.11.10-21.35.52:809][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.10-21.35.53:070][547]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-21.35.53:104][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2019.11.10-21.35.53:146][547]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-21.35.53:147][547]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
+[2019.11.10-21.35.53:147][547]LogFileHelpers: Loading map 'CastleLevel' took 0.369
+[2019.11.10-21.35.54:054][551]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.36.19:357][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.36.19:475][767]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.36.19:501][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.36.19:501][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.36.19:501][767]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:36:19 AM)
+[2019.11.10-21.36.19:517][767]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.36.19:872][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.354178s)
+[2019.11.10-21.36.19:872][767]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.36.19:879][767]LogPlayLevel: PIE: World Init took: (0.007626s)
+[2019.11.10-21.36.19:879][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.362220s)
+[2019.11.10-21.36.19:908][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.11.10-21.36.19:983][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.36.20:107][767]LogInit: FAudioDevice initialized.
+[2019.11.10-21.36.20:152][767]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.36.20:169][767]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.36.20
+[2019.11.10-21.36.20:171][767]LogWorld: Bringing up level for play took: 0.017118
+[2019.11.10-21.36.20:194][767]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2019.11.10-21.36.20:198][767]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.974
+[2019.11.10-21.36.20:198][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.36.20:920][769]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.36.21:424][769]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.36.47:459][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.36.47:460][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.36.47:579][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.36.47:579][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.36.47:618][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.36.47:627][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2019.11.10-21.36.47:694][216]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.11.10-21.37.07:267][479]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.37.37:761][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.37.38:015][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.38.08:903][971]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.39.36:514][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2019.11.10-21.39.37:396][820]Cmd: DELETE
+[2019.11.10-21.39.37:396][820]Cmd: ACTOR DELETE
+[2019.11.10-21.39.37:463][820]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.10-21.39.37:493][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.11.10-21.39.37:493][820]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2019.11.10-21.39.38:101][823]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.39.50:206][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.40.00:716][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.40.18:858][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (skull)
+[2019.11.10-21.40.21:940][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.40.25:840][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (skull)
+[2019.11.10-21.40.28:631][621]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.28:631][621]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.10-21.40.29:684][623]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.29:684][623]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.10-21.40.30:512][634]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.30:512][634]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.10-21.40.31:242][643]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.31:242][643]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.10-21.40.31:932][646]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.32:825][657]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.32:825][657]LogEditorTransaction: Undo Clicking on Actors
+[2019.11.10-21.40.33:919][661]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.34:419][661]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.34:420][661]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.34:420][661]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-21.40.34:921][661]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.35:422][661]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.37:044][665]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.37:045][665]Cmd: TRANSACTION UNDO
+[2019.11.10-21.40.37:045][665]LogEditorTransaction: Undo Move Actors
+[2019.11.10-21.40.37:547][665]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.44:546][779]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (skull)
+[2019.11.10-21.40.46:742][808]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.47:526][809]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.48:475][814]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.40.50:838][835]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2019.11.10-21.41.03:774][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.41.55:796][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.42.00:423][907]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.00:923][907]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.01:425][908]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.01:926][908]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.06:029][985]Cmd: TRANSACTION UNDO
+[2019.11.10-21.42.06:029][985]LogEditorTransaction: Undo Set Scale
+[2019.11.10-21.42.12:187][ 56]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.12:687][ 56]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.13:190][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.13:690][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.42:163][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.42.45:080][471]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.42.45:578][471]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.43.12:034][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.43.12:117][835]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.43.12:151][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.12:151][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.43.12:151][835]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:43:12 AM)
+[2019.11.10-21.43.12:151][835]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.43.12:442][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.291268s)
+[2019.11.10-21.43.12:443][835]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.43.12:443][835]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2019.11.10-21.43.12:443][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.292513s)
+[2019.11.10-21.43.12:485][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.11.10-21.43.12:550][835]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.43.12:667][835]LogInit: FAudioDevice initialized.
+[2019.11.10-21.43.12:701][835]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.43.12:717][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.43.12
+[2019.11.10-21.43.12:718][835]LogWorld: Bringing up level for play took: 0.015868
+[2019.11.10-21.43.12:761][835]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 1.545
+[2019.11.10-21.43.12:761][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.13:552][837]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.43.32:498][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.32:498][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.43.32:649][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.43.32:649][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.32:687][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.43.32:694][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.11.10-21.43.32:814][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.11.10-21.43.34:087][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.43.34:225][110]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.43.34:255][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.34:255][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.43.34:255][110]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:43:34 AM)
+[2019.11.10-21.43.34:255][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.43.34:545][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.289241s)
+[2019.11.10-21.43.34:546][110]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.43.34:546][110]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2019.11.10-21.43.34:546][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.290421s)
+[2019.11.10-21.43.34:576][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.11.10-21.43.34:628][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.43.34:742][110]LogInit: FAudioDevice initialized.
+[2019.11.10-21.43.34:777][110]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.43.34:794][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.43.34
+[2019.11.10-21.43.34:796][110]LogWorld: Bringing up level for play took: 0.017298
+[2019.11.10-21.43.34:816][110]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel -0.4
+[2019.11.10-21.43.34:817][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.43.34:843][111]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061176 > MaxSimulationTimeStep (0.050) for 'BP_MainCharacter_C_0', movement 'Walking'
+[2019.11.10-21.43.35:615][113]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.43.36:120][114]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.44.54:589][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.44.54:589][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.44.54:807][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.44.54:808][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.44.54:847][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.44.54:854][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.11.10-21.44.55:098][259]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.10-21.45.19:434][512]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.45.19:485][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-21.45.19:521][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.11.10-21.45.21:450][512]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevelD5675D064D29533C744829AF28B0EC7D.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.10-21.45.21:522][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel_BuiltData" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-21.45.22:748][512]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel_BuiltData92A3309C4839DB996D9B6D9D0B9BD724.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset'
+[2019.11.10-21.45.55:515][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.45.55:593][911]MapCheck: New page: Map Check
+[2019.11.10-21.45.55:758][911]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.10-21.45.55:758][911]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.10-21.46.03:187][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.11.10-21.46.03:314][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:326][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2019.11.10-21.46.03:360][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:369][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:381][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:391][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:399][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:408][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:416][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:428][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:439][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:448][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:460][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:472][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:484][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:495][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:503][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:515][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:527][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:538][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:548][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:559][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:568][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:580][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.03:590][911]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.10-21.46.14:019][911]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.10-21.46.14:019][911]TextureStreamingBuild: Display: Compiling optional shaders took 10.714 seconds.
+[2019.11.10-21.46.14:072][911]LogLevel: Display: Export Material TexCoord Scales took 0.053 seconds.
+[2019.11.10-21.46.14:404][911]TextureStreamingBuild: Display: Build Texture Streaming took 0.331 seconds.
+[2019.11.10-21.46.14:435][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.10-21.46.14:435][911]LightingResults: New page: Lighting Build - Nov 10, 2019, 11:46:14 AM
+[2019.11.10-21.46.14:638][911]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.10-21.46.15:436][911]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.10-21.46.15:486][911]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.10-21.46.16:529][911]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.10-21.46.16:529][911]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23744
+[2019.11.10-21.46.20:375][911]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.11.10-21.46.20:380][911]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.10-21.46.20:380][911]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.10-21.46.20:380][911]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.10-21.46.20:380][911]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.10-21.46.20:380][911]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.10-21.46.21:130][911]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.10-21.46.21:130][911]MapCheck: New page: CastleLevel - Nov 10, 2019, 11:46:21 AM
+[2019.11.10-21.46.21:130][911]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2019.11.10-21.46.21:131][911]MapCheck: Warning: Enemy_Knight_01_10 Static mesh actor has NULL StaticMesh property 
+[2019.11.10-21.46.21:131][911]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 1.595ms to complete.
+[2019.11.10-21.46.21:158][911]LogEditorBuildUtils: Build time 0:25
+[2019.11.10-21.46.24:350][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.11.10-21.47.11:797][ 53]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-21.47.11:797][ 53]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-21.47.13:861][ 59]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-21.47.13:861][ 59]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-21.47.16:262][ 66]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-21.47.16:262][ 66]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-21.47.17:227][ 69]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-21.47.17:238][ 69]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-21.47.18:130][ 78]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-21.47.18:131][ 78]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-21.47.21:843][125]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-21.47.21:843][125]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-21.47.36:532][311]Job is a success!
+[2019.11.10-21.47.36:764][312]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.715s
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 3.8Mb (trimmed 6.5Mb due to 0.010000 MinBrickError)
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:          1: 12.2% covering 18.2% of volume
+[2019.11.10-21.47.37:895][312]LogVolumetricLightmapImport:          2: 86.7% covering 2.0% of volume
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2019.11.10-21.47.42:895][312]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 2048X1024)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 2048X2048)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 2048X2048)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 512X256)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 512X512)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 512X512)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 64X32)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2019.11.10-21.47.42:896][312]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2019.11.10-21.47.43:096][312]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 32X32)
+[2019.11.10-21.47.43:096][312]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 64X64)
+[2019.11.10-21.47.43:296][312]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2019.11.10-21.47.43:407][312]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2019.11.10-21.47.43:407][312]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2019.11.10-21.47.43:407][312]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2019.11.10-21.47.43:533][312]Lightmass on DESKTOP-VMGI91V: 1:17 min total, 4.82 sec importing, 5.39 sec setup, 21.8 sec photons, 45.2 sec processing, 0 ms extra exporting [1516/1516 mappings]. Threads: 5:16 min total, 2:38 min processing.
+[2019.11.10-21.47.43:563][312]LogStaticLightingSystem: CastleLevel_BuiltData storing lightmap data for 540 meshes in 11 LightmapResourceClusters (49.1 Meshes per cluster).
+[2019.11.10-21.47.43:653][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.10-21.47.44:053][312]LogStaticLightingSystem: Illumination: 1:29 min (2.68 sec encoding lightmaps, 442 ms encoding shadowmaps)
+[2019.11.10-21.47.44:053][312]LogStaticLightingSystem: Lightmap texture memory:  22.0 MB (0.7 MB streaming, 21.3 MB non-streaming), 14 textures
+[2019.11.10-21.47.44:053][312]LogStaticLightingSystem: Shadowmap texture memory: 12.7 MB (0.0 MB streaming, 12.7 MB non-streaming), 6 textures
+[2019.11.10-21.47.49:457][312]DumpUnbuiltLightIteractions
+[2019.11.10-21.47.49:457][312]Lights with unbuilt interactions: 0
+[2019.11.10-21.47.49:457][312]
+[2019.11.10-21.47.49:457][312]Primitives with unbuilt interactions: 0
+[2019.11.10-21.47.49:831][313]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.10-21.47.49:832][313]MapCheck: New page: CastleLevel - Nov 10, 2019, 11:47:49 AM
+[2019.11.10-21.47.49:833][313]MapCheck: Warning: Enemy_Knight_01_10 Static mesh actor has NULL StaticMesh property 
+[2019.11.10-21.47.49:834][313]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 2.409ms to complete.
+[2019.11.10-21.47.50:505][316]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.48.39:083][918]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.219 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.10-21.50.21:696][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.50.21:806][159]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-21.50.22:172][159]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-21.50.36:018][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.50.36:159][321]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.50.36:195][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.50.36:195][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.50.36:195][321]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:50:36 AM)
+[2019.11.10-21.50.36:195][321]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.50.36:579][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.384029s)
+[2019.11.10-21.50.36:580][321]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.50.36:580][321]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.11.10-21.50.36:580][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.385481s)
+[2019.11.10-21.50.36:615][321]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.11.10-21.50.36:677][321]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.50.36:800][321]LogInit: FAudioDevice initialized.
+[2019.11.10-21.50.36:830][321]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.50.36:846][321]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.50.36
+[2019.11.10-21.50.36:848][321]LogWorld: Bringing up level for play took: 0.016796
+[2019.11.10-21.50.36:868][321]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 1.659
+[2019.11.10-21.50.36:868][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.50.37:591][324]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.50.38:094][325]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.50.51:170][562]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.50.51:171][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.50.51:269][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.50.51:269][562]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.50.51:308][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.50.51:315][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.11.10-21.50.51:342][563]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.11.10-21.51.07:350][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.51.31:032][302]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.51.31:060][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.51.31:060][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.51.31:060][302]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:51:31 AM)
+[2019.11.10-21.51.31:060][302]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.51.31:443][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383263s)
+[2019.11.10-21.51.31:444][302]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.51.31:444][302]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2019.11.10-21.51.31:444][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.384601s)
+[2019.11.10-21.51.31:481][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.11.10-21.51.31:548][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.51.31:672][302]LogInit: FAudioDevice initialized.
+[2019.11.10-21.51.31:703][302]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.51.31:722][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.51.31
+[2019.11.10-21.51.31:725][302]LogWorld: Bringing up level for play took: 0.020465
+[2019.11.10-21.51.31:745][302]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.537
+[2019.11.10-21.51.31:746][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.51.32:467][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.51.32:971][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.52.30:266][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.52.30:267][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.52.30:363][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.52.30:363][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.52.30:402][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.52.30:411][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.11.10-21.52.30:439][182]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.10-21.52.44:883][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.52.58:037][451]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.10-21.53.08:763][576]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/assets/skull/BP_Cinder.BP_Cinder
+[2019.11.10-21.53.09:419][576]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2019.11.10-21.53.10:870][577]LogRenderer: Reallocating scene render targets to support 1124x612 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-21.53.20:890][688]LogSlate: Took 0.018383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.10-21.53.48:054][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.54.01:536][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.54.01:701][151]BlueprintLog: New page: Compile BP_Cinder
+[2019.11.10-21.54.01:971][151]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2019.11.10-21.54.03:555][168]LogSlate: Window 'BP_Cinder' being destroyed
+[2019.11.10-21.54.09:269][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (skull)
+[2019.11.10-21.54.10:279][246]Cmd: DELETE
+[2019.11.10-21.54.10:279][246]Cmd: ACTOR DELETE
+[2019.11.10-21.54.10:337][246]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.11.10-21.54.10:379][246]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.10-21.54.10:379][246]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2019.11.10-21.54.12:121][252]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2019.11.10-21.54.12:996][266]Cmd: DELETE
+[2019.11.10-21.54.12:996][266]Cmd: ACTOR DELETE
+[2019.11.10-21.54.13:038][266]LogEditorActor: Deleted Actor: PointLight
+[2019.11.10-21.54.13:075][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.10-21.54.13:075][266]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2019.11.10-21.54.13:902][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.54.17:661][337]LogEditorViewport: Clicking on Actor (LMB): BP_Cinder_C (BP_Cinder)
+[2019.11.10-21.54.21:269][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.54.21:543][396]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/assets/skull/BP_Cinder.BP_Cinder
+[2019.11.10-21.54.22:072][396]LogSlate: Took 0.017096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.10-21.54.27:191][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.54.30:818][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/skull/BP_Cinder" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/assets/skull/BP_Cinder.uasset" SILENT=true
+[2019.11.10-21.54.30:852][532]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/BP_Cinder7527CC374E03D1D3C0570CB2EACAEFCF.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/assets/skull/BP_Cinder.uasset'
+[2019.11.10-21.54.31:881][548]BlueprintLog: New page: Compile BP_Cinder
+[2019.11.10-21.54.32:130][548]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.10-21.54.33:107][561]LogSlate: Window 'BP_Cinder' being destroyed
+[2019.11.10-21.54.40:448][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.54.40:566][678]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.54.40:602][678]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.54.40:602][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.54.40:602][678]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:54:40 AM)
+[2019.11.10-21.54.40:603][678]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.54.40:944][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.341393s)
+[2019.11.10-21.54.40:944][678]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.54.40:945][678]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.11.10-21.54.40:945][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.342373s)
+[2019.11.10-21.54.40:981][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.11.10-21.54.41:051][678]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.54.41:182][678]LogInit: FAudioDevice initialized.
+[2019.11.10-21.54.41:216][678]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.54.41:240][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.54.41
+[2019.11.10-21.54.41:244][678]LogWorld: Bringing up level for play took: 0.026927
+[2019.11.10-21.54.41:265][678]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.059
+[2019.11.10-21.54.41:265][678]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.54.41:969][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.54.42:474][682]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.54.52:993][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.54.52:994][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.54.53:089][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.54.53:090][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.54.53:134][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.54.53:144][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.10-21.54.53:170][862]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.10-21.54.54:627][889]LogEditorViewport: Clicking on Actor (LMB): BP_Cinder_C (BP_Cinder)
+[2019.11.10-21.54.56:902][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.55.11:810][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.55.12:064][206]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/assets/skull/BP_Cinder.BP_Cinder
+[2019.11.10-21.55.17:318][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.55.20:578][342]BlueprintLog: New page: Compile BP_Cinder
+[2019.11.10-21.55.20:825][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2019.11.10-21.55.21:645][354]LogSlate: Window 'BP_Cinder' being destroyed
+[2019.11.10-21.55.23:550][388]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.55.23:592][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.23:592][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.55.23:592][388]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:55:23 AM)
+[2019.11.10-21.55.23:592][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.55.23:916][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.323303s)
+[2019.11.10-21.55.23:916][388]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.55.23:917][388]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2019.11.10-21.55.23:917][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.324244s)
+[2019.11.10-21.55.23:959][388]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.10-21.55.24:012][388]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.55.24:119][388]LogInit: FAudioDevice initialized.
+[2019.11.10-21.55.24:155][388]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.55.24:173][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.55.24
+[2019.11.10-21.55.24:175][388]LogWorld: Bringing up level for play took: 0.018637
+[2019.11.10-21.55.24:194][388]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.989
+[2019.11.10-21.55.24:194][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.24:911][391]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.55.25:410][391]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.55.33:128][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.33:129][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.55.33:224][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.55.33:224][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.33:268][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.55.33:276][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.10-21.55.33:301][530]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.10-21.55.35:626][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.55.35:876][577]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/assets/skull/BP_Cinder.BP_Cinder
+[2019.11.10-21.55.40:639][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.55.43:867][705]BlueprintLog: New page: Compile BP_Cinder
+[2019.11.10-21.55.44:124][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.11.10-21.55.45:065][719]LogSlate: Window 'BP_Cinder' being destroyed
+[2019.11.10-21.55.46:346][738]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.55.46:382][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.46:382][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.55.46:382][738]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 11:55:46 AM)
+[2019.11.10-21.55.46:382][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-21.55.46:748][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.365142s)
+[2019.11.10-21.55.46:749][738]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-21.55.46:749][738]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2019.11.10-21.55.46:749][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.366449s)
+[2019.11.10-21.55.46:792][738]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.11.10-21.55.46:856][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-21.55.46:972][738]LogInit: FAudioDevice initialized.
+[2019.11.10-21.55.47:010][738]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-21.55.47:028][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-16.55.47
+[2019.11.10-21.55.47:029][738]LogWorld: Bringing up level for play took: 0.018037
+[2019.11.10-21.55.47:047][738]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel -0.157
+[2019.11.10-21.55.47:047][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.55.47:720][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.55.48:225][742]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.56.38:655][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.56.38:655][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.56.38:929][471]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.56.38:929][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-21.56.38:972][471]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.56.38:982][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.11.10-21.56.39:341][472]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.11.10-21.56.40:874][482]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-21.56.41:095][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-21.56.41:136][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.10-21.56.43:078][482]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevelFBA21C4E4F46AB974C12D4AFA50B1BC3.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.10-21.56.43:139][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel_BuiltData" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-21.56.44:038][482]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel_BuiltData50F2B4E842B02EF7CE87D589C2E96CCB.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset'
+[2019.11.10-21.56.44:653][486]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-21.57.15:343][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.57.19:563][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.57.28:777][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.57.41:912][952]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (erika_archer_bow_arrow)
+[2019.11.10-21.57.57:398][ 38]Cmd: DELETE
+[2019.11.10-21.57.57:398][ 38]Cmd: ACTOR DELETE
+[2019.11.10-21.57.57:440][ 38]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.11.10-21.57.57:580][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.10-21.57.57:581][ 38]LogEditorActor: Deleted 1 Actors (0.183 secs)
+[2019.11.10-22.00.41:781][120]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.00.41:802][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-22.00.41:842][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.10-22.00.43:618][120]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel39C7D972409FA4A8F6C1BE8033EA22D9.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.10-22.00.43:672][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel_BuiltData" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-22.00.44:527][120]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel_BuiltData260E7B7D45BDBDA6249BFF8AE782B520.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset'
+[2019.11.10-22.01.09:879][266]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall142)
+[2019.11.10-22.01.12:919][292]Cmd: TRANSACTION UNDO
+[2019.11.10-22.01.12:919][292]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-22.01.23:263][362]LogEditorViewport: Clicking on Actor (LMB): BP_candelSmall_C (BP_candelSmall142)
+[2019.11.10-22.01.27:668][404]Cmd: TRANSACTION UNDO
+[2019.11.10-22.01.27:669][404]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-22.01.31:637][404]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.932 s
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: 
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: Ensure condition failed: Model->Nodes.IsValidIndex(ModelNodeIndex) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\ModelRender.cpp] [Line: 634]
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: Invalid Node Index, Idx:10123, Num:10133
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: Stack: 
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fea5ea16 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fddd5a1e UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fddd249d UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eeefba4b UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eef0e8fe UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eef17582 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eeebe756 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eeebdd1c UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9ee9ea626 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eee4f9b0 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9eee2ea52 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fc9422d8 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fc942563 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ffa3d9559f1 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ffa3d95c184 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fcd34b3f UE4Editor-Core.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ff9fcd308a7 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ffa6bb77974 KERNEL32.DLL!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: [Callstack] 0x00007ffa6e92a271 ntdll.dll!UnknownFunction []
+[2019.11.10-22.01.31:637][404]LogOutputDevice: Error: 
+[2019.11.10-22.01.31:637][404]LogStats:                SubmitErrorReport -  0.000 s
+[2019.11.10-22.01.40:282][404]LogStats:                    SendNewReport -  8.644 s
+[2019.11.10-22.01.40:282][404]LogStats:             FDebug::EnsureFailed - 12.577 s
+[2019.11.10-22.01.40:520][404]LogEditorViewport: Clicking on Actor (LMB): BP_candelSmall_C (BP_candelSmall139)
+[2019.11.10-22.01.40:834][404]LogEditorViewport: Clicking on Actor (LMB): BP_candelSmall_C (BP_candelSmall139)
+[2019.11.10-22.01.41:017][404]LogEditorViewport: Clicking on Actor (LMB): BP_candelSmall_C (BP_candelSmall139)
+[2019.11.10-22.01.59:570][575]LogEditorViewport: Clicking on Actor (LMB): BP_candelSmall_C (BP_candelSmall141)
+[2019.11.10-22.02.07:179][640]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall142)
+[2019.11.10-22.02.08:319][649]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall143)
+[2019.11.10-22.02.09:655][659]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall139)
+[2019.11.10-22.02.13:101][686]Cmd: TRANSACTION UNDO
+[2019.11.10-22.02.13:102][686]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-22.02.16:224][703]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall137)
+[2019.11.10-22.02.19:775][739]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall140)
+[2019.11.10-22.02.21:168][755]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall138)
+[2019.11.10-22.02.27:575][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.02.31:121][862]Cmd: TRANSACTION UNDO
+[2019.11.10-22.02.31:121][862]LogEditorTransaction: Undo Select Surfaces
+[2019.11.10-22.02.36:616][905]Cmd: TRANSACTION UNDO
+[2019.11.10-22.02.36:616][905]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-22.02.39:588][923]Cmd: TRANSACTION UNDO
+[2019.11.10-22.02.39:589][923]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.10-22.02.40:674][927]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.02.41:172][927]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.02.48:402][  8]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall142)
+[2019.11.10-22.02.49:784][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall141)
+[2019.11.10-22.02.51:511][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall143)
+[2019.11.10-22.02.53:252][ 66]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall139)
+[2019.11.10-22.02.55:177][ 88]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall140)
+[2019.11.10-22.03.01:422][163]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall138)
+[2019.11.10-22.03.03:232][184]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_candelSmall_C (BP_candelSmall137)
+[2019.11.10-22.03.05:631][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.03.33:604][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.03.40:176][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.03.46:307][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.04.07:685][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.04.07:843][228]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.04.07:876][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.04.07:876][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.04.07:876][228]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:04:07 PM)
+[2019.11.10-22.04.07:876][228]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.04.08:176][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.299970s)
+[2019.11.10-22.04.08:177][228]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.04.08:177][228]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2019.11.10-22.04.08:177][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.301205s)
+[2019.11.10-22.04.08:230][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.11.10-22.04.08:292][228]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.04.08:419][228]LogInit: FAudioDevice initialized.
+[2019.11.10-22.04.08:449][228]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.04.08:470][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.04.08
+[2019.11.10-22.04.08:473][228]LogWorld: Bringing up level for play took: 0.022800
+[2019.11.10-22.04.08:494][228]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 1.297
+[2019.11.10-22.04.08:494][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.04.09:326][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.04.40:037][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.04.40:038][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.04.40:143][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.04.40:143][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.04.40:189][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.04.40:198][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.10-22.04.40:226][704]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.10-22.04.42:002][734]LogEditorViewport: Clicking on Actor (LMB): BP_Cinder_C (BP_Cinder3)
+[2019.11.10-22.05.12:151][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.05.15:075][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.05.15:575][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.05.16:079][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.05.16:578][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.05.46:147][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.05.48:776][643]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.05.49:277][643]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.06.30:124][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.06.30:274][208]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.06.30:309][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.06.30:309][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.06.30:309][208]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:06:30 PM)
+[2019.11.10-22.06.30:309][208]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.06.30:611][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.302030s)
+[2019.11.10-22.06.30:612][208]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.06.30:612][208]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2019.11.10-22.06.30:612][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.303024s)
+[2019.11.10-22.06.30:662][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.10-22.06.30:728][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.06.30:847][208]LogInit: FAudioDevice initialized.
+[2019.11.10-22.06.30:881][208]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.06.30:901][208]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.06.30
+[2019.11.10-22.06.30:903][208]LogWorld: Bringing up level for play took: 0.020746
+[2019.11.10-22.06.30:921][208]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel -0.275
+[2019.11.10-22.06.30:921][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.06.31:730][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.06.32:238][212]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.07.08:501][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.07.08:501][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.07.08:739][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.07.08:739][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.07.08:789][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.07.08:797][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.10-22.07.09:081][804]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.10-22.07.21:993][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.07.22:206][860]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.07.22:243][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.07.22:243][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.07.22:243][860]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:07:22 PM)
+[2019.11.10-22.07.22:243][860]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.07.22:558][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.314612s)
+[2019.11.10-22.07.22:559][860]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.07.22:559][860]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2019.11.10-22.07.22:559][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.315736s)
+[2019.11.10-22.07.22:601][860]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2019.11.10-22.07.22:667][860]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.07.22:801][860]LogInit: FAudioDevice initialized.
+[2019.11.10-22.07.22:837][860]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.07.22:858][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.07.22
+[2019.11.10-22.07.22:861][860]LogWorld: Bringing up level for play took: 0.022120
+[2019.11.10-22.07.22:879][860]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel -0.315
+[2019.11.10-22.07.22:880][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.07.23:673][863]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.07.24:177][864]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.08.01:510][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.08.01:510][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.08.01:615][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.08.01:615][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.08.01:664][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.08.01:672][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.11.10-22.08.01:703][495]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.10-22.08.12:803][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.08.13:868][658]LogEditorViewport: Clicking on Actor (LMB): BP_candelBig_C (BP_candel6)
+[2019.11.10-22.08.32:727][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.08.40:235][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.09.00:978][266]LogEditorViewport: Clicking on Actor (LMB): BP_candelBig_C (BP_candel5)
+[2019.11.10-22.09.02:602][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.09.12:535][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.09.19:662][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.09.19:856][562]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.09.19:890][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.09.19:891][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.09.19:891][562]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:09:19 PM)
+[2019.11.10-22.09.19:891][562]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.09.20:210][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.319076s)
+[2019.11.10-22.09.20:211][562]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.09.20:211][562]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.11.10-22.09.20:211][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.320333s)
+[2019.11.10-22.09.20:264][562]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2019.11.10-22.09.20:328][562]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.09.20:457][562]LogInit: FAudioDevice initialized.
+[2019.11.10-22.09.20:494][562]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.09.20:518][562]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.09.20
+[2019.11.10-22.09.20:519][562]LogWorld: Bringing up level for play took: 0.023764
+[2019.11.10-22.09.20:539][562]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 1.346
+[2019.11.10-22.09.20:539][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.09.21:363][565]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.09.21:869][566]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.09.51:281][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.09.51:282][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.09.51:390][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.09.51:390][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.09.51:447][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.09.51:454][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.10-22.09.51:502][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.10-22.09.52:605][109]LogEditorViewport: Clicking on Actor (LMB): BP_candelBig_C (BP_candel6)
+[2019.11.10-22.10.10:685][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.10.10:864][388]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.10.10:895][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.10.10:895][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.10.10:896][388]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:10:10 PM)
+[2019.11.10-22.10.10:896][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.10.11:239][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.342412s)
+[2019.11.10-22.10.11:240][388]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.10.11:240][388]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2019.11.10-22.10.11:240][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.343426s)
+[2019.11.10-22.10.11:282][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.11.10-22.10.11:348][388]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.10.11:486][388]LogInit: FAudioDevice initialized.
+[2019.11.10-22.10.11:523][388]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.10.11:543][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.10.11
+[2019.11.10-22.10.11:546][388]LogWorld: Bringing up level for play took: 0.021429
+[2019.11.10-22.10.11:567][388]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.375
+[2019.11.10-22.10.11:568][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.10.12:388][391]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.10.12:894][392]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.10.49:831][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.10.49:831][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.10.49:948][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.10.49:948][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.10.50:000][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.10.50:006][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.11.10-22.10.50:044][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.10-22.11.05:655][213]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.11.09:139][265]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.11.11:103][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.11.14:602][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.11.18:306][412]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.11.18:355][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-22.11.18:402][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.10-22.11.20:224][412]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel4A8E5E034FFF0DA85CBB8A862193F03C.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.10-22.11.20:283][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel_BuiltData" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-22.11.21:333][412]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel_BuiltData2B96973D45416F3BFB5103BC46C6F6AD.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset'
+[2019.11.10-22.11.23:601][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.11.23:741][442]MapCheck: New page: Map Check
+[2019.11.10-22.11.23:884][442]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.10-22.11.23:885][442]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.10-22.11.31:254][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.10-22.11.31:381][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:390][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2019.11.10-22.11.31:410][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:418][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:427][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:438][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:448][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:457][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:468][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:479][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:489][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:498][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:505][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:515][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:524][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:535][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:543][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:552][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:564][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.31:576][442]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.10-22.11.38:278][442]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.10-22.11.38:278][442]TextureStreamingBuild: Display: Compiling optional shaders took 6.901 seconds.
+[2019.11.10-22.11.38:311][442]LogLevel: Display: Export Material TexCoord Scales took 0.033 seconds.
+[2019.11.10-22.11.38:608][442]TextureStreamingBuild: Display: Build Texture Streaming took 0.295 seconds.
+[2019.11.10-22.11.38:648][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.11.10-22.11.38:649][442]LightingResults: New page: Lighting Build - Nov 10, 2019, 12:11:38 PM
+[2019.11.10-22.11.38:744][442]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.10-22.11.38:748][442]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.10-22.11.38:748][442]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.10-22.11.38:749][442]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.10-22.11.38:750][442]LogSwarmInterface: [TryOpenConnection] Local Process ID is 23744
+[2019.11.10-22.11.43:329][442]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.11.10-22.11.43:331][442]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.10-22.11.43:331][442]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.10-22.11.43:331][442]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.10-22.11.43:331][442]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.10-22.11.43:331][442]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.10-22.11.43:915][442]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.10-22.11.43:915][442]MapCheck: New page: CastleLevel - Nov 10, 2019, 12:11:43 PM
+[2019.11.10-22.11.43:916][442]MapCheck: Warning: Enemy_Knight_01_10 Static mesh actor has NULL StaticMesh property 
+[2019.11.10-22.11.43:916][442]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1.476ms to complete.
+[2019.11.10-22.11.43:943][442]LogEditorBuildUtils: Build time 0:20
+[2019.11.10-22.11.43:982][442]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.11.46:957][447]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.11.10-22.12.11:110][762]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-22.12.11:193][762]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-22.12.41:682][174]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-22.12.41:682][174]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-22.12.42:135][180]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-22.12.42:135][180]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-22.12.46:891][243]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-22.12.46:891][243]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-22.12.49:451][277]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-22.12.49:451][277]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-22.13.00:432][422]LightingResults: Warning: Infernal_Throne Object has overlapping UVs.
+[2019.11.10-22.13.00:432][422]LightingResults: Infernal_Throne Lightmap UV are overlapping by 88.0%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.10-22.13.11:202][564]Job is a success!
+[2019.11.10-22.13.11:417][565]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.731s
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 3.8Mb (trimmed 6.8Mb due to 0.010000 MinBrickError)
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:          1: 12.7% covering 18.4% of volume
+[2019.11.10-22.13.12:510][565]LogVolumetricLightmapImport:          2: 86.3% covering 2.0% of volume
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2019.11.10-22.13.17:650][565]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 2048X1024)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 2048X2048)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 2048X2048)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 512X256)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 512X512)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 512X512)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 64X32)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 64X64)
+[2019.11.10-22.13.17:651][565]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 64X64)
+[2019.11.10-22.13.17:850][565]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2019.11.10-22.13.18:148][565]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X1024)
+[2019.11.10-22.13.18:148][565]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X1024)
+[2019.11.10-22.13.18:148][565]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
+[2019.11.10-22.13.18:148][565]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
+[2019.11.10-22.13.18:277][565]Lightmass on DESKTOP-VMGI91V: 1:29 min total, 4.47 sec importing, 6.45 sec setup, 24.2 sec photons, 54.4 sec processing, 0 ms extra exporting [1504/1504 mappings]. Threads: 6:20 min total, 3:16 min processing.
+[2019.11.10-22.13.18:316][565]LogStaticLightingSystem: CastleLevel_BuiltData storing lightmap data for 508 meshes in 11 LightmapResourceClusters (46.2 Meshes per cluster).
+[2019.11.10-22.13.18:395][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.10-22.13.18:772][565]LogStaticLightingSystem: Illumination: 1:39 min (2.79 sec encoding lightmaps, 494 ms encoding shadowmaps)
+[2019.11.10-22.13.18:772][565]LogStaticLightingSystem: Lightmap texture memory:  24.7 MB (0.7 MB streaming, 24.0 MB non-streaming), 16 textures
+[2019.11.10-22.13.18:772][565]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (0.0 MB streaming, 5.3 MB non-streaming), 5 textures
+[2019.11.10-22.13.24:366][565]DumpUnbuiltLightIteractions
+[2019.11.10-22.13.24:366][565]Lights with unbuilt interactions: 0
+[2019.11.10-22.13.24:366][565]
+[2019.11.10-22.13.24:366][565]Primitives with unbuilt interactions: 0
+[2019.11.10-22.13.24:848][566]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.10-22.13.24:848][566]MapCheck: New page: CastleLevel - Nov 10, 2019, 12:13:24 PM
+[2019.11.10-22.13.24:849][566]MapCheck: Warning: Enemy_Knight_01_10 Static mesh actor has NULL StaticMesh property 
+[2019.11.10-22.13.24:850][566]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 1.373ms to complete.
+[2019.11.10-22.13.25:478][569]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.13.32:271][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.13.32:343][657]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-22.13.32:422][657]LogSlate: Window 'Message Log' being destroyed
+[2019.11.10-22.13.34:951][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.13.35:047][694]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-22.13.35:084][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.13.35:084][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-22.13.35:084][694]PIE: New page: PIE session: CastleLevel (Nov 10, 2019, 12:13:35 PM)
+[2019.11.10-22.13.35:084][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_CastleLevel
+[2019.11.10-22.13.35:451][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.367294s)
+[2019.11.10-22.13.35:452][694]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.10-22.13.35:452][694]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2019.11.10-22.13.35:452][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/CastleLevel.CastleLevel to /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel (0.368695s)
+[2019.11.10-22.13.35:496][694]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2019.11.10-22.13.35:556][694]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.10-22.13.35:680][694]LogInit: FAudioDevice initialized.
+[2019.11.10-22.13.35:717][694]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.10-22.13.35:738][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.10-17.13.35
+[2019.11.10-22.13.35:741][694]LogWorld: Bringing up level for play took: 0.022119
+[2019.11.10-22.13.35:759][694]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_CastleLevel 0.57
+[2019.11.10-22.13.35:760][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.13.36:444][697]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.13.36:949][698]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.10-22.14.46:239][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.14.46:239][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.14.46:343][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-22.14.46:343][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel' with GeneratedClass '/Game/Maps/CastleLevel.CastleLevel_C' with ClassGeneratedBy '/Game/Maps/CastleLevel.CastleLevel:PersistentLevel.CastleLevel'
+[2019.11.10-22.14.46:388][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-22.14.46:395][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.10-22.14.46:449][746]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.10-22.14.48:677][781]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.14.48:708][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-22.14.48:751][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.11.10-22.14.50:622][781]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevelE27B12214EB4E11340F029BA042A4C77.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.10-22.14.50:685][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CastleLevel_BuiltData" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-22.14.51:634][781]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/CastleLevel_BuiltData068011A14E41B1C9ED32DA8BA9266F90.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/Maps/CastleLevel_BuiltData.uasset'
+[2019.11.10-22.14.55:737][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-22.14.56:515][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2019.11.10-22.14.57:849][860]LogSlate: Window 'Save Content' being destroyed
+[2019.11.10-22.14.57:875][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.10-22.14.57:944][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/assets/skull/BP_Cinder" FILE="../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/assets/skull/BP_Cinder.uasset" SILENT=true
+[2019.11.10-22.14.58:004][860]LogSavePackage: Moving '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/BP_Cinder47690D3D4560DF333E792991B84E3506.tmp' to '../../../../../Soul_Like_GitHub/SoulsLike/SoulsLike/Content/assets/skull/BP_Cinder.uasset'
+[2019.11.10-22.14.58:272][860]LogSlate: Window 'SoulsLike - Unreal Editor' being destroyed
+[2019.11.10-22.14.58:836][861]Cmd: QUIT_EDITOR
+[2019.11.10-22.14.59:877][861]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2019.11.10-22.14.59:942][861]LogExit: Preparing to exit.
+[2019.11.10-22.15.01:373][861]LogExit: Editor shut down
+[2019.11.10-22.15.01:374][861]LogExit: Transaction tracking system shut down
+[2019.11.10-22.15.03:260][861]LogExit: Object subsystem successfully closed.
+[2019.11.10-22.15.03:549][861]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.10-22.15.03:574][861]LogD3D11RHI: Shutdown
+[2019.11.10-22.15.03:574][861]LogD3D11RHI: CleanupD3DDevice
+[2019.11.10-22.15.03:588][861]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.10-22.15.03:588][861]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.10-22.15.03:611][861]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.10-22.15.03:611][861]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.10-22.15.03:614][861]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.10-22.15.03:614][861]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.10-22.15.03:643][861]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.10-22.15.05:566][861]LogModuleManager: Shutting down and abandoning module BlueprintGraph (652)
+[2019.11.10-22.15.05:566][861]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (650)
+[2019.11.10-22.15.05:580][861]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (648)
+[2019.11.10-22.15.05:580][861]LogModuleManager: Shutting down and abandoning module Voice (646)
+[2019.11.10-22.15.05:595][861]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2019.11.10-22.15.05:595][861]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2019.11.10-22.15.05:595][861]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2019.11.10-22.15.05:611][861]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2019.11.10-22.15.05:611][861]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2019.11.10-22.15.05:611][861]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2019.11.10-22.15.05:623][861]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2019.11.10-22.15.05:683][861]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2019.11.10-22.15.05:698][861]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2019.11.10-22.15.05:738][861]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2019.11.10-22.15.05:755][861]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2019.11.10-22.15.05:766][861]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2019.11.10-22.15.05:775][861]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2019.11.10-22.15.05:788][861]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2019.11.10-22.15.05:789][861]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2019.11.10-22.15.05:804][861]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2019.11.10-22.15.05:817][861]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2019.11.10-22.15.05:844][861]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2019.11.10-22.15.05:844][861]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2019.11.10-22.15.05:867][861]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2019.11.10-22.15.05:875][861]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2019.11.10-22.15.05:875][861]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2019.11.10-22.15.05:875][861]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2019.11.10-22.15.05:875][861]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2019.11.10-22.15.05:875][861]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2019.11.10-22.15.05:884][861]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2019.11.10-22.15.05:936][861]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2019.11.10-22.15.05:950][861]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2019.11.10-22.15.05:956][861]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2019.11.10-22.15.05:965][861]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2019.11.10-22.15.05:965][861]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2019.11.10-22.15.05:965][861]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2019.11.10-22.15.05:987][861]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2019.11.10-22.15.06:015][861]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2019.11.10-22.15.06:040][861]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2019.11.10-22.15.06:067][861]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2019.11.10-22.15.06:087][861]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2019.11.10-22.15.06:087][861]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2019.11.10-22.15.06:098][861]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2019.11.10-22.15.06:098][861]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2019.11.10-22.15.06:112][861]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2019.11.10-22.15.07:540][861]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2019.11.10-22.15.07:561][861]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2019.11.10-22.15.07:590][861]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2019.11.10-22.15.07:618][861]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2019.11.10-22.15.07:624][861]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2019.11.10-22.15.07:624][861]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2019.11.10-22.15.07:635][861]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+>>>>>>> master
