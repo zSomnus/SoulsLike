@@ -2461,3 +2461,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.10-00.05.50:712][929]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
 [2019.11.10-00.05.50:776][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
 [2019.11.10-00.05.50:906][930]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2019.11.10-00.08.01:693][854]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.10-00.08.02:301][854]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_Auto5DB6FBFCE4A9CB1CDEF6994B1981F941E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/OutsideLevel_Auto5.umap'
+[2019.11.10-00.08.02:305][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/OutsideLevel' took 0.663
+[2019.11.10-00.08.02:305][854]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.663
+[2019.11.10-00.08.02:307][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonBP/Blueprints/LevelChanger] ([1] browsable assets)...
+[2019.11.10-00.08.02:350][854]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonBP/Blueprints/LevelChanger.LevelChanger]
+[2019.11.10-00.08.02:350][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonBP/Blueprints/LevelChanger]
+[2019.11.10-00.08.02:380][854]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LevelChanger_Auto58C7D534745F0F4FD52031AAE55BF6766.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonBP/Blueprints/LevelChanger_Auto5.uasset'
+[2019.11.10-00.08.02:381][854]LogFileHelpers: Auto-saving content packages took 0.074
