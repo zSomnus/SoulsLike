@@ -585,3 +585,221 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.10-19.43.28:048][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.11.10-19.43.28:079][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
 [2019.11.10-19.43.28:351][663]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel5FFA4C304945617CE2913BAC555764D5.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
+[2019.11.10-19.44.43:261][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:261][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:262][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:263][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.10-19.44.43:264][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.10-19.44.43:265][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:265][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:265][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:265][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:266][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:267][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:268][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:269][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:270][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:270][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:270][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:271][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:272][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:273][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:273][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:273][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:273][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:274][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.10-19.44.43:275][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.10-19.44.43:275][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:275][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:275][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:275][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:911][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:911][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.10-19.44.43:911][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:911][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:911][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.10-19.44.43:911][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:912][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:912][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:912][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.10-19.44.43:912][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:913][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:913][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.10-19.44.43:913][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:913][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:913][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A
+[2019.11.10-19.44.43:913][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.43:913][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:914][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.10-19.44.43:914][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:914][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:914][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.10-19.44.43:914][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:914][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:914][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.10-19.44.43:914][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:915][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:915][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:915][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:915][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:916][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.10-19.44.43:916][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_WoodPlanks_Inst.M_WoodPlanks_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:916][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:916][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:917][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:918][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:920][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:920][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.10-19.44.43:920][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:920][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:921][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.10-19.44.43:921][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:921][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.10-19.44.43:921][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.10-19.44.43:921][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.10-19.44.43:921][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.10-19.44.43:921][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_DoorHardware_Inst.M_DoorHardware_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.10-19.44.43:921][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.10-19.44.43:922][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.10-19.44.43:922][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.10-19.44.43:922][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.10-19.44.43:922][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.10-19.44.43:922][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.10-19.44.43:923][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.10-19.44.43:923][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.10-19.44.43:923][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.10-19.44.43:923][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.10-19.44.43:923][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.10-19.44.43:923][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.10-19.44.43:923][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.10-19.44.43:924][501]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.10-19.44.43:924][501]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.10-19.44.43:924][501]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.10-19.44.46:269][501]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.10-19.44.46:323][501]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
+[2019.11.10-19.44.46:358][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.10-19.44.46:359][501]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-19.44.46:359][501]LightingResults: New page: Lighting Build
+[2019.11.10-19.44.46:359][501]LoadErrors: New page: Loading map: OutsideLevel.umap
+[2019.11.10-19.44.46:361][501]MapCheck: New page: Map Check
+[2019.11.10-19.44.46:361][501]LightingResults: New page: Lighting Build
+[2019.11.10-19.44.46:392][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.11.10-19.44.46:626][501]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-19.44.46:663][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.11.10-19.44.46:722][501]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-19.44.46:722][501]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.177ms to complete.
+[2019.11.10-19.44.46:722][501]LogFileHelpers: Loading map 'OutsideLevel' took 0.364
+[2019.11.10-19.44.48:555][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.10-19.44.49:286][597]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel18B088D143994A50027BD2A8595462B2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.10-19.44.49:351][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-19.44.53:668][597]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltDataDA10286C403891E4733F51B3E2BB7B81.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.10-19.45.20:980][323]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\loading_logo.png)
+[2019.11.10-19.45.21:058][323]LogTexture: Display: Building textures: loading_logo (BGRA8, 297X94)
+[2019.11.10-19.45.28:013][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LoadingScreen/loading_logo" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset" SILENT=true
+[2019.11.10-19.45.28:026][639]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/loading_logoA1F9109A4B1E47EF70531BA75B46F600.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/LoadingScreen/loading_logo.uasset'
+[2019.11.10-19.45.29:912][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.10-19.45.31:029][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.11.10-19.45.31:736][815]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel2DC46D8F4641A7E8223D3DA82F5F0F72.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.10-19.45.31:800][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.10-19.45.35:054][815]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltDataB1701D1547708BA11AB333883F6591F4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
