@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 11/09/19 19:37:22
 =======
 <<<<<<< HEAD
@@ -2836,6 +2837,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 =======
 ﻿Log file open, 11/09/19 18:04:44
 >>>>>>> master
+=======
+﻿Log file open, 11/09/19 19:37:22
+>>>>>>> meng
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -2848,10 +2852,14 @@ LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak 
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.277143
 =======
 LogStats: Stats thread started at 0.399743
 >>>>>>> master
+=======
+LogStats: Stats thread started at 0.277143
+>>>>>>> meng
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -2998,6 +3006,9 @@ LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> meng
 [2019.11.10-00.37.22:366][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.10-00.37.22:366][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.11.10-00.37.22:366][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
@@ -4704,6 +4715,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.10-03.02.41:245][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2019.11.10-03.02.43:721][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
 [2019.11.10-03.02.44:355][ 63]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel252EE58B4C1395FBC006DA81429A6C63.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+<<<<<<< HEAD
 =======
 [2019.11.09-23.04.45:737][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.09-23.04.45:737][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -6578,3 +6590,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.09-23.46.53:005][560]Log file closed, 11/09/19 18:46:53
 >>>>>>> master
 >>>>>>> master
+=======
+>>>>>>> meng
