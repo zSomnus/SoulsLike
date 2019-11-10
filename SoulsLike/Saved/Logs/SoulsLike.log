@@ -2474,3 +2474,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.10-00.14.43:728][417]LogSlate: Window 'BP_MainCharacter' being destroyed
 [2019.11.10-00.14.44:125][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2019.11.10-00.14.53:067][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-00.16.38:782][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
