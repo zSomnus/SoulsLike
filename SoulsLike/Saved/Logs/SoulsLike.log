@@ -1366,3 +1366,509 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.11-15.33.15:168][894]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevelD0FE0EA241CFBD9BCE8F5AA732D3872A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
 [2019.11.11-15.33.15:232][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
 [2019.11.11-15.33.18:629][894]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData55FDFD7D41423FE1EEA6A8A22566FE0B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.11-15.35.47:308][796]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-15.35.47:371][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.47:371][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.35.47:371][796]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:35:47 AM)
+[2019.11.11-15.35.47:371][796]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.35.47:443][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071729s)
+[2019.11.11-15.35.47:444][796]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.35.47:445][796]LogPlayLevel: PIE: World Init took: (0.001327s)
+[2019.11.11-15.35.47:445][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.073363s)
+[2019.11.11-15.35.47:515][796]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2019.11.11-15.35.47:521][796]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.35.47:599][796]LogInit: FAudioDevice initialized.
+[2019.11.11-15.35.47:639][796]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.35.47:645][796]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.35.47
+[2019.11.11-15.35.47:647][796]LogWorld: Bringing up level for play took: 0.006409
+[2019.11.11-15.35.47:663][796]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 1.258
+[2019.11.11-15.35.47:664][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.50:657][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.50:657][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.35.50:690][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.35.50:690][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.50:736][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.35.50:742][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2019.11.11-15.35.50:757][967]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.11.11-15.35.51:891][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-15.35.53:345][112]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.53:345][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.35.53:345][112]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:35:53 AM)
+[2019.11.11-15.35.53:345][112]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.35.53:413][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068123s)
+[2019.11.11-15.35.53:414][112]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.35.53:414][112]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2019.11.11-15.35.53:415][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.069238s)
+[2019.11.11-15.35.53:456][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2019.11.11-15.35.53:461][112]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.35.53:531][112]LogInit: FAudioDevice initialized.
+[2019.11.11-15.35.53:565][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.35.53:606][112]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.35.53:610][112]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.35.53
+[2019.11.11-15.35.53:612][112]LogWorld: Bringing up level for play took: 0.005536
+[2019.11.11-15.35.53:641][112]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 1.236
+[2019.11.11-15.35.53:641][112]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.35.53:724][113]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.11.11-15.37.21:809][378]LogNet: Browse: /Game/Maps/CastleLevel
+[2019.11.11-15.37.21:809][378]LogLoad: LoadMap: /Game/Maps/CastleLevel
+[2019.11.11-15.37.21:855][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.11-15.37.21:861][378]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.37.21:861][378]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.37.21:864][378]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.37.21:864][378]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.37.21:866][378]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.37.21:866][378]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.37.21:866][378]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.37.21:866][378]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.37.21:950][378]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.37.21:950][378]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.37.22:056][378]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.11-15.37.22:056][378]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.37.22:138][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.11-10.37.22
+[2019.11.11-15.37.22:139][378]LogWorld: Bringing up level for play took: 0.081105
+[2019.11.11-15.37.22:142][378]LogLoad: Took 0.332591 seconds to LoadMap(/Game/Maps/CastleLevel)
+[2019.11.11-15.37.22:931][381]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.11-15.37.55:257][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.37.55:257][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.37.55:287][676]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.37.55:418][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.37.55:418][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.37.55:480][676]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.11-15.37.55:499][677]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.11-15.39.12:946][268]BlueprintLog: New page: Compile DeathScreen
+[2019.11.11-15.39.12:992][268]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.11.11-15.39.13:532][278]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreen15FFF81E45599BA66081278F95CBB4E5.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-15.39.17:032][473]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreen2AC0B6374F062FF49193A29F04F2728A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-15.39.18:180][539]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.11-15.39.19:132][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.11-15.39.19:859][593]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevelECD4790F4DB7DE04FD1730809689A1A2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.11-15.39.19:921][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.11-15.39.23:598][593]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData35580EE84A1F09B80D84BF87B4649A83.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.11-15.40.22:930][130]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Mountain3)
+[2019.11.11-15.40.23:288][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-15.40.23:476][140]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Mountain3)
+[2019.11.11-15.40.23:508][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-15.40.24:138][177]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Curtain_Wall_A6)
+[2019.11.11-15.40.24:196][177]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-15.40.24:541][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Curtain_Wall_A6)
+[2019.11.11-15.40.26:747][326]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.11-15.43.01:445][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.43.01:512][603]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.43.01:561][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.43.01:561][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.43.01:561][603]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:43:01 AM)
+[2019.11.11-15.43.01:561][603]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.43.01:630][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069164s)
+[2019.11.11-15.43.01:631][603]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.43.01:631][603]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2019.11.11-15.43.01:631][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.070247s)
+[2019.11.11-15.43.01:678][603]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.11.11-15.43.01:686][603]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.43.01:767][603]LogInit: FAudioDevice initialized.
+[2019.11.11-15.43.01:773][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.43.01:804][603]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.43.01:811][603]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.43.01
+[2019.11.11-15.43.01:813][603]LogWorld: Bringing up level for play took: 0.007883
+[2019.11.11-15.43.01:832][603]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.573
+[2019.11.11-15.43.01:833][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.43.23:729][778]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.43.23:730][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.43.23:760][778]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.43.23:815][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.43.23:815][778]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.43.23:874][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.11-15.43.23:888][779]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.11.11-15.45.55:178][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.45.55:261][407]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.45.55:301][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.45.55:301][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.45.55:301][407]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:45:55 AM)
+[2019.11.11-15.45.55:301][407]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.45.55:380][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079712s)
+[2019.11.11-15.45.55:381][407]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.45.55:381][407]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2019.11.11-15.45.55:381][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.081147s)
+[2019.11.11-15.45.55:429][407]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.11-15.45.55:434][407]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.45.55:513][407]LogInit: FAudioDevice initialized.
+[2019.11.11-15.45.55:521][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.45.55:553][407]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.45.55:560][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.45.55
+[2019.11.11-15.45.55:562][407]LogWorld: Bringing up level for play took: 0.007942
+[2019.11.11-15.45.55:584][407]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 1.179
+[2019.11.11-15.45.55:584][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.03:043][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.46.07:725][122]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.46.07:730][122]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.07:766][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.46.07:766][122]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.07:818][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.11-15.46.07:857][123]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.11.11-15.46.09:095][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.46.11:185][313]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.46.11:220][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.11:220][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.46.11:220][313]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:46:11 AM)
+[2019.11.11-15.46.11:220][313]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.46.11:286][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065479s)
+[2019.11.11-15.46.11:286][313]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.46.11:286][313]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2019.11.11-15.46.11:286][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.066324s)
+[2019.11.11-15.46.11:334][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.11.11-15.46.11:341][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.46.11:409][313]LogInit: FAudioDevice initialized.
+[2019.11.11-15.46.11:416][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.46.11:447][313]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.46.11:454][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.46.11
+[2019.11.11-15.46.11:456][313]LogWorld: Bringing up level for play took: 0.007627
+[2019.11.11-15.46.11:474][313]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 1.069
+[2019.11.11-15.46.11:474][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.18:309][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.18:310][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.46.18:338][712]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.46.18:380][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.46.18:380][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.46.18:431][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.11.11-15.46.18:443][713]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.11.11-15.47.12:642][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.47.19:738][381]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.47.19:774][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.47.19:774][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.47.19:774][381]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:47:19 AM)
+[2019.11.11-15.47.19:774][381]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.47.19:845][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071245s)
+[2019.11.11-15.47.19:846][381]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.47.19:846][381]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2019.11.11-15.47.19:847][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.072436s)
+[2019.11.11-15.47.19:899][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.11-15.47.19:907][381]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.47.19:985][381]LogInit: FAudioDevice initialized.
+[2019.11.11-15.47.19:993][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.47.20:024][381]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.47.20:031][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.47.20
+[2019.11.11-15.47.20:033][381]LogWorld: Bringing up level for play took: 0.007732
+[2019.11.11-15.47.20:053][381]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.352
+[2019.11.11-15.47.20:053][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.47.37:950][437]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.47.37:950][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.47.37:979][437]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.47.38:020][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.47.38:020][437]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.47.38:075][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.11.11-15.47.38:088][438]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.11.11-15.47.44:830][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.49.59:682][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.49.59:766][337]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.49.59:804][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.49.59:804][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.49.59:804][337]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:49:59 AM)
+[2019.11.11-15.49.59:804][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.49.59:874][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069600s)
+[2019.11.11-15.49.59:875][337]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.49.59:875][337]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2019.11.11-15.49.59:875][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.070918s)
+[2019.11.11-15.49.59:927][337]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2019.11.11-15.49.59:936][337]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.50.00:012][337]LogInit: FAudioDevice initialized.
+[2019.11.11-15.50.00:020][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.50.00:051][337]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.50.00:059][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.50.00
+[2019.11.11-15.50.00:061][337]LogWorld: Bringing up level for play took: 0.009051
+[2019.11.11-15.50.00:081][337]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.324
+[2019.11.11-15.50.00:081][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.50.13:458][132]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.50.13:459][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.50.13:488][132]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.50.13:540][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.50.13:540][132]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.50.13:600][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.11.11-15.50.13:612][133]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.11.11-15.56.02:614][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.02:697][ 60]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.56.02:737][ 60]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.02:737][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.56.02:737][ 60]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:56:02 AM)
+[2019.11.11-15.56.02:737][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.56.02:814][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076452s)
+[2019.11.11-15.56.02:815][ 60]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.56.02:815][ 60]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2019.11.11-15.56.02:815][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.078101s)
+[2019.11.11-15.56.02:861][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.11-15.56.02:867][ 60]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.56.02:943][ 60]LogInit: FAudioDevice initialized.
+[2019.11.11-15.56.02:949][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.56.02:983][ 60]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.56.02:991][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.56.02
+[2019.11.11-15.56.02:993][ 60]LogWorld: Bringing up level for play took: 0.009440
+[2019.11.11-15.56.03:017][ 60]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.612
+[2019.11.11-15.56.03:017][ 60]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.07:941][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.07:942][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.56.07:986][347]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.56.08:040][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.56.08:040][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.08:096][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.11.11-15.56.08:109][348]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.11.11-15.56.13:459][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.23:530][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.29:322][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.29:405][564]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-15.56.29:444][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.29:444][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-15.56.29:444][564]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 5:56:29 AM)
+[2019.11.11-15.56.29:445][564]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-15.56.29:522][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076968s)
+[2019.11.11-15.56.29:523][564]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-15.56.29:523][564]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2019.11.11-15.56.29:523][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.078295s)
+[2019.11.11-15.56.29:606][564]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.11.11-15.56.29:610][564]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-15.56.29:687][564]LogInit: FAudioDevice initialized.
+[2019.11.11-15.56.29:694][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.56.29:729][564]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.56.29:737][564]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-10.56.29
+[2019.11.11-15.56.29:738][564]LogWorld: Bringing up level for play took: 0.007889
+[2019.11.11-15.56.29:758][564]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.647
+[2019.11.11-15.56.29:758][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.34:933][864]LogNet: Browse: /Game/Maps/CastleLevel
+[2019.11.11-15.56.34:933][864]LogLoad: LoadMap: /Game/Maps/CastleLevel
+[2019.11.11-15.56.34:979][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.11-15.56.34:985][864]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.56.34:985][864]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.56.34:988][864]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.56.34:988][864]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.56.34:990][864]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.56.34:990][864]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.56.34:990][864]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.56.34:990][864]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.56.35:078][864]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-15.56.35:078][864]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-15.56.35:184][864]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.11-15.56.35:184][864]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-15.56.35:269][864]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.11-10.56.35
+[2019.11.11-15.56.35:271][864]LogWorld: Bringing up level for play took: 0.085783
+[2019.11.11-15.56.35:274][864]LogLoad: Took 0.340953 seconds to LoadMap(/Game/Maps/CastleLevel)
+[2019.11.11-15.56.36:103][867]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.11-15.56.37:593][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.37:593][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-15.56.37:623][883]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-15.56.37:820][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-15.56.37:821][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-15.56.37:879][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.11-15.56.37:892][884]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.11.11-15.56.38:655][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.40:588][ 39]LogEditorViewport: Clicking on Actor (LMB): levelChange_C (levelChange2)
+[2019.11.11-15.56.41:378][ 84]Cmd: DELETE
+[2019.11.11-15.56.41:378][ 84]Cmd: ACTOR DELETE
+[2019.11.11-15.56.41:484][ 84]LogEditorActor: Deleted Actor: levelChange_C
+[2019.11.11-15.56.41:522][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.11.11-15.56.41:523][ 84]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2019.11.11-15.56.45:468][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-15.56.59:975][159]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreen350DB7DA44C69ED89039EE9B60480CDB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-15.57.00:978][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.00.13:634][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.00.52:528][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.11.11-16.00.53:380][421]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_Auto195C189A144BBA1358C58DB945B755DB5.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/OutsideLevel_Auto1.umap'
+[2019.11.11-16.00.53:385][421]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/OutsideLevel' took 0.897
+[2019.11.11-16.00.53:385][421]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.897
+[2019.11.11-16.03.12:828][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.19:169][125]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.11-16.03.19:172][125]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main_Menu.Main_Menu
+[2019.11.11-16.03.19:213][125]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.11-16.03.20:940][125]LogSlate: Window 'Save Content' being destroyed
+[2019.11.11-16.03.20:992][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.11.11-16.03.21:781][125]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel2A3547A2431FBBF392DC8B86284B6D02.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.11-16.03.21:847][125]LogFileHelpers: Saving map 'OutsideLevel' took 0.900
+[2019.11.11-16.03.21:873][125]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.11-16.03.21:873][125]LightingResults: New page: Lighting Build
+[2019.11.11-16.03.21:874][125]LoadErrors: New page: Loading map: Main_Menu.umap
+[2019.11.11-16.03.21:909][125]MapCheck: New page: Map Check
+[2019.11.11-16.03.21:909][125]LightingResults: New page: Lighting Build
+[2019.11.11-16.03.22:059][125]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.11-16.03.22:350][125]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.11-16.03.22:388][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.11.11-16.03.22:442][125]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.11-16.03.22:442][125]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
+[2019.11.11-16.03.22:443][125]LogFileHelpers: Loading map 'Main_Menu' took 0.596
+[2019.11.11-16.03.24:556][125]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.03.25:959][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.26:043][205]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-16.03.26:079][205]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.26:079][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-16.03.26:079][205]PIE: New page: PIE session: Main_Menu (Nov 11, 2019, 6:03:26 AM)
+[2019.11.11-16.03.26:079][205]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.11-16.03.26:080][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000892s)
+[2019.11.11-16.03.26:081][205]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.11-16.03.26:081][205]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2019.11.11-16.03.26:081][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002283s)
+[2019.11.11-16.03.26:121][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2019.11.11-16.03.26:126][205]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-16.03.26:197][205]LogInit: FAudioDevice initialized.
+[2019.11.11-16.03.26:204][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.03.26:236][205]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.03.26:237][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.11-11.03.26
+[2019.11.11-16.03.26:237][205]LogWorld: Bringing up level for play took: 0.000617
+[2019.11.11-16.03.26:254][205]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.11-16.03.26:259][205]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.145
+[2019.11.11-16.03.26:260][205]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.35:807][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.35:953][780]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-16.03.35:960][780]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.35:988][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-16.03.35:988][780]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.36:041][780]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.11.11-16.03.36:060][781]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.11.11-16.03.37:395][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.40:914][ 67]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-16.03.40:949][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.40:949][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-16.03.40:949][ 67]PIE: New page: PIE session: Main_Menu (Nov 11, 2019, 6:03:40 AM)
+[2019.11.11-16.03.40:949][ 67]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.11-16.03.40:951][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000994s)
+[2019.11.11-16.03.40:951][ 67]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.11-16.03.40:951][ 67]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2019.11.11-16.03.40:951][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001642s)
+[2019.11.11-16.03.40:985][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.11-16.03.40:989][ 67]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-16.03.41:062][ 67]LogInit: FAudioDevice initialized.
+[2019.11.11-16.03.41:068][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.03.41:103][ 67]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.03.41:105][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2019.11.11-11.03.41
+[2019.11.11-16.03.41:105][ 67]LogWorld: Bringing up level for play took: 0.000606
+[2019.11.11-16.03.41:121][ 67]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.11-16.03.41:125][ 67]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.721
+[2019.11.11-16.03.41:126][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.44:184][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.44:297][253]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-16.03.44:307][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.44:339][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-16.03.44:339][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.11-16.03.44:393][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2019.11.11-16.03.44:404][254]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.11.11-16.03.51:014][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.53:214][777]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
+[2019.11.11-16.03.53:250][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.11-16.03.53:251][777]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.11-16.03.53:251][777]LightingResults: New page: Lighting Build
+[2019.11.11-16.03.53:251][777]LoadErrors: New page: Loading map: OutsideLevel.umap
+[2019.11.11-16.03.53:252][777]MapCheck: New page: Map Check
+[2019.11.11-16.03.53:252][777]LightingResults: New page: Lighting Build
+[2019.11.11-16.03.53:290][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.11.11-16.03.54:552][777]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.11-16.03.54:595][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.11-16.03.54:650][777]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.11-16.03.54:650][777]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.167ms to complete.
+[2019.11.11-16.03.54:653][777]LogFileHelpers: Loading map 'OutsideLevel' took 1.403
+[2019.11.11-16.03.56:599][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.03.56:682][883]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-16.03.57:374][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.03.57:374][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-16.03.57:374][883]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 6:03:57 AM)
+[2019.11.11-16.03.57:374][883]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-16.03.57:448][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074752s)
+[2019.11.11-16.03.57:448][883]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.03.57:449][883]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2019.11.11-16.03.57:449][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.075655s)
+[2019.11.11-16.03.57:488][883]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.11-16.03.57:494][883]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-16.03.57:576][883]LogInit: FAudioDevice initialized.
+[2019.11.11-16.03.57:583][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.03.58:701][883]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.03.58:707][883]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-11.03.58
+[2019.11.11-16.03.58:708][883]LogWorld: Bringing up level for play took: 0.005734
+[2019.11.11-16.03.58:727][883]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 2.322
+[2019.11.11-16.03.58:727][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.04.05:842][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.04.18:327][ 52]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.11-16.04.18:327][ 52]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.11-16.04.18:370][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2019.11.11-16.04.18:370][ 52]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-16.04.18:440][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069519s)
+[2019.11.11-16.04.18:441][ 52]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.04.18:441][ 52]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2019.11.11-16.04.18:441][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.070339s)
+[2019.11.11-16.04.18:441][ 52]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.04.18:447][ 52]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-11.04.18
+[2019.11.11-16.04.18:448][ 52]LogWorld: Bringing up level for play took: 0.006419
+[2019.11.11-16.04.18:452][ 52]LogLoad: Took 0.123875 seconds to LoadMap(/Game/Maps/UEDPIE_0_OutsideLevel)
+[2019.11.11-16.04.35:965][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.04.35:965][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.04.35:995][ 96]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-16.04.36:036][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-16.04.36:036][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.04.36:095][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.11.11-16.04.36:108][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.11.11-16.04.53:414][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.05.05:006][817]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
+[2019.11.11-16.05.35:153][485]BlueprintLog: New page: Compile LoadingScreen
+[2019.11.11-16.05.35:203][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.11.11-16.05.37:148][589]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/LoadingScreen1A05C93C49F4D6728E175AB6123D73F2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/LoadingScreen.uasset'
+[2019.11.11-16.05.38:066][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.05.44:445][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.05.46:229][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.05.46:312][129]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-16.05.46:353][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.05.46:353][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-16.05.46:353][129]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 6:05:46 AM)
+[2019.11.11-16.05.46:353][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-16.05.46:420][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067234s)
+[2019.11.11-16.05.46:421][129]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.05.46:421][129]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2019.11.11-16.05.46:421][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.068244s)
+[2019.11.11-16.05.46:468][129]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.11.11-16.05.46:473][129]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-16.05.46:541][129]LogInit: FAudioDevice initialized.
+[2019.11.11-16.05.46:547][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.05.46:583][129]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.05.46:589][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-11.05.46
+[2019.11.11-16.05.46:591][129]LogWorld: Bringing up level for play took: 0.006085
+[2019.11.11-16.05.46:609][129]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 0.204
+[2019.11.11-16.05.46:609][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.06.10:271][537]LogNet: Browse: /Game/Maps/CastleLevel
+[2019.11.11-16.06.10:272][537]LogLoad: LoadMap: /Game/Maps/CastleLevel
+[2019.11.11-16.06.10:319][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.11-16.06.10:325][537]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-16.06.10:325][537]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-16.06.10:328][537]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-16.06.10:328][537]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-16.06.10:330][537]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-16.06.10:330][537]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-16.06.10:330][537]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-16.06.10:330][537]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-16.06.10:413][537]LogLinker: Warning: Can't find file '/Game/Maps/CastleLevel_BuiltData'
+[2019.11.11-16.06.10:413][537]LoadErrors: Failed to load /Game/Maps/CastleLevel_BuiltData.CastleLevel_BuiltData Referenced by PersistentLevel
+[2019.11.11-16.06.10:413][537]LogLinker: Warning: Can't find file for asset '/Game/Maps/CastleLevel_BuiltData' while loading NULL.
+[2019.11.11-16.06.10:524][537]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.11-16.06.10:524][537]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.06.10:620][537]LogWorld: Bringing World /Game/Maps/UEDPIE_0_CastleLevel.CastleLevel up for play (max tick rate 60) at 2019.11.11-11.06.10
+[2019.11.11-16.06.10:621][537]LogWorld: Bringing up level for play took: 0.096331
+[2019.11.11-16.06.10:624][537]LogLoad: Took 0.352597 seconds to LoadMap(/Game/Maps/CastleLevel)
+[2019.11.11-16.06.11:407][540]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.11-16.06.12:577][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.06.12:577][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.06.12:609][551]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-16.06.12:799][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-16.06.12:799][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.06.12:854][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.11.11-16.06.12:866][552]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.11.11-16.06.14:329][634]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.11-16.06.15:521][698]LogEditorViewport: Clicking on Actor (LMB): levelChange_C (levelChange2)
+[2019.11.11-16.06.16:549][757]Cmd: DELETE
+[2019.11.11-16.06.16:549][757]Cmd: ACTOR DELETE
+[2019.11.11-16.06.16:557][757]LogEditorActor: Deleted Actor: levelChange_C
+[2019.11.11-16.06.16:596][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.11.11-16.06.16:596][757]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2019.11.11-16.06.17:381][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.06.17:504][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.11.11-16.06.18:214][808]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel8AFAEAB24681299DAD46BC927D7FE9AC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.11-16.06.18:277][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.11-16.06.22:897][808]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData83D7F41D4BCDF72BD42D13B396729F04.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.11-16.06.24:132][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.06.24:257][873]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.11.11-16.06.25:204][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.11-16.06.25:915][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.11-16.06.26:630][965]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel66EA61D3463F6D1349F999BB12AB22FD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.11-16.06.26:630][965]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap', retrying in .5s...
+[2019.11.11-16.06.27:133][965]LogFileManager: Warning: DeleteFile recovered during retry!
+[2019.11.11-16.06.27:200][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.11-16.06.30:702][965]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData66C0A4CB451589C0D7734DA440DCC8E8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
