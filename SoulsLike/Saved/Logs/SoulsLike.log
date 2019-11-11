@@ -1432,3 +1432,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.11-04.38.22:753][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
 [2019.11.11-04.38.22:948][  5]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_LevelD35A143F4FD9843C196E78A1154692F1.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
 [2019.11.11-04.38.22:973][  5]LogFileHelpers: Saving map 'Enemy_Level' took 0.258
+[2019.11.11-04.39.50:083][305]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/assets/skull/BP_Cinder.
