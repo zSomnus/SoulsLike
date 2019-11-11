@@ -1872,3 +1872,70 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.11-16.06.27:133][965]LogFileManager: Warning: DeleteFile recovered during retry!
 [2019.11.11-16.06.27:200][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
 [2019.11.11-16.06.30:702][965]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData66C0A4CB451589C0D7734DA440DCC8E8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
+[2019.11.11-16.07.20:812][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.22.45:674][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.22.45:758][266]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.11-16.22.45:801][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.22.45:802][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-16.22.45:802][266]PIE: New page: PIE session: OutsideLevel (Nov 11, 2019, 6:22:45 AM)
+[2019.11.11-16.22.45:802][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-16.22.45:871][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068821s)
+[2019.11.11-16.22.45:871][266]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.22.45:872][266]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.11.11-16.22.45:872][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.069806s)
+[2019.11.11-16.22.45:922][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.11-16.22.45:928][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.11-16.22.46:001][266]LogInit: FAudioDevice initialized.
+[2019.11.11-16.22.46:008][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.22.46:045][266]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.22.46:053][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-11.22.46
+[2019.11.11-16.22.46:054][266]LogWorld: Bringing up level for play took: 0.007757
+[2019.11.11-16.22.46:076][266]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel -0.329
+[2019.11.11-16.22.46:077][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.22.49:126][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.23.00:215][102]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.11-16.23.00:216][102]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.11-16.23.00:266][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.11-16.23.00:266][102]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.11-16.23.00:334][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068339s)
+[2019.11.11-16.23.00:335][102]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.11-16.23.00:336][102]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2019.11.11-16.23.00:336][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.069764s)
+[2019.11.11-16.23.00:336][102]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-16.23.00:341][102]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 60) at 2019.11.11-11.23.00
+[2019.11.11-16.23.00:342][102]LogWorld: Bringing up level for play took: 0.004924
+[2019.11.11-16.23.00:345][102]LogLoad: Took 0.129010 seconds to LoadMap(/Game/Maps/UEDPIE_0_OutsideLevel)
+[2019.11.11-16.23.32:000][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.23.32:001][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-16.23.32:030][986]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.11-16.23.32:088][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-16.23.32:088][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.11-16.23.32:143][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.11.11-16.23.32:156][987]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.11.11-16.24.22:973][ 22]Cmd: SELECT NONE
+[2019.11.11-16.24.24:280][100]Cmd: SELECT NONE
+[2019.11.11-16.24.25:764][189]LogEditorViewport: Clicking on Actor (LMB): levelChange_C (levelChange)
+[2019.11.11-16.24.27:345][282]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.11-16.24.27:935][315]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.11-16.24.28:938][374]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.11.11-16.24.34:593][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.31.52:347][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.33.50:215][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.34.01:592][ 75]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\death_img.png)
+[2019.11.11-16.34.01:607][ 75]LogTexture: Display: Building textures: death_img (BGRA8, 586X329)
+[2019.11.11-16.34.05:135][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-16.34.06:944][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Death/death_img" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Death/death_img.uasset" SILENT=true
+[2019.11.11-16.34.06:966][278]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/death_img8F32F26E45BAE54B9509989893E1EA28.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Death/death_img.uasset'
+[2019.11.11-16.34.18:817][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.11-16.34.40:783][198]BlueprintLog: New page: Compile DeathScreen
+[2019.11.11-16.34.40:824][198]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.11.11-16.34.41:501][234]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreenB729E5EA417459C21C699491DA44BC7D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-16.34.48:769][667]LogSlate: Window 'DeathScreen' being destroyed
+[2019.11.11-16.34.48:776][667]LogSlate: Window 'DeathScreen' being destroyed
+[2019.11.11-16.34.52:957][897]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreen493679104D2CE9C6B02D268DFCB470A8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-16.34.58:036][197]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreenBA58AD194FAF4055D07838845834BCAC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.11-16.35.04:822][601]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.11.11-16.35.05:621][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2019.11.11-16.35.06:348][646]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel874AD71F40C394A8009CB8990D480C88.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.11-16.35.06:414][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/OutsideLevel_BuiltData" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset" SILENT=true
+[2019.11.11-16.35.09:803][646]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel_BuiltData902645674488123D343F7C9B952FF99A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel_BuiltData.uasset'
