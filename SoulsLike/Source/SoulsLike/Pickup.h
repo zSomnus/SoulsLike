@@ -20,7 +20,7 @@ public:
 	APickup();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Souls Count")
-	int32 SoulsCount;
+	int32 CinderCount;
 
 	virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) override;
 
