@@ -1,3 +1,3 @@
-D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
-F:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
