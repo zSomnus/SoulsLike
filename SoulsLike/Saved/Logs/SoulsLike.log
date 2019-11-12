@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 11/11/19 23:34:26
 =======
 <<<<<<< HEAD
@@ -6,6 +7,9 @@
 =======
 ﻿Log file open, 11/12/19 00:31:13
 >>>>>>> meng
+>>>>>>> master
+=======
+﻿Log file open, 11/12/19 00:40:33
 >>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -19,6 +23,7 @@ LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak 
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.343607
 =======
 <<<<<<< HEAD
@@ -26,6 +31,9 @@ LogStats: Stats thread started at 0.350259
 =======
 LogStats: Stats thread started at 0.271688
 >>>>>>> meng
+>>>>>>> master
+=======
+LogStats: Stats thread started at 0.280500
 >>>>>>> master
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
@@ -116,86 +124,6 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogInit: Warning: Incompatible or missing module: SoulsLike
-Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/SoulsLike.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-Using 'git status' to determine working set for adaptive non-unity build (C:\Users\abbyr\Documents\Game Engine\SoulsLike).
-Creating makefile for SoulsLikeEditor (no existing makefile)
-@progress push 5%
-Parsing headers for SoulsLikeEditor
-  Running UnrealHeaderTool "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\SoulsLike.uproject" "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for SoulsLikeEditor in 7.5192463 seconds
-@progress pop
-Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Building 32 actions with 8 processes...
-  @progress 'Compiling C++ source code...' 0%
-  @progress 'Compiling C++ source code...' 3%
-  [1/32] SharedPCH.Engine.cpp
-  @progress 'Compiling C++ source code...' 6%
-  [2/32] SoulsLike.cpp
-  @progress 'Compiling C++ source code...' 9%
-  [3/32] Shield.cpp
-  @progress 'Compiling C++ source code...' 12%
-  [4/32] Weapon.cpp
-  @progress 'Compiling C++ source code...' 16%
-  [5/32] Explosive.cpp
-  @progress 'Compiling C++ source code...' 19%
-  [6/32] Pickup.cpp
-  @progress 'Compiling C++ source code...' 22%
-  [7/32] MainNoWeaponAnimInstance.cpp
-  @progress 'Compiling C++ source code...' 25%
-  [8/32] EnemyPawn.cpp
-  @progress 'Compiling C++ source code...' 28%
-  [9/32] BasicEnemy.cpp
-  @progress 'Compiling C++ source code...' 31%
-  [10/32] SoulsLikeGameModeBase.cpp
-  @progress 'Compiling C++ source code...' 34%
-  [11/32] Boss_01.cpp
-  @progress 'Compiling C++ source code...' 38%
-  [12/32] BasicEnemyAnimInstance.cpp
-  @progress 'Compiling C++ source code...' 41%
-  [13/32] MainPlayerController.gen.cpp
-  @progress 'Compiling C++ source code...' 44%
-  [14/32] BasicEnemy.gen.cpp
-  @progress 'Compiling C++ source code...' 47%
-  [15/32] Item.cpp
-  @progress 'Compiling C++ source code...' 50%
-  [16/32] Boss_01.gen.cpp
-  @progress 'Compiling C++ source code...' 53%
-  [17/32] EnemyPawn.gen.cpp
-  @progress 'Compiling C++ source code...' 56%
-  [18/32] Item.gen.cpp
-  @progress 'Compiling C++ source code...' 59%
-  [19/32] Explosive.gen.cpp
-  @progress 'Compiling C++ source code...' 62%
-  [20/32] MainNoWeaponAnimInstance.gen.cpp
-  @progress 'Compiling C++ source code...' 66%
-  [21/32] BasicEnemyAnimInstance.gen.cpp
-  @progress 'Compiling C++ source code...' 69%
-  [22/32] Pickup.gen.cpp
-  @progress 'Compiling C++ source code...' 72%
-  [23/32] SoulsLike.init.gen.cpp
-  @progress 'Compiling C++ source code...' 75%
-  [24/32] Shield.gen.cpp
-  @progress 'Compiling C++ source code...' 78%
-  [25/32] MainCharacter.gen.cpp
-  @progress 'Compiling C++ source code...' 81%
-  [26/32] SoulsLikeGameModeBase.gen.cpp
-  @progress 'Compiling C++ source code...' 84%
-  [27/32] Weapon.gen.cpp
-  @progress 'Compiling C++ source code...' 88%
-  [28/32] MainPlayerController.cpp
-  @progress 'Compiling C++ source code...' 91%
-  [29/32] MainCharacter.cpp
-  @progress 'Compiling C++ source code...' 94%
-  [30/32] UE4Editor-SoulsLike.lib
-     Creating library C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
-  @progress 'Compiling C++ source code...' 97%
-  [31/32] UE4Editor-SoulsLike.dll
-     Creating library C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
-  @progress 'Compiling C++ source code...' 100%
-  [32/32] SoulsLikeEditor.target
-Total time in Parallel executor: 63.34 seconds
-Total execution time: 146.40 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -225,7 +153,7 @@ LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -255,6 +183,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2019.11.12-04.34.26:960][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.12-04.34.26:960][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -5218,4 +5147,988 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.12-05.38.28:127][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2019.11.12-05.38.28:429][866]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel0E41FE23418CFDA10C94C1A3C1A1A8DA.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
 >>>>>>> meng
+>>>>>>> master
+=======
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.12-05.40.34:354][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.12-05.40.34:355][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.12-05.40.34:355][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:355][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:357][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.12-05.40.34:357][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.12-05.40.34:358][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.12-05.40.34:358][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.12-05.40.34:358][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.12-05.40.34:371][  0]LogHAL: Display: Platform has ~ 12 GB [12764131328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.12-05.40.34:371][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.12-05.40.34:371][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.12-05.40.34:372][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.12-05.40.34:373][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.12-05.40.34:373][  0]LogInit: Computer: DESKTOP-L9J2J1H
+[2019.11.12-05.40.34:373][  0]LogInit: User: abbyr
+[2019.11.12-05.40.34:373][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.12-05.40.34:373][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.12-05.40.34:374][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.11.12-05.40.34:374][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.12-05.40.34:374][  0]LogMemory: Process Physical Memory: 99.50 MB used, 99.50 MB peak
+[2019.11.12-05.40.34:374][  0]LogMemory: Process Virtual Memory: 102.63 MB used, 102.63 MB peak
+[2019.11.12-05.40.34:374][  0]LogMemory: Physical Memory: 5299.66 MB used,  6873.16 MB free, 12172.82 MB total
+[2019.11.12-05.40.34:374][  0]LogMemory: Virtual Memory: 4670.80 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.12-05.40.34:396][  0]LogInit: Using OS detected language (en-US).
+[2019.11.12-05.40.34:396][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.12-05.40.34:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.12-05.40.34:572][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.12-05.40.34:645][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.12-05.40.34:645][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.12-05.40.34:839][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.12-05.40.34:839][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.12-05.40.34:905][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.12-05.40.34:905][  0]LogD3D11RHI:       4021/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.12-05.40.34:913][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.12-05.40.34:913][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.12-05.40.34:914][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.12-05.40.34:914][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.12-05.40.34:914][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.12-05.40.34:943][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.12-05.40.34:943][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.11.12-05.40.34:943][  0]LogWindows: EnumDisplayDevices:
+[2019.11.12-05.40.34:943][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.12-05.40.34:943][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.12-05.40.34:944][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.12-05.40.34:944][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.12-05.40.34:944][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.12-05.40.34:944][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.12-05.40.34:944][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.12-05.40.34:944][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.12-05.40.34:980][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.12-05.40.34:983][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.12-05.40.34:984][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.12-05.40.34:984][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.12-05.40.34:998][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.12-05.40.35:304][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.12-05.40.35:318][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.12-05.40.35:331][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.12-05.40.35:346][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.12-05.40.35:361][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.12-05.40.35:375][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.12-05.40.35:390][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.12-05.40.35:409][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.12-05.40.35:416][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.12-05.40.35:495][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.12-05.40.35:497][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.12-05.40.35:547][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.12-05.40.35:547][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.12-05.40.35:571][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.12-05.40.35:571][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.12-05.40.35:586][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.12-05.40.35:600][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.12-05.40.35:616][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.12-05.40.35:638][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.12-05.40.35:683][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.12-05.40.35:683][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.12-05.40.35:683][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.12-05.40.35:693][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.12-05.40.35:741][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/7600/).
+[2019.11.12-05.40.35:742][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abbyr/AppData/Local/Temp/UnrealShaderWorkingDir/8C07CF214E1E7033CE7AD4BC78436A31/'.
+[2019.11.12-05.40.35:744][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.12-05.40.35:744][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.12-05.40.35:744][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.12-05.40.36:452][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.12-05.40.36:501][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.12-05.40.36:501][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.12-05.40.36:501][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.12-05.40.36:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.12-05.40.36:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.12-05.40.36:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.12-05.40.36:514][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.12-05.40.36:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.12-05.40.36:514][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.12-05.40.36:526][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abbyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.12-05.40.36:526][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.12-05.40.36:526][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.12-05.40.36:550][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.12-05.40.36:552][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.12-05.40.36:552][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.12-05.40.36:632][  0]LogAssetRegistry: FAssetRegistry took 0.0329 seconds to start up
+[2019.11.12-05.40.36:944][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.12-05.40.37:387][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.12-05.40.37:387][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.12-05.40.37:387][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.12-05.40.37:387][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.12-05.40.37:387][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.12-05.40.37:397][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.12-05.40.37:860][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.091654 seconds
+[2019.11.12-05.40.37:869][  0]LogUObjectArray: 42218 objects as part of root set at end of initial load.
+[2019.11.12-05.40.37:869][  0]LogUObjectAllocator: 7328024 out of 0 bytes used by permanent object pool.
+[2019.11.12-05.40.37:869][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.12-05.40.39:805][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.12-05.40.39:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.12-05.40.40:088][  0]SourceControl: Source control is disabled
+[2019.11.12-05.40.40:088][  0]SourceControl: Source control is disabled
+[2019.11.12-05.40.40:090][  0]SourceControl: Source control is disabled
+[2019.11.12-05.40.40:091][  0]SourceControl: Source control is disabled
+[2019.11.12-05.40.42:040][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.12-05.40.42:108][  0]LogOcInput: OculusInput pre-init called
+[2019.11.12-05.40.42:770][  0]LogEngine: Initializing Engine...
+[2019.11.12-05.40.42:771][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.12-05.40.42:772][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.12-05.40.43:870][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.12-05.40.43:884][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.12-05.40.43:949][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-05.40.44:457][  0]LogInit: FAudioDevice initialized.
+[2019.11.12-05.40.44:457][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.12-05.40.44:682][  0]LogDerivedDataCache: Saved boot cache 0.22s 79MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.12-05.40.44:690][  0]LogInit: Texture streaming: Enabled
+[2019.11.12-05.40.44:708][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.12-05.40.44:735][  0]LogInit: Transaction tracking system initialized
+[2019.11.12-05.40.44:760][  0]BlueprintLog: New page: Editor Load
+[2019.11.12-05.40.44:840][  0]LocalizationService: Localization service is disabled
+[2019.11.12-05.40.45:171][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.12-05.40.45:171][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.12-05.40.46:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/' took 0.03s
+[2019.11.12-05.40.46:210][  0]SourceControl: Source control is disabled
+[2019.11.12-05.40.46:211][  0]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-05.40.46:211][  0]LightingResults: New page: Lighting Build
+[2019.11.12-05.40.46:225][  0]MapCheck: New page: Map Check
+[2019.11.12-05.40.46:225][  0]LightingResults: New page: Lighting Build
+[2019.11.12-05.40.46:273][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2019.11.12-05.40.46:838][  0]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.12-05.40.46:839][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.12-05.40.47:255][  0]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.12-05.40.47:255][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.12-05.40.47:255][  0]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.12-05.40.47:256][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.12-05.40.47:256][  0]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.12-05.40.47:256][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.12-05.40.47:274][  0]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.12-05.40.47:274][  0]LoadErrors: Failed to load /Game/Maps/BossLevel_BuiltData.BossLevel_BuiltData Referenced by PersistentLevel
+[2019.11.12-05.40.47:275][  0]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.12-05.40.50:600][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.12-05.40.50:669][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-05.40.50:699][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.12-05.40.50:699][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-05.40.50:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
+[2019.11.12-05.40.50:700][  0]LogFileHelpers: Loading map 'BossLevel' took 4.489
+[2019.11.12-05.40.50:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.40.50:934][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.40.50:942][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.40.50:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.40.50:956][  0]LogCollectionManager: Loaded 0 collections in 0.001811 seconds
+[2019.11.12-05.40.50:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.12-05.40.50:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Developers/abbyr/Collections/' took 0.00s
+[2019.11.12-05.40.50:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Collections/' took 0.00s
+[2019.11.12-05.40.50:974][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.12-05.40.50:984][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2869 classes and 683 folders.
+[2019.11.12-05.40.50:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.12-05.40.50:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.50:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.12-05.40.51:033][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.12-05.40.51:038][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.12-05.40.51:132][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.12-05.40.51:134][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.12-05.40.51:140][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.12-05.40.51:214][  0]LogRenderer: Reallocating scene render targets to support 920x396 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-05.40.51:338][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.12-05.40.51:464][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.12-05.40.51:464][  0]LogLoad: (Engine Initialization) Total time: 19.00 seconds
+[2019.11.12-05.40.51:464][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.12-05.40.51:586][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.12-05.40.51:589][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-05.40.52:677][ 43]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.12-05.40.54:418][133]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.11.12-05.40.54:418][133]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.11.12-05.40.54:566][142]LogPackageName: SearchForPackageOnDisk took   0.152s, but failed to resolve S_ClothTarps_03.
+[2019.11.12-05.40.54:566][142]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2019.11.12-05.40.54:825][157]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.40.54:830][157]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.40.55:888][208]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.12-05.40.58:205][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-05.41.05:624][784]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD
+[2019.11.12-05.41.05:816][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:816][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:816][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:816][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::ENiagaraCoordinateSpace_MAX' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:816][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::ENiagaraOrientationAxis_MAX' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:817][784]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::ENiagaraRandomnessMode_MAX' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:818][784]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.12-05.41.05:827][784]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.11.12-05.41.06:645][784]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.12-05.41.07:042][784]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.12-05.41.34:200][257]LogAssetRegistry: Asset discovery search completed in 57.5900 seconds
+[2019.11.12-05.41.34:202][257]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2019.11.12-05.41.54:840][485]LogSlate: Took 0.040500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.12-05.42.17:986][838]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-05.42.18:052][838]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2019.11.12-05.42.18:649][864]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUD93F2C6734EAB8CF46086FCA080D10EFB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-05.42.19:400][908]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-05.42.19:519][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.19:532][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-05.42.19:574][908]PIE: New page: PIE session: BossLevel (Nov 11, 2019, 7:42:19 PM)
+[2019.11.12-05.42.19:633][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.12-05.42.19:675][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040374s)
+[2019.11.12-05.42.19:675][908]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.12-05.42.19:683][908]LogPlayLevel: PIE: World Init took: (0.008633s)
+[2019.11.12-05.42.19:683][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.049360s)
+[2019.11.12-05.42.19:730][908]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.11.12-05.42.19:775][908]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-05.42.19:846][908]LogInit: FAudioDevice initialized.
+[2019.11.12-05.42.19:936][908]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-05.42.19:996][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.12-00.42.19
+[2019.11.12-05.42.20:175][908]LogWorld: Bringing up level for play took: 0.237026
+[2019.11.12-05.42.20:338][908]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.12-05.42.20:362][908]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.12-05.42.20:362][908]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.11.12-05.42.20:430][908]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel 1.366
+[2019.11.12-05.42.20:430][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.20:783][908]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:105][909]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:130][910]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:231][911]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:242][912]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:263][913]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:279][914]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:297][915]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:311][916]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:328][917]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:342][918]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:363][919]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:379][920]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:395][921]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:411][922]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:427][923]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.21:445][924]LogScript: Warning: Accessed None trying to read property BPPlayer
+	Ingame_HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Ingame_HUD_C_0
+	Function /Game/ThirdPersonCPP/Blueprints/Ingame_HUD.Ingame_HUD_C:GetPercent_0:001F
+[2019.11.12-05.42.23:076][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.23:076][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.42.23:147][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-05.42.23:147][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.23:212][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.42.23:265][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2019.11.12-05.42.23:290][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.11.12-05.42.25:364][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.25:364][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-05.42.25:364][132]PIE: New page: PIE session: BossLevel (Nov 11, 2019, 7:42:25 PM)
+[2019.11.12-05.42.25:364][132]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.12-05.42.25:389][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023118s)
+[2019.11.12-05.42.25:389][132]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.12-05.42.25:390][132]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2019.11.12-05.42.25:390][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.025364s)
+[2019.11.12-05.42.25:446][132]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.11.12-05.42.25:450][132]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-05.42.25:522][132]LogInit: FAudioDevice initialized.
+[2019.11.12-05.42.25:530][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.42.25:564][132]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-05.42.25:570][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.12-00.42.25
+[2019.11.12-05.42.25:574][132]LogWorld: Bringing up level for play took: 0.007896
+[2019.11.12-05.42.25:604][132]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel 0.541
+[2019.11.12-05.42.25:609][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.25:625][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:695][133]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-05.42.25:796][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:806][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:886][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:926][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:946][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:965][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.25:982][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:001][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:019][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:036][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:057][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:077][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:096][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:111][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:127][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:141][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:161][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:177][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:195][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:212][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:227][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:244][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:259][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:278][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:296][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:313][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:329][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:345][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:363][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:378][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:396][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:414][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:428][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:444][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:463][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:478][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:493][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:511][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:527][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:544][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:562][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:579][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:596][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:614][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:632][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:649][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:665][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:681][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:697][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:714][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:732][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:746][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:763][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:780][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:798][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:815][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:830][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:847][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:863][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:880][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:896][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:913][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:929][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:945][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:962][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:979][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.26:996][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:013][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:030][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:047][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:064][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:081][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:096][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:114][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:131][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:148][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:164][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:180][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:196][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:214][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:230][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:247][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:264][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:280][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:297][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:313][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:329][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:346][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:363][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:379][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:396][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:412][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:430][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:446][226]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:463][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:478][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:495][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:511][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:529][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:545][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:562][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:580][234]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:596][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:614][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:629][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:646][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:663][239]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:679][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:695][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:713][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:750][243]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:766][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:789][245]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:806][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:825][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:843][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:860][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:878][250]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:896][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:913][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:931][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:949][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:968][255]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.27:985][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:000][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:114][258]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:129][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:140][260]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:175][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:317][262]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:414][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:430][264]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:444][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:459][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:475][267]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:492][268]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:514][269]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:530][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:547][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:565][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:582][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:597][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:617][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:636][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:651][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:668][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:684][279]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:701][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:718][281]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:735][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:751][283]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:769][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:785][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:801][286]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:821][287]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:837][288]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:849][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:870][290]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:891][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:908][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:921][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:940][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:956][295]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:972][296]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.28:991][297]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:006][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:020][299]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:039][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:054][301]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:073][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:088][303]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:104][304]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:121][305]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:139][306]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:154][307]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:171][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:189][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:204][310]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:221][311]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:241][312]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:260][313]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:277][314]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:293][315]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:309][316]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:325][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:344][318]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:358][319]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:375][320]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:392][321]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:409][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:425][323]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:442][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:458][325]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:475][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:492][327]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:508][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:524][329]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:541][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:560][331]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:577][332]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:594][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:605][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:624][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:642][336]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:658][337]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:675][338]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:691][339]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:708][340]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:724][341]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:742][342]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:757][343]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:775][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:791][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:808][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:825][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:842][348]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:858][349]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:875][350]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:891][351]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:909][352]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:925][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:942][354]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:959][355]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:975][356]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.29:991][357]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:008][358]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:026][359]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:042][360]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:059][361]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:076][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:091][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:107][364]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:171][365]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:186][366]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:202][367]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:219][368]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:237][369]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:253][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:271][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:288][372]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:304][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:320][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:340][375]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:356][376]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:374][377]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:390][378]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:407][379]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:422][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:439][381]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:454][382]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:471][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:483][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:503][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:520][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:537][387]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:551][388]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:567][389]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:587][390]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:600][391]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:619][392]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:638][393]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:650][394]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:673][395]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:684][396]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:708][397]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:718][398]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:740][399]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:751][400]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:770][401]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:784][402]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:804][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:820][404]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:836][405]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:852][406]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:871][407]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:884][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:904][409]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:919][410]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:938][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:951][412]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:974][413]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.30:984][414]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:004][415]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:017][416]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:037][417]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:050][418]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:070][419]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:086][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:102][421]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:121][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:135][423]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:154][424]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:168][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:187][426]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:202][427]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:223][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:234][429]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:254][430]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:270][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:286][432]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:307][433]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:324][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:336][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:357][436]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:374][437]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:387][438]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:409][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:421][440]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:448][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:460][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:486][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:491][444]LogBlueprintUserMessages: [BP_BasicEnemy2_2] Parry failed
+[2019.11.12-05.42.31:504][444]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:550][445]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:560][446]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:601][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:612][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:632][449]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:648][450]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:666][451]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:683][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:697][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:715][454]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:731][455]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:751][456]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:762][457]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:782][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:800][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:813][460]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:832][461]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:848][462]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:865][463]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:882][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:899][465]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:913][466]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:931][467]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:949][468]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:963][469]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.31:982][470]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:001][471]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:012][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:024][473]LogBlueprintUserMessages: [BP_BasicEnemy2_2] Parry failed
+[2019.11.12-05.42.32:034][473]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:047][474]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:065][475]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:082][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:098][477]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:115][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:134][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:147][480]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:167][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:184][482]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:202][483]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:219][484]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:237][485]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:248][486]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:270][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:282][488]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:300][489]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:317][490]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:335][491]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:351][492]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:369][493]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:389][494]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:400][495]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:424][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:428][497]LogBlueprintUserMessages: [BP_BasicEnemy2_2] Parry failed
+[2019.11.12-05.42.32:436][497]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:459][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:477][499]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:496][500]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:515][501]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:533][502]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:550][503]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:571][504]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:592][505]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:616][506]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:635][507]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:657][508]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:670][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:692][510]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:704][511]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:726][512]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:731][513]LogBlueprintUserMessages: [BP_BasicEnemy2_2] Parry failed
+[2019.11.12-05.42.32:738][513]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:759][514]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:770][515]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:790][516]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:807][517]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:820][518]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:841][519]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:853][520]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:882][521]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:893][522]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:912][523]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:928][524]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:945][525]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:962][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:977][527]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.32:995][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:001][529]LogBlueprintUserMessages: [BP_BasicEnemy2_2] Parry failed
+[2019.11.12-05.42.33:012][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:028][530]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:047][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:063][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:078][533]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:100][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:111][535]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:132][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BPPlayer". Blueprint:  Ingame_HUD Function:  Get Percent 0 Graph:  GetPercent_0 Node:  Return Node
+[2019.11.12-05.42.33:137][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.33:137][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-05.42.33:169][537]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-05.42.33:208][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-05.42.33:208][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-05.42.33:259][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2019.11.12-05.42.33:352][538]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.11.12-05.42.34:922][616]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.42.34:932][616]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.42.38:098][805]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-05.42.38:140][805]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2019.11.12-05.42.38:740][837]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUDEA0F85564CA8F2C6863BC0B8C59EC385.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-05.42.41:955][ 29]LogSlate: Window 'Ingame_HUD' being destroyed
+[2019.11.12-05.42.41:961][ 29]LogSlate: Window 'Ingame_HUD' being destroyed
+[2019.11.12-05.42.43:998][136]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.11.12-05.42.44:860][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.12-05.42.44:908][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.11.12-05.42.45:246][187]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel54C3CC63426B7D04ECAD18883DAF68C7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
 >>>>>>> master
