@@ -426,21 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike"
-/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source"
-/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source\SoulsLike"
+/I D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike
+/I D:\Unreal2020\SoulsLike\SoulsLike\Source
+/I D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\SoulsLikeGameModeBase.gen.cpp"
-/FI"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
-/Fo"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\SoulsLikeGameModeBase.gen.cpp.obj"
+/FI"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\SoulsLikeGameModeBase.gen.cpp"
+/FI"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
+/Fo"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\SoulsLikeGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
