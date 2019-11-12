@@ -1653,3 +1653,643 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.12-14.47.30:870][ 37]BlueprintLog: New page: Compile Ingame_HUD
 [2019.11.12-14.47.30:925][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
 [2019.11.12-14.47.31:413][ 62]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUD563C191B4E2AF96E74F9EB92B8085D0E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-14.49.46:343][530]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2019.11.12-14.50.36:419][228]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.11.12-14.53.17:674][773]LogLinker: Warning: Can't find file '/Game/Maps/Enemy_Level_BuiltData'
+[2019.11.12-14.53.17:674][773]LogLinker: Warning: Can't find file for asset '/Game/Maps/Enemy_Level_BuiltData' while loading NULL.
+[2019.11.12-14.53.17:725][773]LogLinker: Warning: Can't find file '/Game/Maps/Enemy_Level_BuiltData'
+[2019.11.12-14.53.17:725][773]LogLinker: Warning: Can't find file for asset '/Game/Maps/Enemy_Level_BuiltData' while loading NULL.
+[2019.11.12-14.53.17:726][773]LogLinker: Warning: Can't find file '/Game/Maps/Enemy_Level_BuiltData'
+[2019.11.12-14.53.17:726][773]LogLinker: Warning: Can't find file for asset '/Game/Maps/Enemy_Level_BuiltData' while loading NULL.
+[2019.11.12-14.53.17:726][773]LogLinker: Warning: Can't find file '/Game/Maps/Enemy_Level_BuiltData'
+[2019.11.12-14.53.17:726][773]LogLinker: Warning: Can't find file for asset '/Game/Maps/Enemy_Level_BuiltData' while loading NULL.
+[2019.11.12-14.53.17:762][773]LogLinker: Warning: Can't find file '/Game/Maps/Enemy_Level_BuiltData'
+[2019.11.12-14.53.17:762][773]LoadErrors: Failed to load /Game/Maps/Enemy_Level_BuiltData.Enemy_Level_BuiltData Referenced by PersistentLevel
+[2019.11.12-14.53.17:762][773]LogLinker: Warning: Can't find file for asset '/Game/Maps/Enemy_Level_BuiltData' while loading NULL.
+[2019.11.12-14.53.18:453][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Mage/Animation/Mage_Running.Mage_Running
+[2019.11.12-14.53.18:585][773]LogAnimationCompression: Recompressing (AnimSequence /Game/Kater/Mage/Animation/Mage_Running.Mage_Running) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-14.53.18:837][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Monster/Animation/Mutant_Swiping.Mutant_Swiping
+[2019.11.12-14.53.18:837][773]LogAnimationCompression: Recompressing (AnimSequence /Game/Kater/Monster/Animation/Mutant_Swiping.Mutant_Swiping) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-14.53.18:964][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Mage/Animation/Mage_Idle_02.Mage_Idle_02
+[2019.11.12-14.53.18:964][773]LogAnimationCompression: Recompressing (AnimSequence /Game/Kater/Mage/Animation/Mage_Idle_02.Mage_Idle_02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-14.53.19:168][773]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Mage/Animation/Standing_1H_Magic_Attack_02.Standing_1H_Magic_Attack_02
+[2019.11.12-14.53.19:168][773]LogAnimationCompression: Recompressing (AnimSequence /Game/Kater/Mage/Animation/Standing_1H_Magic_Attack_02.Standing_1H_Magic_Attack_02) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-14.53.19:433][773]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-14.53.19:481][773]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Enemy_Level.Enemy_Level
+[2019.11.12-14.53.19:523][773]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.11.12-14.53.19:561][773]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-14.53.19:561][773]LightingResults: New page: Lighting Build
+[2019.11.12-14.53.19:562][773]LoadErrors: New page: Loading map: Enemy_Level.umap
+[2019.11.12-14.53.19:564][773]MapCheck: New page: Map Check
+[2019.11.12-14.53.19:564][773]LightingResults: New page: Lighting Build
+[2019.11.12-14.53.19:608][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.12-14.53.19:754][773]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-14.53.19:810][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.12-14.53.19:865][773]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-14.53.19:865][773]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2019.11.12-14.53.19:865][773]LogFileHelpers: Loading map 'Enemy_Level' took 0.341
+[2019.11.12-14.53.44:864][196]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/Kater/Mage/Animation/ddd.ddd
+[2019.11.12-14.53.44:906][196]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.11.12-14.53.45:056][196]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.12-14.53.45:056][196]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.12-14.53.45:749][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-14.53.45:792][196]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.12-14.53.45:793][196]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.11.12-14.53.46:149][196]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.12-14.53.47:619][196]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-14.54.07:366][240]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.12-14.54.23:323][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Animation/ddd" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Animation/ddd.uasset" SILENT=true
+[2019.11.12-14.54.23:340][189]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/ddd19B00455450FB0C78A19BB99C3EA37DC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Animation/ddd.uasset'
+[2019.11.12-14.54.38:230][ 79]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Kater/Mage/Mage_Anim.Mage_Anim
+[2019.11.12-14.54.38:277][ 79]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-14.54.38:749][ 79]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.12-14.54.39:289][ 79]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-14.54.43:035][302]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.12-14.55.13:912][ 44]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/BP_Follower.BP_Follower
+[2019.11.12-14.56.10:024][227]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Monster/BP_Monster.BP_Monster
+[2019.11.12-14.56.35:098][693]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/FireBallProject.FireBallProject
+[2019.11.12-14.58.23:802][130]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-14.58.24:175][130]LogUObjectHash: Compacting FUObjectHashTables data took   7.55ms
+[2019.11.12-14.58.24:738][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-14.58.24:794][154]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_AnimB6F7A116462ED809337E039EEE8FFBF4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-14.58.43:313][262]BlueprintLog: New page: Compile BP_Follower
+[2019.11.12-14.58.43:639][262]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2019.11.12-14.58.44:107][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset" SILENT=true
+[2019.11.12-14.58.44:260][274]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_Follower9AEDE18948C206B0DBE1EF85FCF3C986.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset'
+[2019.11.12-14.58.45:235][332]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-14.58.45:305][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-14.58.45:305][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-14.58.45:306][332]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 4:58:45 AM)
+[2019.11.12-14.58.45:306][332]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-14.58.45:309][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003544s)
+[2019.11.12-14.58.45:310][332]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-14.58.45:311][332]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2019.11.12-14.58.45:311][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005071s)
+[2019.11.12-14.58.45:368][332]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.11.12-14.58.45:390][332]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-14.58.45:471][332]LogInit: FAudioDevice initialized.
+[2019.11.12-14.58.45:479][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-14.58.45:512][332]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-14.58.45:516][332]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-09.58.45
+[2019.11.12-14.58.45:536][332]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-14.58.45:538][332]LogWorld: Bringing up level for play took: 0.023726
+[2019.11.12-14.58.45:554][332]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.501
+[2019.11.12-14.58.45:554][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-14.58.52:938][762]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-14.58.52:996][765]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-14.58.54:801][873]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-14.58.58:300][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-14.58.58:301][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-14.58.58:330][ 83]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-14.58.58:377][ 83]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-14.58.58:377][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-14.58.58:441][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.12-14.58.58:485][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.11.12-14.59.43:733][731]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-14.59.44:062][731]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.11.12-14.59.44:539][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-14.59.44:575][752]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_AnimF93E4B0C4AECF98A3615DEACEDEDFE9D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.01.16:786][253]BlueprintLog: New page: Compile BP_Follower
+[2019.11.12-15.01.17:100][253]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2019.11.12-15.01.17:731][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset" SILENT=true
+[2019.11.12-15.01.17:785][276]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_FollowerFC3EC283456EEC2FF8B0E8B70F67A562.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset'
+[2019.11.12-15.01.34:548][255]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.01.34:853][255]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2019.11.12-15.01.35:518][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.01.35:552][281]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_Anim4B1DCF7D481B9E37EABA4D947DED3BA8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.01.36:732][351]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.01.36:796][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.01.36:796][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.01.36:797][351]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:01:36 AM)
+[2019.11.12-15.01.36:797][351]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.01.36:805][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007733s)
+[2019.11.12-15.01.36:805][351]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.01.36:805][351]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2019.11.12-15.01.36:805][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.008421s)
+[2019.11.12-15.01.36:865][351]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
+[2019.11.12-15.01.36:869][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.01.36:943][351]LogInit: FAudioDevice initialized.
+[2019.11.12-15.01.36:952][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.01.36:984][351]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.01.36:988][351]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.01.36
+[2019.11.12-15.01.36:989][351]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.01.36:990][351]LogWorld: Bringing up level for play took: 0.004708
+[2019.11.12-15.01.37:007][351]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level -0.046
+[2019.11.12-15.01.37:007][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.01.45:330][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.01.45:331][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.01.45:360][846]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.01.45:402][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.01.45:402][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.01.45:471][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.11.12-15.01.45:484][847]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.11.12-15.02.00:831][755]BlueprintLog: New page: Compile BP_Follower
+[2019.11.12-15.02.01:167][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.11.12-15.02.01:500][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset" SILENT=true
+[2019.11.12-15.02.01:591][761]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_FollowerC64174BB407954C86E329C99EFF9126B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset'
+[2019.11.12-15.02.28:949][401]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.02.29:018][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.29:018][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.02.29:018][401]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:02:29 AM)
+[2019.11.12-15.02.29:018][401]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.02.29:022][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004043s)
+[2019.11.12-15.02.29:023][401]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.02.29:023][401]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2019.11.12-15.02.29:023][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005373s)
+[2019.11.12-15.02.29:081][401]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2019.11.12-15.02.29:085][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.02.29:158][401]LogInit: FAudioDevice initialized.
+[2019.11.12-15.02.29:184][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.02.29:219][401]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.02.29:222][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.02.29
+[2019.11.12-15.02.29:223][401]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.02.29:225][401]LogWorld: Bringing up level for play took: 0.004610
+[2019.11.12-15.02.29:242][401]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.189
+[2019.11.12-15.02.29:242][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.37:143][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.37:144][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.02.37:174][864]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.02.37:224][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.02.37:224][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.37:293][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.11.12-15.02.37:337][865]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.11.12-15.02.42:261][159]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.02.42:312][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.42:312][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.02.42:313][159]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:02:42 AM)
+[2019.11.12-15.02.42:313][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.02.42:317][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004324s)
+[2019.11.12-15.02.42:318][159]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.02.42:318][159]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2019.11.12-15.02.42:318][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005704s)
+[2019.11.12-15.02.42:372][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.12-15.02.42:377][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.02.42:450][159]LogInit: FAudioDevice initialized.
+[2019.11.12-15.02.42:457][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.02.42:489][159]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.02.42:492][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.02.42
+[2019.11.12-15.02.42:494][159]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.02.42:496][159]LogWorld: Bringing up level for play took: 0.005121
+[2019.11.12-15.02.42:515][159]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level -0.537
+[2019.11.12-15.02.42:515][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.02.49:278][557]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.02.50:650][636]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.02.50:683][638]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.02.52:259][731]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.02.54:542][868]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.02.59:125][143]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.02:426][341]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.04:342][456]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.06:259][571]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.08:192][687]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.12-15.03.08:808][724]LogBlueprintUserMessages: [BP_Monster_2] 68.0
+[2019.11.12-15.03.08:808][724]LogBlueprintUserMessages: [BP_Monster_2] 67.0
+[2019.11.12-15.03.09:459][763]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.09:759][781]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.09:993][795]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.11:060][859]LogBlueprintUserMessages: [BP_Monster_2] 66.0
+[2019.11.12-15.03.13:727][ 19]LogBlueprintUserMessages: [BP_Monster_2] 65.0
+[2019.11.12-15.03.15:397][119]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.17:545][248]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.17:577][250]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.18:112][282]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.03.20:196][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.03.20:196][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.03.20:225][407]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.03.20:274][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.03.20:274][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.03.20:344][407]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2019.11.12-15.03.20:388][408]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.11.12-15.04.33:634][762]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Kater/Mage/texture/Mage_Modle_Skeleton.Mage_Modle_Skeleton
+[2019.11.12-15.04.33:658][762]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-15.04.33:716][762]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.12-15.04.34:110][763]LogRenderer: Reallocating scene render targets to support 1016x672 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-15.04.52:008][797]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-15.04.52:008][797]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-15.05.45:403][988]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.05.45:720][988]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2019.11.12-15.05.46:255][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.05.46:348][ 10]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_Anim3D3E62C44D9D743DDF3AD7B0B5D0C9F3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.05.47:341][ 63]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.05.47:393][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.05.47:393][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.05.47:393][ 63]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:05:47 AM)
+[2019.11.12-15.05.47:393][ 63]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.05.47:397][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003710s)
+[2019.11.12-15.05.47:397][ 63]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.05.47:398][ 63]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2019.11.12-15.05.47:398][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005066s)
+[2019.11.12-15.05.47:454][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2019.11.12-15.05.47:459][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.05.47:535][ 63]LogInit: FAudioDevice initialized.
+[2019.11.12-15.05.47:541][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.05.47:578][ 63]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.05.47:582][ 63]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.05.47
+[2019.11.12-15.05.47:583][ 63]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.05.47:585][ 63]LogWorld: Bringing up level for play took: 0.005556
+[2019.11.12-15.05.47:602][ 63]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.55
+[2019.11.12-15.05.47:603][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.05.53:087][385]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.05.55:923][555]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.12-15.05.57:528][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.05.57:528][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.05.57:555][651]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.05.57:602][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.05.57:602][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.05.57:666][651]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2019.11.12-15.05.57:689][652]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.11.12-15.06.33:483][744]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.06.33:767][744]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2019.11.12-15.06.34:318][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.06.34:355][766]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_Anim2AE6288D498F3B1B0AA98D97DB8CF448.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.06.35:191][815]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.06.35:242][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.06.35:242][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.06.35:243][815]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:06:35 AM)
+[2019.11.12-15.06.35:243][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.06.35:247][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004003s)
+[2019.11.12-15.06.35:248][815]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.06.35:248][815]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2019.11.12-15.06.35:248][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005241s)
+[2019.11.12-15.06.35:303][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2019.11.12-15.06.35:308][815]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.06.35:383][815]LogInit: FAudioDevice initialized.
+[2019.11.12-15.06.35:389][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.06.35:423][815]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.06.35:426][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.06.35
+[2019.11.12-15.06.35:427][815]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.06.35:428][815]LogWorld: Bringing up level for play took: 0.003688
+[2019.11.12-15.06.35:445][815]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.392
+[2019.11.12-15.06.35:446][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.06.39:794][ 68]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.06.42:136][205]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.12-15.06.42:435][223]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.06.42:719][240]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.06.46:185][448]LogBlueprintUserMessages: [BP_Monster_2] 68.0
+[2019.11.12-15.06.53:186][868]LogBlueprintUserMessages: [BP_Monster_2] 67.0
+[2019.11.12-15.06.55:852][ 28]LogBlueprintUserMessages: [BP_Monster_2] 66.0
+[2019.11.12-15.07.01:704][379]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.07.02:771][443]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.07.04:924][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.04:924][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.07.04:954][572]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.07.04:995][572]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.07.04:995][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.05:063][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.11.12-15.07.05:081][573]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.11.12-15.07.15:120][169]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.07.15:418][169]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.11.12-15.07.16:069][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.07.16:107][194]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_AnimF607285B4F95F44631A40F81BE3429B6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.07.17:243][261]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.07.17:301][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.17:301][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.07.17:301][261]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:07:17 AM)
+[2019.11.12-15.07.17:302][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.07.17:305][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003708s)
+[2019.11.12-15.07.17:306][261]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.07.17:307][261]LogPlayLevel: PIE: World Init took: (0.001118s)
+[2019.11.12-15.07.17:307][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.005011s)
+[2019.11.12-15.07.17:366][261]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2019.11.12-15.07.17:370][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.07.17:444][261]LogInit: FAudioDevice initialized.
+[2019.11.12-15.07.17:451][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.07.17:484][261]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.07.17:487][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.07.17
+[2019.11.12-15.07.17:488][261]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.07.17:489][261]LogWorld: Bringing up level for play took: 0.004131
+[2019.11.12-15.07.17:506][261]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.453
+[2019.11.12-15.07.17:506][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.21:587][499]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.07.26:374][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.26:374][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.07.26:403][786]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.07.26:441][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.07.26:441][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.07.26:517][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.11.12-15.07.26:539][787]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.11.12-15.07.32:483][138]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.07.32:783][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.12-15.07.33:251][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.07.33:288][158]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_Anim820971D74939AB7B21B63083ABFA3EC2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.08.00:034][757]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.08.00:333][757]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2019.11.12-15.08.01:045][788]BlueprintLog: New page: Compile Mage_Anim
+[2019.11.12-15.08.01:318][788]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.11.12-15.08.01:628][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Mage_Anim" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset" SILENT=true
+[2019.11.12-15.08.01:664][793]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_AnimE4EC94B949BD8DAD2F85FF949CB168F3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/Mage_Anim.uasset'
+[2019.11.12-15.08.02:639][850]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.08.02:691][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.08.02:691][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.08.02:691][850]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:08:02 AM)
+[2019.11.12-15.08.02:691][850]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.08.02:695][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003728s)
+[2019.11.12-15.08.02:696][850]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.08.02:696][850]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2019.11.12-15.08.02:696][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004960s)
+[2019.11.12-15.08.02:751][850]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2019.11.12-15.08.02:756][850]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.08.02:824][850]LogInit: FAudioDevice initialized.
+[2019.11.12-15.08.02:830][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.08.02:867][850]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.08.02:870][850]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.08.02
+[2019.11.12-15.08.02:871][850]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.08.02:872][850]LogWorld: Bringing up level for play took: 0.003985
+[2019.11.12-15.08.02:890][850]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level -0.163
+[2019.11.12-15.08.02:890][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.08.09:735][253]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.11:152][338]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.17:289][706]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.17:373][711]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.20:740][913]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.21:059][932]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.21:094][934]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.08.31:541][557]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.08.31:542][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.08.31:571][557]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.08.31:615][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.08.31:615][557]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.08.31:682][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.11.12-15.08.31:701][558]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.11.12-15.09.25:610][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.11.12-15.09.27:210][783]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-15.09.27:253][783]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Mage_Modle_Skeleton4D092F1943D82F1701400C9CF393EE3F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/texture/Mage_Modle_Skeleton.uasset'
+[2019.11.12-15.09.27:315][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.11.12-15.09.27:627][783]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Enemy_LevelF85424D24579B91D73B17F9F395B31E5.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
+[2019.11.12-15.09.27:692][783]LogFileHelpers: Saving map 'Enemy_Level' took 0.431
+[2019.11.12-15.10.11:958][376]BlueprintLog: New page: Compile FireBallProject
+[2019.11.12-15.10.12:274][376]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2019.11.12-15.10.12:577][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/FireBallProject" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset" SILENT=true
+[2019.11.12-15.10.12:619][380]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/FireBallProjectA242E9B241044C22A9272BB93E9F089F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset'
+[2019.11.12-15.10.13:740][446]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.10.13:792][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.10.13:792][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.10.13:792][446]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:10:13 AM)
+[2019.11.12-15.10.13:793][446]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.10.13:796][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003312s)
+[2019.11.12-15.10.13:797][446]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.10.13:797][446]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2019.11.12-15.10.13:797][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004621s)
+[2019.11.12-15.10.13:851][446]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2019.11.12-15.10.13:855][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.10.13:933][446]LogInit: FAudioDevice initialized.
+[2019.11.12-15.10.13:939][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.10.13:972][446]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.10.13:976][446]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.10.13
+[2019.11.12-15.10.13:978][446]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.10.13:979][446]LogWorld: Bringing up level for play took: 0.005616
+[2019.11.12-15.10.13:997][446]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.944
+[2019.11.12-15.10.13:997][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.10.18:526][710]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.10.21:160][868]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.10.22:419][941]LogCharacterMovement: BP_Follower_2 is stuck and failed to move! Velocity: X=-16.31 Y=29.89 Z=0.00 Location: X=-1201.07 Y=34.11 Z=105.07 Normal: X=-0.25 Y=-0.97 Z=-0.01 PenetrationDepth:4.827 Actor:BP_Monster_2 Component:MonsterSowrd BoneName:None (0 other events since notify)
+[2019.11.12-15.10.24:012][ 37]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.10.26:546][189]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.12-15.10.29:213][349]LogBlueprintUserMessages: [BP_Monster_2] 68.0
+[2019.11.12-15.10.30:730][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.10.30:731][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.10.30:759][440]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.10.30:795][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.10.30:795][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.10.30:859][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.11.12-15.10.30:878][441]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.11.12-15.10.56:638][946]BlueprintLog: New page: Compile FireBallProject
+[2019.11.12-15.10.56:960][946]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.11.12-15.11.05:575][345]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.11.05:632][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.11.05:632][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.11.05:632][345]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:11:05 AM)
+[2019.11.12-15.11.05:632][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.11.05:636][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003865s)
+[2019.11.12-15.11.05:637][345]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.11.05:637][345]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2019.11.12-15.11.05:637][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004896s)
+[2019.11.12-15.11.05:695][345]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.11.12-15.11.05:699][345]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.11.05:775][345]LogInit: FAudioDevice initialized.
+[2019.11.12-15.11.05:781][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.11.05:816][345]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.11.05:818][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.11.05
+[2019.11.12-15.11.05:819][345]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.11.05:820][345]LogWorld: Bringing up level for play took: 0.004480
+[2019.11.12-15.11.05:837][345]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.785
+[2019.11.12-15.11.05:838][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.11.08:553][504]LogTemp: Warning: Roll
+[2019.11.12-15.11.08:574][504]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:580][504]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:580][504]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:587][505]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:587][505]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:605][506]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:606][506]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:621][507]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:621][507]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:637][508]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:638][508]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:655][509]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:655][509]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:672][510]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:672][510]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:688][511]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:688][511]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:705][512]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:705][512]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:721][513]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:721][513]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:738][514]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:738][514]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:755][515]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:755][515]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:772][516]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:772][516]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:788][517]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:788][517]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:804][518]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:804][518]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:821][519]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:821][519]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:837][520]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:837][520]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:854][521]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:854][521]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:871][522]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:871][522]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:888][523]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:888][523]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:904][524]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:904][524]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:921][525]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:921][525]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:938][526]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:938][526]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:955][527]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:955][527]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:972][528]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:972][528]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:988][529]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.08:988][529]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:005][530]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:005][530]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:022][531]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:022][531]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:038][532]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:038][532]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:054][533]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:054][533]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:071][534]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:071][534]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:087][535]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:088][535]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:104][536]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:104][536]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:121][537]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:121][537]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:138][538]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:138][538]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:160][539]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:160][539]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:177][540]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:177][540]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:193][541]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:194][541]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:210][542]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:210][542]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:227][543]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:227][543]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:243][544]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:243][544]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:261][545]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:261][545]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:277][546]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:277][546]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:294][547]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:294][547]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:309][548]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:309][548]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:326][549]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:326][549]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:343][550]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:343][550]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:359][551]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:360][551]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:376][552]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:376][552]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:393][553]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:393][553]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:410][554]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:410][554]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:427][555]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:427][555]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:443][556]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:443][556]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:460][557]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:460][557]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:477][558]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:477][558]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:493][559]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:494][559]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:510][560]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:510][560]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:527][561]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:527][561]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:544][562]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.09:544][562]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.12-15.11.10:327][609]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.13:463][797]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.13:513][800]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.14:277][846]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.12-15.11.14:513][860]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.14:545][862]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.14:595][865]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.11.16:876][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.11.16:876][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.11.16:904][  1]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.11.16:937][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.11.16:938][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.11.17:003][  1]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.11.12-15.11.17:014][  2]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.11.12-15.11.29:281][728]LogEditorViewport: Clicking on Actor (LMB): BP_Monster_C (BP_Monster)
+[2019.11.12-15.11.30:917][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-15.11.56:165][322]BlueprintLog: New page: Compile FireBallProject
+[2019.11.12-15.11.56:463][322]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.11.12-15.11.58:683][443]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.11.58:737][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.11.58:737][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.11.58:737][443]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:11:58 AM)
+[2019.11.12-15.11.58:738][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.11.58:742][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003583s)
+[2019.11.12-15.11.58:742][443]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.11.58:743][443]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2019.11.12-15.11.58:743][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004791s)
+[2019.11.12-15.11.58:795][443]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.11.12-15.11.58:799][443]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.11.58:870][443]LogInit: FAudioDevice initialized.
+[2019.11.12-15.11.58:877][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.11.58:912][443]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.11.58:915][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.11.58
+[2019.11.12-15.11.58:916][443]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.11.58:918][443]LogWorld: Bringing up level for play took: 0.005011
+[2019.11.12-15.11.58:934][443]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level -0.118
+[2019.11.12-15.11.58:935][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.12.06:159][873]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.06:774][910]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.06:808][912]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.07:242][938]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.07:275][940]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.09:343][ 64]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.09:360][ 65]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.10:226][117]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.12:842][274]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.16:058][467]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.16:960][521]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.17:227][537]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.12.17:476][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.12.17:477][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.12.17:507][552]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.12.17:543][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.12.17:544][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.12.17:610][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.12-15.12.17:670][553]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.11.12-15.12.54:875][745]BlueprintLog: New page: Compile FireBallProject
+[2019.11.12-15.12.55:182][745]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2019.11.12-15.12.55:781][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/FireBallProject" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset" SILENT=true
+[2019.11.12-15.12.55:807][765]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/FireBallProject64A811B94AF20B985C9B6CB58E76D0FC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset'
+[2019.11.12-15.13.06:538][404]BlueprintLog: New page: Compile FireBallProject
+[2019.11.12-15.13.06:829][404]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.11.12-15.13.07:298][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/FireBallProject" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset" SILENT=true
+[2019.11.12-15.13.07:323][421]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/FireBallProjectBDC2795048646D91188C09AF7FEC9CEE.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Kater/Mage/FireBallProject.uasset'
+[2019.11.12-15.13.08:300][479]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-15.13.08:352][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.13.08:352][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-15.13.08:352][479]PIE: New page: PIE session: Enemy_Level (Nov 12, 2019, 5:13:08 AM)
+[2019.11.12-15.13.08:352][479]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.12-15.13.08:356][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003473s)
+[2019.11.12-15.13.08:356][479]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.12-15.13.08:357][479]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2019.11.12-15.13.08:357][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004579s)
+[2019.11.12-15.13.08:410][479]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2019.11.12-15.13.08:415][479]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-15.13.08:486][479]LogInit: FAudioDevice initialized.
+[2019.11.12-15.13.08:492][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.13.08:528][479]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.12-15.13.08:531][479]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.12-10.13.08
+[2019.11.12-15.13.08:532][479]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.12-15.13.08:533][479]LogWorld: Bringing up level for play took: 0.003674
+[2019.11.12-15.13.08:550][479]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level -0.502
+[2019.11.12-15.13.08:551][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.13.15:012][861]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.13.16:128][928]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.13.16:163][930]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.13.16:513][951]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.12-15.13.20:997][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.13.20:998][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-15.13.21:026][220]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.12-15.13.21:061][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-15.13.21:061][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.12-15.13.21:124][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.12-15.13.21:136][221]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.11.12-15.13.36:290][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.12-15.13.37:285][125]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-15.13.37:366][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.11.12-15.13.37:637][125]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Enemy_LevelBA05E7BE44F4F3E521BA1E9693DC0251.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
+[2019.11.12-15.13.37:701][125]LogFileHelpers: Saving map 'Enemy_Level' took 0.390
