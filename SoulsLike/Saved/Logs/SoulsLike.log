@@ -1569,3 +1569,101 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.11-23.00.30:224][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
 [2019.11.11-23.00.30:485][705]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level38CED72D44AEC2D087C9CCAE277FF387.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
 [2019.11.11-23.00.30:512][705]LogFileHelpers: Saving map 'Enemy_Level' took 0.336
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDF73374A-44AA-A139-E254-D49CB5ACD47D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=703d6ae243e2641a5136739d021844b9%7Cc9bb46c1a69a474382e9e140a4b7b843%7Ce1023bb2-fb65-472d-b3ba-1a7a015b0e9a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Server: awselb/2.0
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Date: Tue, 12 Nov 2019 00:09:32 GMT
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Content-Type: text/html
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Content-Length: 138
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Connection: keep-alive
+[2019.11.12-03.09.36:882][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToGlide_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:890][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Left.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:896][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Left_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:904][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Right.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:911][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Right_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:921][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_bite.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:936][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_ClawsAttack2HitComboForward.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:947][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_death.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:959][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_deathHitTheGround.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:972][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_falling.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:985][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_flyNormal.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:997][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationary.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:012][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:028][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:045][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_spitFireBall.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:062][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_spreadFire.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:081][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:116][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:204][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToGlide.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:414][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:414][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:414][696]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.32:415][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:427][696]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.33:904][696]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.10.33:996][696]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.10.56:353][958]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.56:354][958]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_spitFireBall) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.10.56:370][958]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.56:376][958]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.11.12-03.10.56:489][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.10.56:808][958]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.10.57:290][958]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.06:748][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:750][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:750][430]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.06:750][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:761][430]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.07:752][430]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.07:838][430]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.11:278][619]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.11:280][619]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_spreadFire) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.11:300][619]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.11:324][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.11:666][619]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.11:909][619]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:556][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:556][662]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.31:556][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:579][662]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.32:545][662]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.32:634][662]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.35:121][795]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.35:122][795]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.35:138][795]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.35:164][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.35:495][795]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.35:701][795]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.37:895][878]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall' being destroyed
+[2019.11.12-03.11.37:911][878]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall' being destroyed
+[2019.11.12-03.11.37:911][878]LogCascade: Quitting Cascade. FXSystem=0x0000027E98D7D240
+[2019.11.12-03.11.38:161][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.38:241][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.38:332][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:442][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:442][370]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.48:442][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:467][370]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.49:449][370]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.49:525][370]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.51:702][487]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.51:703][487]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.51:722][487]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.51:746][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.52:048][487]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.52:255][487]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.57:724][734]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire' being destroyed
+[2019.11.12-03.11.57:749][734]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire' being destroyed
