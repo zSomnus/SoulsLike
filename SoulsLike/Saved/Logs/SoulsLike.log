@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 11/11/19 19:46:49
+=======
+﻿Log file open, 11/11/19 17:22:13
+>>>>>>> Kater
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.341148
+=======
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.418868
+>>>>>>> Kater
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -159,6 +168,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.11.12-00.46.50:586][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.12-00.46.50:586][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.11.12-00.46.50:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
@@ -2041,3 +2051,1516 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.12-01.23.02:114][212]LogModuleManager: Shutting down and abandoning module RSA (3)
 [2019.11.12-01.23.02:130][212]LogExit: Exiting.
 [2019.11.12-01.23.02:151][212]Log file closed, 11/11/19 20:23:02
+=======
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:169][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.11-22.22.14:170][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:170][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:173][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.11-22.22.14:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.11-22.22.14:174][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.11-22.22.14:174][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.11-22.22.14:182][  0]LogHAL: Display: Platform has ~ 16 GB [17023590400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.11-22.22.14:182][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.11-22.22.14:182][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.11-22.22.14:182][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.11-22.22.14:183][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProject/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.11-22.22.14:183][  0]LogInit: Computer: LAPTOP-BEJCA4DS
+[2019.11.11-22.22.14:183][  0]LogInit: User: maple
+[2019.11.11-22.22.14:183][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.11-22.22.14:183][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.11-22.22.14:184][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.11-22.22.14:184][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.11-22.22.14:184][  0]LogMemory: Process Physical Memory: 99.66 MB used, 99.66 MB peak
+[2019.11.11-22.22.14:184][  0]LogMemory: Process Virtual Memory: 103.49 MB used, 103.49 MB peak
+[2019.11.11-22.22.14:184][  0]LogMemory: Physical Memory: 4928.30 MB used,  11306.66 MB free, 16234.96 MB total
+[2019.11.11-22.22.14:184][  0]LogMemory: Virtual Memory: 4674.08 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.11-22.22.14:606][  0]LogInit: Using OS detected language (en-US).
+[2019.11.11-22.22.14:606][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.11-22.22.14:607][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.11-22.22.14:746][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.11-22.22.14:777][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.11-22.22.14:777][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.11-22.22.14:977][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.11-22.22.14:977][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.11-22.22.15:635][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.11.11-22.22.15:636][  0]LogD3D11RHI:       6052/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.11-22.22.15:659][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.11.11-22.22.15:659][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.11-22.22.15:665][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.11-22.22.15:665][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.11-22.22.15:665][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.11-22.22.15:714][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.11-22.22.15:714][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.11-22.22.15:714][  0]LogWindows: EnumDisplayDevices:
+[2019.11.11-22.22.15:714][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.11.11-22.22.15:715][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.11-22.22.15:716][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.11-22.22.15:717][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.11.11-22.22.15:718][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.11.11-22.22.15:719][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.11.11-22.22.15:719][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.11.11-22.22.15:720][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.11-22.22.15:720][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.11.11-22.22.15:720][  0]LogD3D11RHI:   Driver Version: 436.30 (internal:26.21.14.3630, unified:436.30)
+[2019.11.11-22.22.15:720][  0]LogD3D11RHI:      Driver Date: 9-5-2019
+[2019.11.11-22.22.15:720][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.11-22.22.15:831][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.11-22.22.15:841][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.11-22.22.15:841][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.11-22.22.15:841][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.11-22.22.15:850][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.11-22.22.16:407][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.11-22.22.16:421][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.11-22.22.16:439][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.11-22.22.16:455][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.11-22.22.16:473][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.11-22.22.16:487][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.11-22.22.16:507][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.11-22.22.16:522][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.11-22.22.16:530][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.11-22.22.16:622][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.11-22.22.16:625][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.11-22.22.16:675][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.11-22.22.16:675][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.11-22.22.16:710][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.11-22.22.16:710][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.11-22.22.16:729][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.11-22.22.16:745][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.11-22.22.16:761][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.11-22.22.16:776][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.11-22.22.16:862][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.11-22.22.16:862][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.11-22.22.16:862][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.11-22.22.16:881][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.11-22.22.16:977][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (D:/UnrealProject/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/11072/).
+[2019.11.11-22.22.16:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/maple/AppData/Local/Temp/UnrealShaderWorkingDir/ED1DA91F41E1EFD43593A49F0E4B5ACD/'.
+[2019.11.11-22.22.16:980][  0]LogXGEController: Cleaning working directory: C:/Users/maple/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.11-22.22.16:983][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.11-22.22.16:983][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.11-22.22.16:984][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.11-22.22.17:570][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/maple/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/maple/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProject/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProject/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.11-22.22.17:629][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.11-22.22.17:642][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.11-22.22.17:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.11-22.22.17:642][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.11-22.22.17:655][  0]LogDerivedDataCache: Using Local data cache path C:/Users/maple/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.11-22.22.17:655][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.11-22.22.17:655][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.11-22.22.17:675][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.11-22.22.17:676][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.11-22.22.17:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.11-22.22.17:760][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2019.11.11-22.22.18:095][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.11-22.22.18:233][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.11-22.22.18:233][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.11-22.22.18:233][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.11-22.22.18:233][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.11-22.22.18:233][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.11-22.22.18:243][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.11-22.22.18:658][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.040898 seconds
+[2019.11.11-22.22.18:663][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.11-22.22.18:663][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.11-22.22.18:663][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.11-22.22.19:466][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.11-22.22.19:481][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.11-22.22.19:633][  0]SourceControl: Source control is disabled
+[2019.11.11-22.22.19:633][  0]SourceControl: Source control is disabled
+[2019.11.11-22.22.19:636][  0]SourceControl: Source control is disabled
+[2019.11.11-22.22.19:638][  0]SourceControl: Source control is disabled
+[2019.11.11-22.22.19:774][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.11-22.22.21:369][  0]LogOcInput: OculusInput pre-init called
+[2019.11.11-22.22.22:076][  0]LogEngine: Initializing Engine...
+[2019.11.11-22.22.22:078][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.11-22.22.22:079][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.11-22.22.22:333][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.11-22.22.22:364][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.11-22.22.22:408][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.22.22:936][  0]LogInit: FAudioDevice initialized.
+[2019.11.11-22.22.22:936][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.11-22.22.22:995][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/maple/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.11-22.22.23:001][  0]LogInit: Texture streaming: Enabled
+[2019.11.11-22.22.23:025][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.11-22.22.23:026][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E40B2027-4A23-F9D5-05D9-51846A375450}
+[2019.11.11-22.22.23:045][  0]LogInit: Transaction tracking system initialized
+[2019.11.11-22.22.23:065][  0]BlueprintLog: New page: Editor Load
+[2019.11.11-22.22.23:136][  0]LocalizationService: Localization service is disabled
+[2019.11.11-22.22.23:428][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.11-22.22.23:428][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.11-22.22.24:170][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/SoulsLike/SoulsLike/Content/' took 0.03s
+[2019.11.11-22.22.24:464][  0]SourceControl: Source control is disabled
+[2019.11.11-22.22.24:606][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.11-22.22.29:981][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.11.11-22.22.29:982][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.11-22.22.30:001][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.11-22.22.32:652][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.11.11-22.22.32:653][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.11-22.22.32:668][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.11-22.22.32:670][  0]Cmd: MAP LOAD FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.11-22.22.32:671][  0]LightingResults: New page: Lighting Build
+[2019.11.11-22.22.32:674][  0]MapCheck: New page: Map Check
+[2019.11.11-22.22.32:674][  0]LightingResults: New page: Lighting Build
+[2019.11.11-22.22.32:733][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2019.11.11-22.22.33:046][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.11-22.22.33:070][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.11.11-22.22.33:107][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.11-22.22.33:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.11-22.22.33:108][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.183ms to complete.
+[2019.11.11-22.22.33:108][  0]LogFileHelpers: Loading map 'BossLevel' took 0.438
+[2019.11.11-22.22.33:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.22.33:177][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.22.33:183][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.22.33:191][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.22.33:196][  0]LogCollectionManager: Loaded 0 collections in 0.001159 seconds
+[2019.11.11-22.22.33:236][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.11-22.22.33:236][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Developers/maple/Collections/' took 0.01s
+[2019.11.11-22.22.33:236][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Collections/' took 0.01s
+[2019.11.11-22.22.33:236][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.11-22.22.33:245][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2745 classes and 661 folders.
+[2019.11.11-22.22.33:249][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.11-22.22.33:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:263][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:263][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.11-22.22.33:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.11-22.22.33:297][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.11-22.22.33:342][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.11-22.22.33:343][  0]LogLoad: (Engine Initialization) Total time: 21.11 seconds
+[2019.11.11-22.22.33:343][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.11-22.22.33:399][  0]LogAssetRegistry: Asset discovery search completed in 15.6619 seconds
+[2019.11.11-22.22.33:404][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.11-22.22.33:404][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2019.11.11-22.22.33:405][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.11-22.22.33:425][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.11-22.22.33:429][  0]LogSlate: Took 0.000677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.11-22.22.33:593][  0]LogRenderer: Reallocating scene render targets to support 660x344 Format 10 NumSamples 1 (Frame:1).
+[2019.11.11-22.22.33:593][  0]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.11-22.22.34:388][ 37]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.11-22.22.35:049][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.22.37:524][180]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:110).
+[2019.11.11-22.22.43:147][448]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.22.43:170][448]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Enemy_Level.Enemy_Level
+[2019.11.11-22.22.43:201][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.11.11-22.22.43:202][448]Cmd: MAP LOAD FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.11-22.22.43:202][448]LightingResults: New page: Lighting Build
+[2019.11.11-22.22.43:203][448]LoadErrors: New page: Loading map: Enemy_Level.umap
+[2019.11.11-22.22.43:204][448]MapCheck: New page: Map Check
+[2019.11.11-22.22.43:204][448]LightingResults: New page: Lighting Build
+[2019.11.11-22.22.43:231][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.11.11-22.22.43:235][448]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.11-22.22.43:261][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.11.11-22.22.43:287][448]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.11-22.22.43:287][448]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2019.11.11-22.22.43:287][448]LogFileHelpers: Loading map 'Enemy_Level' took 0.085
+[2019.11.11-22.22.44:562][514]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/Kater/Mage/FireBalll.FireBalll
+[2019.11.11-22.22.44:570][514]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2019.11.11-22.22.44:693][514]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/BP_Follower.BP_Follower
+[2019.11.11-22.22.44:959][514]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.11.11-22.22.45:787][514]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.11-22.22.45:871][515]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.11-22.23.11:001][787]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.11-22.24.42:091][141]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.24.42:110][141]LogBlueprint: Error: [Compiler BP_Follower] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.11.11-22.24.42:111][141]LogBlueprint: Error: [Compiler BP_Follower] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.11.11-22.24.42:316][141]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.11.11-22.24.42:331][141]LogBlueprint: Warning: [Compiler BP_Follower] [0150.10] Compile of BP_Follower failed. 2 Fatal Issue(s) 0 Warning(s) [in 239 ms] (/Game/Kater/Mage/BP_Follower.BP_Follower)
+[2019.11.11-22.32.43:312][529]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.11.11-22.32.43:313][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enemy_Level" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/Enemy_Level_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.11-22.32.43:582][529]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level_Auto146231C0F4A4CB69CD9C3D2AD6A4D0ED6.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/Enemy_Level_Auto1.umap'
+[2019.11.11-22.32.43:586][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Enemy_Level' took 0.309
+[2019.11.11-22.32.43:586][529]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.309
+[2019.11.11-22.32.43:593][529]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kater/Mage/BP_Follower] ([1] browsable assets)...
+[2019.11.11-22.32.43:645][529]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Kater/Mage/BP_Follower.BP_Follower]
+[2019.11.11-22.32.43:646][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kater/Mage/BP_Follower]
+[2019.11.11-22.32.43:646][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/BP_Follower_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.11-22.32.43:702][529]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/BP_Follower_Auto17EC69F80434CD4A1419BBDB8AEA4CC77.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/BP_Follower_Auto1.uasset'
+[2019.11.11-22.32.43:705][529]LogFileHelpers: Auto-saving content packages took 0.112
+[2019.11.11-22.35.14:835][746]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/FireBallProject.FireBallProject
+[2019.11.11-22.35.16:529][811]LogRenderer: Reallocating scene render targets to support 964x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.11-22.37.46:353][874]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.37.46:567][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.11-22.38.00:877][141]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-22.38.00:902][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.38.00:902][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-22.38.00:902][141]PIE: New page: PIE session: Enemy_Level (Nov 11, 2019, 12:38:00 PM)
+[2019.11.11-22.38.00:914][141]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.11-22.38.00:918][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003396s)
+[2019.11.11-22.38.00:918][141]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.38.00:919][141]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.11.11-22.38.00:919][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004416s)
+[2019.11.11-22.38.00:953][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2019.11.11-22.38.00:975][141]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.38.01:152][141]LogInit: FAudioDevice initialized.
+[2019.11.11-22.38.01:196][141]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-22.38.01:198][141]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.11-17.38.01
+[2019.11.11-22.38.01:199][141]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.11-22.38.01:202][141]LogWorld: Bringing up level for play took: 0.004984
+[2019.11.11-22.38.01:218][141]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.11-22.38.01:222][141]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.11-22.38.01:222][141]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.11.11-22.38.01:225][141]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.314
+[2019.11.11-22.38.01:225][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.38.08:940][584]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.38.10:658][687]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.11-22.38.13:335][847]LogBlueprintUserMessages: [BP_Monster_2] 68.0
+[2019.11.11-22.38.15:999][  7]LogBlueprintUserMessages: [BP_Monster_2] 67.0
+[2019.11.11-22.38.18:666][167]LogBlueprintUserMessages: [BP_Monster_2] 66.0
+[2019.11.11-22.38.19:284][204]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.38.21:484][336]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.38.25:018][548]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.38.26:066][611]LogTemp: Warning: Roll
+[2019.11.11-22.38.26:066][611]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:066][611]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:067][611]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:083][612]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:083][612]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:099][613]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:100][613]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:117][614]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:117][614]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:133][615]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:134][615]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:150][616]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:150][616]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:166][617]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:166][617]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:182][618]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:183][618]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:199][619]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:199][619]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:217][620]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:217][620]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:233][621]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:233][621]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:250][622]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:250][622]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:267][623]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:267][623]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:283][624]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:283][624]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:300][625]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:300][625]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:316][626]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:316][626]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:333][627]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:333][627]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:349][628]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:349][628]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:366][629]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:366][629]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:383][630]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:383][630]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:400][631]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:400][631]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:416][632]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:416][632]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:432][633]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:433][633]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:449][634]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:450][634]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:466][635]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:467][635]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:483][636]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:483][636]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:500][637]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:500][637]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:517][638]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:517][638]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:533][639]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:533][639]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:550][640]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:550][640]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:566][641]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:566][641]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:583][642]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:583][642]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:599][643]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:599][643]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:616][644]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:616][644]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:633][645]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:633][645]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:650][646]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:650][646]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:666][647]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:666][647]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:683][648]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:683][648]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:700][649]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:700][649]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:716][650]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:717][650]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:732][651]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:732][651]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:749][652]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:749][652]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:766][653]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:766][653]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:782][654]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:782][654]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:799][655]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:799][655]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:816][656]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:816][656]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:832][657]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:833][657]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:849][658]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:849][658]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:866][659]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:866][659]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:883][660]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:883][660]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:899][661]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:899][661]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:916][662]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:916][662]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:933][663]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:933][663]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:949][664]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:950][664]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:966][665]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:966][665]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:983][666]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.26:983][666]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:000][667]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:000][667]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:017][668]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:017][668]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:033][669]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:033][669]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:050][670]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:050][670]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.38.27:567][701]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.38.28:268][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.38.28:268][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.38.28:299][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-22.38.28:299][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.38.28:351][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.38.28:372][743]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.11-22.38.28:415][744]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.11-22.38.46:587][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.38.51:057][973]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.11-22.39.01:237][580]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/Magic_Spawner.Magic_Spawner
+[2019.11.11-22.42.04:201][386]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.11-22.43.00:327][477]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.11-22.43.04:248][675]BlueprintLog: New page: Compile Magic_Spawner
+[2019.11.11-22.43.04:483][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.11.11-22.43.52:705][491]BlueprintLog: New page: Compile Magic_Spawner
+[2019.11.11-22.43.52:924][491]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.11.11-22.45.18:810][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.11-22.45.18:811][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enemy_Level" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/Enemy_Level_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.11-22.45.19:032][330]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level_Auto2F895D63C48A9A7F3D7B4DF82EB9CC8EB.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/Enemy_Level_Auto2.umap'
+[2019.11.11-22.45.19:035][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Enemy_Level' took 0.264
+[2019.11.11-22.45.19:035][330]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.264
+[2019.11.11-22.45.19:042][330]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Kater/Mage/BP_Follower] ([1] browsable assets)...
+[2019.11.11-22.45.19:078][330]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Kater/Mage/BP_Follower.BP_Follower]
+[2019.11.11-22.45.19:078][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kater/Mage/BP_Follower]
+[2019.11.11-22.45.19:078][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/BP_Follower_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.11.11-22.45.19:131][330]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/BP_Follower_Auto25263147A4C0B1ACC10DD70946D03755B.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/BP_Follower_Auto2.uasset'
+[2019.11.11-22.45.19:135][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Kater/Mage/Magic_Spawner] ([1] browsable assets)...
+[2019.11.11-22.45.19:135][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/Kater/Mage/Magic_Spawner]
+[2019.11.11-22.45.19:135][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Magic_Spawner" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/Magic_Spawner_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.11.11-22.45.19:146][330]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Magic_Spawner_Auto2D1C0306C440A23A4AA835DA17C1F0928.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Autosaves/Game/Kater/Mage/Magic_Spawner_Auto2.uasset'
+[2019.11.11-22.45.19:147][330]LogFileHelpers: Auto-saving content packages took 0.105
+[2019.11.11-22.46.55:379][733]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.46.55:392][733]LogBlueprint: Error: [Compiler BP_Follower] The type of  Object  is undetermined.  Connect something to  Cast To Magic_Spawner  to imply a specific type.
+[2019.11.11-22.46.55:392][733]LogBlueprint: Error: [Compiler BP_Follower] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.11.11-22.46.55:627][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.11-22.46.55:643][733]LogBlueprint: Warning: [Compiler BP_Follower] [1483.41] Compile of BP_Follower failed. 2 Fatal Issue(s) 0 Warning(s) [in 262 ms] (/Game/Kater/Mage/BP_Follower.BP_Follower)
+[2019.11.11-22.48.21:011][754]LogEditorTransaction: Undo Create Pin Link
+[2019.11.11-22.48.36:558][565]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.48.36:800][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.11-22.48.39:535][718]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-22.48.39:568][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.48.39:568][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-22.48.39:568][718]PIE: New page: PIE session: Enemy_Level (Nov 11, 2019, 12:48:39 PM)
+[2019.11.11-22.48.39:568][718]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.11-22.48.39:572][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003633s)
+[2019.11.11-22.48.39:572][718]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.48.39:572][718]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2019.11.11-22.48.39:572][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004440s)
+[2019.11.11-22.48.39:609][718]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.11-22.48.39:626][718]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.48.39:788][718]LogInit: FAudioDevice initialized.
+[2019.11.11-22.48.39:817][718]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-22.48.39:819][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.11-17.48.39
+[2019.11.11-22.48.39:820][718]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.11-22.48.39:821][718]LogWorld: Bringing up level for play took: 0.002820
+[2019.11.11-22.48.39:836][718]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.925
+[2019.11.11-22.48.39:836][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.48.43:986][966]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.48.48:170][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.48.48:170][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.48.48:201][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-22.48.48:201][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.48.48:246][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.48.48:250][217]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.11-22.48.48:293][218]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.11-22.48.51:291][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.49.10:752][342]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-22.50.40:409][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.50.55:211][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-22.51.04:278][395]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.11.11-22.51.06:545][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-22.51.09:395][556]LogTexture: Display: Building textures: Clouds4k-02-Emissive (BGRA8, 4098X4098)
+[2019.11.11-22.51.09:395][556]LogTexture: Display: Building textures: Clouds4k-Emissive (BGRA8, 4098X4098)
+[2019.11.11-22.51.09:395][556]LogMaterial: Display: Missing cached shader map for material CloudyDay, compiling. 
+[2019.11.11-22.51.10:747][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-22.51.43:385][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.52.26:837][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.53.16:023][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.53.19:208][995]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Monster/BP_Monster.BP_Monster
+[2019.11.11-22.53.48:812][610]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Kater/Mage/texture/Mage_Modle_Skeleton.Mage_Modle_Skeleton
+[2019.11.11-22.53.48:821][610]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.11-22.53.48:822][610]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.11-22.53.49:004][610]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.11-22.53.49:009][610]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.11-22.53.49:010][610]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.11.11-22.53.49:049][610]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.11-22.53.50:002][611]LogRenderer: Reallocating scene render targets to support 964x712 Format 10 NumSamples 1 (Frame:1).
+[2019.11.11-22.53.55:813][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.54.06:646][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.55.04:357][352]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.55.04:779][352]LogUObjectHash: Compacting FUObjectHashTables data took   9.54ms
+[2019.11.11-22.55.32:308][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.55.47:854][471]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.55.48:150][471]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2019.11.11-22.55.57:831][975]LogEditorTransaction: Undo Add Node
+[2019.11.11-22.55.58:196][989]LogEditorTransaction: Undo Add Component Nodes
+[2019.11.11-22.56.12:434][706]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_9 via property magic, but TRASH_StaticMeshComponent_9 is pending kill
+	BP_Follower_C /Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.BP_Follower_2
+	Function /Game/Kater/Mage/BP_Follower.BP_Follower_C:UserConstructionScript:0017
+[2019.11.11-22.56.12:436][706]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_11 via property magic, but TRASH_StaticMeshComponent_11 is pending kill
+	BP_Follower_C /Engine/Transient.World_1:PersistentLevel.BP_Follower_C_0
+	Function /Game/Kater/Mage/BP_Follower.BP_Follower_C:UserConstructionScript:0017
+[2019.11.11-22.56.12:438][706]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_7 via property magic, but TRASH_StaticMeshComponent_7 is pending kill
+	BP_Follower_C /Engine/Transient.World_2:PersistentLevel.BP_Follower_C_5
+	Function /Game/Kater/Mage/BP_Follower.BP_Follower_C:UserConstructionScript:0017
+[2019.11.11-22.56.14:885][826]LogScript: Warning: Attempted to access TRASH_StaticMeshComponent_11 via property magic, but TRASH_StaticMeshComponent_11 is pending kill
+	BP_Follower_C /Engine/Transient.World_1:PersistentLevel.BP_Follower_C_0
+	Function /Game/Kater/Mage/BP_Follower.BP_Follower_C:UserConstructionScript:0017
+[2019.11.11-22.56.34:602][831]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.56.34:921][831]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2019.11.11-22.56.43:775][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.56.55:577][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.56.58:633][ 12]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.56.58:945][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2019.11.11-22.57.12:606][727]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.57.12:902][727]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2019.11.11-22.57.18:222][ 10]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.57.18:523][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2019.11.11-22.57.21:715][188]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-22.57.21:752][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.21:752][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-22.57.21:752][188]PIE: New page: PIE session: Enemy_Level (Nov 11, 2019, 12:57:21 PM)
+[2019.11.11-22.57.21:753][188]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.11-22.57.21:756][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003494s)
+[2019.11.11-22.57.21:757][188]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.57.21:757][188]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2019.11.11-22.57.21:757][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004274s)
+[2019.11.11-22.57.21:802][188]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.11.11-22.57.21:820][188]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.57.21:985][188]LogInit: FAudioDevice initialized.
+[2019.11.11-22.57.22:022][188]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-22.57.22:030][188]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.11-17.57.22
+[2019.11.11-22.57.22:032][188]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.11-22.57.22:035][188]LogWorld: Bringing up level for play took: 0.009819
+[2019.11.11-22.57.22:050][188]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 1.139
+[2019.11.11-22.57.22:050][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.25:939][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.25:939][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.57.25:981][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-22.57.25:981][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.26:033][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.57.26:038][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.11-22.57.26:082][418]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.11-22.57.33:139][814]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.11-22.57.41:418][201]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.57.41:735][201]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2019.11.11-22.57.43:195][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.57.43:294][289]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-22.57.43:329][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.43:329][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-22.57.43:329][289]PIE: New page: PIE session: Enemy_Level (Nov 11, 2019, 12:57:43 PM)
+[2019.11.11-22.57.43:330][289]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.11-22.57.43:333][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
+[2019.11.11-22.57.43:333][289]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.57.43:333][289]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2019.11.11-22.57.43:333][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.003924s)
+[2019.11.11-22.57.43:380][289]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.11.11-22.57.43:394][289]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.57.43:558][289]LogInit: FAudioDevice initialized.
+[2019.11.11-22.57.43:585][289]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-22.57.43:587][289]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.11-17.57.43
+[2019.11.11-22.57.43:588][289]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.11-22.57.43:589][289]LogWorld: Bringing up level for play took: 0.002836
+[2019.11.11-22.57.43:604][289]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 0.693
+[2019.11.11-22.57.43:604][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.57.48:427][573]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.51:593][763]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.11-22.57.52:094][793]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.52:128][795]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.52:477][816]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.53:328][867]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.53:710][890]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.59:078][212]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.59:562][241]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.57.59:594][243]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.00:444][294]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.00:479][296]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.00:812][316]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.06:726][669]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.10:644][904]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.58.12:826][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.58.12:826][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.58.12:862][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-22.58.12:862][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.58.12:916][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-22.58.12:922][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.11-22.58.12:966][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.11-22.58.14:047][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-22.58.14:142][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enemy_Level" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.11-22.58.14:186][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.11.11-22.58.15:286][ 97]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level4A102C554E2684ADC13597B2DF3613B6.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
+[2019.11.11-22.58.15:317][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enemy_Level_BuiltData" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level_BuiltData.uasset" SILENT=true
+[2019.11.11-22.58.15:344][ 97]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level_BuiltData5B24CDFC4F77332AA5F5108C43BDDDBA.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level_BuiltData.uasset'
+[2019.11.11-22.58.18:793][297]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.11.11-22.58.19:785][297]LogSlate: Window 'Save Content' being destroyed
+[2019.11.11-22.58.19:829][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset" SILENT=true
+[2019.11.11-22.58.19:888][297]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/BP_FollowerE3A56B4048D88EC4A8CC3BA0BEEBFF06.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset'
+[2019.11.11-22.58.19:894][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/Magic_Spawner" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/Magic_Spawner.uasset" SILENT=true
+[2019.11.11-22.58.19:905][297]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Magic_Spawner7504B7EA46A3CFBD5C6CBF9BE3A78544.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/Magic_Spawner.uasset'
+[2019.11.11-22.59.49:903][445]BlueprintLog: New page: Compile BP_Follower
+[2019.11.11-22.59.50:214][445]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2019.11.11-22.59.51:813][528]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.11-22.59.51:848][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.59.51:848][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.11-22.59.51:848][528]PIE: New page: PIE session: Enemy_Level (Nov 11, 2019, 12:59:51 PM)
+[2019.11.11-22.59.51:848][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Enemy_Level
+[2019.11.11-22.59.51:852][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003367s)
+[2019.11.11-22.59.51:852][528]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.11-22.59.51:852][528]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2019.11.11-22.59.51:853][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Enemy_Level.Enemy_Level to /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level (0.004119s)
+[2019.11.11-22.59.51:897][528]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.11-22.59.51:909][528]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.11.11-22.59.52:073][528]LogInit: FAudioDevice initialized.
+[2019.11.11-22.59.52:101][528]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.11-22.59.52:103][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Enemy_Level.Enemy_Level up for play (max tick rate 60) at 2019.11.11-17.59.52
+[2019.11.11-22.59.52:103][528]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.11-22.59.52:104][528]LogWorld: Bringing up level for play took: 0.002865
+[2019.11.11-22.59.52:120][528]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Enemy_Level 1.21
+[2019.11.11-22.59.52:120][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-22.59.54:416][655]LogTemp: Warning: Roll
+[2019.11.11-22.59.54:416][655]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:416][655]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:416][655]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:433][656]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:433][656]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:450][657]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:450][657]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:466][658]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:466][658]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:484][659]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:484][659]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:499][660]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:499][660]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:516][661]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:516][661]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:533][662]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:533][662]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:550][663]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:550][663]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:568][664]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:568][664]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:583][665]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:583][665]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:600][666]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:600][666]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:617][667]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:617][667]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:633][668]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:633][668]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:651][669]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:651][669]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:667][670]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:667][670]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:683][671]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:683][671]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:700][672]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:700][672]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:716][673]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:716][673]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:734][674]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:734][674]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:750][675]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:750][675]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:766][676]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:766][676]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:783][677]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:783][677]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:799][678]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:799][678]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:817][679]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:817][679]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:833][680]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:833][680]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:849][681]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:849][681]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:866][682]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:866][682]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:883][683]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:883][683]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:900][684]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:901][684]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:916][685]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:916][685]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:933][686]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:933][686]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:950][687]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:950][687]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:966][688]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:966][688]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:984][689]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.54:984][689]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:000][690]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:000][690]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:016][691]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:016][691]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:033][692]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:033][692]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:050][693]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:050][693]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:067][694]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:067][694]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:083][695]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:083][695]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:100][696]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:100][696]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:116][697]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:116][697]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:133][698]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:133][698]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:151][699]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:151][699]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:166][700]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:166][700]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:183][701]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:183][701]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:200][702]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:200][702]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:217][703]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:217][703]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:233][704]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:234][704]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:250][705]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:250][705]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:267][706]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:267][706]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:284][707]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:284][707]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:300][708]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:300][708]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:318][709]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:318][709]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:333][710]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:333][710]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:350][711]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:350][711]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:367][712]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:367][712]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:383][713]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:383][713]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:401][714]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:401][714]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-22.59.55:800][738]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-22.59.57:733][854]LogBlueprintUserMessages: [BP_Monster_2] 69.0
+[2019.11.11-23.00.00:408][ 13]LogBlueprintUserMessages: [BP_Monster_2] 68.0
+[2019.11.11-23.00.03:072][169]LogBlueprintUserMessages: [BP_Monster_2] 67.0
+[2019.11.11-23.00.05:738][329]LogBlueprintUserMessages: [BP_Monster_2] 66.0
+[2019.11.11-23.00.08:405][489]LogBlueprintUserMessages: [BP_Monster_2] 65.0
+[2019.11.11-23.00.11:072][649]LogBlueprintUserMessages: [BP_Monster_2] 64.0
+[2019.11.11-23.00.12:057][708]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.12:755][750]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.17:639][ 43]LogTemp: Warning: Roll
+[2019.11.11-23.00.17:639][ 43]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:639][ 43]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:640][ 43]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:656][ 44]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:656][ 44]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:673][ 45]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:674][ 45]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:689][ 46]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:689][ 46]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:706][ 47]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:706][ 47]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:723][ 48]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:723][ 48]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:739][ 49]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:739][ 49]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:756][ 50]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:757][ 50]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:774][ 51]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:774][ 51]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:790][ 52]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:790][ 52]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:806][ 53]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:806][ 53]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:822][ 54]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:822][ 54]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:839][ 55]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:839][ 55]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:855][ 56]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:855][ 56]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:872][ 57]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:872][ 57]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:888][ 58]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:888][ 58]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:905][ 59]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:905][ 59]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:922][ 60]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:922][ 60]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:938][ 61]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:938][ 61]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:955][ 62]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:955][ 62]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:972][ 63]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:972][ 63]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:989][ 64]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.17:989][ 64]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:005][ 65]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:005][ 65]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:022][ 66]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:022][ 66]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:039][ 67]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:039][ 67]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:055][ 68]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:055][ 68]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:072][ 69]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:072][ 69]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:089][ 70]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:090][ 70]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:105][ 71]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:106][ 71]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:122][ 72]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:122][ 72]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:139][ 73]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:139][ 73]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:156][ 74]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:156][ 74]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:172][ 75]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:173][ 75]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:189][ 76]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:189][ 76]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:205][ 77]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:205][ 77]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:222][ 78]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:222][ 78]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:239][ 79]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:239][ 79]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:255][ 80]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:256][ 80]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:272][ 81]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:272][ 81]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:289][ 82]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:289][ 82]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:305][ 83]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:306][ 83]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:322][ 84]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:322][ 84]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:339][ 85]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:339][ 85]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:356][ 86]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:356][ 86]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:372][ 87]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:372][ 87]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:389][ 88]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:389][ 88]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:405][ 89]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:405][ 89]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:422][ 90]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:422][ 90]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:438][ 91]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:438][ 91]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:455][ 92]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:455][ 92]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:472][ 93]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:472][ 93]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:488][ 94]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:488][ 94]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:505][ 95]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:505][ 95]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:522][ 96]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:522][ 96]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:522][ 96]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.18:539][ 97]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:539][ 97]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:555][ 98]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:555][ 98]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:556][ 98]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.18:572][ 99]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:572][ 99]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:589][100]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:589][100]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:605][101]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:606][101]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:622][102]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.18:622][102]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:005][125]LogTemp: Warning: Roll
+[2019.11.11-23.00.19:006][125]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:006][125]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:007][125]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:022][126]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:022][126]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:038][127]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:038][127]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:055][128]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:055][128]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:072][129]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:072][129]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:089][130]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:089][130]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:105][131]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:105][131]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:122][132]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:122][132]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:139][133]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:139][133]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:155][134]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:155][134]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:173][135]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:173][135]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:189][136]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:189][136]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:206][137]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:206][137]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:222][138]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:222][138]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:239][139]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:239][139]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:256][140]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:256][140]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:273][141]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:273][141]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:289][142]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:289][142]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:306][143]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:306][143]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:323][144]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:323][144]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:339][145]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:339][145]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:356][146]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:356][146]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:372][147]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:372][147]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:389][148]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:389][148]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:406][149]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:406][149]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:423][150]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:423][150]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:439][151]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:439][151]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:456][152]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:456][152]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:473][153]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:473][153]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:489][154]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:489][154]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:506][155]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:506][155]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:523][156]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:523][156]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:540][157]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:540][157]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:556][158]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:556][158]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:572][159]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:572][159]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:589][160]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:589][160]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:605][161]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:606][161]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:623][162]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:623][162]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:639][163]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:639][163]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:655][164]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:656][164]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:672][165]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:672][165]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:689][166]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:689][166]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:706][167]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:706][167]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:723][168]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:723][168]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:739][169]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:739][169]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:756][170]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:756][170]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:773][171]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:773][171]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:790][172]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:790][172]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:806][173]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:806][173]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:807][173]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.19:823][174]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:823][174]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:841][175]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:841][175]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:856][176]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:856][176]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:873][177]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:873][177]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:890][178]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:890][178]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:905][179]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:905][179]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:922][180]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:922][180]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:939][181]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:939][181]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:956][182]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:956][182]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:972][183]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:972][183]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:988][184]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.19:989][184]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:707][347]LogTemp: Warning: Roll
+[2019.11.11-23.00.22:707][347]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:708][347]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:708][347]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:722][348]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:722][348]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:739][349]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:739][349]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:755][350]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:755][350]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:773][351]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:773][351]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:790][352]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:790][352]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:806][353]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:806][353]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:823][354]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:823][354]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:839][355]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:839][355]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:856][356]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:856][356]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:872][357]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:873][357]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:889][358]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:889][358]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:906][359]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:906][359]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:922][360]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:923][360]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:939][361]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:939][361]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:956][362]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:956][362]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:973][363]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:973][363]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:989][364]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.22:989][364]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:006][365]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:006][365]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:023][366]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:023][366]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:039][367]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:039][367]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:055][368]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:055][368]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:072][369]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:072][369]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:089][370]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:089][370]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:089][370]LogBlueprintUserMessages: [Mage_Controller_C_0] Isaw a monster
+[2019.11.11-23.00.23:106][371]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:106][371]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:122][372]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:122][372]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:139][373]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:139][373]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:156][374]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:156][374]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:172][375]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:172][375]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:189][376]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:189][376]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:206][377]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:206][377]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:222][378]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:222][378]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:239][379]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:239][379]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:256][380]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:256][380]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:272][381]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:273][381]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:289][382]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:289][382]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:306][383]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:306][383]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:323][384]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:323][384]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:339][385]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:339][385]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:356][386]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:356][386]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:373][387]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:373][387]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:389][388]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:389][388]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:406][389]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:406][389]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:422][390]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:422][390]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:439][391]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:439][391]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:456][392]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:456][392]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:472][393]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:472][393]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:489][394]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:489][394]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:506][395]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:506][395]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:522][396]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:522][396]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:539][397]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:540][397]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:556][398]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:556][398]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:573][399]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:573][399]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:589][400]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:589][400]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:606][401]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:606][401]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:623][402]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:623][402]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:639][403]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:639][403]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:656][404]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:656][404]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:672][405]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:672][405]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:689][406]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.23:689][406]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:255][500]LogTemp: Warning: Roll
+[2019.11.11-23.00.25:256][500]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:256][500]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:256][500]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:272][501]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:273][501]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:290][502]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:290][502]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:306][503]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:306][503]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:323][504]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:323][504]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:339][505]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:339][505]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:356][506]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:356][506]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:373][507]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:373][507]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:389][508]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:390][508]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:406][509]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:406][509]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:423][510]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:423][510]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:440][511]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:440][511]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:456][512]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:456][512]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:473][513]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:473][513]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:490][514]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:490][514]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:506][515]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:506][515]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:523][516]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:523][516]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:540][517]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:540][517]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:556][518]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:556][518]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:572][519]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:573][519]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:589][520]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:589][520]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:606][521]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:606][521]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:623][522]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:623][522]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:639][523]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:639][523]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:656][524]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:656][524]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:673][525]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:673][525]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:689][526]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:690][526]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:706][527]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:706][527]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:723][528]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:723][528]LogTimeline: SetPlaybackPosition: No float property 'None' in 'BP_MainCharacter_C_0'
+[2019.11.11-23.00.25:724][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-23.00.25:725][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-23.00.25:760][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.11-23.00.25:760][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level' with GeneratedClass '/Game/Maps/Enemy_Level.Enemy_Level_C' with ClassGeneratedBy '/Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level'
+[2019.11.11-23.00.25:816][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.11-23.00.25:822][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.11.11-23.00.25:869][529]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.11-23.00.28:289][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.11-23.00.28:948][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.11-23.00.30:059][705]LogSlate: Window 'Save Content' being destroyed
+[2019.11.11-23.00.30:101][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Kater/Mage/BP_Follower" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset" SILENT=true
+[2019.11.11-23.00.30:163][705]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/BP_Follower024FFA61480971AE849D69B6BC1BEC03.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Kater/Mage/BP_Follower.uasset'
+[2019.11.11-23.00.30:175][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Enemy_Level" FILE="D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.11-23.00.30:224][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.11.11-23.00.30:485][705]LogSavePackage: Moving 'D:/UnrealProject/SoulsLike/SoulsLike/Saved/Enemy_Level38CED72D44AEC2D087C9CCAE277FF387.tmp' to 'D:/UnrealProject/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap'
+[2019.11.11-23.00.30:512][705]LogFileHelpers: Saving map 'Enemy_Level' took 0.336
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDF73374A-44AA-A139-E254-D49CB5ACD47D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=703d6ae243e2641a5136739d021844b9%7Cc9bb46c1a69a474382e9e140a4b7b843%7Ce1023bb2-fb65-472d-b3ba-1a7a015b0e9a&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Server: awselb/2.0
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Date: Tue, 12 Nov 2019 00:09:32 GMT
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Content-Type: text/html
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Content-Length: 138
+[2019.11.12-00.09.33:763][113]LogHttp: Warning: 0000027F671839C0 Response Header Connection: keep-alive
+[2019.11.12-03.09.36:882][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToGlide_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:890][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Left.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:896][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Left_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:904][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Right.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:911][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_turn90Right_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:921][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_bite.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:936][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_ClawsAttack2HitComboForward.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:947][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_death.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:959][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_deathHitTheGround.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:972][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_falling.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:985][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_flyNormal.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.36:997][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationary.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:012][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:028][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:045][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_spitFireBall.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:062][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_spreadFire.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:081][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:116][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToFlyStationary_RM.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.09.37:204][203]LogAssetTools: Warning: Failed to import 'D:\model_unreal4\MountainDragon\Animations\ANIM_MOUNTAIN_DRAGON_takeOffToGlide.uasset'. Unknown extension 'uasset'.
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:413][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:414][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:414][696]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.10.32:414][696]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.32:415][696]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.10.32:427][696]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.33:904][696]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.10.33:996][696]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.10.56:353][958]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.56:354][958]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_spitFireBall) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.10.56:370][958]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spitFireBall.ANIM_MOUNTAIN_DRAGON_spitFireBall
+[2019.11.12-03.10.56:376][958]LogBlueprintActionDatabase: Requesting refresh due to module change: AnimationEditor (loaded)
+[2019.11.12-03.10.56:489][958]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.10.56:808][958]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.10.57:290][958]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.06:748][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:749][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:750][430]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.06:750][430]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.06:750][430]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.06:761][430]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.07:752][430]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.07:838][430]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.11:278][619]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.11:280][619]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_spreadFire) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.11:300][619]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_spreadFire.ANIM_MOUNTAIN_DRAGON_spreadFire
+[2019.11.12-03.11.11:324][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.11:666][619]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.11:909][619]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:555][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:556][662]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.31:556][662]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.31:556][662]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.31:579][662]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.32:545][662]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.32:634][662]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.35:121][795]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.35:122][795]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.35:138][795]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall.ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall
+[2019.11.12-03.11.35:164][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.35:495][795]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.35:701][795]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.37:895][878]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall' being destroyed
+[2019.11.12-03.11.37:911][878]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpitFireBall' being destroyed
+[2019.11.12-03.11.37:911][878]LogCascade: Quitting Cascade. FXSystem=0x0000027E98D7D240
+[2019.11.12-03.11.38:161][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.38:241][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.38:332][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:441][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:442][370]LogLinker: Warning: Can't find file '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton'
+[2019.11.12-03.11.48:442][370]LoadErrors: Failed to load /Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton.MOUNTAIN_DRAGON_Skeleton Referenced by ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.48:442][370]LogLinker: Warning: Can't find file for asset '/Game/QuadrapedCreatures/MountainDragon/Meshes/MOUNTAIN_DRAGON_Skeleton' while loading NULL.
+[2019.11.12-03.11.48:467][370]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.49:449][370]LogSlate: Window 'Message' being destroyed
+[2019.11.12-03.11.49:525][370]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.12-03.11.51:702][487]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.51:703][487]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.12-03.11.51:722][487]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Kater/Dragon/Animations/ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire.ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire
+[2019.11.12-03.11.51:746][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_32:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-03.11.52:048][487]LogSlate: Window 'Select Skeleton' being destroyed
+[2019.11.12-03.11.52:255][487]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.12-03.11.57:724][734]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire' being destroyed
+[2019.11.12-03.11.57:749][734]LogSlate: Window 'ANIM_MOUNTAIN_DRAGON_FlyStationarySpreadFire' being destroyed
+>>>>>>> Kater
