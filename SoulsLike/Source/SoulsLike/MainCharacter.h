@@ -169,7 +169,7 @@ public:
 	float Stamina;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Stats")
-	int32 Souls;
+	int32 Cinders;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 AttackCount;
@@ -226,7 +226,7 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	void IncrementSouls(int32 Amount);
+	void IncrementCinders(int32 Amount);
 
 	void DecrementHealth(float Amount);
 	void Die();
