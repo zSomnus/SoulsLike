@@ -756,3 +756,57 @@ Make sure 'BP_MainCharacter_C' has been compiled for  Set Souls
 [2019.11.12-18.17.42:252][184]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/ice_icon4B48FECB40B8988EA66EF1B718311468.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/HUD/ice_icon.uasset'
 [2019.11.12-18.17.42:273][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD/skull" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/HUD/skull.uasset" SILENT=true
 [2019.11.12-18.17.42:344][184]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/skull28AD540940A526BF28AA04BFF58A19BC.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/HUD/skull.uasset'
+[2019.11.12-18.19.17:028][188]LogTexture: Display: Building textures: colorSkullRed (AutoDXT, 4096X4096)
+[2019.11.12-18.20.15:310][616]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-18.20.15:383][616]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.11.12-18.20.16:074][640]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUDD38EEF40451480F6BCCF1AAB7A91811B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-18.20.35:168][676]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-18.20.35:218][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.11.12-18.20.35:736][697]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUD9EBCC7074CE3B0727E0183B6B16A9589.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-18.20.42:848][ 90]LogImageWrapper: Error: PNG Error: Ignoring bad adaptive filter type
+[2019.11.12-18.20.44:877][184]LogBlueprint: Warning: [Compiler Souls] Could not find a variable named "Souls" in 'MainCharacter'.
+Make sure 'MainCharacter' has been compiled for  Get Souls
+[2019.11.12-18.20.44:878][184]LogBlueprint: Error: [Compiler Souls] The property associated with  Souls  could not be found in '/Game/HUD/Souls.Souls_C'
+[2019.11.12-18.20.44:881][184]LogBlueprint: Warning: [Compiler Souls] [0696.14] Compile of Souls failed. 1 Fatal Issue(s) 1 Warning(s) [in 4 ms] (/Game/HUD/Souls.Souls)
+[2019.11.12-18.20.45:281][184]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/HUD/Souls.Souls
+[2019.11.12-18.21.17:049][997]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-18.21.17:102][997]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.11.12-18.21.17:717][ 28]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUDA38F91E44918183DA219A4B002606678.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-18.21.19:701][145]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-18.21.19:753][145]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-18.21.19:753][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-18.21.22:514][145]LogSlate: Window 'Message' being destroyed
+[2019.11.12-18.21.25:328][313]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-18.21.25:379][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.12-18.21.41:923][292]BlueprintLog: New page: Compile Souls
+[2019.11.12-18.21.41:975][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.11.12-18.21.42:427][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Souls" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/HUD/Souls.uasset" SILENT=true
+[2019.11.12-18.21.42:460][317]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/SoulsE3E32C1B4A883FBE0FED9193F0274A4A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/HUD/Souls.uasset'
+[2019.11.12-18.21.44:075][410]BlueprintLog: New page: Compile Ingame_HUD
+[2019.11.12-18.21.44:131][410]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.12-18.21.44:542][426]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ingame_HUDF7C9087D4A130148A6F8E6BA1F3BF69E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Ingame_HUD.uasset'
+[2019.11.12-18.21.45:138][460]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.12-18.21.45:177][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.12-18.21.45:177][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-18.21.47:389][460]LogSlate: Window 'Message' being destroyed
+[2019.11.12-18.21.54:365][835]LogScript: Warning: Accessed None trying to read property MainCharacter
+	BP_MainNoWeaponAnim_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_MainNoWeaponAnim_C_0
+	Function /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim_C:ExecuteUbergraph_BP_MainNoWeaponAnim:01CB
+[2019.11.12-18.21.54:365][835]LogScript: Warning: Accessed None trying to read property MainCharacter
+	BP_MainNoWeaponAnim_C /Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_MainNoWeaponAnim_C_0
+	Function /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim_C:ExecuteUbergraph_BP_MainNoWeaponAnim:0127
+[2019.11.12-18.21.57:476][948]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2019.11.12-18.21.58:533][949]LogSlate: Took 0.066948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.12-18.22.20:462][120]LogEditorTransaction: Undo Delete current selection
+[2019.11.12-18.22.51:051][850]BlueprintLog: New page: Compile BP_MainCharacter
+[2019.11.12-18.22.51:505][850]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.11.12-18.22.52:432][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainCharacter" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2019.11.12-18.22.52:566][891]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_MainCharacterC1C839A64210C3B74489D2AD5AD86977.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset'
+[2019.11.12-18.23.06:444][668]BlueprintLog: New page: Compile BP_MainCharacter
+[2019.11.12-18.23.06:736][668]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.11.12-18.23.07:197][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainCharacter" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2019.11.12-18.23.07:326][681]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_MainCharacter588DD4D54ACB2BED8E565C9C17D7F04C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset'
+[2019.11.12-18.23.11:066][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.11.12-18.23.12:242][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.12-18.23.12:284][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2019.11.12-18.23.12:648][954]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel73F93955473EE89F7D3E2F9982B31D34.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
