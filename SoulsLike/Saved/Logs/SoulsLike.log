@@ -1377,3 +1377,181 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.12-20.26.22:402][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2019.11.12-20.26.23:474][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2019.11.12-20.26.24:403][320]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel84D3EE524AF2C89DD4FDD19BA32318A1.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.12-20.27.40:067][717]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\Circle_(transparent).png)
+[2019.11.12-20.27.40:206][717]LogTexture: Display: Building textures: Circle__transparent_ (AutoDXT, 1024X1024)
+[2019.11.12-20.27.53:590][761]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\blueCircle.png)
+[2019.11.12-20.27.53:702][761]LogTexture: Display: Building textures: blueCircle (BGRA8, 917X870)
+[2019.11.12-20.28.06:498][805]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\magicCircle.png)
+[2019.11.12-20.28.06:526][805]LogTexture: Display: Building textures: magicCircle (BGRA8, 894X894)
+[2019.11.12-20.28.12:610][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2019.11.12-20.28.13:820][ 50]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-20.28.13:999][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/blueCircleBE69270749A62FFDDEE198A6459915EE.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/blueCircle.uasset'
+[2019.11.12-20.28.14:033][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Circle__transparent_CB45372B45761BBD61EAC0B499A47C6D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Circle__transparent_.uasset'
+[2019.11.12-20.28.14:123][ 50]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/magicCircle1BDD7A7E402C3B1775B0C0B5891F831C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/magicCircle.uasset'
+[2019.11.12-20.28.15:133][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.11.12-20.28.15:930][ 99]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevelD9CA0F2D4FF9A87C7B52A296EFC60A9A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.12-20.29.23:087][211]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/MagicCircleIce.MagicCircleIce
+[2019.11.12-20.29.23:338][211]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.28:100][211]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.28:257][211]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-20.29.28:341][211]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.33:880][355]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-20.29.34:678][390]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.29.34:988][404]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.35:020][404]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-20.29.35:060][404]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-20.29.35:443][404]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-20.29.36:722][452]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.29.39:275][551]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.12-20.29.39:275][551]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.12-20.29.39:275][551]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.12-20.29.39:275][551]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.29.47:076][998]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.47:098][998]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-20.29.47:814][ 37]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.29.48:363][ 54]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.48:520][ 54]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.48:824][ 54]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-20.29.48:828][ 54]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.48:856][ 54]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-20.29.49:575][ 91]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.49:622][ 91]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-20.29.50:800][158]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-20.29.53:292][305]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.29.53:707][327]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.53:728][327]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.53:876][327]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.29.53:884][327]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.29.55:609][408]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.29.55:609][408]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.29.55:609][408]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.30.27:526][929]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.30.27:666][930]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.30.30:504][ 80]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.30.30:504][ 80]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.30.30:504][ 80]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.30.45:615][535]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.30.45:649][536]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.30.51:667][872]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.30.51:667][872]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.30.51:667][872]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.30.54:420][ 34]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.30.54:460][ 35]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.30.56:628][147]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.30.56:629][147]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.30.56:629][147]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.31.09:000][373]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.09:027][374]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.10:433][444]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.10:443][444]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.10:456][444]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-20.31.13:255][526]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.31.13:255][526]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.31.13:255][526]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.31.21:405][683]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.21:429][684]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.23:345][779]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.23:360][779]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.23:360][779]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-20.31.25:835][858]MaterialEditorStats: Base pass shader without light map: 46 instructions
+[2019.11.12-20.31.25:835][858]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.31.25:835][858]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.31.32:499][963]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.32:554][964]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.33:785][ 21]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.31.33:824][ 23]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.31.35:963][121]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.12-20.31.35:963][121]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.12-20.31.35:963][121]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.31.35:963][121]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.12-20.31.35:963][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-20.32.07:319][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-20.32.10:103][171]LogMaterialEditor: Applying material MagicCircleIce
+[2019.11.12-20.32.31:687][171]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.32.31:719][171]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.32.31:918][171]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.32.31:976][171]LogMaterial: Display: Missing cached shader map for material MagicCircleIce, compiling. 
+[2019.11.12-20.32.32:064][171]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2019.11.12-20.32.32:259][171]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.12-20.32.33:657][171]TextureStreamingBuild: Display: Compiling optional shaders took 1.550 seconds.
+[2019.11.12-20.32.33:730][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.11.12-20.32.36:463][264]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.12-20.32.36:463][264]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.12-20.32.36:463][264]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.32.36:463][264]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.12-20.32.36:463][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-20.33.03:294][414]LogMaterialEditor: Saving and Compiling material MagicCircleIce
+[2019.11.12-20.33.03:377][414]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MagicCircleIce4CCA82384898116D824BB0AEC461F7E7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/MagicCircleIce.uasset'
+[2019.11.12-20.33.06:076][570]LogMaterialEditor: Saving and Compiling material MagicCircleIce
+[2019.11.12-20.33.06:116][570]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MagicCircleIce4702F0594D5C3DBBAC9F44AEF2F20E4B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/MagicCircleIce.uasset'
+[2019.11.12-20.33.08:238][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.11.12-20.33.09:479][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.12-20.33.10:365][761]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevelE0DAD89449A4E56E879B40AAEFE3C0D7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.12-20.34.03:720][724]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M1F66272245DFE988B4CC36A451A81FBB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.12-20.34.03:964][724]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2019.11.12-20.34.04:010][724]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.12-20.34.04:049][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2019.11.12-20.34.19:088][584]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Ice_Circle_P.Ice_Circle_P
+[2019.11.12-20.35.13:103][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-20.35.22:510][698]LogMaterial: Warning: Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M needed to have new flag set bUsedWithParticleSprites !
+[2019.11.12-20.35.22:524][698]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.44:491][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-20.35.48:915][712]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M
+[2019.11.12-20.35.48:919][712]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.49:180][712]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.49:191][712]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.49:218][712]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.35.49:233][712]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-20.35.52:740][868]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.12-20.35.52:740][868]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.12-20.35.52:740][868]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.35.52:740][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.12-20.35.52:740][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-20.35.55:230][ 14]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.55:237][ 14]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2019.11.12-20.35.55:264][ 15]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.35.56:791][ 94]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.35.56:802][ 94]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-20.35.56:812][ 94]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.35.56:857][ 94]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-20.35.58:605][168]MaterialEditorStats: Base pass shader without light map: 47 instructions
+[2019.11.12-20.35.58:605][168]MaterialEditorStats: Base pass vertex shader: 134 instructions
+[2019.11.12-20.35.58:605][168]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.36.01:498][337]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.36.01:512][337]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.36.01:512][337]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-20.36.03:745][446]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.36.03:760][446]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.36.03:764][446]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-20.36.05:626][526]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.12-20.36.05:626][526]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.12-20.36.05:626][526]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.12-20.36.05:626][526]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.12-20.36.05:626][526]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-20.36.10:098][791]LogMaterialEditor: Applying material Ice_Circle_M
+[2019.11.12-20.36.10:733][791]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.36.10:765][791]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-20.36.10:893][791]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.36.10:937][791]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.12-20.36.11:199][791]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-20.36.11:199][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.11.12-20.36.11:212][791]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.12-20.36.11:827][791]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-20.36.11:833][791]TextureStreamingBuild: Display: Compiling optional shaders took 0.634 seconds.
+[2019.11.12-20.36.11:887][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.11.12-20.36.12:708][819]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.12-20.36.15:109][819]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M5380D0724F5FEEFCC4FC36831A1B61E1.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.12-20.36.15:141][819]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.12-20.36.15:141][819]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.12-20.36.15:141][819]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.12-20.36.15:141][819]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.12-20.36.15:141][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-20.36.31:744][723]LogCascade: Quitting Cascade. FXSystem=0x0000024AA60429C0
+[2019.11.12-20.36.43:194][352]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Ice_Circle_P.Ice_Circle_P
+[2019.11.12-20.37.06:601][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-20.37.10:030][ 17]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_P0F0C7AF646097B329AAAA3961D1E9B52.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_P.uasset'
+[2019.11.12-20.37.18:595][524]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.12-20.37.19:921][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.11.12-20.37.20:829][600]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel1D3362F54348E33C4C80148071483D86.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.12-20.37.20:829][600]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap', retrying in .5s...
+[2019.11.12-20.37.21:332][600]LogFileManager: Warning: DeleteFile recovered during retry!
