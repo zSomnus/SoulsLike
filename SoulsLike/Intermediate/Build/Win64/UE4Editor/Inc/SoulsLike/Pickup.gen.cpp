@@ -32,9 +32,9 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SoulsCount_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CinderCount_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_SoulsCount;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CinderCount;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -50,14 +50,14 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Statics::NewProp_SoulsCount_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickup_Statics::NewProp_CinderCount_MetaData[] = {
 		{ "Category", "Souls Count" },
 		{ "ModuleRelativePath", "Pickup.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_SoulsCount = { "SoulsCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, SoulsCount), METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_SoulsCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_SoulsCount_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_APickup_Statics::NewProp_CinderCount = { "CinderCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickup, CinderCount), METADATA_PARAMS(Z_Construct_UClass_APickup_Statics::NewProp_CinderCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_APickup_Statics::NewProp_CinderCount_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickup_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Statics::NewProp_SoulsCount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickup_Statics::NewProp_CinderCount,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APickup_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APickup>::IsAbstract,
@@ -86,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodePickup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickup, 4057107531);
+	IMPLEMENT_CLASS(APickup, 1340621782);
 	template<> SOULSLIKE_API UClass* StaticClass<APickup>()
 	{
 		return APickup::StaticClass();
