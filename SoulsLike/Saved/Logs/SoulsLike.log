@@ -1656,3 +1656,246 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.13-00.14.52:602][932]MaterialEditorStats: Texture samplers: 3/16
 [2019.11.13-00.14.52:602][932]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
 [2019.11.13-00.14.52:602][932]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.16.20:623][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-00.16.33:843][254]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.13-00.16.41:566][709]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MagicEffect/BluePrints/Magic_Circle_BP.Magic_Circle_BP
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::ENiagaraCoordinateSpace_MAX' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:162][709]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::ENiagaraOrientationAxis_MAX' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:164][709]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.13-00.16.42:169][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:169][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:169][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:170][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::ENiagaraRandomnessMode_MAX' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:170][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:170][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:170][709]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.13-00.16.42:310][709]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 121 classes and 0 folders.
+[2019.11.13-00.16.43:740][710]LogRenderer: Reallocating scene render targets to support 920x540 Format 10 NumSamples 1 (Frame:1).
+[2019.11.13-00.16.48:074][947]LogNiagara: Warning: Failed to activate Niagara Component due to missing or invalid asset!
+[2019.11.13-00.16.48:074][947]LogNiagara: Warning: Failed to activate Niagara Component due to missing or invalid asset!
+[2019.11.13-00.16.48:096][947]LogNiagara: Warning: Failed to activate Niagara Component due to missing or invalid asset!
+[2019.11.13-00.16.48:096][947]LogNiagara: Warning: Failed to activate Niagara Component due to missing or invalid asset!
+[2019.11.13-00.17.45:672][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-00.17.47:206][100]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.17.47:408][100]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.11.13-00.17.47:985][127]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPB35DCDCD4421B8045C85EABE02BB2B36.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.20.10:524][676]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.20.10:738][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.11.13-00.20.11:285][695]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BP26024A8848FEA18E9C778A89336E7230.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.21.01:456][100]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.21.01:651][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.11.13-00.21.02:148][117]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPBBFA17A14983E2229F26FA8C08CFFEF4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.21.09:575][537]LogScript: Warning: Accessed None trying to read property MainCharacter
+	BP_MainNoWeaponAnim_C /Engine/Transient.World_24:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_MainNoWeaponAnim_C_0
+	Function /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim_C:ExecuteUbergraph_BP_MainNoWeaponAnim:01CB
+[2019.11.13-00.21.09:575][537]LogScript: Warning: Accessed None trying to read property MainCharacter
+	BP_MainNoWeaponAnim_C /Engine/Transient.World_24:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BP_MainNoWeaponAnim_C_0
+	Function /Game/Animations/BP_MainNoWeaponAnim.BP_MainNoWeaponAnim_C:ExecuteUbergraph_BP_MainNoWeaponAnim:0127
+[2019.11.13-00.21.21:620][995]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/BP_Follower.BP_Follower
+[2019.11.13-00.22.56:719][575]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Kater/Mage/Mage_Anim.Mage_Anim
+[2019.11.13-00.22.56:802][575]LogBlueprintActionDatabase: Requesting refresh due to module change: SkeletonEditor (loaded)
+[2019.11.13-00.22.56:803][575]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.11.13-00.22.56:832][575]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-00.22.56:850][575]LogBlueprintActionDatabase: Requesting refresh due to module change: PinnedCommandList (loaded)
+[2019.11.13-00.22.56:851][575]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2019.11.13-00.22.57:321][575]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.13-00.22.58:341][575]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.13-00.23.49:143][615]LogUObjectHash: Compacting FUObjectHashTables data took   7.39ms
+[2019.11.13-00.23.49:144][615]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.084
+[2019.11.13-00.27.56:877][243]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.27.57:161][243]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2019.11.13-00.27.57:673][261]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPF5AE59514BE299B139465F98918A3408.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.29.16:478][950]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.29.16:749][950]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.11.13-00.29.17:162][965]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPA469E86E4701AC33204F7AAE3C684882.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.30.08:728][189]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.30.08:972][189]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2019.11.13-00.30.09:355][208]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPCB5E017246E07B4AA0C381BFDA6E121B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.31.00:166][576]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.31.00:410][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.11.13-00.33.05:674][271]LogEditorTransaction: Undo Add Key(s)
+[2019.11.13-00.33.05:678][271]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.33.05:691][271]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.33.05:700][271]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.33.07:332][362]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.33.08:204][409]MaterialEditorStats: Base pass shader without light map: 64 instructions
+[2019.11.13-00.33.08:204][409]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.33.08:204][409]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.33.08:204][409]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.33.10:218][472]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.33.10:218][472]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.33.10:218][472]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.33.10:218][472]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.33.10:218][472]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.34.01:859][382]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.13-00.34.01:860][382]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.048
+[2019.11.13-00.34.01:862][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MagicEffect/BluePrints/Magic_Circle_BP] ([1] browsable assets)...
+[2019.11.13-00.34.01:862][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/MagicEffect/BluePrints/Magic_Circle_BP]
+[2019.11.13-00.34.01:895][382]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BP_Auto5CF2F8AA644F0F3A7F67286B9B426BBE5.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/MagicEffect/BluePrints/Magic_Circle_BP_Auto5.uasset'
+[2019.11.13-00.34.01:897][382]LogFileHelpers: Auto-saving content packages took 0.036
+[2019.11.13-00.34.22:707][676]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.34.22:948][676]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.11.13-00.34.23:381][693]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPEC78D8A04F29E57BCE005F93500F9E81.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.34.45:138][960]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Kater/Mage/Mage_Anim.Mage_Anim
+[2019.11.13-00.34.45:156][960]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-00.34.45:495][960]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.13-00.34.45:865][960]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.13-00.35.48:472][658]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.35.48:722][658]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2019.11.13-00.35.49:160][679]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BP904D9628422191C2D3BDBEADD0F35696.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.36.18:752][896]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M
+[2019.11.13-00.36.18:755][896]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.36.18:873][896]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.36.18:885][896]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.36.18:910][896]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.36.18:924][896]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-00.36.21:126][994]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.36.21:126][994]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.36.21:126][994]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.36.21:126][994]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.36.21:126][994]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.36.54:183][595]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.36.54:215][596]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.36.56:069][695]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.36.56:069][695]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.36.56:069][695]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.36.56:069][695]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.36.56:069][695]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.36.58:189][820]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.36.58:275][821]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.36.59:733][894]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.36.59:733][894]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.36.59:733][894]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.36.59:733][894]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.36.59:733][894]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.37.12:001][336]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.12:009][336]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.13:526][414]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.13:547][415]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.15:231][504]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.15:239][504]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.16:810][585]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.37.16:810][585]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.37.16:810][585]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.37.16:810][585]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.37.16:810][585]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.37.16:959][594]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.13-00.37.17:388][594]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.17:414][594]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.17:437][594]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.17:467][594]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.17:541][594]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2019.11.13-00.37.17:553][594]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-00.37.18:221][594]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-00.37.18:224][594]TextureStreamingBuild: Display: Compiling optional shaders took 0.683 seconds.
+[2019.11.13-00.37.18:275][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.11.13-00.37.20:727][594]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_ME729F6A04395AFFDDB95618EC43C3D26.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.13-00.37.20:756][594]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.37.20:756][594]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.37.20:756][594]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-00.37.20:756][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.37.20:756][594]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.37.49:191][164]LogMaterialEditor: Applying material Ice_Circle_M
+[2019.11.13-00.37.49:634][164]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.49:660][164]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.49:683][164]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.49:706][164]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-00.37.49:776][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.11.13-00.37.49:789][164]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-00.37.50:600][164]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-00.37.50:602][164]TextureStreamingBuild: Display: Compiling optional shaders took 0.827 seconds.
+[2019.11.13-00.37.50:653][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.13-00.37.51:491][202]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.13-00.37.53:379][202]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M839C4BEF4C335894704226BFA9C4343D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.13-00.37.53:406][202]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.37.53:406][202]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.37.53:406][202]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-00.37.53:406][202]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.37.53:406][202]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.37.56:732][395]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Ice_Circle_M:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Magic_Ring_M:MaterialGraph_0.MaterialGraphNode_5
+[2019.11.13-00.37.56:732][395]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_5.MaterialExpressionScalarParameter_0"')'
+[2019.11.13-00.37.56:737][395]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.37.56:763][396]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.37.58:864][509]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.37.58:864][509]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.37.58:864][509]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.37.58:864][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.37.58:864][509]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.38.02:617][734]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.38.02:638][735]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.04:140][812]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.38.04:160][813]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.05:698][888]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.38.05:698][888]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.38.05:698][888]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.38.05:698][888]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.38.05:698][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.38.06:148][915]LogMaterialEditor: Applying material Magic_Ring_M
+[2019.11.13-00.38.06:559][915]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.38.06:589][915]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.06:607][915]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.38.06:631][915]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-00.38.06:701][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.13-00.38.06:714][915]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-00.38.07:404][915]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-00.38.07:406][915]TextureStreamingBuild: Display: Compiling optional shaders took 0.705 seconds.
+[2019.11.13-00.38.07:453][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.11.13-00.38.08:175][943]LogMaterialEditor: Saving and Compiling material Magic_Ring_M
+[2019.11.13-00.38.10:122][943]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Ring_M939FC5A14F98E2835B55969C178D204E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Magic_Ring_M.uasset'
+[2019.11.13-00.38.10:142][943]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-00.38.10:142][943]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.38.10:142][943]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-00.38.10:142][943]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-00.38.10:142][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.38.13:330][129]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Ice_Circle_M:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Magic_Ring_M:MaterialGraph_0.MaterialGraphNode_5
+[2019.11.13-00.38.13:330][129]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Ice_Circle_M:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Magic_Dot_M:MaterialGraph_0.MaterialGraphNode_5
+[2019.11.13-00.38.13:330][129]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'"MaterialGraphNode_5.MaterialExpressionScalarParameter_0"')'
+[2019.11.13-00.38.13:336][129]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.13:362][130]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.14:804][207]MaterialEditorStats: Base pass shader without light map: 64 instructions
+[2019.11.13-00.38.14:804][207]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.38.14:804][207]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-00.38.14:804][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.38.16:325][298]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.16:345][299]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.17:639][370]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.17:652][370]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.19:170][453]LogMaterialEditor: Saving and Compiling material Magic_Dot_M
+[2019.11.13-00.38.19:601][453]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.19:636][453]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-00.38.19:653][453]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.19:684][453]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-00.38.19:757][453]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.11.13-00.38.19:770][453]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-00.38.20:460][453]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-00.38.20:462][453]TextureStreamingBuild: Display: Compiling optional shaders took 0.704 seconds.
+[2019.11.13-00.38.20:508][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.11.13-00.38.22:951][453]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Dot_MD751EAF346A64442B93627AC254F4A3D.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Magic_Dot_M.uasset'
+[2019.11.13-00.38.22:981][453]MaterialEditorStats: Base pass shader without light map: 65 instructions
+[2019.11.13-00.38.22:981][453]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-00.38.22:981][453]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-00.38.22:981][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-00.38.44:747][753]LogMaterialEditor: Saving and Compiling material Magic_Dot_M
+[2019.11.13-00.38.44:782][753]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Dot_M37F75BA3429DA0C27768E6AC4018A56C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Magic_Dot_M.uasset'
+[2019.11.13-00.39.06:265][  0]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Kater/Mage/Magic_Spawner.Magic_Spawner
+[2019.11.13-00.40.11:690][742]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.40.11:967][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.13-00.40.12:409][763]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BP712B397D483BB28542C6A683E0775835.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.40.31:710][296]BlueprintLog: New page: Compile Magic_Circle_BP
+[2019.11.13-00.40.31:967][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.11.13-00.40.32:445][316]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPFAB957E74D6FB0016B0D6799C6349218.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-00.40.35:638][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.11.13-00.40.36:882][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.13-00.40.36:924][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.11.13-00.40.37:297][577]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevelBC97F9C148E9ECFDE25D8FA6B72CEC9F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
