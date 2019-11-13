@@ -60,7 +60,7 @@ AMainCharacter::AMainCharacter()
 	Health = 70.f;
 	MaxStamina = 350.f;
 	Stamina = 120.f;
-	Souls = 100;
+	Cinders = 100;
 
 	RunningSpeed = 500.f;
 	DashingSpeed = 700.f;
@@ -521,9 +521,9 @@ void AMainCharacter::LookUpAtRate(float Rate)
 
 }
 
-void AMainCharacter::IncrementSouls(int32 Amount)
+void AMainCharacter::IncrementCinders(int32 Amount)
 {
-	Souls += Amount;
+	Cinders += Amount;
 }
 
 void AMainCharacter::DecrementHealth(float Amount)

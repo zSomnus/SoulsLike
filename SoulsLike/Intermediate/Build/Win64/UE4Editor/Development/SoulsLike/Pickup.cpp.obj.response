@@ -426,20 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike
-/I D:\UnrealProject\SoulsLike\SoulsLike\Source
-/I D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike
+/I D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike
+/I D:\Unreal2020\SoulsLike\SoulsLike\Source
+/I D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike\Pickup.cpp"
-/FI"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
-/Fo"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Pickup.cpp.obj"
+/FI"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Pickup.cpp"
+/FI"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
+/Fo"D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Pickup.cpp.obj"
 /TP
 /GR-
 /W4
