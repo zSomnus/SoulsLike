@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿Log file open, 11/13/19 16:34:30
+=======
 ﻿Log file open, 11/13/19 15:53:34
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,11 +14,16 @@ LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 <<<<<<< HEAD
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.283198
+=======
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.418868
 =======
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.349808
+>>>>>>> master
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -133,7 +142,7 @@ LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -163,6 +172,992 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.13-21.34.30:918][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:918][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.13-21.34.30:919][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:919][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.13-21.34.30:921][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.13-21.34.30:922][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.13-21.34.30:922][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-21.34.30:922][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.13-21.34.30:935][  0]LogHAL: Display: Platform has ~ 12 GB [12764131328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.13-21.34.30:935][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.13-21.34.30:935][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.13-21.34.30:935][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.13-21.34.30:936][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.13-21.34.30:936][  0]LogInit: Computer: DESKTOP-L9J2J1H
+[2019.11.13-21.34.30:936][  0]LogInit: User: abbyr
+[2019.11.13-21.34.30:936][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.13-21.34.30:936][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.13-21.34.30:937][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.11.13-21.34.30:937][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.13-21.34.30:937][  0]LogMemory: Process Physical Memory: 100.12 MB used, 100.13 MB peak
+[2019.11.13-21.34.30:937][  0]LogMemory: Process Virtual Memory: 97.11 MB used, 97.11 MB peak
+[2019.11.13-21.34.30:937][  0]LogMemory: Physical Memory: 6545.01 MB used,  5627.81 MB free, 12172.82 MB total
+[2019.11.13-21.34.30:937][  0]LogMemory: Virtual Memory: 4666.18 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.13-21.34.30:958][  0]LogInit: Using OS detected language (en-US).
+[2019.11.13-21.34.30:958][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.13-21.34.30:959][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.13-21.34.31:124][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.13-21.34.31:211][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.13-21.34.31:211][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.13-21.34.31:435][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-21.34.31:435][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.13-21.34.31:498][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.13-21.34.31:498][  0]LogD3D11RHI:       4021/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.13-21.34.31:505][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.13-21.34.31:505][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.13-21.34.31:508][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.13-21.34.31:508][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.13-21.34.31:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.13-21.34.31:546][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.13-21.34.31:546][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.11.13-21.34.31:546][  0]LogWindows: EnumDisplayDevices:
+[2019.11.13-21.34.31:547][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.13-21.34.31:547][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.13-21.34.31:547][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.13-21.34.31:548][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.13-21.34.31:548][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.13-21.34.31:548][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.13-21.34.31:548][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.13-21.34.31:548][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.13-21.34.31:585][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.13-21.34.31:588][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.13-21.34.31:588][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.13-21.34.31:589][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.13-21.34.31:602][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.13-21.34.31:929][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.13-21.34.31:944][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.13-21.34.31:958][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.13-21.34.31:973][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.13-21.34.31:987][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.13-21.34.32:002][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.13-21.34.32:016][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.13-21.34.32:030][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.13-21.34.32:036][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.13-21.34.32:123][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.13-21.34.32:124][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.13-21.34.32:175][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.13-21.34.32:175][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.13-21.34.32:199][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.13-21.34.32:199][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.13-21.34.32:212][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.13-21.34.32:224][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.13-21.34.32:237][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.13-21.34.32:250][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.13-21.34.32:293][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.13-21.34.32:293][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.13-21.34.32:293][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.13-21.34.32:303][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.13-21.34.32:351][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/4960/).
+[2019.11.13-21.34.32:351][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abbyr/AppData/Local/Temp/UnrealShaderWorkingDir/E2644EB24B21D3A39CACCA97E79B727D/'.
+[2019.11.13-21.34.32:353][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.13-21.34.32:353][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.13-21.34.32:353][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.13-21.34.32:922][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.13-21.34.32:975][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.13-21.34.32:988][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.13-21.34.32:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.13-21.34.32:988][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.13-21.34.33:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abbyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.13-21.34.33:000][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.13-21.34.33:000][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.13-21.34.33:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.13-21.34.33:024][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.13-21.34.33:024][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.13-21.34.33:107][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2019.11.13-21.34.33:425][  0]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.11.13-21.34.33:425][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.11.13-21.34.33:425][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-21.34.33:563][  0]LogPackageName: SearchForPackageOnDisk took   0.116s, but failed to resolve S_ClothTarps_03.
+[2019.11.13-21.34.33:563][  0]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2019.11.13-21.34.33:563][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.13-21.34.33:563][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.13-21.34.33:563][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.13-21.34.33:563][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.13-21.34.33:563][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.13-21.34.33:578][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.13-21.34.34:021][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.057190 seconds
+[2019.11.13-21.34.34:026][  0]LogUObjectArray: 42218 objects as part of root set at end of initial load.
+[2019.11.13-21.34.34:026][  0]LogUObjectAllocator: 7328024 out of 0 bytes used by permanent object pool.
+[2019.11.13-21.34.34:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.13-21.34.34:869][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.13-21.34.34:883][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.13-21.34.34:993][  0]SourceControl: Source control is disabled
+[2019.11.13-21.34.34:993][  0]SourceControl: Source control is disabled
+[2019.11.13-21.34.34:994][  0]SourceControl: Source control is disabled
+[2019.11.13-21.34.34:995][  0]SourceControl: Source control is disabled
+[2019.11.13-21.34.35:086][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.13-21.34.35:152][  0]LogOcInput: OculusInput pre-init called
+[2019.11.13-21.34.35:790][  0]LogEngine: Initializing Engine...
+[2019.11.13-21.34.35:790][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-21.34.35:791][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.13-21.34.36:017][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.13-21.34.36:034][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.13-21.34.36:045][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-21.34.36:506][  0]LogInit: FAudioDevice initialized.
+[2019.11.13-21.34.36:506][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.13-21.34.36:676][  0]LogDerivedDataCache: Saved boot cache 0.17s 79MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.13-21.34.36:690][  0]LogInit: Texture streaming: Enabled
+[2019.11.13-21.34.36:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.13-21.34.36:743][  0]LogInit: Transaction tracking system initialized
+[2019.11.13-21.34.36:772][  0]BlueprintLog: New page: Editor Load
+[2019.11.13-21.34.36:856][  0]LocalizationService: Localization service is disabled
+[2019.11.13-21.34.37:171][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.13-21.34.37:171][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.13-21.34.37:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/' took 0.03s
+[2019.11.13-21.34.38:111][  0]SourceControl: Source control is disabled
+[2019.11.13-21.34.38:111][  0]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.13-21.34.38:111][  0]LightingResults: New page: Lighting Build
+[2019.11.13-21.34.38:114][  0]MapCheck: New page: Map Check
+[2019.11.13-21.34.38:114][  0]LightingResults: New page: Lighting Build
+[2019.11.13-21.34.38:144][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.13-21.34.38:459][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.13-21.34.38:486][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.13-21.34.38:517][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.13-21.34.38:517][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.13-21.34.38:517][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2019.11.13-21.34.38:517][  0]LogFileHelpers: Loading map 'BossLevel' took 0.406
+[2019.11.13-21.34.38:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-21.34.38:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-21.34.38:706][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-21.34.38:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-21.34.38:724][  0]LogCollectionManager: Loaded 0 collections in 0.002247 seconds
+[2019.11.13-21.34.38:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.13-21.34.38:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Developers/abbyr/Collections/' took 0.00s
+[2019.11.13-21.34.38:740][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Collections/' took 0.00s
+[2019.11.13-21.34.38:740][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.13-21.34.38:752][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2869 classes and 683 folders.
+[2019.11.13-21.34.38:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.13-21.34.38:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:772][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:773][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.13-21.34.38:798][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.13-21.34.38:806][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.13-21.34.38:916][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.13-21.34.38:918][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.13-21.34.38:925][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.13-21.34.39:003][  0]LogRenderer: Reallocating scene render targets to support 920x396 Format 10 NumSamples 1 (Frame:1).
+[2019.11.13-21.34.39:111][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-21.34.39:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.11.13-21.34.39:185][  0]LogLoad: (Engine Initialization) Total time: 9.99 seconds
+[2019.11.13-21.34.39:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.13-21.34.39:243][  0]LogAssetRegistry: Asset discovery search completed in 6.1590 seconds
+[2019.11.13-21.34.39:246][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.13-21.34.39:247][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.11.13-21.34.39:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.13-21.34.40:245][ 52]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-21.34.52:778][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.35.24:239][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.35.33:765][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.35.35:299][346]Cmd: DELETE
+[2019.11.13-21.35.35:299][346]Cmd: ACTOR DELETE
+[2019.11.13-21.35.35:304][346]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.35.35:331][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.11.13-21.35.35:331][346]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.11.13-21.35.46:238][997]Cmd: DELETE
+[2019.11.13-21.35.46:238][997]Cmd: ACTOR DELETE
+[2019.11.13-21.35.46:243][997]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.35.46:269][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.11.13-21.35.46:270][997]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.11.13-21.35.50:565][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.35.53:228][404]Cmd: TRANSACTION UNDO
+[2019.11.13-21.35.53:228][404]LogEditorTransaction: Undo Select Brush Surface
+[2019.11.13-21.35.54:898][454]Cmd: TRANSACTION UNDO
+[2019.11.13-21.35.54:898][454]LogEditorTransaction: Undo Select Surfaces
+[2019.11.13-21.35.58:254][623]Cmd: TRANSACTION UNDO
+[2019.11.13-21.35.58:255][623]LogEditorTransaction: Undo Delete Actors
+[2019.11.13-21.35.59:918][720]Cmd: DELETE
+[2019.11.13-21.35.59:918][720]Cmd: ACTOR DELETE
+[2019.11.13-21.35.59:922][720]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.35.59:948][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.11.13-21.35.59:949][720]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.11.13-21.36.11:174][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.36.11:384][404]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/MagicEffect/Material/blueCircle.blueCircle
+[2019.11.13-21.36.11:391][404]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.11.13-21.36.12:999][485]LogSlate: Window 'blueCircle' being destroyed
+[2019.11.13-21.36.13:004][485]LogSlate: Window 'blueCircle' being destroyed
+[2019.11.13-21.36.16:544][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.36.16:721][703]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Fire_Circle_M.Fire_Circle_M
+[2019.11.13-21.36.16:739][703]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.36.17:084][703]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.36.17:092][703]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.36.17:095][703]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.36.17:136][703]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.36.17:294][703]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.13-21.36.17:593][708]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.36.17:606][708]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.13-21.36.20:512][868]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.36.20:512][868]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.36.20:512][868]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.36.20:512][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.36.20:512][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.36.42:574][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.36.42:734][200]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M
+[2019.11.13-21.36.42:737][200]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.36.42:871][200]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.36.42:893][200]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.36.42:907][200]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.36.42:948][200]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.36.44:776][285]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.36.44:776][285]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.36.44:776][285]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.36.44:776][285]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.36.44:776][285]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.36.53:646][815]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.36.53:658][815]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.36.53:663][815]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.36.55:448][897]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.36.55:448][897]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.36.55:448][897]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.36.55:448][897]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.36.55:448][897]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.36.59:173][119]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.36.59:191][119]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.36.59:191][119]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.37.01:069][207]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.37.01:070][207]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.37.01:070][207]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.37.01:070][207]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.37.01:070][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.37.11:694][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.37.11:777][839]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.13-21.37.12:222][839]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.37.12:251][839]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.12:279][839]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.37.12:319][839]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.37.12:384][839]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.13-21.37.12:398][839]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.37.13:156][839]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.37.13:159][839]TextureStreamingBuild: Display: Compiling optional shaders took 0.775 seconds.
+[2019.11.13-21.37.13:197][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.11.13-21.37.13:217][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.37.15:837][839]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M0237AAB3490A5E38BDB579BC923B24F8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.13-21.37.15:854][839]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.37.15:854][839]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.37.15:854][839]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-21.37.15:854][839]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.37.15:854][839]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.37.20:771][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.37.25:465][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.37.33:577][880]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.37.38:160][154]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.38:160][154]LogEditorTransaction: Undo Select Surfaces
+[2019.11.13-21.37.38:230][154]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.38:818][154]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.38:824][155]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.38:824][155]LogEditorTransaction: Undo Create Actors
+[2019.11.13-21.37.38:926][155]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.38:935][155]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.39:542][156]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.39:542][156]LogEditorTransaction: Undo Create Pin Link
+[2019.11.13-21.37.39:575][156]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.37.39:592][156]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.39:639][158]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.37.39:743][159]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.39:743][159]LogEditorTransaction: Undo Create Pin Link
+[2019.11.13-21.37.39:767][159]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.37.39:783][159]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.39:832][162]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.37.40:794][219]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.40:794][219]LogEditorTransaction: Undo Delete Actors
+[2019.11.13-21.37.40:824][219]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.40:876][220]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.44:907][459]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.37.44:907][459]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.37.44:907][459]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.37.44:907][459]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.37.44:907][459]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.37.47:785][632]Cmd: DELETE
+[2019.11.13-21.37.47:786][632]Cmd: ACTOR DELETE
+[2019.11.13-21.37.47:791][632]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.37.47:820][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.11.13-21.37.47:820][632]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.11.13-21.37.51:856][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.37.55:007][ 59]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.55:007][ 59]LogEditorTransaction: Undo Select Surfaces
+[2019.11.13-21.37.55:090][ 59]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.55:100][ 59]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.55:560][ 62]Cmd: TRANSACTION UNDO
+[2019.11.13-21.37.55:560][ 62]LogEditorTransaction: Undo Delete Actors
+[2019.11.13-21.37.55:617][ 62]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.37.55:943][ 75]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.37.57:715][171]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.37.57:716][171]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.37.57:716][171]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.37.57:716][171]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.37.57:716][171]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.37.58:682][229]Cmd: DELETE
+[2019.11.13-21.37.58:682][229]Cmd: ACTOR DELETE
+[2019.11.13-21.37.58:688][229]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.37.58:715][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.11.13-21.37.58:716][229]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.11.13-21.38.07:643][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.38.15:869][256]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M
+[2019.11.13-21.38.15:884][256]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.16:012][256]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.16:022][256]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.16:036][256]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.38.16:065][256]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.38.18:360][363]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.38.18:360][363]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.38.18:360][363]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.38.18:360][363]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.38.18:360][363]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.38.25:016][758]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.25:050][759]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.38.27:907][913]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.27:927][914]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.38.29:612][998]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.38.29:612][998]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.38.29:612][998]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.38.29:612][998]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.38.29:612][998]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.38.31:442][107]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.13-21.38.31:852][107]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.31:876][107]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.38.31:900][107]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.31:925][107]LogMaterial: Display: Missing cached shader map for material Ice_Circle_M, compiling. 
+[2019.11.13-21.38.31:974][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.11.13-21.38.31:989][107]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.38.32:790][107]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.38.32:794][107]TextureStreamingBuild: Display: Compiling optional shaders took 0.819 seconds.
+[2019.11.13-21.38.32:827][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.11.13-21.38.32:840][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.38.35:405][107]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M86A006AB4BA1FC26E5C1E3A9250D053C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.13-21.38.35:424][107]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.38.35:424][107]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.38.35:424][107]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-21.38.35:424][107]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.38.35:424][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.38.37:661][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.38.39:181][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.38.51:580][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.38.52:362][119]Cmd: DELETE
+[2019.11.13-21.38.52:362][119]Cmd: ACTOR DELETE
+[2019.11.13-21.38.52:367][119]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-21.38.52:393][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.11.13-21.38.52:394][119]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.11.13-21.38.54:657][254]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Magic_Ring_M.Magic_Ring_M
+[2019.11.13-21.38.54:667][254]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.38.54:791][254]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.38.54:802][254]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.38.54:823][254]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.38.54:850][254]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.38.56:543][330]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.38.56:543][330]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.38.56:543][330]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.38.56:543][330]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.38.56:543][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.38.59:336][497]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.38.59:367][498]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.01:839][628]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.39.01:860][629]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.03:562][714]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.39.03:562][714]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.39.03:562][714]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.39.03:562][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.39.03:562][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.39.04:297][758]LogMaterialEditor: Saving and Compiling material Magic_Ring_M
+[2019.11.13-21.39.04:745][758]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.39.04:774][758]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.04:802][758]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.39.04:831][758]LogMaterial: Display: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2019.11.13-21.39.04:887][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2019.11.13-21.39.04:899][758]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.39.05:622][758]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.39.05:627][758]TextureStreamingBuild: Display: Compiling optional shaders took 0.740 seconds.
+[2019.11.13-21.39.05:663][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.11.13-21.39.05:675][758]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.39.08:282][758]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Ring_MF52DD0D74DCA4A4EC2B572A0FD25DD49.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Magic_Ring_M.uasset'
+[2019.11.13-21.39.08:302][758]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.39.08:302][758]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.39.08:302][758]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-21.39.08:302][758]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.39.08:302][758]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.39.09:265][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.39.11:662][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.39.11:838][960]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Magic_Dot_M.Magic_Dot_M
+[2019.11.13-21.39.11:842][960]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.11:963][960]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.11:985][960]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.11:999][960]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.14:234][ 70]MaterialEditorStats: Base pass shader without light map: 65 instructions
+[2019.11.13-21.39.14:234][ 70]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.39.14:235][ 70]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.39.14:235][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.39.14:942][111]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.14:972][112]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.16:971][218]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.16:989][219]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.18:710][309]MaterialEditorStats: Base pass shader without light map: 64 instructions
+[2019.11.13-21.39.18:710][309]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.39.18:710][309]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.39.18:710][309]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.39.20:150][395]LogMaterialEditor: Saving and Compiling material Magic_Dot_M
+[2019.11.13-21.39.20:597][395]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.20:619][395]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.39.20:655][395]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.20:687][395]LogMaterial: Display: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2019.11.13-21.39.20:750][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.11.13-21.39.20:763][395]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.39.21:457][395]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.39.21:462][395]TextureStreamingBuild: Display: Compiling optional shaders took 0.711 seconds.
+[2019.11.13-21.39.21:491][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.11.13-21.39.21:503][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.39.24:012][395]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Dot_MECF53B7D4DA2FCA603F69586CCC35F79.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Magic_Dot_M.uasset'
+[2019.11.13-21.39.24:033][395]MaterialEditorStats: Base pass shader without light map: 64 instructions
+[2019.11.13-21.39.24:033][395]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.39.24:033][395]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-21.39.24:033][395]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.39.27:854][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.39.33:024][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.39.33:153][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.11.13-21.39.36:413][922]LogSlate: Window 'Save Content' being destroyed
+[2019.11.13-21.39.40:110][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.39.50:540][755]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Ice_Circle_P.Ice_Circle_P
+[2019.11.13-21.39.50:547][755]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2019.11.13-21.40.07:202][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.40.07:386][737]LogCascade: Quitting Cascade. FXSystem=0x0000020B789DCBA0
+[2019.11.13-21.40.18:063][364]LogMaterialEditor: Saving and Compiling material Ice_Circle_M
+[2019.11.13-21.40.18:101][364]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_M01C51F0049896FDE6161B1957941FE4A.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_M.uasset'
+[2019.11.13-21.40.24:202][499]LogSlate: Window 'Message' being destroyed
+[2019.11.13-21.40.24:621][499]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.40.24:648][499]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.40.24:682][499]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.40.24:714][499]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-21.40.24:761][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2019.11.13-21.40.24:773][499]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.40.25:649][499]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.40.25:653][499]TextureStreamingBuild: Display: Compiling optional shaders took 0.892 seconds.
+[2019.11.13-21.40.25:684][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.11.13-21.40.25:694][499]LogSlate: Window 'Ice_Circle_M' being destroyed
+[2019.11.13-21.40.25:695][499]LogSlate: Window 'Ice_Circle_M' being destroyed
+[2019.11.13-21.40.45:678][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.40.57:677][369]Cmd: TRANSACTION UNDO
+[2019.11.13-21.40.57:677][369]LogEditorTransaction: Undo Select Surfaces
+[2019.11.13-21.40.58:530][386]Cmd: TRANSACTION UNDO
+[2019.11.13-21.40.58:530][386]LogEditorTransaction: Undo Create Actors
+[2019.11.13-21.44.39:876][952]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.11.13-21.44.40:203][952]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel_Auto1CB18AB0B4160846F686B778A3BA49316.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/BossLevel_Auto1.umap'
+[2019.11.13-21.44.40:207][952]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.366
+[2019.11.13-21.44.40:207][952]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.366
+[2019.11.13-21.44.40:211][952]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MagicEffect/Material/Fire_Circle_M] ([1] browsable assets)...
+[2019.11.13-21.44.40:247][952]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MagicEffect/Material/Fire_Circle_M.Fire_Circle_M]
+[2019.11.13-21.44.40:247][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/MagicEffect/Material/Fire_Circle_M]
+[2019.11.13-21.44.40:275][952]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_M_Auto15F9B3682490093D8DBCB42A814B076F0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/MagicEffect/Material/Fire_Circle_M_Auto1.uasset'
+[2019.11.13-21.44.40:277][952]LogFileHelpers: Auto-saving content packages took 0.066
+[2019.11.13-21.46.30:866][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.47.04:815][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.47.06:425][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.47.14:020][946]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\orange_ring.png)
+[2019.11.13-21.47.14:070][946]LogTexture: Display: Building textures: orange_ring (BGRA8, 715X720)
+[2019.11.13-21.47.22:065][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.11.13-21.47.24:715][287]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.13-21.47.24:841][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.11.13-21.47.24:875][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.11.13-21.47.24:900][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.11.13-21.49.32:956][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.11.13-21.49.35:202][953]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.13-21.49.46:148][589]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Ring_MD697743F4D37D6FC84A561987E7AE34C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Ring_M.uasset'
+[2019.11.13-21.49.46:286][589]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2019.11.13-21.49.46:320][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.11.13-21.49.46:345][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.11.13-21.49.46:398][589]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Magic_Circle_BPA9DC46894EED7DD4BF0430A0980BCBBB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/BluePrints/Magic_Circle_BP.uasset'
+[2019.11.13-21.49.46:439][589]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Ice_Circle_P7205647D423464B1F66566AB508CF61C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Ice_Circle_P.uasset'
+[2019.11.13-21.50.06:191][758]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Ring_M08F3B15546D7F8BAE047398B506D4B90.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Ring_M.uasset'
+[2019.11.13-21.50.06:316][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.11.13-21.50.06:347][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.11.13-21.50.06:375][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.11.13-21.50.09:563][938]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Fire_Ring_M.Fire_Ring_M
+[2019.11.13-21.50.09:567][938]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.09:725][938]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.09:741][938]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.09:755][938]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.10:920][975]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.13:288][ 80]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.13-21.50.13:288][ 80]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.13-21.50.13:288][ 80]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.13-21.50.13:288][ 80]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.50.14:173][132]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.14:195][132]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.14:195][132]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.50.14:234][132]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.50.15:354][179]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.16:985][258]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.13-21.50.16:985][258]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.13-21.50.16:985][258]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.13-21.50.16:985][258]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.50.18:268][334]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Circle_M.Ice_Circle_M
+[2019.11.13-21.50.18:272][334]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.13-21.50.18:402][334]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.13-21.50.18:427][334]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.11.13-21.50.18:443][334]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.18:480][334]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.50.20:609][431]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.50.20:609][431]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.50.20:609][431]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.50.20:609][431]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.50.20:609][431]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.50.25:005][694]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Ice_Ring_M.Ice_Ring_M
+[2019.11.13-21.50.25:015][694]LogMaterial: Display: Missing cached shader map for material Ice_Ring_M, compiling. 
+[2019.11.13-21.50.25:146][694]LogMaterial: Display: Missing cached shader map for material Ice_Ring_M, compiling. 
+[2019.11.13-21.50.25:159][694]LogMaterial: Display: Missing cached shader map for material Ice_Ring_M, compiling. 
+[2019.11.13-21.50.25:173][694]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.25:201][694]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.50.26:755][751]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.50.26:755][751]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.50.26:755][751]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.50.26:755][751]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.50.26:755][751]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.50.42:617][693]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.42:651][694]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.43:449][731]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.45:686][837]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.45:715][838]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.46:383][870]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.46:448][872]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.47:222][907]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.49:483][ 10]MaterialEditorStats: Base pass shader: 107 instructions
+[2019.11.13-21.50.49:483][ 10]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2019.11.13-21.50.49:483][ 10]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2019.11.13-21.50.49:483][ 10]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.50.54:812][329]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.54:838][330]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.55:719][370]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.50.56:882][430]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.56:916][430]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.50.57:468][449]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.58:461][503]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.50.58:862][520]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.50.59:868][564]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.01:168][631]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.01:201][631]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-21.51.01:689][647]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.51.02:685][695]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.03:844][740]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.04:165][755]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-21.51.05:052][804]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.05:100][806]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.05:191][806]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.05:227][806]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.05:434][811]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.51.05:864][828]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.05:896][828]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.51.07:020][888]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.07:046][888]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.07:051][888]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.07:082][888]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.07:095][888]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.09:307][997]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.09:329][998]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.11:848][133]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.11:868][134]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.13:525][214]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.51.13:525][214]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.51.13:525][214]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.51.13:525][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.51.13:525][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.51.21:619][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.51.21:702][703]LogMaterialEditor: Applying material Fire_Ring_M
+[2019.11.13-21.51.22:169][703]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.22:199][703]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.22:215][703]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.22:231][703]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.22:279][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.13-21.51.22:292][703]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.13-21.51.23:045][703]TextureStreamingBuild: Display: Compiling optional shaders took 0.766 seconds.
+[2019.11.13-21.51.23:077][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.11.13-21.51.25:816][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.51.25:899][861]LogMaterialEditor: Saving and Compiling material Fire_Ring_M
+[2019.11.13-21.51.26:195][861]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Ring_M92E0F7C74F99E6A04CD33EBE0F8E19A0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Ring_M.uasset'
+[2019.11.13-21.51.26:209][861]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.51.26:209][861]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.51.26:209][861]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-21.51.26:209][861]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.51.26:209][861]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.51.42:892][858]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Fire_Circle_P.Fire_Circle_P
+[2019.11.13-21.51.51:243][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.51.57:929][721]LogMaterial: Warning: Material /Game/MagicEffect/Material/Fire_Ring_M.Fire_Ring_M needed to have new flag set bUsedWithParticleSprites !
+[2019.11.13-21.51.57:932][721]LogMaterial: Warning: Material /Engine/Transient.Fire_Ring_M needed to have new flag set bUsedWithParticleSprites !
+[2019.11.13-21.51.57:936][721]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.57:946][721]LogMaterial: Display: Missing cached shader map for material Fire_Ring_M, compiling. 
+[2019.11.13-21.51.57:962][721]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-21.51.58:703][761]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-21.52.00:343][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.52.04:129][ 38]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-21.52.04:129][ 38]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-21.52.04:129][ 38]MaterialEditorStats: Texture samplers: 7/16
+[2019.11.13-21.52.04:129][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-21.52.04:129][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-21.52.35:388][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.52.35:888][934]LogCascade: Non-seeded module ParticleModuleVelocity
+[2019.11.13-21.52.35:894][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.52.47:565][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.52.49:918][770]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Ice_Circle_P.Ice_Circle_P
+[2019.11.13-21.53.09:051][891]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.53.13:907][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.53.18:720][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.53.51:656][436]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.54.40:620][371]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.54.40:702][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.11.13-21.54.41:039][371]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel_Auto289000C85465F7F51E0961EBE3D8B034C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/BossLevel_Auto2.umap'
+[2019.11.13-21.54.41:043][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.371
+[2019.11.13-21.54.41:043][371]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.371
+[2019.11.13-21.54.41:047][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MagicEffect/Material/Fire_Circle_P] ([1] browsable assets)...
+[2019.11.13-21.54.41:055][371]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/MagicEffect/Material/Fire_Circle_P.Fire_Circle_P]
+[2019.11.13-21.54.41:055][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/MagicEffect/Material/Fire_Circle_P]
+[2019.11.13-21.54.41:083][371]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_P_Auto20E63177C4303454E55B16EA3BA7844CB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/MagicEffect/Material/Fire_Circle_P_Auto2.uasset'
+[2019.11.13-21.54.41:085][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MagicEffect/Material/orange_ring] ([1] browsable assets)...
+[2019.11.13-21.54.41:090][371]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MagicEffect/Material/orange_ring.orange_ring]
+[2019.11.13-21.54.41:090][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/MagicEffect/Material/orange_ring]
+[2019.11.13-21.54.41:103][371]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/orange_ring_Auto2203AE07249DB0C974E3C25BBB3B5569B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/MagicEffect/Material/orange_ring_Auto2.uasset'
+[2019.11.13-21.54.41:104][371]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MagicEffect/Material/Fire_Ring_M] ([1] browsable assets)...
+[2019.11.13-21.54.41:104][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/MagicEffect/Material/Fire_Ring_M]
+[2019.11.13-21.54.41:117][371]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Ring_M_Auto279EEE5A7420E150EEBFA49ABFD7C0EA4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/MagicEffect/Material/Fire_Ring_M_Auto2.uasset'
+[2019.11.13-21.54.41:119][371]LogFileHelpers: Auto-saving content packages took 0.072
+[2019.11.13-21.55.05:869][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.55.10:654][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.55.14:950][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.55.49:014][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.56.06:035][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.56.25:455][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.56.30:732][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.56.54:788][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.57.02:764][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.57.22:645][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.57.40:648][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.58.21:725][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.58.54:513][500]LogCascade: Quitting Cascade. FXSystem=0x0000020B8AA8B760
+[2019.11.13-21.59.00:992][874]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Fire_Circle_P.Fire_Circle_P
+[2019.11.13-21.59.05:416][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.59.06:953][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.59.14:557][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.59.22:391][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-21.59.44:728][445]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-21.59.47:910][635]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-22.00.00:484][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.00.08:503][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.00.11:055][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.02.32:609][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.03.18:169][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.03.24:033][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.03.53:232][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.04.19:712][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-22.04.25:342][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.04.32:401][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.04.58:548][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.05.32:224][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.05.47:288][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.05.47:552][139]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_P6AFAC7264B86ACF7EE4F59909BFA0984.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Circle_P.uasset'
+[2019.11.13-22.06.04:741][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.06.05:841][225]Cmd: DELETE
+[2019.11.13-22.06.05:841][225]Cmd: ACTOR DELETE
+[2019.11.13-22.06.05:848][225]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-22.06.05:879][225]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2019.11.13-22.06.05:880][225]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.11.13-22.06.51:407][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.07.03:330][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.07.16:968][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.07.40:762][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.08.03:538][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.09.06:032][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.09.16:976][660]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-22.09.26:849][242]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-22.09.33:000][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.10.03:380][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.11.13-22.10.03:713][424]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel_Auto3FF2F2E53480F6D040015ED8021E7087C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/BossLevel_Auto3.umap'
+[2019.11.13-22.10.03:716][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.365
+[2019.11.13-22.10.03:716][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.365
+[2019.11.13-22.10.39:752][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.10.39:895][588]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_P7C5DE3504D4F619CB6A5F8ADEAA57BC6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Circle_P.uasset'
+[2019.11.13-22.10.47:061][ 17]LogSlate: Window 'Fire_Circle_P' being destroyed
+[2019.11.13-22.10.47:065][ 17]LogSlate: Window 'Fire_Circle_P' being destroyed
+[2019.11.13-22.10.47:350][ 17]LogCascade: Quitting Cascade. FXSystem=0x0000020B7776B500
+[2019.11.13-22.10.47:475][ 17]LogCascade: Quitting Cascade. FXSystem=0x0000020BB772A420
+[2019.11.13-22.10.47:507][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2019.11.13-22.11.00:434][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.11.01:384][836]Cmd: DELETE
+[2019.11.13-22.11.01:384][836]Cmd: ACTOR DELETE
+[2019.11.13-22.11.01:389][836]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-22.11.01:420][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.11.13-22.11.01:421][836]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.11.13-22.11.04:856][ 42]LogAssetEditorManager: Opening Asset editor for Material /Game/MagicEffect/Material/Fire_Circle_M.Fire_Circle_M
+[2019.11.13-22.11.04:860][ 42]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-22.11.04:994][ 42]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-22.11.05:010][ 42]LogMaterial: Display: Missing cached shader map for material Fire_Circle_M, compiling. 
+[2019.11.13-22.11.05:031][ 42]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-22.11.05:046][ 42]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-22.11.07:139][131]MaterialEditorStats: Base pass shader without light map: 52 instructions
+[2019.11.13-22.11.07:139][131]MaterialEditorStats: Base pass vertex shader: 138 instructions
+[2019.11.13-22.11.07:139][131]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-22.11.07:139][131]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.11.13-22.11.07:139][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-22.11.07:739][167]LogSlate: Window 'Fire_Circle_M' being destroyed
+[2019.11.13-22.11.07:744][167]LogSlate: Window 'Fire_Circle_M' being destroyed
+[2019.11.13-22.11.09:174][236]LogAssetEditorManager: Opening Asset editor for ParticleSystem /Game/MagicEffect/Material/Fire_Circle_P.Fire_Circle_P
+[2019.11.13-22.11.17:700][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.11.42:139][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.11.42:260][182]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_P14B4AA4A4A6282132AFAB9AA609D71AF.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Circle_P.uasset'
+[2019.11.13-22.11.50:918][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.11.51:035][705]LogSlate: Window 'Fire_Circle_P' being destroyed
+[2019.11.13-22.11.51:041][705]LogSlate: Window 'Fire_Circle_P' being destroyed
+[2019.11.13-22.11.51:041][705]LogCascade: Quitting Cascade. FXSystem=0x0000020B523208E0
+[2019.11.13-22.12.09:286][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-22.12.11:102][885]Cmd: DELETE
+[2019.11.13-22.12.11:102][885]Cmd: ACTOR DELETE
+[2019.11.13-22.12.11:107][885]LogEditorActor: Deleted Actor: Emitter
+[2019.11.13-22.12.11:138][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2019.11.13-22.12.11:138][885]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.11.13-22.12.14:493][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.11.13-22.12.18:789][ 85]LogSlate: Window 'Save Content' being destroyed
+[2019.11.13-22.12.18:841][ 85]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Circle_M76F85D1648E60097175C08A82EB14B87.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Circle_M.uasset'
+[2019.11.13-22.12.18:881][ 85]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Fire_Ring_M6268B84040856A2724EA92A8BC5C0113.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/Fire_Ring_M.uasset'
+[2019.11.13-22.12.18:935][ 85]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/orange_ringD3DE6EAD47D28A4D52DE1D82F26D0F34.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/MagicEffect/Material/orange_ring.uasset'
+[2019.11.13-22.12.21:010][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.13-22.12.21:038][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.11.13-22.12.21:329][207]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel17CA96D446B2BCCDD0D69494C90C2A73.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
+=======
 [2019.11.13-20.53.34:963][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.11.13-20.53.34:963][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.11.13-20.53.34:963][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Soul_Like_GitHub/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
@@ -2242,3 +3237,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.13-21.56.00:620][781]LogModuleManager: Shutting down and abandoning module RSA (3)
 [2019.11.13-21.56.00:656][781]LogExit: Exiting.
 [2019.11.13-21.56.00:673][781]Log file closed, 11/13/19 16:56:00
+>>>>>>> master
