@@ -453,7 +453,7 @@ void AMainCharacter::DashEnd()
 // Movement
 void AMainCharacter::MoveForward(float Value)
 {
-	if (Controller != nullptr && Value != 0.f)
+	if (Controller != nullptr && Value != 0.f && Health > 0)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
@@ -470,7 +470,7 @@ void AMainCharacter::MoveForward(float Value)
 
 void AMainCharacter::MoveRight(float Value)
 {
-	if (Controller != nullptr && Value != 0.f)
+	if (Controller != nullptr && Value != 0.f && Health > 0)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
