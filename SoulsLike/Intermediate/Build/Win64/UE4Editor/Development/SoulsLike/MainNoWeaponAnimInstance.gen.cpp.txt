@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike/MainNoWeaponAnimInstance.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\MainNoWeaponAnimInstance.generated.h
+=======
+D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+F:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike/MainNoWeaponAnimInstance.h
+D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\MainNoWeaponAnimInstance.generated.h
+>>>>>>> Kater
