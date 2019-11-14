@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Item.generated.h
@@ -25,3 +26,32 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
+=======
+D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
+D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Item.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
+F:\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
+F:\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
+>>>>>>> Kater
