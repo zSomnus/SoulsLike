@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\BasicEnemy.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Explosive.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
@@ -31,3 +32,18 @@ D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Boss_01.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\MainCharacter.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\EnemyPawn.h
 >>>>>>> master
+=======
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\BasicEnemy.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Boss_01.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\EnemyPawn.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Explosive.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\MainNoWeaponAnimInstance.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\MainPlayerController.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Pickup.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\BasicEnemyAnimInstance.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Shield.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLikeGameModeBase.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Weapon.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\MainCharacter.h
+D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
+>>>>>>> Ella
