@@ -9,6 +9,12 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
+<<<<<<< HEAD
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+<<<<<<< HEAD
+LogStats: Stats thread started at 0.418868
+=======
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.335950
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
@@ -100,6 +106,89 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
+=======
+LogInit: Warning: Incompatible or missing module: SoulsLike
+Running F:/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/UnrealProject/SoulsLike/SoulsLike/SoulsLike.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\UnrealProject\SoulsLike).
+Creating makefile for SoulsLikeEditor (.uproject file is newer)
+@progress push 5%
+Parsing headers for SoulsLikeEditor
+  Running UnrealHeaderTool "D:\UnrealProject\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for SoulsLikeEditor in 11.6846336 seconds
+@progress pop
+Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 32 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/32] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 6%
+  [2/32] SoulsLike.cpp
+  @progress 'Compiling C++ source code...' 9%
+  [3/32] EnemyPawn.cpp
+  @progress 'Compiling C++ source code...' 12%
+  [4/32] BasicEnemy.cpp
+  @progress 'Compiling C++ source code...' 16%
+  [5/32] Explosive.cpp
+  @progress 'Compiling C++ source code...' 19%
+  [6/32] Pickup.cpp
+  @progress 'Compiling C++ source code...' 22%
+  [7/32] Shield.cpp
+  @progress 'Compiling C++ source code...' 25%
+  [8/32] MainNoWeaponAnimInstance.cpp
+  @progress 'Compiling C++ source code...' 28%
+  [9/32] Weapon.cpp
+  @progress 'Compiling C++ source code...' 31%
+  [10/32] BasicEnemyAnimInstance.cpp
+  @progress 'Compiling C++ source code...' 34%
+  [11/32] Boss_01.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [12/32] SoulsLikeGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 41%
+  [13/32] MainPlayerController.gen.cpp
+  @progress 'Compiling C++ source code...' 44%
+  [14/32] Item.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [15/32] MainNoWeaponAnimInstance.gen.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [16/32] BasicEnemy.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [17/32] EnemyPawn.gen.cpp
+  @progress 'Compiling C++ source code...' 56%
+  [18/32] Item.gen.cpp
+  @progress 'Compiling C++ source code...' 59%
+  [19/32] BasicEnemyAnimInstance.gen.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [20/32] Boss_01.gen.cpp
+  @progress 'Compiling C++ source code...' 66%
+  [21/32] Explosive.gen.cpp
+  @progress 'Compiling C++ source code...' 69%
+  [22/32] MainCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 72%
+  [23/32] SoulsLike.init.gen.cpp
+  @progress 'Compiling C++ source code...' 75%
+  [24/32] Shield.gen.cpp
+  @progress 'Compiling C++ source code...' 78%
+  [25/32] Pickup.gen.cpp
+  @progress 'Compiling C++ source code...' 81%
+  [26/32] SoulsLikeGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 84%
+  [27/32] Weapon.gen.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [28/32] MainPlayerController.cpp
+  @progress 'Compiling C++ source code...' 91%
+  [29/32] MainCharacter.cpp
+  @progress 'Compiling C++ source code...' 94%
+  [30/32] UE4Editor-SoulsLike.lib
+     Creating library D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
+  @progress 'Compiling C++ source code...' 97%
+  [31/32] UE4Editor-SoulsLike.dll
+     Creating library D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [32/32] SoulsLikeEditor.target
+Total time in Parallel executor: 44.45 seconds
+Total execution time: 61.17 seconds
+>>>>>>> Kater
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -123,13 +212,17 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
 LogInit: Command Line: 
+<<<<<<< HEAD
 LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+=======
+LogInit: Base Directory: F:/UE_4.22/Engine/Binaries/Win64/
+>>>>>>> Kater
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
