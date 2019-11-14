@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 11/11/19 17:22:13
 =======
 <<<<<<< Updated upstream
@@ -11,6 +12,9 @@
 =======
 ﻿Log file open, 11/13/19 17:09:32
 >>>>>>> Kater
+=======
+﻿Log file open, 11/13/19 19:36:55
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -21,6 +25,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: SoulsLike
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 <<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 <<<<<<< HEAD
@@ -36,6 +41,10 @@ LogStats: Stats thread started at 0.291003
 =======
 LogStats: Stats thread started at 0.405183
 >>>>>>> Kater
+=======
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.272913
+>>>>>>> master
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -271,6 +280,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2019.11.11-22.22.14:169][  0]LogConfig: Setting CVar [[r.VSync:0]]
@@ -17290,3 +17300,1275 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.14-02.55.57:072][315]LogExit: Exiting.
 [2019.11.14-02.55.57:106][315]Log file closed, 11/13/19 21:55:57
 >>>>>>> Kater
+=======
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.14-00.36.55:986][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.14-00.36.55:987][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.14-00.36.55:987][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:987][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.55:989][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.14-00.36.55:989][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.14-00.36.55:990][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.14-00.36.55:990][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.14-00.36.55:990][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.14-00.36.56:003][  0]LogHAL: Display: Platform has ~ 12 GB [12764131328 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.14-00.36.56:003][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.14-00.36.56:003][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.14-00.36.56:003][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Scalability.ini]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.14-00.36.56:004][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Config/Windows/Engine.ini]
+[2019.11.14-00.36.56:004][  0]LogInit: Computer: DESKTOP-L9J2J1H
+[2019.11.14-00.36.56:004][  0]LogInit: User: abbyr
+[2019.11.14-00.36.56:004][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.14-00.36.56:004][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.14-00.36.56:004][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.11.14-00.36.56:004][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.14-00.36.56:004][  0]LogMemory: Process Physical Memory: 100.19 MB used, 100.20 MB peak
+[2019.11.14-00.36.56:005][  0]LogMemory: Process Virtual Memory: 97.32 MB used, 97.32 MB peak
+[2019.11.14-00.36.56:005][  0]LogMemory: Physical Memory: 6288.84 MB used,  5883.98 MB free, 12172.82 MB total
+[2019.11.14-00.36.56:005][  0]LogMemory: Virtual Memory: 4666.18 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.14-00.36.56:026][  0]LogInit: Using OS detected language (en-US).
+[2019.11.14-00.36.56:026][  0]LogInit: Using OS detected locale (en-CA).
+[2019.11.14-00.36.56:026][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.14-00.36.56:209][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.14-00.36.56:272][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.14-00.36.56:272][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.14-00.36.56:504][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.14-00.36.56:504][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.14-00.36.56:568][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.11.14-00.36.56:568][  0]LogD3D11RHI:       4021/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.14-00.36.56:574][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.14-00.36.56:574][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.14-00.36.56:576][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.14-00.36.56:576][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.14-00.36.56:576][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.14-00.36.56:607][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.14-00.36.56:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.11.14-00.36.56:607][  0]LogWindows: EnumDisplayDevices:
+[2019.11.14-00.36.56:608][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.14-00.36.56:608][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.14-00.36.56:608][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.14-00.36.56:608][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.14-00.36.56:608][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.11.14-00.36.56:608][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.14-00.36.56:608][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.14-00.36.56:608][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.11.14-00.36.56:648][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.14-00.36.56:652][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.14-00.36.56:652][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.14-00.36.56:652][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.14-00.36.56:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.14-00.36.57:055][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.14-00.36.57:068][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.14-00.36.57:082][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.14-00.36.57:096][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.14-00.36.57:111][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.14-00.36.57:125][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.14-00.36.57:138][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.14-00.36.57:151][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.14-00.36.57:158][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.14-00.36.57:238][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.14-00.36.57:239][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.14-00.36.57:289][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.14-00.36.57:289][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.14-00.36.57:314][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.14-00.36.57:314][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.14-00.36.57:327][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.14-00.36.57:340][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.14-00.36.57:353][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.14-00.36.57:367][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.14-00.36.57:411][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.14-00.36.57:411][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.14-00.36.57:412][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.14-00.36.57:421][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.14-00.36.57:472][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Intermediate/Shaders/WorkingDirectory/14156/).
+[2019.11.14-00.36.57:472][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/abbyr/AppData/Local/Temp/UnrealShaderWorkingDir/EBB753744AE61BC1A0B35CB5A2D0D43E/'.
+[2019.11.14-00.36.57:474][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.14-00.36.57:474][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.14-00.36.57:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.14-00.36.58:082][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.14-00.36.58:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.14-00.36.58:148][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.14-00.36.58:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.14-00.36.58:148][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.14-00.36.58:160][  0]LogDerivedDataCache: Using Local data cache path C:/Users/abbyr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.14-00.36.58:160][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.14-00.36.58:160][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.14-00.36.58:183][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.14-00.36.58:184][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.14-00.36.58:185][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.14-00.36.58:265][  0]LogAssetRegistry: FAssetRegistry took 0.0335 seconds to start up
+[2019.11.14-00.36.58:609][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.14-00.36.58:746][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.14-00.36.58:746][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.14-00.36.58:746][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.14-00.36.58:746][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.14-00.36.58:746][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.14-00.36.58:762][  0]LogNetVersion: SoulsLike 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4040770366)
+[2019.11.14-00.36.59:214][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.057899 seconds
+[2019.11.14-00.36.59:224][  0]LogUObjectArray: 42218 objects as part of root set at end of initial load.
+[2019.11.14-00.36.59:224][  0]LogUObjectAllocator: 7328024 out of 0 bytes used by permanent object pool.
+[2019.11.14-00.36.59:224][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.14-00.37.00:285][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.14-00.37.00:299][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.14-00.37.00:440][  0]SourceControl: Source control is disabled
+[2019.11.14-00.37.00:440][  0]SourceControl: Source control is disabled
+[2019.11.14-00.37.00:441][  0]SourceControl: Source control is disabled
+[2019.11.14-00.37.00:442][  0]SourceControl: Source control is disabled
+[2019.11.14-00.37.01:838][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.14-00.37.01:906][  0]LogOcInput: OculusInput pre-init called
+[2019.11.14-00.37.02:554][  0]LogEngine: Initializing Engine...
+[2019.11.14-00.37.02:555][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.14-00.37.02:556][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.14-00.37.02:783][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.14-00.37.02:798][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.14-00.37.02:809][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-00.37.03:279][  0]LogInit: FAudioDevice initialized.
+[2019.11.14-00.37.03:279][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.14-00.37.03:653][  0]LogDerivedDataCache: Saved boot cache 0.37s 79MB C:/Users/abbyr/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.14-00.37.03:669][  0]LogInit: Texture streaming: Enabled
+[2019.11.14-00.37.03:687][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.14-00.37.03:719][  0]LogInit: Transaction tracking system initialized
+[2019.11.14-00.37.03:751][  0]BlueprintLog: New page: Editor Load
+[2019.11.14-00.37.03:841][  0]LocalizationService: Localization service is disabled
+[2019.11.14-00.37.04:140][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.14-00.37.04:140][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.14-00.37.07:608][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/' took 0.03s
+[2019.11.14-00.37.09:324][  0]SourceControl: Source control is disabled
+[2019.11.14-00.37.09:324][  0]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-00.37.09:324][  0]LightingResults: New page: Lighting Build
+[2019.11.14-00.37.09:327][  0]MapCheck: New page: Map Check
+[2019.11.14-00.37.09:327][  0]LightingResults: New page: Lighting Build
+[2019.11.14-00.37.09:359][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.14-00.37.10:595][  0]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-00.37.10:620][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-00.37.10:649][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2019.11.14-00.37.10:649][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-00.37.10:650][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2019.11.14-00.37.10:650][  0]LogFileHelpers: Loading map 'BossLevel' took 1.326
+[2019.11.14-00.37.10:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.37.10:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.37.10:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.37.11:004][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.37.11:086][  0]LogCollectionManager: Loaded 0 collections in 0.001724 seconds
+[2019.11.14-00.37.11:163][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Collections/' took 0.01s
+[2019.11.14-00.37.11:163][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Developers/abbyr/Collections/' took 0.00s
+[2019.11.14-00.37.11:163][  0]LogFileCache: Scanning file cache for directory 'C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Collections/' took 0.01s
+[2019.11.14-00.37.11:163][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.14-00.37.11:173][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2869 classes and 683 folders.
+[2019.11.14-00.37.11:223][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.14-00.37.11:457][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:668][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:714][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:755][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:932][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:965][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.11:985][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:165][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:237][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:426][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:455][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.12:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.14-00.37.15:001][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.11.14-00.37.15:088][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.14-00.37.15:253][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.14-00.37.15:255][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.14-00.37.15:283][  0]LogSlate: Took 0.022615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.14-00.37.15:368][  0]LogRenderer: Reallocating scene render targets to support 920x396 Format 10 NumSamples 1 (Frame:1).
+[2019.11.14-00.37.15:525][  0]LogSlate: Took 0.046898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.14-00.37.15:611][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.14-00.37.15:611][  0]LogLoad: (Engine Initialization) Total time: 21.54 seconds
+[2019.11.14-00.37.15:611][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.14-00.37.15:670][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.14-00.37.16:678][ 38]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.14-00.37.17:537][ 90]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.11.14-00.37.17:537][ 90]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.11.14-00.37.17:721][101]LogPackageName: SearchForPackageOnDisk took   0.162s, but failed to resolve S_ClothTarps_03.
+[2019.11.14-00.37.17:721][101]LogPackageName: Warning: Asset path "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2019.11.14-00.37.20:464][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-00.37.21:564][331]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.14-00.37.40:323][452]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/PauseMenu.PauseMenu
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::ENiagaraCoordinateSpace_MAX' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator0' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator1' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:495][452]LogEnum: Warning: Enum name collision: 'ENiagaraCoordinateSpace::NewEnumerator2' is in both '/Game/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace' and '/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::ENiagaraOrientationAxis_MAX' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator0' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator1' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraOrientationAxis::NewEnumerator2' is in both '/Game/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis' and '/Niagara/Enums/ENiagaraOrientationAxis.ENiagaraOrientationAxis'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::ENiagaraRandomnessMode_MAX' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator0' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator1' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:496][452]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessMode::NewEnumerator2' is in both '/Game/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode' and '/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode'
+[2019.11.14-00.37.40:503][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.11.14-00.37.41:282][452]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.11.14-00.37.41:675][452]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.14-00.37.43:323][549]LogSlate: Took 0.001521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.14-00.37.48:227][842]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/DeathScreen.DeathScreen
+[2019.11.14-00.37.52:497][ 50]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.14-00.38.01:787][604]LogAssetRegistry: Asset discovery search completed in 63.5442 seconds
+[2019.11.14-00.38.01:790][604]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2019.11.14-00.38.46:855][176]BlueprintLog: New page: Compile DeathScreen
+[2019.11.14-00.38.46:982][176]LogUObjectHash: Compacting FUObjectHashTables data took   7.60ms
+[2019.11.14-00.38.47:656][208]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreen24333E084800D8C68D9EFB9047D66ABB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.14-00.39.13:762][737]BlueprintLog: New page: Compile DeathScreen
+[2019.11.14-00.39.13:817][737]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.11.14-00.39.14:350][765]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/DeathScreenF9D3F27E4BDB36381F810DB301808EC6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/DeathScreen.uasset'
+[2019.11.14-00.39.15:424][828]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.14-00.39.15:466][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.15:466][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-00.39.15:467][828]PIE: New page: PIE session: BossLevel (Nov 13, 2019, 2:39:15 PM)
+[2019.11.14-00.39.15:479][828]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.14-00.39.15:503][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023677s)
+[2019.11.14-00.39.15:503][828]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-00.39.15:504][828]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2019.11.14-00.39.15:504][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.024695s)
+[2019.11.14-00.39.15:550][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.14-00.39.15:555][828]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-00.39.15:626][828]LogInit: FAudioDevice initialized.
+[2019.11.14-00.39.15:672][828]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.14-00.39.15:678][828]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.13-19.39.15
+[2019.11.14-00.39.15:682][828]LogWorld: Bringing up level for play took: 0.009051
+[2019.11.14-00.39.15:701][828]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.14-00.39.15:707][828]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.14-00.39.15:708][828]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.11.14-00.39.15:712][828]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel 0.671
+[2019.11.14-00.39.15:712][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.17:625][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.17:625][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.39.17:660][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.14-00.39.17:661][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.17:716][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.39.17:739][910]LogUObjectHash: Compacting FUObjectHashTables data took   5.39ms
+[2019.11.14-00.39.17:755][911]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.14-00.39.19:598][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.19:598][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-00.39.19:598][  9]PIE: New page: PIE session: BossLevel (Nov 13, 2019, 2:39:19 PM)
+[2019.11.14-00.39.19:598][  9]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.14-00.39.19:621][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022536s)
+[2019.11.14-00.39.19:621][  9]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-00.39.19:621][  9]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2019.11.14-00.39.19:621][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.023344s)
+[2019.11.14-00.39.19:666][  9]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.11.14-00.39.19:670][  9]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-00.39.19:739][  9]LogInit: FAudioDevice initialized.
+[2019.11.14-00.39.19:746][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-00.39.19:779][  9]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.14-00.39.19:785][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.13-19.39.19
+[2019.11.14-00.39.19:788][  9]LogWorld: Bringing up level for play took: 0.007566
+[2019.11.14-00.39.19:806][  9]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel 0.765
+[2019.11.14-00.39.19:807][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.19:890][ 10]LogRenderer: Reallocating scene render targets to support 1016x544 Format 10 NumSamples 1 (Frame:1).
+[2019.11.14-00.39.23:539][221]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.23:539][221]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.24:976][307]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.24:976][307]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.25:495][337]LogAudio: Warning: Detected orphaned looping sound 'BGM_Cue'.
+[2019.11.14-00.39.25:577][342]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.25:578][342]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.28:099][490]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.28:099][490]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.28:296][501]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.28:296][501]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.28:345][504]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.28:345][504]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.28:453][510]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.28:453][510]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.28:633][519]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.28:633][519]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.28:851][531]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.28:851][531]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.28:924][535]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.28:924][535]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.29:512][567]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.29:513][567]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.29:598][572]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.29:598][572]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.29:770][581]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.29:770][581]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.29:840][585]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.29:840][585]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.29:840][585]LogBlueprintUserMessages: [BP_Weapon_2] 95.0
+[2019.11.14-00.39.30:447][619]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.30:447][619]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.30:521][623]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.30:521][623]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.30:629][629]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.30:629][629]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.30:927][644]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.30:927][644]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.31:076][652]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.31:076][652]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.31:132][655]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.31:132][655]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.31:310][665]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.31:310][665]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.31:378][669]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.31:378][669]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.31:472][674]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-00.39.31:911][699]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.31:911][699]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.31:928][700]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.31:928][700]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.32:054][707]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.32:054][707]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.32:106][710]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.32:106][710]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.32:143][712]LogBlueprintUserMessages: [BP_Weapon_2] 90.0
+[2019.11.14-00.39.32:380][725]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.32:380][725]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.32:939][755]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.32:939][755]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.32:994][758]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.32:994][758]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.33:080][763]LogBlueprintUserMessages: [BP_Weapon_2] 85.0
+[2019.11.14-00.39.33:873][806]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.33:873][806]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.33:914][808]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.33:914][808]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.33:991][812]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.33:991][812]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.34:011][813]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.34:011][813]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.34:012][813]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.34:012][813]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.34:205][823]LogBlueprintUserMessages: [BP_Weapon_2] 80.0
+[2019.11.14-00.39.34:224][824]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.34:224][824]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.34:243][825]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.34:243][825]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.34:301][828]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.34:302][828]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.34:302][828]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.34:302][828]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.34:417][834]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.34:417][834]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.34:550][841]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.34:550][841]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.35:055][867]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.35:055][867]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.35:073][868]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.35:073][868]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.35:111][870]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.35:111][870]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.35:207][875]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.35:207][875]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.35:889][911]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.35:889][911]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.35:962][915]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.35:962][915]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.35:981][916]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.35:982][916]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.36:377][937]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.36:377][937]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.36:468][942]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.36:468][942]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.36:832][962]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.36:832][962]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.36:886][965]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.36:886][965]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.36:887][965]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.36:887][965]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.36:942][968]LogBlueprintUserMessages: [BP_Weapon_2] 75.0
+[2019.11.14-00.39.36:997][971]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.36:997][971]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.37:014][972]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.37:014][972]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.37:272][986]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-00.39.37:379][992]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.37:379][992]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.37:414][994]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.37:414][994]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.37:451][996]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.37:451][996]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.37:708][ 10]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.37:708][ 10]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.38:101][ 32]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.38:101][ 32]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.38:156][ 35]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.38:156][ 35]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.38:724][ 67]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.38:724][ 67]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.38:778][ 70]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.38:778][ 70]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.38:795][ 71]LogBlueprintUserMessages: [BP_Weapon_2] 70.0
+[2019.11.14-00.39.39:569][114]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.39:569][114]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.39:640][118]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.39:641][118]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.39:747][124]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.39:748][124]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.39:912][133]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.39:912][133]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:146][146]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.40:146][146]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:219][150]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.40:219][150]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.40:236][151]LogBlueprintUserMessages: [BP_Weapon_2] 65.0
+[2019.11.14-00.39.40:762][180]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.40:762][180]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.40:777][181]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.40:777][181]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:832][184]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.40:832][184]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.40:907][188]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.40:907][188]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:923][189]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.40:923][189]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:923][189]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.40:923][189]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.40:959][191]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.40:959][191]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.41:070][197]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.41:070][197]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.41:344][212]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.41:344][212]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.41:619][227]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.41:619][227]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.41:690][231]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.41:690][231]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.41:709][232]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.41:709][232]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.42:001][248]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.42:001][248]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.42:054][251]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.42:054][251]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.42:381][269]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.42:381][269]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.42:398][270]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.42:398][270]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.42:435][272]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.42:436][272]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.42:543][278]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.42:543][278]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.42:777][291]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-00.39.42:973][302]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.42:973][302]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.43:046][306]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.43:046][306]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.43:063][307]LogBlueprintUserMessages: [BP_Weapon_2] 60.0
+[2019.11.14-00.39.43:710][343]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.43:710][343]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.43:727][344]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.43:727][344]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.43:764][346]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.43:764][346]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.43:875][352]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.43:875][352]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.44:309][376]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.44:309][376]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.44:382][380]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.44:382][380]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.44:382][380]LogBlueprintUserMessages: [BP_Weapon_2] 55.0
+[2019.11.14-00.39.45:095][419]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.45:095][419]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.45:151][422]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.45:151][422]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.45:264][428]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.45:264][428]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.45:453][438]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.45:453][438]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.45:752][454]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.45:752][454]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.45:752][454]LogBlueprintUserMessages: [BP_Weapon_2] 50.0
+[2019.11.14-00.39.45:808][457]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.45:808][457]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.46:650][502]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.46:650][502]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.46:727][506]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.46:727][506]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.47:380][541]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.47:380][541]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.47:381][541]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.47:381][541]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.47:381][541]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.47:381][541]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.47:399][542]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.47:400][542]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.51:391][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-00.39.52:231][795]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.52:231][795]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.52:614][815]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-00.39.52:614][815]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-00.39.52:615][815]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-00.39.52:615][815]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-00.39.54:973][934]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.14-00.39.54:979][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.55:010][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.14-00.39.55:010][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-00.39.55:074][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.14-00.39.55:095][935]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.14-00.41.06:867][237]LogSlate: Window 'DeathScreen' being destroyed
+[2019.11.14-00.41.06:880][237]LogSlate: Window 'DeathScreen' being destroyed
+[2019.11.14-00.41.23:485][206]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/VictoryScreen.VictoryScreen
+[2019.11.14-00.47.53:518][812]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2019.11.14-00.47.53:518][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BossLevel' took 0.076
+[2019.11.14-00.47.53:538][812]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/VictoryScreen] ([1] browsable assets)...
+[2019.11.14-00.47.53:538][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/VictoryScreen]
+[2019.11.14-00.47.53:550][812]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen_Auto153910D764940E2A96B0C54B6329547F0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/VictoryScreen_Auto1.uasset'
+[2019.11.14-00.47.53:552][812]LogFileHelpers: Auto-saving content packages took 0.034
+[2019.11.14-00.56.34:436][635]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\goldflare.png)
+[2019.11.14-00.56.34:467][635]LogTexture: Display: Building textures: goldflare (BGRA8, 1025X557)
+[2019.11.14-00.56.37:043][656]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\victorylogo.png)
+[2019.11.14-00.56.37:053][656]LogTexture: Display: Building textures: victorylogo (BGRA8, 923X289)
+[2019.11.14-00.57.59:499][253]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.14-00.59.51:497][876]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.14-00.59.57:806][254]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-00.59.57:878][254]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2019.11.14-00.59.58:457][276]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen0B632B06435BA7DE4AD4C89E2BF1B9EF.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.00.07:824][837]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.00.07:869][837]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.14-01.00.08:427][867]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen3C18D541484730D916E69AA00EFF8F65.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.01.56:895][150]LogEditorTransaction: Undo Move Widget
+[2019.11.14-01.02.34:064][202]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.02.34:109][202]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2019.11.14-01.02.34:680][233]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen8906D3C545A7BB6C0B8F519C442C5AD3.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.03.36:186][722]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.03.36:231][722]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.11.14-01.03.36:663][744]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen2C4EA4434140B9419CC8E0A82CC0C5AE.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.04.04:793][390]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.04.04:839][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.11.14-01.04.05:499][426]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen989BC0BE4D7A33305B77648C688FA004.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.04.19:059][238]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.04.19:107][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2019.11.14-01.04.19:568][261]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen183AAF9B42CCFFB6004ECCBB9F1BF472.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.04.23:714][508]LogSlate: Window 'VictoryScreen' being destroyed
+[2019.11.14-01.04.23:720][508]LogSlate: Window 'VictoryScreen' being destroyed
+[2019.11.14-01.04.40:212][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-01.04.41:104][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-01.04.41:107][332]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel
+[2019.11.14-01.04.44:494][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-01.04.51:330][904]BlueprintLog: New page: Compile BossLevel
+[2019.11.14-01.04.51:552][904]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2019.11.14-01.04.51:954][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.14-01.04.52:001][922]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.14-01.04.52:358][922]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel851F7B2A425BD488F9CCB09600F7C4D4.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
+[2019.11.14-01.04.52:433][922]LogFileHelpers: Saving map 'BossLevel' took 0.479
+[2019.11.14-01.04.52:553][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.04.52:618][931]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.14-01.04.52:665][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.04.52:665][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-01.04.52:665][931]PIE: New page: PIE session: BossLevel (Nov 13, 2019, 3:04:52 PM)
+[2019.11.14-01.04.52:666][931]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.14-01.04.52:688][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022808s)
+[2019.11.14-01.04.52:689][931]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-01.04.52:689][931]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2019.11.14-01.04.52:689][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.023505s)
+[2019.11.14-01.04.52:737][931]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.11.14-01.04.52:743][931]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-01.04.52:813][931]LogInit: FAudioDevice initialized.
+[2019.11.14-01.04.52:821][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-01.04.52:855][931]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.14-01.04.52:862][931]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.13-20.04.52
+[2019.11.14-01.04.52:865][931]LogWorld: Bringing up level for play took: 0.008240
+[2019.11.14-01.04.52:883][931]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel -0.158
+[2019.11.14-01.04.52:883][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.04.56:381][134]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.04.56:381][134]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.04.57:887][222]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.04.57:887][222]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.04.58:263][244]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.04.58:264][244]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.04.58:265][244]LogAudio: Warning: Detected orphaned looping sound 'BGM_Cue'.
+[2019.11.14-01.05.00:657][384]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.00:657][384]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.00:708][387]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.00:708][387]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.01:148][411]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.01:148][411]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.01:384][424]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.01:384][424]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.01:559][434]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.01:559][434]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.01:576][435]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.01:576][435]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.01:576][435]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.01:576][435]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.01:646][439]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.01:646][439]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.02:788][503]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.02:788][503]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.03:123][522]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.03:123][522]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.03:123][522]LogBlueprintUserMessages: [BP_Weapon_2] 95.0
+[2019.11.14-01.05.03:193][526]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.03:194][526]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.03:712][555]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.03:712][555]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.03:745][557]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.03:745][557]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.03:779][559]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.03:779][559]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.03:879][564]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.03:880][564]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.03:899][565]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.03:899][565]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.03:932][567]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.03:932][567]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.04:581][604]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.04:581][604]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.04:617][606]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.05:438][652]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.05:439][652]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.05:775][671]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.05:775][671]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.05:845][675]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.05:846][675]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.06:024][685]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.06:025][685]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.06:094][689]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.06:094][689]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.06:469][710]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.06:469][710]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.06:503][712]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.06:503][712]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.07:075][744]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.07:075][744]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.07:290][756]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.07:290][756]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.07:390][762]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.07:390][762]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.07:457][766]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.07:457][766]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.07:807][786]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.07:807][786]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.07:859][789]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.07:859][789]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:001][797]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:001][797]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.08:093][802]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:109][803]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:109][803]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.08:268][812]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:268][812]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.08:340][816]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.08:340][816]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:340][816]LogBlueprintUserMessages: [BP_Weapon_2] 90.0
+[2019.11.14-01.05.08:657][834]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:657][834]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.08:723][838]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.08:724][838]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.08:902][848]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.08:903][848]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.09:025][855]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.09:025][855]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.09:042][856]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.09:042][856]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.09:235][866]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.09:235][866]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.09:235][866]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.09:235][866]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.10:120][918]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.10:544][943]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.10:544][943]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.10:662][950]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.10:662][950]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.10:779][957]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.10:779][957]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.11:182][980]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.11:183][980]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.11:254][984]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.11:254][984]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.11:736][ 12]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.11:736][ 12]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.11:809][ 16]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.11:809][ 16]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.12:012][ 28]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.12:012][ 28]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.12:058][ 31]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.12:058][ 31]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.12:565][ 61]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.12:565][ 61]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.12:582][ 62]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.12:582][ 62]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.12:598][ 63]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.12:598][ 63]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.12:615][ 64]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.12:615][ 64]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.12:632][ 65]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.12:632][ 65]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.12:786][ 74]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.12:786][ 74]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.12:958][ 84]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.12:958][ 84]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.13:053][ 89]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.13:053][ 89]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.13:298][103]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.13:298][103]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.14:723][188]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.14:723][188]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.14:740][189]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.14:740][189]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.15:430][229]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.15:430][229]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.15:573][237]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.15:573][237]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.15:589][238]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.15:589][238]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.15:622][240]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.15:622][240]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.15:622][240]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.15:741][247]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.15:741][247]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.15:912][257]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.15:912][257]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.15:978][261]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.15:978][261]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.15:978][261]LogBlueprintUserMessages: [BP_Weapon_2] 85.0
+[2019.11.14-01.05.16:591][294]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.16:591][294]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.16:649][297]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.16:649][297]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.16:765][304]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.16:765][304]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.17:112][323]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.17:112][323]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.17:148][325]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.17:148][325]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.17:294][333]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.17:294][333]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.17:447][342]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.17:447][342]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.17:496][345]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.17:497][345]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.17:512][346]LogBlueprintUserMessages: [BP_Weapon_2] 80.0
+[2019.11.14-01.05.18:077][379]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.18:077][379]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.19:891][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.05.28:640][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.05.28:770][976]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.14-01.05.28:776][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.05.28:817][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.14-01.05.28:817][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.05.28:877][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2019.11.14-01.05.28:920][977]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.14-01.05.30:120][ 44]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.14-01.05.30:157][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.05.30:157][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-01.05.30:157][ 44]PIE: New page: PIE session: BossLevel (Nov 13, 2019, 3:05:30 PM)
+[2019.11.14-01.05.30:157][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.14-01.05.30:179][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022199s)
+[2019.11.14-01.05.30:180][ 44]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-01.05.30:180][ 44]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2019.11.14-01.05.30:180][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.022945s)
+[2019.11.14-01.05.30:221][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.14-01.05.30:225][ 44]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-01.05.30:296][ 44]LogInit: FAudioDevice initialized.
+[2019.11.14-01.05.30:302][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-01.05.30:336][ 44]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.14-01.05.30:344][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.13-20.05.30
+[2019.11.14-01.05.30:346][ 44]LogWorld: Bringing up level for play took: 0.008643
+[2019.11.14-01.05.30:366][ 44]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel -0.676
+[2019.11.14-01.05.30:366][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.05.33:075][193]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.33:075][193]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.34:570][279]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.34:570][279]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.35:038][307]LogAudio: Warning: Detected orphaned looping sound 'BGM_Cue'.
+[2019.11.14-01.05.35:088][310]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.35:089][310]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.37:438][448]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.37:438][448]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.37:505][452]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.37:505][452]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.37:925][476]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.37:925][476]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.37:993][480]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.37:993][480]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.38:066][484]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.38:066][484]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.38:227][493]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.38:227][493]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.38:279][496]LogBlueprintUserMessages: [BP_Weapon_2] 95.0
+[2019.11.14-01.05.38:297][497]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.38:297][497]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.38:407][503]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.38:407][503]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.38:512][509]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.38:513][509]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.38:891][530]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.38:891][530]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.38:962][534]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.38:962][534]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.39:232][549]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.39:232][549]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.39:432][560]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.39:432][560]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.39:614][570]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.39:614][570]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.39:669][573]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.39:669][573]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.39:686][574]LogBlueprintUserMessages: [BP_Weapon_2] 90.0
+[2019.11.14-01.05.40:455][617]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.40:455][617]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.40:595][625]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.40:595][625]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.40:613][626]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.40:613][626]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.40:667][629]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.40:667][629]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.40:667][629]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.40:667][629]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.41:139][655]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.41:139][655]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.41:355][667]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.43:808][805]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.43:808][805]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.43:880][809]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.43:880][809]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.45:959][926]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.45:959][926]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.46:138][936]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.46:138][936]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.46:864][977]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.49:296][114]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.49:296][114]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.49:369][118]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.49:369][118]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.51:463][236]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.51:463][236]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.51:623][245]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.51:624][245]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.52:350][286]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.05.54:795][424]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.54:795][424]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.05.54:849][427]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.05.54:849][427]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.05.56:942][540]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.05.56:942][540]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.06.02:184][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.06.02:184][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-01.06.02:222][834]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.14-01.06.02:265][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.14-01.06.02:265][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.06.02:326][834]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.14-01.06.02:363][835]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.11.14-01.07.07:117][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.07.17:019][ 80]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\abbyr\Desktop\Main Menu\orange-flare-png.png)
+[2019.11.14-01.07.17:048][ 80]LogTexture: Display: Building textures: orange-flare-png (AutoDXT, 1920X1080)
+[2019.11.14-01.07.20:248][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.07.33:605][974]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/VictoryScreen.VictoryScreen
+[2019.11.14-01.07.46:758][713]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.07.46:814][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.11.14-01.07.47:254][732]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen8EEAEEA94D39EB280ADEEEAAB35FB28E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.07.47:998][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.08.23:425][872]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.08.23:483][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.11.14-01.08.24:258][906]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreenE8E62E064651F7C946889980B754692C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.08.27:413][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.08.27:494][ 98]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.14-01.08.27:547][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.08.27:547][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-01.08.27:548][ 98]PIE: New page: PIE session: BossLevel (Nov 13, 2019, 3:08:27 PM)
+[2019.11.14-01.08.27:548][ 98]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BossLevel
+[2019.11.14-01.08.27:571][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023158s)
+[2019.11.14-01.08.27:572][ 98]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.14-01.08.27:572][ 98]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2019.11.14-01.08.27:572][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BossLevel.BossLevel to /Game/Maps/UEDPIE_0_BossLevel.BossLevel (0.024276s)
+[2019.11.14-01.08.27:621][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.11.14-01.08.27:627][ 98]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-01.08.27:701][ 98]LogInit: FAudioDevice initialized.
+[2019.11.14-01.08.27:709][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.14-01.08.27:742][ 98]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.14-01.08.27:749][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BossLevel.BossLevel up for play (max tick rate 60) at 2019.11.13-20.08.27
+[2019.11.14-01.08.27:751][ 98]LogWorld: Bringing up level for play took: 0.007765
+[2019.11.14-01.08.27:771][ 98]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BossLevel 0.73
+[2019.11.14-01.08.27:771][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.08.35:328][530]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.35:328][530]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.36:992][625]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.36:992][625]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.37:008][626]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.37:008][626]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.37:008][626]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.37:008][626]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.37:146][634]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.37:146][634]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.39:177][753]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.39:177][753]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.39:210][755]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.39:210][755]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.39:586][776]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.39:586][776]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.39:588][776]LogAudio: Warning: Detected orphaned looping sound 'BGM_Cue'.
+[2019.11.14-01.08.39:605][777]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.39:605][777]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.41:118][867]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:118][867]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.41:150][869]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:150][869]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.41:429][885]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:429][885]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:446][886]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.41:502][889]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:503][889]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.41:554][892]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:554][892]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.41:861][910]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:861][910]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.41:862][910]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.41:862][910]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.41:862][910]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:862][910]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.41:895][912]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:895][912]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.41:895][912]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:895][912]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.41:918][913]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.41:918][913]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.42:035][920]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:035][920]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.42:069][922]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:069][922]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.42:069][922]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:069][922]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.42:102][924]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:102][924]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.42:303][936]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:303][936]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.42:319][937]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:319][937]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:336][938]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.42:372][940]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:372][940]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.42:481][946]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.42:481][946]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.42:573][951]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:573][951]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.42:774][962]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.42:774][962]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.43:125][980]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.43:125][980]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.43:281][989]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.43:281][989]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.43:582][  5]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.43:583][  5]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.45:354][ 99]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.45:354][ 99]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.45:354][ 99]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.45:354][ 99]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.45:392][101]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.45:393][101]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.45:411][102]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.45:412][102]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.45:526][108]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.45:526][108]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.45:526][108]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.45:526][108]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.46:233][146]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.08.48:382][261]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.48:382][261]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.48:855][286]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.48:855][286]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.49:064][297]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.49:064][297]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.51:017][401]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.51:017][401]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.51:017][401]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.51:017][401]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.51:186][410]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.51:187][410]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.51:187][410]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.51:187][410]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.51:901][448]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.08.54:347][579]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.54:347][579]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.54:574][591]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.54:574][591]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.56:507][694]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.56:507][694]LogTemp: Warning: Shield::OnOverlapBegin()
+[2019.11.14-01.08.56:507][694]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.56:507][694]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.08.56:677][703]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.56:677][703]LogTemp: Warning: Shield::OnOverlapEnd()
+[2019.11.14-01.08.56:677][703]LogTemp: Warning: Super::OnOverlapEnd()
+[2019.11.14-01.08.56:677][703]LogTemp: Warning: Weapon::OnOverlapEnd()
+[2019.11.14-01.08.57:391][741]LogBlueprintUserMessages: [BTTask_Attack1_C_0] Hello
+[2019.11.14-01.08.59:842][872]LogTemp: Warning: Super::OnOverlapBegin()
+[2019.11.14-01.08.59:842][872]LogTemp: Warning: Weapon::OnOverlapBegin()
+[2019.11.14-01.09.05:549][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.09:707][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.09:860][397]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.14-01.09.09:865][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.09.09:896][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.14-01.09.09:896][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BossLevel.BossLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel' with GeneratedClass '/Game/Maps/BossLevel.BossLevel_C' with ClassGeneratedBy '/Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel'
+[2019.11.14-01.09.09:956][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.11.14-01.09.09:978][398]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.11.14-01.09.12:416][533]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.09.12:468][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.11.14-01.09.12:939][558]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreenBE090ED44DABD47BF13D84A87F352EE0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.09.17:674][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.25:209][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-01.09.37:598][739]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.14-01.09.40:854][934]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.14-01.09.40:906][934]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.11.14-01.09.41:457][957]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen7CC23E584BE2FB93965A2A8EAB28C96C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.14-01.09.43:005][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.44:857][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.44:969][163]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.14-01.09.46:028][163]LogSlate: Window 'Save Content' being destroyed
+[2019.11.14-01.09.46:039][163]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-01.09.46:065][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Victory/goldflare" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/goldflare.uasset" SILENT=true
+[2019.11.14-01.09.46:120][163]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/goldflare04D4AA2C450EABFCAEA44D968A4B9E00.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/goldflare.uasset'
+[2019.11.14-01.09.46:134][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Victory/orange-flare-png" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/orange-flare-png.uasset" SILENT=true
+[2019.11.14-01.09.46:258][163]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/orange-flare-png46B4FF324BC12432FC7161899D14D79F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/orange-flare-png.uasset'
+[2019.11.14-01.09.46:282][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Victory/victorylogo" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/victorylogo.uasset" SILENT=true
+[2019.11.14-01.09.46:312][163]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/victorylogoD40435FE4925F3FFEB899884C4454E51.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/UI/Victory/victorylogo.uasset'
+[2019.11.14-01.09.47:358][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-01.09.47:463][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BossLevel" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.14-01.09.47:509][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.14-01.09.47:855][220]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BossLevel8774452B44338D694D5DD380E7742BE8.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap'
+>>>>>>> master
