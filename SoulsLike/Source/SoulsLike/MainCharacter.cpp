@@ -366,7 +366,7 @@ void AMainCharacter::Roll()
 
 	float InputLength = MoveForwardValue + MoveRightValue;
 
-	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f))
+	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f) && Health > 0)
 	{
 		if (AnimInstance && RollMontage && !bIsRolling)
 		{
@@ -561,7 +561,7 @@ void AMainCharacter::Attack()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-	if (AnimInstance && AttackMontage && !bIsAttacking)
+	if (AnimInstance && AttackMontage && !bIsAttacking && Health > 0)
 	{
 		if (!bIsAttacking && !bIsDodging && !bIsRolling)
 		{
