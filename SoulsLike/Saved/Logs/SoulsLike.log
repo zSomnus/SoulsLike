@@ -1358,3 +1358,199 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-14.16.49:311][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.11.15-14.16.49:360][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2019.11.15-14.16.49:656][512]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Main_Menu7E37919D42052343B15A0C8BDE0C77E2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap'
+[2019.11.15-14.20.28:449][670]LogSlate: Window 'VictoryScreen' being destroyed
+[2019.11.15-14.20.28:457][670]LogSlate: Window 'VictoryScreen' being destroyed
+[2019.11.15-14.22.09:706][216]LogSlate: Took 0.016105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.15-14.26.49:838][802]LogUObjectHash: Compacting FUObjectHashTables data took   8.28ms
+[2019.11.15-14.26.49:838][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Menu' took 0.099
+[2019.11.15-14.26.49:840][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/MainMenu] ([1] browsable assets)...
+[2019.11.15-14.26.49:840][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/MainMenu]
+[2019.11.15-14.26.49:909][802]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenu_Auto1E06C10564D4C133CC78132BF4F853D7C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MainMenu_Auto1.uasset'
+[2019.11.15-14.26.49:912][802]LogFileHelpers: Auto-saving content packages took 0.074
+[2019.11.15-14.35.39:710][587]BlueprintLog: New page: Compile MainMenu
+[2019.11.15-14.35.39:797][587]LogUObjectHash: Compacting FUObjectHashTables data took   8.13ms
+[2019.11.15-14.35.40:277][605]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenu514374BE4F4AD41C24CDD6990B6F51A2.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2019.11.15-14.35.40:842][630]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-14.35.40:886][630]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.40:886][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-14.35.40:886][630]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 4:35:40 AM)
+[2019.11.15-14.35.40:886][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-14.35.40:887][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001351s)
+[2019.11.15-14.35.40:888][630]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-14.35.40:888][630]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2019.11.15-14.35.40:888][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002633s)
+[2019.11.15-14.35.40:937][630]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2019.11.15-14.35.40:942][630]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-14.35.41:017][630]LogInit: FAudioDevice initialized.
+[2019.11.15-14.35.41:026][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-14.35.41:056][630]LogLoad: Game class is 'GameMode'
+[2019.11.15-14.35.41:057][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-09.35.41
+[2019.11.15-14.35.41:058][630]LogWorld: Bringing up level for play took: 0.000704
+[2019.11.15-14.35.41:070][630]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.15-14.35.41:071][630]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.35.41:071][630]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.35.41:071][630]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.35.41:072][630]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-14.35.41:072][630]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.35.41:073][630]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.478
+[2019.11.15-14.35.41:073][630]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.41:669][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.35.41:691][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-14.35.41:691][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.41:726][658]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-14.35.43:252][658]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-14.35.43:253][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.43:308][658]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.11.15-14.35.43:325][659]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.15-14.35.44:151][688]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-14.35.44:198][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.44:198][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-14.35.44:199][688]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 4:35:44 AM)
+[2019.11.15-14.35.44:199][688]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-14.35.44:201][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002097s)
+[2019.11.15-14.35.44:201][688]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-14.35.44:201][688]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2019.11.15-14.35.44:201][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002741s)
+[2019.11.15-14.35.44:245][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.11.15-14.35.44:251][688]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-14.35.44:326][688]LogInit: FAudioDevice initialized.
+[2019.11.15-14.35.44:333][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-14.35.45:041][688]LogLoad: Game class is 'GameMode'
+[2019.11.15-14.35.45:042][688]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-09.35.45
+[2019.11.15-14.35.45:043][688]LogWorld: Bringing up level for play took: 0.000526
+[2019.11.15-14.35.45:055][688]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.15-14.35.45:055][688]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.35.45:055][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.35.45:055][688]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.35.45:056][688]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-14.35.45:056][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.35.45:057][688]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.463
+[2019.11.15-14.35.45:057][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.45:938][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.35.48:280][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.35.49:996][836]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-14.35.50:005][836]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.50:247][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-14.35.50:247][836]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.35.50:299][836]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.11.15-14.35.50:317][837]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.11.15-14.35.51:339][883]BlueprintLog: New page: Compile MainMenu
+[2019.11.15-14.35.51:408][883]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.11.15-14.35.51:971][905]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenuA95051E54D26866F583C6099FE9B21F6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2019.11.15-14.35.55:993][ 85]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/VictoryScreen.VictoryScreen
+[2019.11.15-14.42.31:344][750]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.15-14.42.31:399][750]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.11.15-14.42.32:992][816]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen8FF62EAE418B3E76F5D4698AE9946112.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.15-14.42.44:416][325]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.15-14.42.44:471][325]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2019.11.15-14.42.44:925][342]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreenC46E3D0643E52E3790B01DAC77C179A7.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.15-14.42.45:483][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-14.42.45:533][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.42.45:533][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-14.42.45:533][366]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 4:42:45 AM)
+[2019.11.15-14.42.45:533][366]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-14.42.45:534][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001075s)
+[2019.11.15-14.42.45:535][366]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-14.42.45:535][366]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2019.11.15-14.42.45:535][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001780s)
+[2019.11.15-14.42.45:584][366]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.11.15-14.42.45:589][366]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-14.42.45:664][366]LogInit: FAudioDevice initialized.
+[2019.11.15-14.42.45:672][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-14.42.45:708][366]LogLoad: Game class is 'GameMode'
+[2019.11.15-14.42.45:709][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-09.42.45
+[2019.11.15-14.42.45:710][366]LogWorld: Bringing up level for play took: 0.000778
+[2019.11.15-14.42.45:723][366]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.42.45:723][366]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.42.45:723][366]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.42.45:724][366]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-14.42.45:724][366]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.42.45:727][366]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 1.133
+[2019.11.15-14.42.45:728][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.42.46:683][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.42.50:285][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.42.50:431][576]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-14.42.50:441][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.42.50:472][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-14.42.50:472][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.42.50:536][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.11.15-14.42.50:568][577]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.15-14.44.46:089][666]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.15-14.44.46:145][666]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.11.15-14.44.46:662][686]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen2A3ECEBD4376C3069A64CF98185A1145.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.15-14.44.47:317][715]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-14.44.47:374][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.44.47:374][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-14.44.47:374][715]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 4:44:47 AM)
+[2019.11.15-14.44.47:374][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-14.44.47:376][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001595s)
+[2019.11.15-14.44.47:377][715]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-14.44.47:377][715]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2019.11.15-14.44.47:377][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002571s)
+[2019.11.15-14.44.47:424][715]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.11.15-14.44.47:431][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-14.44.47:501][715]LogInit: FAudioDevice initialized.
+[2019.11.15-14.44.47:510][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-14.44.47:540][715]LogLoad: Game class is 'GameMode'
+[2019.11.15-14.44.47:541][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-09.44.47
+[2019.11.15-14.44.47:542][715]LogWorld: Bringing up level for play took: 0.000999
+[2019.11.15-14.44.47:555][715]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.44.47:555][715]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-14.44.47:555][715]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.44.47:556][715]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-14.44.47:556][715]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-14.44.47:559][715]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.965
+[2019.11.15-14.44.47:559][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.44.48:365][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.44.55:031][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-14.44.55:182][ 48]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-14.44.55:190][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.44.55:221][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-14.44.55:221][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.44.55:284][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.11.15-14.44.55:310][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.15-14.48.51:654][147]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-14.48.51:700][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-14.48.51:700][147]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.15-14.48.51:701][147]LogPlayLevel: [PlayLevel] Compiling VictoryScreen before play...
+[2019.11.15-14.48.51:716][147]LogBlueprint: Error: [Compiler VictoryScreen] This blueprint (self) is not a WidgetInteractionComponent, therefore ' Target ' must have a connection.
+[2019.11.15-14.48.51:718][147]LogBlueprint: Warning: [Compiler VictoryScreen] [2502.14] Compile of VictoryScreen failed. 1 Fatal Issue(s) 0 Warning(s) [in 17 ms] (/Game/ThirdPersonCPP/Blueprints/VictoryScreen.VictoryScreen)
+[2019.11.15-14.48.52:025][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.11.15-14.48.52:025][147]LogPlayLevel: PlayLevel: Blueprint regeneration took 325 ms (1 blueprints)
+[2019.11.15-14.48.52:025][147]BlueprintLog: Blueprint VictoryScreen failed to compile
+[2019.11.15-14.48.54:587][147]LogSlate: Window 'Message' being destroyed
+[2019.11.15-14.48.59:157][351]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.15-14.48.59:159][351]LogBlueprint: Error: [Compiler VictoryScreen] This blueprint (self) is not a WidgetInteractionComponent, therefore ' Target ' must have a connection.
+[2019.11.15-14.48.59:212][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2019.11.15-14.48.59:220][351]LogBlueprint: Warning: [Compiler VictoryScreen] [2509.64] Compile of VictoryScreen failed. 1 Fatal Issue(s) 0 Warning(s) [in 63 ms] (/Game/ThirdPersonCPP/Blueprints/VictoryScreen.VictoryScreen)
+[2019.11.15-14.50.59:990][656]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2019.11.15-14.50.59:991][656]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Menu' took 0.052
+[2019.11.15-14.50.59:992][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/VictoryScreen] ([1] browsable assets)...
+[2019.11.15-14.50.59:992][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/VictoryScreen]
+[2019.11.15-14.51.00:036][656]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen_Auto241ABA311458340544C27188C51ACEB93.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/VictoryScreen_Auto2.uasset'
+[2019.11.15-14.51.00:038][656]LogFileHelpers: Auto-saving content packages took 0.046
+[2019.11.15-14.54.24:511][374]BlueprintLog: New page: Compile VictoryScreen
+[2019.11.15-14.54.24:564][374]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2019.11.15-14.54.25:024][391]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/VictoryScreen146EA7154E5429E261090D8A69EA07CB.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/VictoryScreen.uasset'
+[2019.11.15-14.54.35:053][841]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/Instruction.Instruction
+[2019.11.15-14.57.45:455][487]LogSlate: Window 'Instruction' being destroyed
+[2019.11.15-14.57.45:471][487]LogSlate: Window 'Instruction' being destroyed
+[2019.11.15-15.00.03:304][  0]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
+[2019.11.15-15.00.16:219][561]LogSlate: Window 'LoadingScreen' being destroyed
+[2019.11.15-15.00.16:224][561]LogSlate: Window 'LoadingScreen' being destroyed
+[2019.11.15-15.01.45:550][641]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2019.11.15-15.01.45:550][641]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Menu' took 0.062
+[2019.11.15-15.01.45:553][641]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/MainMenu] ([1] browsable assets)...
+[2019.11.15-15.01.45:553][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/MainMenu]
+[2019.11.15-15.01.45:608][641]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenu_Auto32E22311B4D761E5EE71247B3F294423F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/MainMenu_Auto3.uasset'
+[2019.11.15-15.01.45:609][641]LogFileHelpers: Auto-saving content packages took 0.057
+[2019.11.15-15.02.42:368][934]BlueprintLog: New page: Compile MainMenu
+[2019.11.15-15.02.42:432][934]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2019.11.15-15.02.43:691][986]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenu22E19FBC499774994F87F7A4D6D54969.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2019.11.15-15.03.07:759][974]BlueprintLog: New page: Compile MainMenu
+[2019.11.15-15.03.07:827][974]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2019.11.15-15.03.08:260][990]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/MainMenuD2985FCD477D5C4104A9C8981C245602.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/MainMenu.uasset'
+[2019.11.15-15.03.12:859][187]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2019.11.15-15.03.13:863][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.15-15.03.13:935][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.15-15.03.14:163][232]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Main_Menu480D9EBD45C3B12077BE8B874D0FA375.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap'
