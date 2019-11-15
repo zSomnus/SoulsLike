@@ -1670,3 +1670,621 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.15-17.23.12:062][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2019.11.15-17.23.12:101][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2019.11.15-17.23.12:304][772]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Main_Menu44FDCD2A4EA725D4289D28A0A283E3D6.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap'
+[2019.11.15-17.24.02:699][317]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/Instruction.Instruction
+[2019.11.15-17.24.16:627][922]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.24.16:680][922]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2019.11.15-17.24.17:257][939]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/InstructionF3DAFE424285996AA2B4EA8B2EA6EC42.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.24.17:798][963]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.24.17:863][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.24.17:863][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.24.17:863][963]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:24:17 AM)
+[2019.11.15-17.24.17:863][963]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.24.17:865][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2019.11.15-17.24.17:865][963]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.24.17:866][963]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2019.11.15-17.24.17:866][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002253s)
+[2019.11.15-17.24.17:908][963]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2019.11.15-17.24.17:914][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.24.17:998][963]LogInit: FAudioDevice initialized.
+[2019.11.15-17.24.18:005][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.24.18:037][963]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.24.18:039][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.24.18
+[2019.11.15-17.24.18:039][963]LogWorld: Bringing up level for play took: 0.000567
+[2019.11.15-17.24.18:051][963]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.24.18:051][963]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.24.18:051][963]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.24.18:053][963]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.24.18:053][963]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.24.18:055][963]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.528
+[2019.11.15-17.24.18:055][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.24.18:883][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.24.19:884][ 45]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.24.19:884][ 45]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.24.19:884][ 45]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.24.19:884][ 45]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.24.19:941][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2019.11.15-17.24.23:944][ 45]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.24.23:944][ 45]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.24.24:647][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:647][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:648][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:648][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:648][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:648][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:648][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.15-17.24.24:649][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:650][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.15-17.24.24:651][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.15-17.24.24:651][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.15-17.24.24:651][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:652][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:653][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:654][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:654][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:654][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:654][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:655][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:655][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:655][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:655][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:655][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:656][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:657][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:658][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:659][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.15-17.24.24:660][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.15-17.24.24:660][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:660][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:660][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.15-17.24.24:660][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.15-17.24.24:661][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.15-17.24.24:662][ 45]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.15-17.24.24:663][ 45]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.24.24:663][ 45]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.24.24:685][ 45]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.24.24:685][ 45]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.24.24:685][ 45]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.24.24:685][ 45]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.24.24:764][ 45]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.24.24:764][ 45]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.24.25:951][ 45]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.24.25:951][ 45]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.24.26:178][ 45]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.24.26
+[2019.11.15-17.24.26:180][ 45]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.24.26:182][ 45]LogWorld: Bringing up level for play took: 0.229108
+[2019.11.15-17.24.26:206][ 45]Cmd: t.maxfps 45
+[2019.11.15-17.24.26:206][ 45]t.MaxFPS = "45"
+[2019.11.15-17.24.26:207][ 45]LogLoad: Took 6.322763 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.24.26:286][ 46]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.055606 > MaxSimulationTimeStep (0.050) for 'BP_Dragon_2', movement 'Walking'
+[2019.11.15-17.24.29:128][154]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.24.29:128][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.24.29:167][154]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.24.29:209][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.24.29:209][154]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.24.29:257][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.11.15-17.24.29:274][155]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.11.15-17.25.18:367][361]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.15-17.25.22:543][548]LogSlate: Window 'Color Picker' being destroyed
+[2019.11.15-17.25.23:854][607]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.25.23:907][607]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.11.15-17.25.24:589][632]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.25.24:633][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.24:633][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.25.24:633][632]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:25:24 AM)
+[2019.11.15-17.25.24:633][632]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.25.24:634][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001004s)
+[2019.11.15-17.25.24:635][632]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.25.24:635][632]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2019.11.15-17.25.24:635][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001674s)
+[2019.11.15-17.25.24:679][632]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2019.11.15-17.25.24:685][632]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.25.24:760][632]LogInit: FAudioDevice initialized.
+[2019.11.15-17.25.24:769][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.25.24:802][632]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.25.24:803][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.25.24
+[2019.11.15-17.25.24:803][632]LogWorld: Bringing up level for play took: 0.000643
+[2019.11.15-17.25.24:816][632]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.24:816][632]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.24:816][632]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.24:817][632]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.25.24:817][632]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.24:820][632]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.237
+[2019.11.15-17.25.24:820][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.25:719][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.25.28:010][775]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.28:010][775]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.28:010][775]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.28:011][775]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.28:053][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.15-17.25.28:059][775]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.28:059][775]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.28:062][775]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.28:063][775]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.28:066][775]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.28:066][775]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.28:066][775]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.28:066][775]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.28:128][775]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.28:128][775]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.28:246][775]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.25.28:246][775]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.25.28:266][775]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.25.28
+[2019.11.15-17.25.28:268][775]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.25.28:268][775]LogWorld: Bringing up level for play took: 0.020972
+[2019.11.15-17.25.28:273][775]Cmd: t.maxfps 45
+[2019.11.15-17.25.28:273][775]t.MaxFPS = "45"
+[2019.11.15-17.25.28:273][775]LogLoad: Took 0.262790 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.25.30:589][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.30:589][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.25.30:627][873]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.25.30:670][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.25.30:670][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.30:728][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.11.15-17.25.30:745][874]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.11.15-17.25.34:557][ 39]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction0DE1EEB146D7BA980589A982BCFAFA95.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.25.40:553][308]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.25.40:600][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2019.11.15-17.25.41:154][330]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/InstructionE88FD626443DBB8BDE68EC9E20432AEA.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.25.47:430][610]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.25.47:484][610]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.15-17.25.48:028][626]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/InstructionA31705DE49971F736C9818AECE150F24.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.25.49:268][681]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.25.49:312][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.49:312][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.25.49:312][681]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:25:49 AM)
+[2019.11.15-17.25.49:312][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.25.49:314][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001172s)
+[2019.11.15-17.25.49:314][681]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.25.49:314][681]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2019.11.15-17.25.49:314][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001776s)
+[2019.11.15-17.25.49:354][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2019.11.15-17.25.49:359][681]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.25.49:445][681]LogInit: FAudioDevice initialized.
+[2019.11.15-17.25.49:453][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.25.49:485][681]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.25.49:487][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.25.49
+[2019.11.15-17.25.49:487][681]LogWorld: Bringing up level for play took: 0.000600
+[2019.11.15-17.25.49:500][681]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.49:500][681]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.49:500][681]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.49:501][681]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.25.49:501][681]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.49:505][681]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.921
+[2019.11.15-17.25.49:505][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.50:333][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.25.51:474][769]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.51:474][769]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.51:474][769]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.51:474][769]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.51:519][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2019.11.15-17.25.51:525][769]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.51:526][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.51:529][769]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.51:529][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.51:533][769]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.51:533][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.51:533][769]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.51:533][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.51:598][769]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.51:599][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.51:728][769]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.25.51:729][769]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.25.51:747][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.25.51
+[2019.11.15-17.25.51:751][769]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.25.51:751][769]LogWorld: Bringing up level for play took: 0.021256
+[2019.11.15-17.25.51:755][769]Cmd: t.maxfps 45
+[2019.11.15-17.25.51:756][769]t.MaxFPS = "45"
+[2019.11.15-17.25.51:756][769]LogLoad: Took 0.280763 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.25.53:702][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.53:702][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.25.53:744][846]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.25.53:785][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.25.53:786][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.53:840][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.11.15-17.25.53:859][847]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.11.15-17.25.55:595][921]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.25.55:642][921]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.55:642][921]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.25.55:642][921]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:25:55 AM)
+[2019.11.15-17.25.55:642][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.25.55:643][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001204s)
+[2019.11.15-17.25.55:644][921]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.25.55:644][921]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.11.15-17.25.55:644][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001954s)
+[2019.11.15-17.25.55:685][921]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.11.15-17.25.55:690][921]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.25.55:771][921]LogInit: FAudioDevice initialized.
+[2019.11.15-17.25.55:779][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.25.55:813][921]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.25.55:814][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.25.55
+[2019.11.15-17.25.55:815][921]LogWorld: Bringing up level for play took: 0.000666
+[2019.11.15-17.25.55:826][921]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.55:826][921]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.25.55:826][921]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.55:827][921]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.25.55:827][921]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.25.55:830][921]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.753
+[2019.11.15-17.25.55:830][921]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.25.56:899][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.25.58:099][ 23]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.58:099][ 23]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.25.58:100][ 23]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.58:100][ 23]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.25.58:138][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.11.15-17.25.58:145][ 23]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.58:145][ 23]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.58:149][ 23]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.58:149][ 23]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.58:152][ 23]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.58:152][ 23]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.58:152][ 23]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.58:152][ 23]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.58:212][ 23]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.25.58:212][ 23]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.25.58:325][ 23]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.25.58:325][ 23]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.25.58:346][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.25.58
+[2019.11.15-17.25.58:349][ 23]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.25.58:350][ 23]LogWorld: Bringing up level for play took: 0.023212
+[2019.11.15-17.25.58:356][ 23]Cmd: t.maxfps 45
+[2019.11.15-17.25.58:356][ 23]t.MaxFPS = "45"
+[2019.11.15-17.25.58:356][ 23]LogLoad: Took 0.256552 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.26.01:122][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.01:122][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.26.01:157][146]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.26.01:199][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.26.01:199][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.01:258][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.11.15-17.26.01:275][147]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.11.15-17.26.12:639][654]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.26.12:684][654]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.11.15-17.26.13:507][681]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction2777A54D4E858F42236835BBA9D97A1C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.26.14:145][709]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.26.14:190][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.14:191][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.26.14:191][709]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:26:14 AM)
+[2019.11.15-17.26.14:191][709]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.26.14:192][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001027s)
+[2019.11.15-17.26.14:192][709]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.26.14:192][709]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2019.11.15-17.26.14:192][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001675s)
+[2019.11.15-17.26.14:237][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.11.15-17.26.14:241][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.26.14:312][709]LogInit: FAudioDevice initialized.
+[2019.11.15-17.26.14:320][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.26.14:355][709]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.26.14:356][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.26.14
+[2019.11.15-17.26.14:357][709]LogWorld: Bringing up level for play took: 0.000667
+[2019.11.15-17.26.14:369][709]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.26.14:370][709]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.26.14:370][709]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.26.14:371][709]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.26.14:371][709]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.26.14:374][709]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.21
+[2019.11.15-17.26.14:375][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.15:132][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.26.16:309][795]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.26.16:309][795]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.26.16:309][795]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.26.16:309][795]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.26.16:350][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.11.15-17.26.16:355][795]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.16:355][795]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.16:360][795]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.16:360][795]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.16:364][795]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.16:364][795]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.16:364][795]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.16:364][795]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.16:423][795]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.16:423][795]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.16:536][795]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.26.16:536][795]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.26.16:553][795]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.26.16
+[2019.11.15-17.26.16:556][795]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.26.16:556][795]LogWorld: Bringing up level for play took: 0.019027
+[2019.11.15-17.26.16:561][795]Cmd: t.maxfps 45
+[2019.11.15-17.26.16:561][795]t.MaxFPS = "45"
+[2019.11.15-17.26.16:561][795]LogLoad: Took 0.252440 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.26.18:513][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.18:513][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.26.18:553][882]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.26.18:590][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.26.18:590][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.18:649][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.11.15-17.26.18:668][883]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.11.15-17.26.42:612][956]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.26.42:663][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.11.15-17.26.43:164][972]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction0EE91C2A4841B2A31D4D6398597DA53B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.26.43:663][994]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.26.43:708][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.43:708][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.26.43:709][994]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:26:43 AM)
+[2019.11.15-17.26.43:709][994]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.26.43:710][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000957s)
+[2019.11.15-17.26.43:710][994]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.26.43:710][994]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2019.11.15-17.26.43:710][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001548s)
+[2019.11.15-17.26.43:748][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.11.15-17.26.43:752][994]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.26.43:823][994]LogInit: FAudioDevice initialized.
+[2019.11.15-17.26.43:830][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.26.43:865][994]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.26.43:867][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.26.43
+[2019.11.15-17.26.43:867][994]LogWorld: Bringing up level for play took: 0.000735
+[2019.11.15-17.26.43:879][994]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.26.43:879][994]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.26.43:879][994]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.26.43:881][994]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.26.43:881][994]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.26.43:884][994]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu -0.7
+[2019.11.15-17.26.43:884][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.44:667][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.26.45:512][ 67]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.26.45:512][ 67]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.26.45:513][ 67]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.26.45:513][ 67]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.26.45:553][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.11.15-17.26.45:559][ 67]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.45:559][ 67]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.45:564][ 67]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.45:564][ 67]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.45:567][ 67]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.45:567][ 67]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.45:567][ 67]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.45:567][ 67]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.45:627][ 67]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.26.45:628][ 67]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.26.45:741][ 67]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.26.45:741][ 67]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.26.45:761][ 67]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.26.45
+[2019.11.15-17.26.45:764][ 67]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.26.45:766][ 67]LogWorld: Bringing up level for play took: 0.023234
+[2019.11.15-17.26.45:771][ 67]Cmd: t.maxfps 45
+[2019.11.15-17.26.45:771][ 67]t.MaxFPS = "45"
+[2019.11.15-17.26.45:772][ 67]LogLoad: Took 0.258476 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.26.46:593][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.46:593][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.26.46:634][103]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.26.46:672][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.26.46:672][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.26.46:732][103]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.11.15-17.26.46:752][104]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.11.15-17.27.04:422][888]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.27.04:468][888]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2019.11.15-17.27.05:204][917]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.27.05:247][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.05:247][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.27.05:247][917]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:27:05 AM)
+[2019.11.15-17.27.05:247][917]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.27.05:248][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001102s)
+[2019.11.15-17.27.05:249][917]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.27.05:249][917]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2019.11.15-17.27.05:249][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001885s)
+[2019.11.15-17.27.05:287][917]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2019.11.15-17.27.05:291][917]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.27.05:362][917]LogInit: FAudioDevice initialized.
+[2019.11.15-17.27.05:369][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.27.05:403][917]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.27.05:405][917]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.27.05
+[2019.11.15-17.27.05:405][917]LogWorld: Bringing up level for play took: 0.000716
+[2019.11.15-17.27.05:418][917]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.05:418][917]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.05:418][917]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.05:420][917]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.27.05:420][917]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.05:422][917]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.839
+[2019.11.15-17.27.05:423][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.06:114][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.27.15:644][375]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.27.15:650][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.15:681][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.27.15:681][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.15:735][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.11.15-17.27.15:753][376]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.15-17.27.28:289][938]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.27.28:331][938]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2019.11.15-17.27.28:795][956]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction5B6BA7FF49772EB3A398FAA4176CF18C.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.27.40:362][473]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.27.40:410][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.11.15-17.27.41:361][511]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.27.41:403][511]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.41:404][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.27.41:404][511]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:27:41 AM)
+[2019.11.15-17.27.41:404][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.27.41:405][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001211s)
+[2019.11.15-17.27.41:406][511]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.27.41:406][511]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.11.15-17.27.41:406][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002297s)
+[2019.11.15-17.27.41:442][511]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2019.11.15-17.27.41:446][511]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.27.41:518][511]LogInit: FAudioDevice initialized.
+[2019.11.15-17.27.41:525][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.27.41:557][511]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.27.41:558][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.27.41
+[2019.11.15-17.27.41:559][511]LogWorld: Bringing up level for play took: 0.000612
+[2019.11.15-17.27.41:571][511]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.41:571][511]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.41:571][511]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.41:573][511]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.27.41:573][511]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.41:575][511]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.992
+[2019.11.15-17.27.41:575][511]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.42:420][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.27.48:682][829]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.27.48:692][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.48:721][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.27.48:721][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.48:771][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.15-17.27.48:793][830]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.11.15-17.27.55:134][110]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.27.55:186][110]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.15-17.27.56:222][133]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/InstructionF145281F4ABC2E87226F7EB350DF82FE.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.27.56:655][152]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.27.56:700][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.56:700][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.27.56:700][152]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:27:56 AM)
+[2019.11.15-17.27.56:700][152]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.27.56:701][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001074s)
+[2019.11.15-17.27.56:702][152]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.27.56:702][152]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2019.11.15-17.27.56:703][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002197s)
+[2019.11.15-17.27.56:743][152]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.11.15-17.27.56:747][152]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.27.56:820][152]LogInit: FAudioDevice initialized.
+[2019.11.15-17.27.56:827][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.27.56:863][152]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.27.56:864][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.27.56
+[2019.11.15-17.27.56:865][152]LogWorld: Bringing up level for play took: 0.000654
+[2019.11.15-17.27.56:879][152]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.56:879][152]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.27.56:879][152]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.56:880][152]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.27.56:880][152]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.27.56:884][152]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.3
+[2019.11.15-17.27.56:884][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.27.57:981][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.28.03:689][456]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.28.03:696][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.03:723][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.28.03:723][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.03:781][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.11.15-17.28.03:804][457]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.11.15-17.28.17:475][ 70]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.28.17:521][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.11.15-17.28.17:961][ 83]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction7B41841B4C5FFD5C2E4DB6BD6530F32B.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.28.18:492][106]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.15-17.28.18:538][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.18:538][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.15-17.28.18:538][106]PIE: New page: PIE session: Main_Menu (Nov 15, 2019, 7:28:18 AM)
+[2019.11.15-17.28.18:538][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Menu
+[2019.11.15-17.28.18:539][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001016s)
+[2019.11.15-17.28.18:539][106]LogAIModule: Creating AISystem for world Main_Menu
+[2019.11.15-17.28.18:539][106]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2019.11.15-17.28.18:539][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001667s)
+[2019.11.15-17.28.18:582][106]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.15-17.28.18:587][106]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.15-17.28.18:660][106]LogInit: FAudioDevice initialized.
+[2019.11.15-17.28.18:667][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.28.18:704][106]LogLoad: Game class is 'GameMode'
+[2019.11.15-17.28.18:705][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 45) at 2019.11.15-12.28.18
+[2019.11.15-17.28.18:706][106]LogWorld: Bringing up level for play took: 0.000494
+[2019.11.15-17.28.18:718][106]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.28.18:718][106]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.11.15-17.28.18:718][106]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.28.18:719][106]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(710)]!
+[2019.11.15-17.28.18:719][106]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.11.15-17.28.18:722][106]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 0.139
+[2019.11.15-17.28.18:722][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.19:883][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.15-17.28.21:379][225]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.28.21:379][225]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.11.15-17.28.21:380][225]LogNet: Browse: /Game/Maps/OutsideLevel
+[2019.11.15-17.28.21:380][225]LogLoad: LoadMap: /Game/Maps/OutsideLevel
+[2019.11.15-17.28.21:421][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.11.15-17.28.21:427][225]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.28.21:427][225]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.28.21:431][225]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.28.21:431][225]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.28.21:434][225]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.28.21:434][225]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.28.21:434][225]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.28.21:434][225]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.28.21:496][225]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.15-17.28.21:496][225]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.15-17.28.21:642][225]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.15-17.28.21:642][225]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.15-17.28.21:664][225]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.15-12.28.21
+[2019.11.15-17.28.21:667][225]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.15-17.28.21:668][225]LogWorld: Bringing up level for play took: 0.024504
+[2019.11.15-17.28.21:674][225]Cmd: t.maxfps 45
+[2019.11.15-17.28.21:674][225]t.MaxFPS = "45"
+[2019.11.15-17.28.21:674][225]LogLoad: Took 0.294535 seconds to LoadMap(/Game/Maps/OutsideLevel)
+[2019.11.15-17.28.27:523][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.27:523][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.15-17.28.27:566][479]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.15-17.28.27:607][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.15-17.28.27:607][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
+[2019.11.15-17.28.27:665][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.15-17.28.27:682][480]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.15-17.28.28:693][523]BlueprintLog: New page: Compile Instruction
+[2019.11.15-17.28.28:741][523]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.11.15-17.28.29:243][539]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Instruction5A3939A447B55586221CFDBFE6690256.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Instruction.uasset'
+[2019.11.15-17.28.33:617][735]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/PauseMenu.PauseMenu
+[2019.11.15-17.28.35:292][781]LogSlate: Took 0.070225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.15-17.28.49:882][438]BlueprintLog: New page: Compile PauseMenu
+[2019.11.15-17.28.49:945][438]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.11.15-17.28.50:483][453]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/PauseMenu7AD7A29043F3D0C324302A9E8C4FEBFD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/PauseMenu.uasset'
+[2019.11.15-17.28.52:639][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.15-17.28.52:683][549]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.11.15-17.28.52:892][549]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Main_Menu8430608540AFFBBF86829CA8C268A1EF.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap'
+[2019.11.15-17.28.53:835][581]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.11.15-17.28.54:976][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.15-17.28.55:015][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.11.15-17.28.55:216][629]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Main_Menu0D910CFA4BE2ECCC785A4DBC104EBB24.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Main_Menu.umap'
