@@ -69,6 +69,7 @@ AMainCharacter::AMainCharacter()
 	bIsRolling = false;
 	bIsDodging = false;
 	bIsAttacking = false;
+	bIsDrinking = false;
 
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaDrainRate = 25.f;
@@ -349,6 +350,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
 	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AMainCharacter::DashEnd);
 
+	PlayerInputComponent->BindAction("Drink", IE_Pressed, this, &AMainCharacter::Drink);
+
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
 
@@ -604,3 +607,7 @@ void AMainCharacter::AttackStep()
 	LaunchCharacter(ForwardDir, false, true);
 }
 
+void AMainCharacter::Drink()
+{
+	bIsDrinking = true;
+}
