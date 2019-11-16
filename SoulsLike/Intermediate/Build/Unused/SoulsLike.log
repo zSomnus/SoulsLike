@@ -2,19 +2,22 @@
   Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
   Parsing headers for SoulsLikeEditor
     Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SoulsLikeEditor in 5.4271837 seconds
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0001.dll
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0002.dll
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Binaries\Win64\UE4Editor-SoulsLike-0003.dll
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0001.lib
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0002.lib
-  Deleted hot-reload file: D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike-0003.lib
+  Reflection code generated for SoulsLikeEditor in 6.5018278 seconds
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 12 processes...
-    [1/3] UE4Editor-SoulsLike.lib
+  Building 12 actions with 12 processes...
+    [1/12] SoulsLike.init.gen.cpp
+    [2/12] Pickup.cpp
+    [3/12] Explosive.cpp
+    [4/12] Shield.cpp
+    [5/12] Weapon.cpp
+    [6/12] MainCharacter.gen.cpp
+    [7/12] MainNoWeaponAnimInstance.cpp
+    [8/12] BasicEnemyAnimInstance.cpp
+    [9/12] MainCharacter.cpp
+    [10/12] UE4Editor-SoulsLike.lib
        Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
-    [2/3] UE4Editor-SoulsLike.dll
+    [11/12] UE4Editor-SoulsLike.dll
        Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
-    [3/3] SoulsLikeEditor.target
-  Total time in Parallel executor: 0.95 seconds
-  Total execution time: 8.24 seconds
+    [12/12] SoulsLikeEditor.target
+  Total time in Parallel executor: 15.69 seconds
+  Total execution time: 24.59 seconds
