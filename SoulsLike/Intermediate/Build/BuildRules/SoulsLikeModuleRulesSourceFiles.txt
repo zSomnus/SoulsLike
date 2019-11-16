@@ -1,3 +1,9 @@
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike.Target.cs
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLikeEditor.Target.cs
+<<<<<<< HEAD
+D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
+D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike.Target.cs
+D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLikeEditor.Target.cs
+=======
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike\SoulsLike.Build.cs
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike.Target.cs
+D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLikeEditor.Target.cs
+>>>>>>> Kater
