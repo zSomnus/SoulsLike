@@ -397,7 +397,7 @@ void AMainCharacter::Dodge()
 
 	float InputLength = MoveForwardValue + MoveRightValue;
 
-	if(CurrentVector == FVector(0.f) && InputLength == 0.f)
+	if(CurrentVector == FVector(0.f) && InputLength == 0.f && Health > 0)
 	{
 		if (AnimInstance && DodgeMontage && !bIsDodging)
 		{
@@ -423,7 +423,7 @@ void AMainCharacter::Parry()
 	UE_LOG(LogTemp, Warning, TEXT("Parry"));
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-	if (AnimInstance && ParryMontage && !bIsParrying)
+	if (AnimInstance && ParryMontage && !bIsParrying && Health > 0)
 	{
 		if (!bIsRolling && !bIsAttacking && !bIsDodging)
 		{
