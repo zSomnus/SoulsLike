@@ -92,6 +92,9 @@ public:
 	float StaminaDrainRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float WalkingSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
 	float RunningSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
@@ -128,6 +131,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 		bool bIsBlocking;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+		bool bIsDrinking;
 
 	/** Checking if the movement is available */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
@@ -209,6 +215,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void AttackStep();
 
+	UFUNCTION(BlueprintCallable)
+		void Drink();
+
+	UFUNCTION(BlueprintCallable)
+		void DrinkEnd();
+
 	void DashBegin();
 	void DashEnd();
 
@@ -244,4 +256,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
 	class UAnimMontage* ParryMontage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* DrinkMontage;
 };

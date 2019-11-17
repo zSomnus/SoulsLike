@@ -62,6 +62,7 @@ AMainCharacter::AMainCharacter()
 	Stamina = 120.f;
 	Cinders = 100;
 
+	WalkingSpeed = 150.f;
 	RunningSpeed = 500.f;
 	DashingSpeed = 700.f;
 
@@ -69,6 +70,7 @@ AMainCharacter::AMainCharacter()
 	bIsRolling = false;
 	bIsDodging = false;
 	bIsAttacking = false;
+	bIsDrinking = false;
 
 	MovementStatus = EMovementStatus::EMS_Normal;
 	StaminaDrainRate = 25.f;
@@ -207,7 +209,7 @@ void AMainCharacter::Tick(float DeltaTime)
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
 
-	if (bIsDashing)
+	if (bIsDashing && !bIsDrinking)
 	{
 		if (Stamina > 0.f)
 		{
@@ -349,6 +351,9 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMainCharacter::DashBegin);
 	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AMainCharacter::DashEnd);
 
+	//PlayerInputComponent->BindAction("Drink", IE_Pressed, this, &AMainCharacter::Drink);
+	//PlayerInputComponent->BindAction("Drink", IE_Released, this, &AMainCharacter::DrinkEnd);
+
 	PlayerInputComponent->BindAxis("MoveForward", this, &AMainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AMainCharacter::MoveRight);
 
@@ -366,7 +371,7 @@ void AMainCharacter::Roll()
 
 	float InputLength = MoveForwardValue + MoveRightValue;
 
-	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f))
+	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f) && Health > 0 && !bIsDrinking)
 	{
 		if (AnimInstance && RollMontage && !bIsRolling)
 		{
@@ -397,7 +402,7 @@ void AMainCharacter::Dodge()
 
 	float InputLength = MoveForwardValue + MoveRightValue;
 
-	if(CurrentVector == FVector(0.f) && InputLength == 0.f)
+	if(CurrentVector == FVector(0.f) && InputLength == 0.f && Health > 0 && !bIsDrinking)
 	{
 		if (AnimInstance && DodgeMontage && !bIsDodging)
 		{
@@ -423,7 +428,7 @@ void AMainCharacter::Parry()
 	UE_LOG(LogTemp, Warning, TEXT("Parry"));
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-	if (AnimInstance && ParryMontage && !bIsParrying)
+	if (AnimInstance && ParryMontage && !bIsParrying && Health > 0 && !bIsDrinking)
 	{
 		if (!bIsRolling && !bIsAttacking && !bIsDodging)
 		{
@@ -442,7 +447,10 @@ void AMainCharacter::Parry()
 // Dash
 void AMainCharacter::DashBegin()
 {
-	bIsDashing = true;
+	if (!bIsDrinking)
+	{
+		bIsDashing = true;
+	}
 }
 
 void AMainCharacter::DashEnd()
@@ -555,13 +563,18 @@ void AMainCharacter::SetMovementStatus(EMovementStatus Status)
 	{
 		GetCharacterMovement()->MaxWalkSpeed = RunningSpeed;
 	}
+
+	if (bIsDrinking)
+	{
+		GetCharacterMovement()->MaxWalkSpeed = WalkingSpeed;
+	}
 }
 
 void AMainCharacter::Attack()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 
-	if (AnimInstance && AttackMontage && !bIsAttacking)
+	if (AnimInstance && AttackMontage && !bIsAttacking && Health > 0 && !bIsDrinking)
 	{
 		if (!bIsAttacking && !bIsDodging && !bIsRolling)
 		{
@@ -588,7 +601,10 @@ void AMainCharacter::Attack()
 
 void AMainCharacter::BlockBegin()
 {
-	bIsBlocking = true;
+	if (!bIsDrinking)
+	{
+		bIsBlocking = true;
+	}
 }
 void AMainCharacter::BlockEnd()
 {
@@ -604,3 +620,21 @@ void AMainCharacter::AttackStep()
 	LaunchCharacter(ForwardDir, false, true);
 }
 
+void AMainCharacter::Drink()
+{
+	if (!bIsRolling && !bIsAttacking && !bIsDodging && !bIsParrying)
+	{
+		bIsDrinking = true;
+		UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+		AnimInstance->Montage_Play(DrinkMontage, 1.f);
+		AnimInstance->Montage_JumpToSection(FName("Drink"), DrinkMontage);
+		//FOnMontageEnded BlendOutDelegate;
+		////BlendOutDelegate.BindUObject(this, &DrinkMontage);
+		//Health += 20.f;
+		//bIsDrinking = false;
+	}
+}
+void AMainCharacter::DrinkEnd()
+{
+	bIsDrinking = false;
+}
