@@ -129,6 +129,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 		bool bIsBlocking;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
+		bool bIsDrinking;
+
 	/** Checking if the movement is available */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
 	bool bCanRoll;
@@ -208,6 +211,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void AttackStep();
+
+	UFUNCTION(BlueprintCallable)
+		void Drink();
 
 	void DashBegin();
 	void DashEnd();
