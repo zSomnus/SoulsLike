@@ -189,27 +189,16 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
-<<<<<<< HEAD
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
-=======
->>>>>>> Kater
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-<<<<<<< HEAD
-/I D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine
-/Yc"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.obj"
-=======
-/I D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine
-/Yc"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.obj"
->>>>>>> Kater
+/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine"
+/Yc"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

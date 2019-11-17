@@ -426,37 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-<<<<<<< HEAD
-/I D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike
-/I D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source
-/I D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike
+/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike"
+/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source"
+/I "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source\SoulsLike"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
-=======
-/I D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike
-/I D:\UnrealProject\SoulsLike\SoulsLike\Source
-/I D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
->>>>>>> Kater
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-<<<<<<< HEAD
-/FI"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Item.cpp"
-/FI"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
-/Fo"D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Item.cpp.obj"
-=======
-/FI"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\UnrealProject\SoulsLike\SoulsLike\Source\SoulsLike\Item.cpp"
-/FI"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
-/Fo"D:\UnrealProject\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Item.cpp.obj"
->>>>>>> Kater
+/FI"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Source\SoulsLike\Item.cpp"
+/FI"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h"
+/Fo"C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Item.cpp.obj"
 /TP
 /GR-
 /W4
