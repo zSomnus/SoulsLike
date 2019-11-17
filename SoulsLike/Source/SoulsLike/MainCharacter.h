@@ -90,6 +90,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enums")
 	float StaminaDrainRate;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enums")
+		float StaminaRecoverRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
 	float WalkingSpeed;
@@ -134,6 +136,17 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Combat")
 		bool bIsDrinking;
+
+
+	/** Stamina Cost */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "StaminaCost")
+		float AttackStaminaCost;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "StaminaCost")
+		float RollStaminaCost;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "StaminaCost")
+		float ParryStaminaCost;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "StaminaCost")
+		float DodgeStaminaCost;
 
 	/** Checking if the movement is available */
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Movement)
