@@ -60,7 +60,7 @@ AMainCharacter::AMainCharacter()
 	Health = 70.f;
 	MaxStamina = 350.f;
 	Stamina = 120.f;
-	Cinders = 100;
+	Cinders = 0;
 
 	WalkingSpeed = 150.f;
 	RunningSpeed = 500.f;
