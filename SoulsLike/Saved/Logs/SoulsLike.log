@@ -100,6 +100,88 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: SoulsLike
+Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/SoulsLike.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\abbyr\Documents\Game Engine\SoulsLike).
+Creating makefile for SoulsLikeEditor (no existing makefile)
+@progress push 5%
+Parsing headers for SoulsLikeEditor
+  Running UnrealHeaderTool "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\SoulsLike.uproject" "C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for SoulsLikeEditor in 9.1181325 seconds
+@progress pop
+Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 33 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/33] Default.rc2
+  @progress 'Compiling C++ source code...' 6%
+  [2/33] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 9%
+  [3/33] SoulsLike.cpp
+  @progress 'Compiling C++ source code...' 12%
+  [4/33] Shield.cpp
+  @progress 'Compiling C++ source code...' 15%
+  [5/33] Explosive.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [6/33] Weapon.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [7/33] Pickup.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [8/33] MainNoWeaponAnimInstance.cpp
+  @progress 'Compiling C++ source code...' 27%
+  [9/33] EnemyPawn.cpp
+  @progress 'Compiling C++ source code...' 30%
+  [10/33] BasicEnemy.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [11/33] Boss_01.cpp
+  @progress 'Compiling C++ source code...' 36%
+  [12/33] SoulsLikeGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 39%
+  [13/33] BasicEnemyAnimInstance.cpp
+  @progress 'Compiling C++ source code...' 42%
+  [14/33] BasicEnemy.gen.cpp
+  @progress 'Compiling C++ source code...' 45%
+  [15/33] Weapon.gen.cpp
+  @progress 'Compiling C++ source code...' 48%
+  [16/33] Item.cpp
+  @progress 'Compiling C++ source code...' 52%
+  [17/33] SoulsLike.init.gen.cpp
+  @progress 'Compiling C++ source code...' 55%
+  [18/33] SoulsLikeGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 58%
+  [19/33] Shield.gen.cpp
+  @progress 'Compiling C++ source code...' 61%
+  [20/33] Pickup.gen.cpp
+  @progress 'Compiling C++ source code...' 64%
+  [21/33] MainPlayerController.gen.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [22/33] BasicEnemyAnimInstance.gen.cpp
+  @progress 'Compiling C++ source code...' 70%
+  [23/33] Explosive.gen.cpp
+  @progress 'Compiling C++ source code...' 73%
+  [24/33] Item.gen.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [25/33] MainCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [26/33] EnemyPawn.gen.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [27/33] MainNoWeaponAnimInstance.gen.cpp
+  @progress 'Compiling C++ source code...' 85%
+  [28/33] Boss_01.gen.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [29/33] MainPlayerController.cpp
+  @progress 'Compiling C++ source code...' 91%
+  [30/33] MainCharacter.cpp
+  @progress 'Compiling C++ source code...' 94%
+  [31/33] UE4Editor-SoulsLike.lib
+     Creating library C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
+  @progress 'Compiling C++ source code...' 97%
+  [32/33] UE4Editor-SoulsLike.dll
+     Creating library C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object C:\Users\abbyr\Documents\Game Engine\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [33/33] SoulsLikeEditor.target
+Total time in Parallel executor: 77.18 seconds
+Total execution time: 195.15 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
