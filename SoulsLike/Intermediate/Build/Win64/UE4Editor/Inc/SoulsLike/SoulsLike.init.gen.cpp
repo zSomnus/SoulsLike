@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSoulsLike_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1F7C677E,
+				0x9BE23660,
 				0x589FF4AB,
 				METADATA_PARAMS(nullptr, 0)
 			};
