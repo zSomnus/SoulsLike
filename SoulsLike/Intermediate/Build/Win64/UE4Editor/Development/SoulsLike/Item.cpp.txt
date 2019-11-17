@@ -1,32 +1,3 @@
-<<<<<<< Updated upstream
-D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
-D:\Unreal2020\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
-D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Item.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
-=======
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\Definitions.SoulsLike.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Source\SoulsLike\Item.h
 D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Inc\SoulsLike\Item.generated.h
@@ -54,4 +25,3 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
->>>>>>> Stashed changes
