@@ -2,10 +2,6 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-<<<<<<< Updated upstream
-		"SoulsLike": "UE4Editor-SoulsLike-0002.dll"
-=======
 		"SoulsLike": "UE4Editor-SoulsLike.dll"
->>>>>>> Stashed changes
 	}
 }
