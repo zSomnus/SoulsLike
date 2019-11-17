@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-// PCH for C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
-=======
-// PCH for D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
->>>>>>> Stashed changes
+// PCH for F:\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_EDITOR 1
 #define ENABLE_PGO_PROFILE 0
@@ -213,8 +209,4 @@
 #define NETWORKREPLAYSTREAMING_API DLLIMPORT
 #define AUDIOMIXER_API DLLIMPORT
 #define UELIBSAMPLERATE_API DLLIMPORT
-<<<<<<< Updated upstream
-#include "C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
-=======
-#include "D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
->>>>>>> Stashed changes
+#include "F:\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h"
