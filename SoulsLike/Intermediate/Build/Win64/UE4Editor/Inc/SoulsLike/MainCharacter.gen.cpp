@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Dodge();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback();
+	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Drink();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_Parry();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline();
 	SOULSLIKE_API UFunction* Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline();
@@ -113,6 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 			{ "Dodge", &AMainCharacter::execDodge },
 			{ "DodgeTimelineCallback", &AMainCharacter::execDodgeTimelineCallback },
 			{ "DodgeTimelineFinishedCallback", &AMainCharacter::execDodgeTimelineFinishedCallback },
+			{ "Drink", &AMainCharacter::execDrink },
 			{ "Parry", &AMainCharacter::execParry },
 			{ "PlayAttackStepTimeline", &AMainCharacter::execPlayAttackStepTimeline },
 			{ "PlayDodgeTimeline", &AMainCharacter::execPlayDodgeTimeline },
@@ -340,6 +342,28 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AMainCharacter_Drink_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainCharacter_Drink_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainCharacter_Drink_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainCharacter, nullptr, "Drink", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainCharacter_Drink_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainCharacter_Drink_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMainCharacter_Drink()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainCharacter_Drink_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -594,6 +618,11 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		static void NewProp_bCanRoll_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanRoll;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsDrinking_MetaData[];
+#endif
+		static void NewProp_bIsDrinking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsDrinking;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsBlocking_MetaData[];
 #endif
 		static void NewProp_bIsBlocking_SetBit(void* Obj);
@@ -710,6 +739,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		{ &Z_Construct_UFunction_AMainCharacter_Dodge, "Dodge" }, // 2823983674
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineCallback, "DodgeTimelineCallback" }, // 281309949
 		{ &Z_Construct_UFunction_AMainCharacter_DodgeTimelineFinishedCallback, "DodgeTimelineFinishedCallback" }, // 942976648
+		{ &Z_Construct_UFunction_AMainCharacter_Drink, "Drink" }, // 2663095979
 		{ &Z_Construct_UFunction_AMainCharacter_Parry, "Parry" }, // 2491694749
 		{ &Z_Construct_UFunction_AMainCharacter_PlayAttackStepTimeline, "PlayAttackStepTimeline" }, // 337555287
 		{ &Z_Construct_UFunction_AMainCharacter_PlayDodgeTimeline, "PlayDodgeTimeline" }, // 603565200
@@ -871,6 +901,17 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		((AMainCharacter*)Obj)->bCanRoll = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll = { "bCanRoll", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking_MetaData[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "MainCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking_SetBit(void* Obj)
+	{
+		((AMainCharacter*)Obj)->bIsDrinking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking = { "bIsDrinking", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMainCharacter), &Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking_MetaData[] = {
 		{ "Category", "Combat" },
@@ -1084,6 +1125,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanDodge,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanAttack,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bCanRoll,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDrinking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsBlocking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsParrying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCharacter_Statics::NewProp_bIsDashing,
@@ -1136,7 +1178,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCharacter, 4261231123);
+	IMPLEMENT_CLASS(AMainCharacter, 4205178517);
 	template<> SOULSLIKE_API UClass* StaticClass<AMainCharacter>()
 	{
 		return AMainCharacter::StaticClass();

@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{21C046B4-144F-48B2-B673-DAA413215DAD}</ProjectGuid>
+    <ProjectGuid>{C95442A8-C07C-489E-B7B9-D18E15E5DB74}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>SoulsLike</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
