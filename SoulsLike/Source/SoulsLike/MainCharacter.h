@@ -92,6 +92,9 @@ public:
 	float StaminaDrainRate;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
+	float WalkingSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
 	float RunningSpeed;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Running")
@@ -215,6 +218,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void Drink();
 
+	UFUNCTION(BlueprintCallable)
+		void DrinkEnd();
+
 	void DashBegin();
 	void DashEnd();
 
@@ -250,4 +256,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
 	class UAnimMontage* ParryMontage;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat")
+	class UAnimMontage* DrinkMontage;
 };

@@ -1,44 +1,23 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Soul_Like_GitHub\SoulsLike).
-  Creating makefile for SoulsLikeEditor (no existing makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal2020\SoulsLike).
+  Creating makefile for SoulsLikeEditor (ini files are newer than makefile)
   Parsing headers for SoulsLikeEditor
-    Running UnrealHeaderTool "D:\Soul_Like_GitHub\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SoulsLikeEditor in 15.5892055 seconds
+    Running UnrealHeaderTool "D:\Unreal2020\SoulsLike\SoulsLike\SoulsLike.uproject" "D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\SoulsLikeEditor\Development\SoulsLikeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SoulsLikeEditor in 6.1736387 seconds
   Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 33 actions with 8 processes...
-    [1/33] Default.rc2
-    [2/33] SharedPCH.Engine.cpp
-    [3/33] Pickup.cpp
-    [4/33] SoulsLike.cpp
-    [5/33] Shield.cpp
-    [6/33] EnemyPawn.cpp
-    [7/33] Explosive.cpp
-    [8/33] Weapon.cpp
-    [9/33] MainNoWeaponAnimInstance.cpp
-    [10/33] Boss_01.cpp
-    [11/33] Item.cpp
-    [12/33] SoulsLikeGameModeBase.cpp
-    [13/33] BasicEnemyAnimInstance.cpp
-    [14/33] BasicEnemy.cpp
-    [15/33] Weapon.gen.cpp
-    [16/33] BasicEnemy.gen.cpp
-    [17/33] SoulsLike.init.gen.cpp
-    [18/33] SoulsLikeGameModeBase.gen.cpp
-    [19/33] Shield.gen.cpp
-    [20/33] Pickup.gen.cpp
-    [21/33] BasicEnemyAnimInstance.gen.cpp
-    [22/33] MainPlayerController.gen.cpp
-    [23/33] Item.gen.cpp
-    [24/33] Explosive.gen.cpp
-    [25/33] EnemyPawn.gen.cpp
-    [26/33] MainCharacter.gen.cpp
-    [27/33] MainNoWeaponAnimInstance.gen.cpp
-    [28/33] Boss_01.gen.cpp
-    [29/33] MainPlayerController.cpp
-    [30/33] MainCharacter.cpp
-    [31/33] UE4Editor-SoulsLike.lib
-       Creating library D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
-    [32/33] UE4Editor-SoulsLike.dll
-       Creating library D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\Soul_Like_GitHub\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
-    [33/33] SoulsLikeEditor.target
-  Total time in Parallel executor: 73.79 seconds
-  Total execution time: 115.16 seconds
+  Building 12 actions with 12 processes...
+    [1/12] SoulsLike.init.gen.cpp
+    [2/12] Pickup.cpp
+    [3/12] Explosive.cpp
+    [4/12] Shield.cpp
+    [5/12] Weapon.cpp
+    [6/12] MainCharacter.gen.cpp
+    [7/12] MainNoWeaponAnimInstance.cpp
+    [8/12] BasicEnemyAnimInstance.cpp
+    [9/12] MainCharacter.cpp
+    [10/12] UE4Editor-SoulsLike.lib
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.exp
+    [11/12] UE4Editor-SoulsLike.dll
+       Creating library D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.lib and object D:\Unreal2020\SoulsLike\SoulsLike\Intermediate\Build\Win64\UE4Editor\Development\SoulsLike\UE4Editor-SoulsLike.suppressed.exp
+    [12/12] SoulsLikeEditor.target
+  Total time in Parallel executor: 11.49 seconds
+  Total execution time: 19.73 seconds
