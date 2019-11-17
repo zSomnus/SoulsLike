@@ -2110,3 +2110,161 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.17-18.58.42:322][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
 [2019.11.17-18.58.42:382][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
 [2019.11.17-18.58.42:399][506]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2019.11.17-19.03.34:098][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2019.11.17-19.03.34:099][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BoEnemy' took 0.049
+[2019.11.17-19.03.34:101][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Witch] ([1] browsable assets)...
+[2019.11.17-19.03.34:101][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Witch]
+[2019.11.17-19.03.34:125][474]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Witch_Auto48AE0A9E9457A9F1C3824CAA1FF734FC9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Witch_Auto4.uasset'
+[2019.11.17-19.03.34:127][474]LogFileHelpers: Auto-saving content packages took 0.027
+[2019.11.17-19.07.08:868][104]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Boss/BP_Boss1.BP_Boss1
+[2019.11.17-19.09.46:632][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.46:634][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.46:635][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.46:637][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.46:637][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.46:640][931]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:650][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:652][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:654][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:656][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:657][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.53:658][243]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.09.55:562][324]LogSlate: Took 0.004254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.17-19.10.02:761][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.02:763][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.02:765][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.02:766][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.02:768][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.02:768][647]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:198][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:199][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:201][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:203][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:204][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.49:205][613]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:079][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:081][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:082][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:084][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:085][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.10.51:086][694]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:068][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:070][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:071][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:073][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:075][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.04:076][271]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:971][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:973][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:975][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:977][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:978][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.09:979][533]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.36:353][677]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.17-19.11.43:334][984]BlueprintLog: New page: Compile BP_Witch
+[2019.11.17-19.11.43:349][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:351][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:352][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:354][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:354][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:355][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:617][984]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.11.17-19.11.43:619][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:621][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:622][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:624][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:625][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:626][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:627][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:670][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:672][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:673][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:674][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:676][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.43:677][984]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.44:207][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bo_Enemy/BP_Witch" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset" SILENT=true
+[2019.11.17-19.11.44:289][  2]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_Witch484B15FA4D17B82988A1EBA374B84DD0.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset'
+[2019.11.17-19.11.45:377][ 50]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.17-19.11.45:427][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.17-19.11.45:428][ 50]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.17-19.11.45:431][ 50]LogPlayLevel: [PlayLevel] Compiling Witch before play...
+[2019.11.17-19.11.45:693][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:695][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:696][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:697][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:698][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:699][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:737][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:739][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:740][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:741][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:742][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:743][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:832][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2019.11.17-19.11.45:832][ 50]LogPlayLevel: PlayLevel: Blueprint regeneration took 405 ms (1 blueprints)
+[2019.11.17-19.11.45:832][ 50]PIE: New page: PIE session: BoEnemy (Nov 17, 2019, 9:11:45 AM)
+[2019.11.17-19.11.45:833][ 50]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BoEnemy
+[2019.11.17-19.11.45:837][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004290s)
+[2019.11.17-19.11.45:838][ 50]LogAIModule: Creating AISystem for world BoEnemy
+[2019.11.17-19.11.45:838][ 50]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2019.11.17-19.11.45:838][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BoEnemy.BoEnemy to /Game/Maps/UEDPIE_0_BoEnemy.BoEnemy (0.005398s)
+[2019.11.17-19.11.45:882][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.17-19.11.45:887][ 50]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.17-19.11.45:956][ 50]LogInit: FAudioDevice initialized.
+[2019.11.17-19.11.45:965][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-19.11.45:994][ 50]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.17-19.11.45:996][ 50]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.11.45:997][ 50]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BoEnemy.BoEnemy up for play (max tick rate 45) at 2019.11.17-14.11.45
+[2019.11.17-19.11.45:998][ 50]LogWorld: Bringing up level for play took: 0.002220
+[2019.11.17-19.11.46:015][ 50]Cmd: t.maxfps 45
+[2019.11.17-19.11.46:015][ 50]t.MaxFPS = "45"
+[2019.11.17-19.11.46:017][ 50]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BoEnemy 0.954
+[2019.11.17-19.11.46:018][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.17-19.11.54:059][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.17-19.11.54:060][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.17-19.11.54:078][407]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.17-19.11.54:130][407]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.17-19.11.54:130][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.17-19.11.54:195][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.11.17-19.11.54:260][408]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2019.11.17-19.12.47:428][ 83]LogEditorTransaction: Undo Add Node
+[2019.11.17-19.12.48:051][111]LogEditorTransaction: Undo Delete current selection
+[2019.11.17-19.12.50:457][218]BlueprintLog: New page: Compile BP_Boss1
+[2019.11.17-19.12.50:831][218]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.11.17-19.12.51:074][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Boss/BP_Boss1" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Boss/BP_Boss1.uasset" SILENT=true
+[2019.11.17-19.12.51:124][222]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_Boss135F81D9F428C6F076078A1BB31AF2484.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Boss/BP_Boss1.uasset'
+[2019.11.17-19.13.38:819][349]BlueprintLog: New page: Compile BP_Witch
+[2019.11.17-19.13.38:834][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.38:836][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.38:837][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.38:838][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.38:838][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.38:839][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:092][349]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.11.17-19.13.39:094][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:096][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:097][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:098][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:100][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:101][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:102][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:141][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:143][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:144][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:145][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:146][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:147][349]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.17-19.13.39:584][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bo_Enemy/BP_Witch" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset" SILENT=true
+[2019.11.17-19.13.39:657][362]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_WitchEA0A454C4CBBD902BE5213B8294B493E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset'
+[2019.11.17-19.13.43:431][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2019.11.17-19.13.43:661][525]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BoEnemy_Auto5FF6269234792788EADE01F90C62A4B57.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/Maps/BoEnemy_Auto5.umap'
+[2019.11.17-19.13.43:664][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BoEnemy' took 0.290
+[2019.11.17-19.13.43:664][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2019.11.17-19.13.43:667][525]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/Witch] ([1] browsable assets)...
+[2019.11.17-19.13.43:667][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/Witch]
+[2019.11.17-19.13.43:694][525]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Witch_Auto54B1F009946EF762A93668B809FCEB5D9.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/Witch_Auto5.uasset'
+[2019.11.17-19.13.43:695][525]LogFileHelpers: Auto-saving content packages took 0.029
+[2019.11.17-19.14.18:070][ 42]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonCPP/Blueprints/LoadingScreen.LoadingScreen
+[2019.11.17-19.14.39:239][956]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/levelChange.levelChange
+[2019.11.17-19.16.18:877][667]BlueprintLog: New page: Compile levelChange
+[2019.11.17-19.16.19:143][667]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
