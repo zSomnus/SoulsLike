@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SoulsLike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EA1F3C20-D382-4634-A6A3-3E1B01E2BA74}</UniqueIdentifier>
+      <UniqueIdentifier>{927DA1E1-E574-4E8D-866E-22A80C48DF12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SoulsLike.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{ADD5B7C1-557F-4F5C-9C8C-52AF5D6C5EED}</UniqueIdentifier>
+      <UniqueIdentifier>{F620195E-E425-4726-90C2-FE5050CC6053}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SoulsLike">
-      <UniqueIdentifier>{E7178C45-99F6-4D42-A92F-1B7238653EF4}</UniqueIdentifier>
+      <UniqueIdentifier>{BF9D08C5-75C3-432C-B44C-4E1B7A300B43}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SoulsLike\BasicEnemy.cpp">
       <Filter>Source\SoulsLike</Filter>
