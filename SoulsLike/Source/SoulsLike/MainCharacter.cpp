@@ -82,6 +82,12 @@ AMainCharacter::AMainCharacter()
 	bCanDash = true;
 	bCanParry = false;
 
+	// Stamina Cost
+	AttackStaminaCost = 20;
+	RollStaminaCost = 25;
+	ParryStaminaCost = 20;
+	DodgeStaminaCost = 20;
+
 	//Timeline curves
 	static ConstructorHelpers::FObjectFinder<UCurveFloat> RollCurve(TEXT("/Game/Curves/C_RollCurve"));
 	static ConstructorHelpers::FObjectFinder<UCurveFloat> DodgeCurve(TEXT("/Game/Curves/C_DodgeCurve"));
@@ -207,6 +213,7 @@ void AMainCharacter::Tick(float DeltaTime)
 	}
 
 	float DeltaStamina = StaminaDrainRate * DeltaTime;
+	float DeltaStaminaRecover = StaminaRecoverRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
 
 	if (bIsDashing && !bIsDrinking)
@@ -220,7 +227,7 @@ void AMainCharacter::Tick(float DeltaTime)
 			}
 			else
 			{
-				Stamina += DeltaStamina;
+				Stamina += DeltaStaminaRecover;
 				SetMovementStatus(EMovementStatus::EMS_Normal);
 			}
 		}
@@ -238,7 +245,7 @@ void AMainCharacter::Tick(float DeltaTime)
 		}
 		else
 		{
-			Stamina += DeltaStamina;
+			Stamina += DeltaStaminaRecover;
 		}
 
 		SetMovementStatus(EMovementStatus::EMS_Normal);
@@ -373,11 +380,12 @@ void AMainCharacter::Roll()
 
 	if ((CurrentVector != FVector(0.f)) && (InputLength != 0.f) && Health > 0 && !bIsDrinking)
 	{
-		if (AnimInstance && RollMontage && !bIsRolling)
+		if (AnimInstance && RollMontage && !bIsRolling && Stamina > RollStaminaCost)
 		{
 			if (!bIsDodging && !bIsAttacking && !bIsParrying)
 			{
 				bIsRolling = true;
+				Stamina -= RollStaminaCost;
 				AnimInstance->Montage_Play(RollMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Roll"), RollMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Roll"));
@@ -404,11 +412,12 @@ void AMainCharacter::Dodge()
 
 	if(CurrentVector == FVector(0.f) && InputLength == 0.f && Health > 0 && !bIsDrinking)
 	{
-		if (AnimInstance && DodgeMontage && !bIsDodging)
+		if (AnimInstance && DodgeMontage && !bIsDodging && Stamina > DodgeStaminaCost)
 		{
 			if (!bIsRolling && !bIsAttacking && !bIsParrying)
 			{
 				bIsDodging = true;
+				Stamina -= DodgeStaminaCost;
 				AnimInstance->Montage_Play(DodgeMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Dodge"), DodgeMontage);
 				UE_LOG(LogTemp, Warning, TEXT("Dodge"));
@@ -430,9 +439,10 @@ void AMainCharacter::Parry()
 
 	if (AnimInstance && ParryMontage && !bIsParrying && Health > 0 && !bIsDrinking)
 	{
-		if (!bIsRolling && !bIsAttacking && !bIsDodging)
+		if (!bIsRolling && !bIsAttacking && !bIsDodging && Stamina > ParryStaminaCost)
 		{
 			bIsParrying = true;
+			Stamina -= ParryStaminaCost;
 			AnimInstance->Montage_Play(ParryMontage, 1.f);
 			AnimInstance->Montage_JumpToSection(FName("ShieldParry"), ParryMontage);
 
@@ -576,12 +586,13 @@ void AMainCharacter::Attack()
 
 	if (AnimInstance && AttackMontage && !bIsAttacking && Health > 0 && !bIsDrinking)
 	{
-		if (!bIsAttacking && !bIsDodging && !bIsRolling)
+		if (!bIsAttacking && !bIsDodging && !bIsRolling && Stamina > AttackStaminaCost)
 		{
 			bIsAttacking = true;
 			if (AttackCount < 1)
 			{
 				AttackCount = 1;
+				Stamina -= AttackStaminaCost;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack1"), AttackMontage);
 				//PlayAttackStepTimeline();
@@ -590,6 +601,7 @@ void AMainCharacter::Attack()
 			else
 			{
 				AttackCount = 0;
+				Stamina -= AttackStaminaCost;
 				AnimInstance->Montage_Play(AttackMontage, 1.f);
 				AnimInstance->Montage_JumpToSection(FName("Attack2"), AttackMontage);
 				//PlayAttackStepTimeline();
