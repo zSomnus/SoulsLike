@@ -216,6 +216,20 @@ void AMainCharacter::Tick(float DeltaTime)
 	float DeltaStaminaRecover = StaminaRecoverRate * DeltaTime;
 	FVector CurrentVelocity = GetVelocity();
 
+	if (bIsBlocking)
+	{
+		if (Stamina > 0.f)
+		{
+			Stamina -= DeltaStamina;
+			//SetMovementStatus(EMovementStatus::EMS_Blocking);
+		}
+		else
+		{
+			Stamina = 0.f;
+			bIsBlocking = false;
+		}
+	}
+
 	if (bIsDashing && !bIsDrinking)
 	{
 		if (Stamina > 0.f)
@@ -234,12 +248,13 @@ void AMainCharacter::Tick(float DeltaTime)
 		else
 		{
 			Stamina = 0.f;
+			bIsBlocking = false;
 			SetMovementStatus(EMovementStatus::EMS_Normal);
 		}
 	}
 	else
 	{
-		if (Stamina + DeltaStamina >= MaxStamina)
+		if (Stamina + DeltaStaminaRecover >= MaxStamina)
 		{
 			Stamina = MaxStamina;
 		}
