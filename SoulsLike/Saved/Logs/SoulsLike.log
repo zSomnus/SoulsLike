@@ -2497,3 +2497,151 @@ Please update your composite fonts to use localized sub-font families: https://d
 [2019.11.18-15.05.33:401][600]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/WitchDA8ED6ED4BF022DCEF74A3B183F71445.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/ThirdPersonCPP/Blueprints/Witch.uasset'
 [2019.11.18-15.05.34:237][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2019.11.18-15.05.35:179][629]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel4AB93ED1403F686134A9FBAB6FA7D00E.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.18-15.06.43:531][356]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2019.11.18-15.06.43:548][356]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.43:550][356]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.43:551][356]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.43:551][356]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.46:528][487]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.46:530][487]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.46:531][487]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.06.46:532][487]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.15:812][470]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.15:814][470]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.15:816][470]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.15:816][470]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.22:989][789]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.22:990][789]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.22:992][789]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.22:992][789]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.35:277][335]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.35:279][335]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.35:280][335]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.35:281][335]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.08.48:007][895]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.18-15.11.40:329][568]BlueprintLog: New page: Compile BP_Witch
+[2019.11.18-15.11.40:351][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:353][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:354][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:355][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:660][568]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2019.11.18-15.11.40:663][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:664][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:665][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:666][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:667][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:686][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:687][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:688][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.40:688][568]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.11.41:165][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bo_Enemy/BP_Witch" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset" SILENT=true
+[2019.11.18-15.11.41:245][585]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BP_Witch5F37A33344EBA86562D877AE62536726.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Bo_Enemy/BP_Witch.uasset'
+[2019.11.18-15.11.41:817][610]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.18-15.11.41:872][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.18-15.11.41:873][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.18-15.11.41:873][610]PIE: New page: PIE session: OutsideLevel (Nov 18, 2019, 5:11:41 AM)
+[2019.11.18-15.11.41:873][610]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_OutsideLevel
+[2019.11.18-15.11.41:962][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089014s)
+[2019.11.18-15.11.41:962][610]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.18-15.11.41:962][610]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2019.11.18-15.11.41:963][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/OutsideLevel.OutsideLevel to /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel (0.089988s)
+[2019.11.18-15.11.42:011][610]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.11.18-15.11.42:016][610]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.18-15.11.42:086][610]LogInit: FAudioDevice initialized.
+[2019.11.18-15.11.42:094][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.18-15.11.42:125][610]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.18-15.11.42:156][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_OutsideLevel.OutsideLevel up for play (max tick rate 45) at 2019.11.18-10.11.42
+[2019.11.18-15.11.42:163][610]LogBehaviorTree: Warning: > Failed to find key 'LastSeen_Location' in BB asset BlackboardData /Game/Kater/Monster/Monster_BB.Monster_BB. BB Key Selector will be set to 'Invalid'
+[2019.11.18-15.11.42:173][610]LogWorld: Bringing up level for play took: 0.046822
+[2019.11.18-15.11.42:197][610]Cmd: t.maxfps 45
+[2019.11.18-15.11.42:198][610]t.MaxFPS = "45"
+[2019.11.18-15.11.42:201][610]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_OutsideLevel 1.054
+[2019.11.18-15.11.42:201][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.18-15.11.42:233][611]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.055606 > MaxSimulationTimeStep (0.050) for 'BP_Dragon_2', movement 'Walking'
+[2019.11.18-15.11.49:949][958]LogBlueprintUserMessages: [BP_Monster2_2] 60.0
+[2019.11.18-15.11.52:239][ 61]LogBlueprintUserMessages: [BP_Monster2_2] 20.0
+[2019.11.18-15.11.53:151][102]LogBlueprintUserMessages: [BP_Monster2_2] -20.0
+[2019.11.18-15.12.07:112][730]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.12:014][949]LogBlueprintUserMessages: [BP_Monster3_5] 60.0
+[2019.11.18-15.12.12:168][956]LogBlueprintUserMessages: [BP_Monster3_5] 20.0
+[2019.11.18-15.12.12:769][983]LogBlueprintUserMessages: [BP_Monster3_5] -20.0
+[2019.11.18-15.12.12:880][988]LogBlueprintUserMessages: [BP_Monster3_5] -60.0
+[2019.11.18-15.12.12:906][989]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.13:459][ 14]LogBlueprintUserMessages: [BP_Monster3_5] -100.0
+[2019.11.18-15.12.26:841][616]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.31:570][829]LogBlueprintUserMessages: [BP_Monster5_11] 60.0
+[2019.11.18-15.12.31:770][838]LogBlueprintUserMessages: [BP_Monster5_11] 20.0
+[2019.11.18-15.12.32:395][866]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.32:925][890]LogBlueprintUserMessages: [BP_Monster5_11] -20.0
+[2019.11.18-15.12.37:929][115]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.43:463][364]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.49:063][616]LogAudio: Warning: Detected orphaned looping sound 'Fire_Sparks01_Cue'.
+[2019.11.18-15.12.49:599][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.18-15.12.49:599][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.18-15.12.49:641][640]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.18-15.12.49:693][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.18-15.12.49:693][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
+[2019.11.18-15.12.49:768][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.11.18-15.12.49:791][641]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2019.11.18-15.12.54:720][860]BlueprintLog: New page: Compile BP_Witch
+[2019.11.18-15.12.54:740][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.54:742][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.54:743][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.54:744][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:041][860]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.11.18-15.12.55:044][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:046][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:048][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:049][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:050][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:070][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:072][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:072][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.12.55:073][860]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.13.11:546][595]LogAIModule: Creating AISystem for world BoEnemy
+[2019.11.18-15.13.11:547][595]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.13.11:552][595]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/BoEnemy.BoEnemy
+[2019.11.18-15.13.11:603][595]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.11.18-15.13.11:604][595]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BoEnemy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-15.13.11:604][595]LightingResults: New page: Lighting Build
+[2019.11.18-15.13.11:605][595]LoadErrors: New page: Loading map: BoEnemy.umap
+[2019.11.18-15.13.11:613][595]MapCheck: New page: Map Check
+[2019.11.18-15.13.11:613][595]LightingResults: New page: Lighting Build
+[2019.11.18-15.13.11:670][595]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.11.18-15.13.11:672][595]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.13.11:827][595]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-15.13.11:881][595]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.11.18-15.13.11:924][595]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-15.13.11:925][595]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
+[2019.11.18-15.13.11:925][595]LogFileHelpers: Loading map 'BoEnemy' took 0.322
+[2019.11.18-15.13.13:712][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BoEnemy" FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BoEnemy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.18-15.13.13:759][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.11.18-15.13.14:045][664]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/BoEnemy15A82DA54F605AE12BEB4DA631400B7F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BoEnemy.umap'
+[2019.11.18-15.13.14:601][679]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.18-15.13.14:652][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.18-15.13.14:652][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.18-15.13.14:652][679]PIE: New page: PIE session: BoEnemy (Nov 18, 2019, 5:13:14 AM)
+[2019.11.18-15.13.14:652][679]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BoEnemy
+[2019.11.18-15.13.14:655][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003029s)
+[2019.11.18-15.13.14:656][679]LogAIModule: Creating AISystem for world BoEnemy
+[2019.11.18-15.13.14:656][679]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.11.18-15.13.14:656][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BoEnemy.BoEnemy to /Game/Maps/UEDPIE_0_BoEnemy.BoEnemy (0.003882s)
+[2019.11.18-15.13.14:703][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.11.18-15.13.14:707][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.18-15.13.14:779][679]LogInit: FAudioDevice initialized.
+[2019.11.18-15.13.14:786][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.18-15.13.14:817][679]LogLoad: Game class is 'BP_SoulsLikeGameModeBase_C'
+[2019.11.18-15.13.14:820][679]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-15.13.14:820][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BoEnemy.BoEnemy up for play (max tick rate 45) at 2019.11.18-10.13.14
+[2019.11.18-15.13.14:821][679]LogWorld: Bringing up level for play took: 0.001667
+[2019.11.18-15.13.14:839][679]Cmd: t.maxfps 45
+[2019.11.18-15.13.14:839][679]t.MaxFPS = "45"
+[2019.11.18-15.13.14:842][679]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BoEnemy -0.304
+[2019.11.18-15.13.14:843][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.18-15.13.31:258][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.18-15.13.31:258][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.18-15.13.31:281][412]LogSlate: Window 'SoulsLike Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.18-15.13.31:323][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.18-15.13.31:323][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy' with GeneratedClass '/Game/Maps/BoEnemy.BoEnemy_C' with ClassGeneratedBy '/Game/Maps/BoEnemy.BoEnemy:PersistentLevel.BoEnemy'
+[2019.11.18-15.13.31:390][412]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.11.18-15.13.31:407][413]LogPlayLevel: Display: Destroying online subsystem :Context_65
