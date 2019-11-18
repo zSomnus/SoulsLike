@@ -651,3 +651,733 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.18-03.12.22:854][676]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/CastleLevelF1111CB940DA31CE28AC519E1F680A7F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
 [2019.11.18-03.13.09:334][965]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
 [2019.11.18-03.13.10:502][965]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/CastleLevelB3D57F3C4C8E3F04FF2A4C99AA1A9BDD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap'
+[2019.11.18-03.13.43:729][ 70]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.13.43:729][ 70]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:811][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.18-03.13.43:812][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:813][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.18-03.13.43:814][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:815][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:815][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:815][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:815][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:815][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:816][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:817][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:817][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:817][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:817][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:817][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:818][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:818][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:818][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:818][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:818][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:819][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:820][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:821][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:821][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:821][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:821][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:822][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.43:823][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.43:824][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:824][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:824][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.18-03.13.43:824][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.18-03.13.43:825][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.43:826][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.43:826][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.43:826][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.43:827][ 70]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.13.43:827][ 70]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.13.43:832][ 70]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.13.43:832][ 70]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.13.43:832][ 70]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.13.43:832][ 70]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.13.43:926][ 70]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.13.43:926][ 70]LoadErrors: Failed to load /Game/Maps/OutsideLevel_BuiltData.OutsideLevel_BuiltData Referenced by PersistentLevel
+[2019.11.18-03.13.43:926][ 70]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.13.44:059][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:060][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.18-03.13.44:060][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:060][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:060][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.18-03.13.44:060][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:060][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.44:060][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.18-03.13.44:061][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.44:061][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_DoorHardware_Inst'
+[2019.11.18-03.13.44:061][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_DoorHardware_Inst.M_DoorHardware_Inst Referenced by SM_DoubleDoor_Large
+[2019.11.18-03.13.44:061][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_DoorHardware_Inst' while loading NULL.
+[2019.11.18-03.13.44:061][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:062][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:062][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:062][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:062][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:062][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.18-03.13.44:063][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:063][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.44:064][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_Curve_A
+[2019.11.18-03.13.44:064][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.44:064][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:064][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.18-03.13.44:064][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:064][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.44:064][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:065][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:065][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:065][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A_NoRail
+[2019.11.18-03.13.44:065][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:077][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:077][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.18-03.13.44:077][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:077][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2'
+[2019.11.18-03.13.44:077][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2.M_BrickFloor_Clean_Inst2 Referenced by SM_Curtain_Wall_A
+[2019.11.18-03.13.44:077][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickFloor_Clean_Inst2' while loading NULL.
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:078][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:078][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:078][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Curtain_Wall_A
+[2019.11.18-03.13.44:078][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:079][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:079][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst.M_StoneWallVertexPaint_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:079][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:079][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:079][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone2_Inst.M_TrimStone2_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:079][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:079][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:079][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst.M_BrickWallVertexPain_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:080][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_TrimStone1_Inst.M_TrimStone1_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_WoodPlanks_Inst'
+[2019.11.18-03.13.44:080][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_WoodPlanks_Inst.M_WoodPlanks_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_WoodPlanks_Inst' while loading NULL.
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_Wood_Inst'
+[2019.11.18-03.13.44:080][ 70]LoadErrors: Failed to load /Game/CastleFortress/Materials/M_Wood_Inst.M_Wood_Inst Referenced by SM_Battlement_Tower_Small
+[2019.11.18-03.13.44:080][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_Wood_Inst' while loading NULL.
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:081][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone2_Inst'
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone2_Inst' while loading NULL.
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_TrimStone1_Inst'
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_TrimStone1_Inst' while loading NULL.
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst'
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_StoneWallVertexPaint_Inst' while loading NULL.
+[2019.11.18-03.13.44:082][ 70]LogLinker: Warning: Can't find file '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst'
+[2019.11.18-03.13.44:083][ 70]LogLinker: Warning: Can't find file for asset '/Game/CastleFortress/Materials/M_BrickWallVertexPain_Inst' while loading NULL.
+[2019.11.18-03.13.44:254][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:254][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:254][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Emitter/EmitterChangeState: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Emitter/EmitterChangeState: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:255][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Emitter/EmitterChangeState: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:256][ 70]LogNiagaraEditor: OpNode Numeric::Subtract, Package /Niagara/Modules/Emitter/EmitterLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:257][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:257][ 70]LogNiagaraEditor: OpNode Numeric::Max, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:257][ 70]LogNiagaraEditor: OpNode Numeric::Subtract, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:258][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:258][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:258][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Max, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:259][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:260][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:260][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Functions/Rotation/MultiplyQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:260][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Functions/Rotation/AxisAngleToQuaternion: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:260][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Solvers/SolveForcesAndVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:261][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/Update/Lifetime/UpdateAge: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:261][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Update/Lifetime/UpdateAge: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:261][ 70]LogNiagaraEditor: OpNode Numeric::Subtract, Package /Niagara/Modules/Update/Lifetime/UpdateAge: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:261][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Modules/Update/Lifetime/UpdateAge: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:261][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Update/Color/Color: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:262][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Update/Color/Color: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:262][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:262][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:262][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:262][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/Localspace/TransformBase: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Spawn/Velocity/AddVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:263][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Velocity/AddVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:264][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Velocity/AddVelocity: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:264][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:265][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:265][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:265][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:266][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:267][ 70]LogNiagaraEditor: OpNode Numeric::Max, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:267][ 70]LogNiagaraEditor: OpNode Numeric::Min, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:267][ 70]LogNiagaraEditor: OpNode Numeric::Subtract, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:267][ 70]LogNiagaraEditor: OpNode Boolean::LogicOr, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:268][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:268][ 70]LogNiagaraEditor: OpNode Numeric::Add, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:268][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:269][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:269][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Spawn/Location/CylinderLocation: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:270][ 70]LogNiagaraEditor: OpNode Numeric::Subtract, Package /Niagara/Modules/Emitter/SpawnRate: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:270][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Emitter/SpawnRate: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:270][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Emitter/SpawnRate: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:270][ 70]LogNiagaraEditor: OpNode Numeric::Mul, Package /Niagara/Modules/Emitter/SpawnRate: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != C67C61444BF462005258FC871336AEA8, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 8101490E4573E18ED7C78A962C0F74A5, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != B3BA33934FA6CBBF17A2F686B19781CD, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 8101490E4573E18ED7C78A962C0F74A5, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != DB7DCFFC413353C703ED43AA12815139, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != 666B06E844490222FEE452B664FCAD5B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 98495AA64B06E2AF7FCD3F9F6D077071, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != A7F56C62445709D5775AFCA11EBF0063, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != A23450AF40928BEAAE6930837FCC46C8, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != 666B06E844490222FEE452B664FCAD5B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != C67C61444BF462005258FC871336AEA8, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 8101490E4573E18ED7C78A962C0F74A5, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != B3BA33934FA6CBBF17A2F686B19781CD, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 8101490E4573E18ED7C78A962C0F74A5, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != DB7DCFFC413353C703ED43AA12815139, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != 666B06E844490222FEE452B664FCAD5B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 98495AA64B06E2AF7FCD3F9F6D077071, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != A7F56C62445709D5775AFCA11EBF0063, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != A23450AF40928BEAAE6930837FCC46C8, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:273][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != 666B06E844490222FEE452B664FCAD5B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:275][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Functions/System/SystemChangeState: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:275][ 70]LogNiagaraEditor: OpNode Boolean::LogicAnd, Package /Niagara/Modules/System/SystemLifeCycle: reallocated existing pins to add new extension pin
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 2 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != B9CB4472413109035F6B62B1DB274655, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 3 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 4 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 5 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 6 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 7 doesn't match. D31411F848F321E89A469E82803F396E != 52C30B66425D8312AF400FAD0A1D2DA0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 10 doesn't match. 59D1BB7A4E2F0E41EE97B88F835DF640 != 371AE280459F7F18C674C88E1ADD29BD, source /Niagara/Modules/System/SystemLifeCycle.SystemLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 16 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != B9CB4472413109035F6B62B1DB274655, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 17 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 18 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 19 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 20 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. D31411F848F321E89A469E82803F396E != 52C30B66425D8312AF400FAD0A1D2DA0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 3 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != B9CB4472413109035F6B62B1DB274655, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 4 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 5 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 6 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 7 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 8 doesn't match. D31411F848F321E89A469E82803F396E != 52C30B66425D8312AF400FAD0A1D2DA0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 10 doesn't match. 59D1BB7A4E2F0E41EE97B88F835DF640 != 371AE280459F7F18C674C88E1ADD29BD, source /Niagara/Modules/System/SystemLifeCycle.SystemLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != D49E3C4A41265C13AE3343856759EFFF, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 16 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != B9CB4472413109035F6B62B1DB274655, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 17 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 18 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 19 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 20 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != F0391FD743F9E965F0BAB1991E9425A1, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:279][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. D31411F848F321E89A469E82803F396E != 52C30B66425D8312AF400FAD0A1D2DA0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:281][ 70]LogNiagara: Emitter /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_0-cloud_new is merging changes from source /Game/StarterContent/cloud/cloud_new.cloud_new because its Change ID was updated.
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:292][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:293][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:300][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.cloud_new:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in EmitterSpawnScript .. synced guid: 0616EEAA46C21BBD4C7365AD58DF5386
+[2019.11.18-03.13.44:300][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.cloud_new:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in EmitterUpdateScript .. synced guid: E91D95DB4E3C3E8ED75924ABEBE82A59
+[2019.11.18-03.13.44:300][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.cloud_new:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleSpawnScript .. synced guid: 57113435409584F4E0BC6BBC3FA2C1B6
+[2019.11.18-03.13.44:300][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.cloud_new:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleUpdateScript .. synced guid: F6A3D5B643555548976EC88E9BAEA0CF
+[2019.11.18-03.13.44:300][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.cloud_new:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleGPUComputeScript .. synced guid: B17DB96043E02517FA520EACBCC21E7C
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:310][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized base script id's don't match. 57113435409584F4E0BC6BBC3FA2C1B6 != 25EF9A924F698982C57044888B4EEE91
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:311][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter being compiled because there were changes to a system script Change ID.
+[2019.11.18-03.13.44:311][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter being compiled because there were changes to an emitter script Change ID.
+[2019.11.18-03.13.44:311][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter being compiled because graph changes were merged for a base emitter.
+[2019.11.18-03.13.44:363][ 70]LogNiagaraEditor: '/Game/Particle_System/cloud/Cloud_Emitter' Precompile took 0.051795 sec.
+[2019.11.18-03.13.44:363][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 0 doesn't match. 57113435409584F4E0BC6BBC3FA2C1B6 != 25EF9A924F698982C57044888B4EEE91, source /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeOutput_4
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.SpawnScript ...................................................................
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:364][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.UpdateScript ...................................................................
+[2019.11.18-03.13.44:366][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemSpawnScript ...................................................................
+[2019.11.18-03.13.44:366][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemUpdateScript ...................................................................
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:366][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:367][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != AFBB2BB44CBFD8CDA5DA38B4ED7E2ACE, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 82609B4F4BF07282190372A403680AB9, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != DEAC160C42A1CAA9A408429B942495DE, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 82609B4F4BF07282190372A403680AB9, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0AED68294DB490993066C19469733BD7, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != D1D3328548D3A8C72432938125DE7192, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != E431C011468744DB133A19BB683FFA0E, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 9F5E6D4543AC14FF374D168874DE5FB6, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != DD75B2D74272DBF46506EEA454F21745, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != D1D3328548D3A8C72432938125DE7192, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != AFBB2BB44CBFD8CDA5DA38B4ED7E2ACE, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 82609B4F4BF07282190372A403680AB9, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != DEAC160C42A1CAA9A408429B942495DE, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 82609B4F4BF07282190372A403680AB9, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0AED68294DB490993066C19469733BD7, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != D1D3328548D3A8C72432938125DE7192, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != E431C011468744DB133A19BB683FFA0E, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 9F5E6D4543AC14FF374D168874DE5FB6, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != DD75B2D74272DBF46506EEA454F21745, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:369][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != D1D3328548D3A8C72432938125DE7192, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 2 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != 6089DF994D4BF6487CF681A497C2B4C7, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 3 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 4 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 5 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 6 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 7 doesn't match. D31411F848F321E89A469E82803F396E != 3F5F70964EC02679D5178EB266AC81A0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 10 doesn't match. 59D1BB7A4E2F0E41EE97B88F835DF640 != DD6358B5461DD1C1612DF097FF23832D, source /Niagara/Modules/System/SystemLifeCycle.SystemLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:372][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 16 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != 6089DF994D4BF6487CF681A497C2B4C7, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 17 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 18 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 19 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 20 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. D31411F848F321E89A469E82803F396E != 3F5F70964EC02679D5178EB266AC81A0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 3 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != 6089DF994D4BF6487CF681A497C2B4C7, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 4 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 5 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 6 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 7 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 8 doesn't match. D31411F848F321E89A469E82803F396E != 3F5F70964EC02679D5178EB266AC81A0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 10 doesn't match. 59D1BB7A4E2F0E41EE97B88F835DF640 != DD6358B5461DD1C1612DF097FF23832D, source /Niagara/Modules/System/SystemLifeCycle.SystemLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 273494034CD5C6F916A3A3995C1BCB00 != DFCF8DA04E98C81763A943AE656F9804, source /Niagara/Functions/System/SystemChangeState.SystemChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:373][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 16 doesn't match. FDFAD3014A7A9DDBC893EDBA7B47BCF5 != 6089DF994D4BF6487CF681A497C2B4C7, source /Niagara/Modules/Emitter/EmitterLifeCycle.EmitterLifeCycle:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 17 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 18 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 19 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 20 doesn't match. F6B247B644D624B4C5340E86F1DF2612 != A890F1AF416BC7873CBD83BD49C8A638, source /Niagara/Functions/Emitter/EmitterChangeState.EmitterChangeState:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. D31411F848F321E89A469E82803F396E != 3F5F70964EC02679D5178EB266AC81A0, source /Niagara/Modules/Emitter/SpawnRate.SpawnRate:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:374][ 70]LogNiagara: Emitter /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_1-cloud_new is merging changes from source /Game/StarterContent/cloud/cloud_new.cloud_new because its Change ID was updated.
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:401][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:404][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.NiagaraEmitter_0:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in EmitterSpawnScript .. synced guid: 0616EEAA46C21BBD4C7365AD58DF5386
+[2019.11.18-03.13.44:404][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.NiagaraEmitter_0:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in EmitterUpdateScript .. synced guid: E91D95DB4E3C3E8ED75924ABEBE82A59
+[2019.11.18-03.13.44:404][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.NiagaraEmitter_0:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleSpawnScript .. synced guid: 680CD508400DCC4BFAF121A4AC8CEAF1
+[2019.11.18-03.13.44:404][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.NiagaraEmitter_0:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleUpdateScript .. synced guid: F6A3D5B643555548976EC88E9BAEA0CF
+[2019.11.18-03.13.44:404][ 70]LogNiagaraEditor: 'NiagaraGraph /Engine/Transient.NiagaraEmitter_0:NiagaraScriptSource_0.NiagaraGraph_0' changes synchronized with master script in ParticleGPUComputeScript .. synced guid: 44DAF85343687A90FA746BBF5D93EDFD
+[2019.11.18-03.13.44:416][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized base script id's don't match. 680CD508400DCC4BFAF121A4AC8CEAF1 != 25EF9A924F698982C57044888B4EEE91
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 11 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 13 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 21 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:417][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:418][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:418][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:418][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_gate.Cloud_gate being compiled because there were changes to a system script Change ID.
+[2019.11.18-03.13.44:418][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_gate.Cloud_gate being compiled because there were changes to an emitter script Change ID.
+[2019.11.18-03.13.44:418][ 70]LogNiagara: System /Game/Particle_System/cloud/Cloud_gate.Cloud_gate being compiled because graph changes were merged for a base emitter.
+[2019.11.18-03.13.44:471][ 70]LogNiagaraEditor: '/Game/Particle_System/cloud/Cloud_gate' Precompile took 0.053439 sec.
+[2019.11.18-03.13.44:471][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 0 doesn't match. 680CD508400DCC4BFAF121A4AC8CEAF1 != 25EF9A924F698982C57044888B4EEE91, source /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.NiagaraScriptSource_0.NiagaraGraph_0.NiagaraNodeOutput_4
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 12 doesn't match. BAD9166247B968F6AFEA39AC28AF43DE != 57F01B694A51134C0E8D358451EE96E0, source /Niagara/Modules/Spawn/Velocity/AddVelocity.AddVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 14 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.SpawnScript ...................................................................
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 15 doesn't match. AFDFDD384FD6EA6B4BB9288E3DCAA740 != 8DDAD9924B744B2D980BAAB3EB1506F0, source /Niagara/Modules/Spawn/Location/CylinderLocation.CylinderLocation:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 22 doesn't match. 53A79A8049CC354B99F18789A3EB4384 != 499A9F10434278A3352575BB1B03DAED, source /Niagara/Functions/Localspace/TransformBase.TransformBase:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 23 doesn't match. 847CD0054D7D55B5F55F93B022A4D85D != 0D8F278D4F716E8FE477BE8E1D01986D, source /Niagara/Modules/Update/Lifetime/UpdateAge.UpdateAge:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 24 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 25 doesn't match. 03A593384DEFB2B9DA047B817D12A7FE != 4D1851B44D05A89C93DD45BB2ACA86B8, source /Niagara/Modules/Update/Color/Color.Color:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 26 doesn't match. B8BCC94F4C2DB1623D2BFE94AAFB0D36 != 1D6BCA704847E552ECC323A2E4598850, source /Niagara/Modules/Solvers/SolveForcesAndVelocity.SolveForcesAndVelocity:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 31 doesn't match. 5EF7D5AC4A1570DA3A7D2684D0BB73F3 != 577E09AB484330A6A38274B00424E323, source /Niagara/Functions/Rotation/AxisAngleToQuaternion.AxisAngleToQuaternion:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:472][ 70]LogNiagara: AreScriptAndSourceSynchronized reference id 33 doesn't match. 205D25524208B3C8B5AF53B44324F130 != B280842B494B99ED57872CA536189F4B, source /Niagara/DynamicInputs/ValueFromCurve/FloatFromCurve.FloatFromCurve:NiagaraScriptSource_0.NiagaraGraph_0
+[2019.11.18-03.13.44:787][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.UpdateScript ...................................................................
+[2019.11.18-03.13.45:222][ 70]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.18-03.13.45:345][ 70]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
+[2019.11.18-03.13.46:242][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.SpawnScript took 1.876395 sec (0.031226/1.844874)... Status NCS_UpToDate
+[2019.11.18-03.13.46:242][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.SpawnScript' was built locally..
+[2019.11.18-03.13.46:391][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemSpawnScript ...................................................................
+[2019.11.18-03.13.46:391][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.UpdateScript took 2.026752 sec (0.036716/0.150643)... Status NCS_UpToDate
+[2019.11.18-03.13.46:391][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:cloud_new_1.UpdateScript' was built locally..
+[2019.11.18-03.13.46:456][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemUpdateScript ...................................................................
+[2019.11.18-03.13.46:457][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemSpawnScript took 2.091969 sec (0.039920/0.065394)... Status NCS_UpToDate
+[2019.11.18-03.13.46:457][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemSpawnScript' was built locally..
+[2019.11.18-03.13.46:703][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemUpdateScript took 2.337656 sec (0.047012/0.245706)... Status NCS_UpToDate
+[2019.11.18-03.13.46:703][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter:SystemUpdateScript' was built locally..
+[2019.11.18-03.13.46:709][ 70]LogNiagara: Compiling System NiagaraSystem /Game/Particle_System/cloud/Cloud_Emitter.Cloud_Emitter took 2.397622 sec (wall time), 8.332772 sec (combined time).
+[2019.11.18-03.13.48:189][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.SpawnScript took 3.716226 sec (0.020014/1.485708)... Status NCS_UpToDate
+[2019.11.18-03.13.48:189][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.SpawnScript' was built locally..
+[2019.11.18-03.13.48:334][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.UpdateScript took 3.859491 sec (0.025760/0.143647)... Status NCS_UpToDate
+[2019.11.18-03.13.48:334][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:cloud_new_0.UpdateScript' was built locally..
+[2019.11.18-03.13.48:394][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemSpawnScript took 2.152408 sec (0.003387/0.062664)... Status NCS_UpToDate
+[2019.11.18-03.13.48:394][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemSpawnScript' was built locally..
+[2019.11.18-03.13.48:632][ 70]LogNiagaraEditor: Compiling System NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemUpdateScript took 2.239592 sec (0.006799/0.236978)... Status NCS_UpToDate
+[2019.11.18-03.13.48:632][ 70]LogNiagara: UNiagraScript 'NiagaraScript /Game/Particle_System/cloud/Cloud_gate.Cloud_gate:SystemUpdateScript' was built locally..
+[2019.11.18-03.13.48:636][ 70]LogNiagara: Compiling System NiagaraSystem /Game/Particle_System/cloud/Cloud_gate.Cloud_gate took 4.218626 sec (wall time), 11.967716 sec (combined time).
+[2019.11.18-03.13.48:677][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.18-03.13.48:678][ 70]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-03.13.48:679][ 70]LightingResults: New page: Lighting Build
+[2019.11.18-03.13.48:680][ 70]LoadErrors: New page: Loading map: OutsideLevel.umap
+[2019.11.18-03.13.48:687][ 70]MapCheck: New page: Map Check
+[2019.11.18-03.13.48:687][ 70]LightingResults: New page: Lighting Build
+[2019.11.18-03.13.48:730][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.18-03.13.49:004][ 70]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-03.13.49:100][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.11.18-03.13.49:140][ 70]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-03.13.49:140][ 70]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.133ms to complete.
+[2019.11.18-03.13.49:141][ 70]LogFileHelpers: Loading map 'OutsideLevel' took 0.463
+[2019.11.18-03.13.53:563][282]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel
+[2019.11.18-03.14.03:792][858]LogAIModule: Creating AISystem for world CastleLevel
+[2019.11.18-03.14.03:807][858]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-03.14.03:878][858]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/CastleLevel.CastleLevel
+[2019.11.18-03.14.03:921][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.18-03.14.03:922][858]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/CastleLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-03.14.03:922][858]LightingResults: New page: Lighting Build
+[2019.11.18-03.14.03:922][858]LoadErrors: New page: Loading map: CastleLevel.umap
+[2019.11.18-03.14.03:978][858]MapCheck: New page: Map Check
+[2019.11.18-03.14.03:978][858]LightingResults: New page: Lighting Build
+[2019.11.18-03.14.04:027][858]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.18-03.14.04:047][858]AnimBlueprintLog: Warning: SLOTNODE: 'WitchHit' in animation instance class AMP_Witch_C already exists. Remove duplicates from the animation graph for this class.
+[2019.11.18-03.14.04:352][858]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-03.14.04:393][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.18-03.14.04:440][858]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-03.14.04:440][858]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
+[2019.11.18-03.14.04:440][858]LogFileHelpers: Loading map 'CastleLevel' took 0.519
+[2019.11.18-03.14.05:211][859]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.11.18-03.14.55:395][185]LogAIModule: Creating AISystem for world Enemy_Level
+[2019.11.18-03.14.55:403][185]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Enemy_Level.Enemy_Level
+[2019.11.18-03.14.55:436][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.18-03.14.55:438][185]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/Enemy_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-03.14.55:438][185]LightingResults: New page: Lighting Build
+[2019.11.18-03.14.55:438][185]LoadErrors: New page: Loading map: Enemy_Level.umap
+[2019.11.18-03.14.55:448][185]MapCheck: New page: Map Check
+[2019.11.18-03.14.55:448][185]LightingResults: New page: Lighting Build
+[2019.11.18-03.14.55:492][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.18-03.14.55:675][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-03.14.55:716][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.11.18-03.14.55:762][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-03.14.55:762][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
+[2019.11.18-03.14.55:762][185]LogFileHelpers: Loading map 'Enemy_Level' took 0.325
+[2019.11.18-03.14.59:737][409]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Enemy_Level.Enemy_Level:PersistentLevel.Enemy_Level
+[2019.11.18-03.15.03:471][608]LogSlate: Window 'Enemy_Level' being destroyed
+[2019.11.18-03.15.03:486][608]LogSlate: Window 'Enemy_Level' being destroyed
+[2019.11.18-03.15.06:322][769]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.18-03.15.06:322][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.06:324][769]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.18-03.15.06:324][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.06:325][769]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.18-03.15.06:325][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.06:325][769]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.18-03.15.06:325][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.06:349][769]LogLinker: Warning: Can't find file '/Game/Maps/BossLevel_BuiltData'
+[2019.11.18-03.15.06:349][769]LoadErrors: Failed to load /Game/Maps/BossLevel_BuiltData.BossLevel_BuiltData Referenced by PersistentLevel
+[2019.11.18-03.15.06:349][769]LogLinker: Warning: Can't find file for asset '/Game/Maps/BossLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.06:363][769]LogAIModule: Creating AISystem for world BossLevel
+[2019.11.18-03.15.06:376][769]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/BossLevel.BossLevel
+[2019.11.18-03.15.06:411][769]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.18-03.15.06:413][769]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/BossLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-03.15.06:413][769]LightingResults: New page: Lighting Build
+[2019.11.18-03.15.06:414][769]LoadErrors: New page: Loading map: BossLevel.umap
+[2019.11.18-03.15.06:415][769]MapCheck: New page: Map Check
+[2019.11.18-03.15.06:415][769]LightingResults: New page: Lighting Build
+[2019.11.18-03.15.06:453][769]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.18-03.15.06:620][769]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-03.15.06:664][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.11.18-03.15.06:706][769]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-03.15.06:706][769]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.251ms to complete.
+[2019.11.18-03.15.06:706][769]LogFileHelpers: Loading map 'BossLevel' took 0.294
+[2019.11.18-03.15.09:035][892]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/BossLevel.BossLevel:PersistentLevel.BossLevel
+[2019.11.18-03.15.15:262][237]LogSlate: Window 'BossLevel' being destroyed
+[2019.11.18-03.15.15:268][237]LogSlate: Window 'BossLevel' being destroyed
+[2019.11.18-03.15.16:518][308]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.15.16:518][308]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.16:522][308]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.15.16:522][308]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.16:525][308]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.15.16:525][308]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.16:526][308]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.15.16:526][308]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.16:603][308]LogLinker: Warning: Can't find file '/Game/Maps/OutsideLevel_BuiltData'
+[2019.11.18-03.15.16:603][308]LoadErrors: Failed to load /Game/Maps/OutsideLevel_BuiltData.OutsideLevel_BuiltData Referenced by PersistentLevel
+[2019.11.18-03.15.16:603][308]LogLinker: Warning: Can't find file for asset '/Game/Maps/OutsideLevel_BuiltData' while loading NULL.
+[2019.11.18-03.15.16:712][308]LogAIModule: Creating AISystem for world OutsideLevel
+[2019.11.18-03.15.16:765][308]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/OutsideLevel.OutsideLevel
+[2019.11.18-03.15.16:806][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.11.18-03.15.16:807][308]Cmd: MAP LOAD FILE="../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.18-03.15.16:807][308]LightingResults: New page: Lighting Build
+[2019.11.18-03.15.16:807][308]LoadErrors: New page: Loading map: OutsideLevel.umap
+[2019.11.18-03.15.16:809][308]MapCheck: New page: Map Check
+[2019.11.18-03.15.16:809][308]LightingResults: New page: Lighting Build
+[2019.11.18-03.15.16:846][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.18-03.15.17:130][308]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.18-03.15.17:223][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2019.11.18-03.15.17:261][308]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.18-03.15.17:261][308]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.134ms to complete.
+[2019.11.18-03.15.17:261][308]LogFileHelpers: Loading map 'OutsideLevel' took 0.454
+[2019.11.18-03.15.22:949][629]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel
+[2019.11.18-03.15.25:950][786]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Tick  and was replaced as a Custom Event!
+[2019.11.18-03.15.42:537][776]BlueprintLog: New page: Compile OutsideLevel
+[2019.11.18-03.15.42:806][776]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.11.18-03.15.43:225][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.11.18-03.15.44:195][796]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel2D71144F4FFF5F956C109AB6DAD79FAD.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
+[2019.11.18-03.15.44:239][796]LogFileHelpers: Saving map 'OutsideLevel' took 1.058
+[2019.11.18-03.15.47:942][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.11.18-03.15.48:698][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.18-03.15.49:681][ 53]LogSavePackage: Moving '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Saved/OutsideLevel84D82B8A45CBD98942EBB7AC7596793F.tmp' to '../../../../../../Users/abbyr/Documents/Game Engine/SoulsLike/SoulsLike/Content/Maps/OutsideLevel.umap'
