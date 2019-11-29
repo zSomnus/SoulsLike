@@ -234,6 +234,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void DrinkEnd();
 
+	UFUNCTION(BlueprintCallable)
+		void GetTargetClosestToCamera();
+
 	void DashBegin();
 	void DashEnd();
 

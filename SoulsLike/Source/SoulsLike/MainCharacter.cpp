@@ -665,3 +665,8 @@ void AMainCharacter::DrinkEnd()
 {
 	bIsDrinking = false;
 }
+
+void AMainCharacter::GetTargetClosestToCamera()
+{
+	TArray<AActor> TargetSet;
+}
