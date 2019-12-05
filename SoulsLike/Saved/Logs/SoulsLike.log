@@ -1518,6 +1518,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.05-06.21.56:808][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel' with GeneratedClass '/Game/Maps/OutsideLevel.OutsideLevel_C' with ClassGeneratedBy '/Game/Maps/OutsideLevel.OutsideLevel:PersistentLevel.OutsideLevel'
 [2019.12.05-06.21.56:886][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
 [2019.12.05-06.21.56:904][870]LogPlayLevel: Display: Destroying online subsystem :Context_17
+<<<<<<< HEAD
 [2019.12.05-06.24.25:436][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
 [2019.12.05-06.24.28:253][401]LogSlate: Window 'Save Content' being destroyed
 [2019.12.05-06.24.28:302][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MainCharacter" FILE="D:/Unreal2020/SoulsLike/SoulsLike/Content/Blueprints/BP_MainCharacter.uasset" SILENT=true
@@ -1882,3 +1883,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.05-06.24.33:357][402]LogModuleManager: Shutting down and abandoning module RSA (3)
 [2019.12.05-06.24.33:389][402]LogExit: Exiting.
 [2019.12.05-06.24.33:431][402]Log file closed, 12/05/19 01:24:33
+=======
+>>>>>>> Ella
