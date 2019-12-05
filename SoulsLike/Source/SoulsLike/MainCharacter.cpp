@@ -601,7 +601,7 @@ void AMainCharacter::Attack()
 
 	if (AnimInstance && AttackMontage && !bIsAttacking && Health > 0 && !bIsDrinking)
 	{
-		if (!bIsAttacking && !bIsDodging && !bIsRolling && Stamina > AttackStaminaCost)
+		if (!bIsAttacking && !bIsDodging && !bIsRolling && !bIsParrying && (Stamina > AttackStaminaCost))
 		{
 			bIsAttacking = true;
 			if (AttackCount < 1)
