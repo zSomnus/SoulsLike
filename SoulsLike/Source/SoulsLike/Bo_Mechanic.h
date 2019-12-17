@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Bo_Mechanic.generated.h"
 
+class UPointLightComponent;
+class USphereComponent;
 UCLASS()
 class SOULSLIKE_API ABo_Mechanic : public AActor
 {
@@ -31,9 +33,20 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		FTimerHandle MemberTimerHandle;
 	UPROPERTY(EditAnywhere, Category = "Delay")
-		float Delay1=2.0f;
+		int Delay1=8;
 	UPROPERTY(EditAnywhere, Category = "Delay")
-		float Delay2=3.0f;
+		int Delay2=1;
+
+
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		UPointLightComponent* PointLight;
+
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		USphereComponent* LightSphere;
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		float LightIntensity;
+
+
 
 
 protected:
@@ -48,4 +61,6 @@ public:
 		void Spawn(class USceneComponent* scene);
 	UFUNCTION(BlueprintCallable)
 		void BallAttack();
+	UFUNCTION(BlueprintCallable)
+		void GetRadomDelay();
 };
