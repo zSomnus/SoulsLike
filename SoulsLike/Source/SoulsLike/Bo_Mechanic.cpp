@@ -35,10 +35,30 @@ ABo_Mechanic::ABo_Mechanic()
 	MySceneFifth->SetupAttachment(RootComponent);
 
 	LightIntensity = 8000.f;
-	PointLight = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light"));
-	PointLight->Intensity = LightIntensity;
-	PointLight->bVisible = true;
-	RootComponent = PointLight;
+	PointLight1 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light1"));
+	PointLight1->Intensity = LightIntensity;
+	PointLight1->bVisible = false;
+	PointLight1->SetupAttachment(RootComponent);
+
+	PointLight2 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light2"));
+	PointLight2->Intensity = LightIntensity;
+	PointLight2->bVisible = false;
+	PointLight2->SetupAttachment(RootComponent);
+
+	PointLight3 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light3"));
+	PointLight3->Intensity = LightIntensity;
+	PointLight3->bVisible = false;
+	PointLight3->SetupAttachment(RootComponent);
+
+	PointLight4 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light4"));
+	PointLight4->Intensity = LightIntensity;
+	PointLight4->bVisible = false;
+	PointLight4->SetupAttachment(RootComponent);
+
+	PointLight5 = CreateDefaultSubobject<UPointLightComponent>(TEXT("Point Light5"));
+	PointLight5->Intensity = LightIntensity;
+	PointLight5->bVisible = false;
+	PointLight5->SetupAttachment(RootComponent);
 
 
 }
@@ -63,11 +83,34 @@ void ABo_Mechanic::GetRadomDelay()
 {
 	FMath random;
 	Delay2 = random.RandRange(2, 6);
-	PointLight->ToggleVisibility();
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("number:%d"), Delay2));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("number:%d"), Delay2));
 	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &ABo_Mechanic::BallAttack, Delay2,false);
 
-
+	if (Delay2 == 2) {
+		PointLight3->ToggleVisibility();
+	}
+	else if (Delay2 == 3) {
+		PointLight2->ToggleVisibility();
+		PointLight4->ToggleVisibility();
+	}
+	else if (Delay2 == 4) {
+		PointLight1->ToggleVisibility();
+		PointLight3->ToggleVisibility();
+		PointLight5->ToggleVisibility();
+	}
+	else if (Delay2 == 5) {
+		PointLight1->ToggleVisibility();
+		PointLight2->ToggleVisibility();
+		PointLight4->ToggleVisibility();
+		PointLight5->ToggleVisibility();
+	}
+	else if (Delay2 == 6) {
+		PointLight1->ToggleVisibility();
+		PointLight2->ToggleVisibility();
+		PointLight3->ToggleVisibility();
+		PointLight4->ToggleVisibility();
+		PointLight5->ToggleVisibility();
+	}
 
 
 
@@ -75,27 +118,42 @@ void ABo_Mechanic::GetRadomDelay()
 
 void ABo_Mechanic::BallAttack()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Yo!!!")));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("Yo!!!")));
 
 	if (Delay2 == 2) {
+		PointLight3->ToggleVisibility();
 		Spawn(MySceneThird);
 	}
 	else if (Delay2 == 3) {
+		PointLight2->ToggleVisibility();
+		PointLight4->ToggleVisibility();
 		Spawn(MySceneSecond);
 		Spawn(MySceneForth);
 	}
 	else if (Delay2 == 4) {
+		PointLight1->ToggleVisibility();
+		PointLight3->ToggleVisibility();
+		PointLight5->ToggleVisibility();
 		Spawn(MySceneFirst);
 		Spawn(MySceneThird);
 		Spawn(MySceneFifth);
 	}
 	else if (Delay2 == 5) {
+		PointLight1->ToggleVisibility();
+		PointLight2->ToggleVisibility();
+		PointLight4->ToggleVisibility();
+		PointLight5->ToggleVisibility();
 		Spawn(MySceneFirst);
 		Spawn(MySceneSecond);
 		Spawn(MySceneForth);
 		Spawn(MySceneFifth);
 	}
 	else if (Delay2 == 6) {
+		PointLight1->ToggleVisibility();
+		PointLight2->ToggleVisibility();
+		PointLight3->ToggleVisibility();
+		PointLight4->ToggleVisibility();
+		PointLight5->ToggleVisibility();
 		Spawn(MySceneFirst);
 		Spawn(MySceneSecond);
 		Spawn(MySceneThird);
