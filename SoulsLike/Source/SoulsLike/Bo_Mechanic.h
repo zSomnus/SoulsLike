@@ -39,7 +39,15 @@ public:
 
 
 	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
-		UPointLightComponent* PointLight;
+		UPointLightComponent* PointLight1;
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		UPointLightComponent* PointLight2;
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		UPointLightComponent* PointLight3;
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		UPointLightComponent* PointLight4;
+	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
+		UPointLightComponent* PointLight5;
 
 	UPROPERTY(VisibleAnywhere, Category = "Light Switch")
 		USphereComponent* LightSphere;
