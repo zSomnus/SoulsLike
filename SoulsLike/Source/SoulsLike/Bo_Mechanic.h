@@ -16,6 +16,25 @@ public:
 	ABo_Mechanic();
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AActor> ToSpawn;
+	UPROPERTY(VisibleAnywhere)
+		class USphereComponent* MyCollisionShere;
+	UPROPERTY(VisibleAnywhere)
+		class USceneComponent* MySceneFirst;
+	UPROPERTY(VisibleAnywhere)
+		class USceneComponent* MySceneSecond;
+	UPROPERTY(VisibleAnywhere)
+		class USceneComponent* MySceneThird;
+	UPROPERTY(VisibleAnywhere)
+		class USceneComponent* MySceneForth;
+	UPROPERTY(VisibleAnywhere)
+		class USceneComponent* MySceneFifth;
+	UPROPERTY(VisibleAnywhere)
+		FTimerHandle MemberTimerHandle;
+	UPROPERTY(EditAnywhere, Category = "Delay")
+		float Delay1=2.0f;
+	UPROPERTY(EditAnywhere, Category = "Delay")
+		float Delay2=3.0f;
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,5 +45,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-		void Spawn();
+		void Spawn(class USceneComponent* scene);
+	UFUNCTION(BlueprintCallable)
+		void BallAttack();
 };
